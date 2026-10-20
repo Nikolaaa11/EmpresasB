@@ -1,11 +1,12 @@
-// Empresas B en Chile — directorio estático sin dependencias.
+// Empresas B en Chile — directorio estático, estilo Apple, sin dependencias.
 // Todo texto que viene de los datos se inserta con textContent (nunca innerHTML).
 
+// Orden de las áreas = orden de la paleta validada (azul, naranja, verde, morado, rosa).
 const AREAS = [
   ["gobernanza", "Gobernanza", "--s1"],
   ["trabajadores", "Trabajadores", "--s2"],
-  ["comunidad", "Comunidad", "--s3"],
-  ["medio_ambiente", "Medio ambiente", "--s4"],
+  ["medio_ambiente", "Medio ambiente", "--s3"],
+  ["comunidad", "Comunidad", "--s4"],
   ["clientes", "Clientes", "--s5"],
 ];
 const SECCIONES = { "data-center": "Data center", robotica: "Robótica", salmones: "Salmones", maritimo: "Marítimo" };
@@ -17,6 +18,8 @@ const FILTROS_VACIOS = {
   q: "", industria: "", tipo: "", region: "", tamano: "", puntaje: "", anio: "", sede: "", seccion: "",
   web: false, email: false, tel: false, rut: false,
 };
+const PASO = 48;
+const SVGNS = "http://www.w3.org/2000/svg";
 
 const nf = new Intl.NumberFormat("es-CL", { maximumFractionDigits: 1 });
 const nf0 = new Intl.NumberFormat("es-CL", { maximumFractionDigits: 0 });
@@ -25,7 +28,7 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 
 const estado = {
   empresas: [], sectores: [], meta: {}, lista: [],
-  filtros: { ...FILTROS_VACIOS }, orden: { campo: "nombre", dir: 1 }, vista: "directorio", sector: "data-center",
+  filtros: { ...FILTROS_VACIOS }, orden: "nombre", limite: PASO, vista: "directorio", sector: "data-center",
 };
 
 // ---------------------------------------------------------------------------
@@ -37,7 +40,6 @@ function el(tag, attrs = {}, ...hijos) {
   for (const [k, v] of Object.entries(attrs)) {
     if (v == null || v === false) continue;
     if (k === "class") n.className = v;
-    else if (k === "text") n.textContent = v;
     else if (k === "style") n.setAttribute("style", v);
     else if (k.startsWith("on") && typeof v === "function") n.addEventListener(k.slice(2), v);
     else n.setAttribute(k, v === true ? "" : String(v));
@@ -49,23 +51,35 @@ function el(tag, attrs = {}, ...hijos) {
   return n;
 }
 
+function icono(nombre) {
+  const s = document.createElementNS(SVGNS, "svg");
+  s.setAttribute("class", "ico");
+  s.setAttribute("aria-hidden", "true");
+  const u = document.createElementNS(SVGNS, "use");
+  u.setAttribute("href", `#i-${nombre}`);
+  s.append(u);
+  return s;
+}
+
 const normal = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const pct = (n, total) => (total ? (n / total) * 100 : 0);
 const fmtPct = (v) => `${nf.format(v)}%`;
 const hrefSeguro = (u) => (typeof u === "string" && /^(https?:|mailto:|tel:)/i.test(u.trim()) ? u.trim() : null);
 const telHref = (t) => (t ? `tel:${t.replace(/[^\d+]/g, "")}` : null);
+const waHref = (t) => (t ? `https://wa.me/${t.replace(/\D/g, "")}` : null);
+const mapaHref = (d) => (d ? `https://maps.apple.com/?q=${encodeURIComponent(d)}` : null);
 const tamanoGrupo = (e) => e.economia?.tamano_sii_grupo || null;
+const promedio = (v) => (v.length ? v.reduce((a, b) => a + b, 0) / v.length : null);
 const mediana = (v) => {
   if (!v.length) return null;
   const s = [...v].sort((a, b) => a - b);
   const m = Math.floor(s.length / 2);
   return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
 };
-const promedio = (v) => (v.length ? v.reduce((a, b) => a + b, 0) / v.length : null);
 
 function enlace(texto, href, extra = {}) {
   const h = hrefSeguro(href);
-  if (!h) return document.createTextNode(texto ?? "—");
+  if (!h) return document.createTextNode(texto ?? "");
   const externo = /^https?:/i.test(h);
   return el("a", { href: h, target: externo ? "_blank" : null, rel: externo ? "noopener" : null, ...extra }, texto ?? h);
 }
@@ -76,6 +90,17 @@ function dominio(u) {
   } catch {
     return u;
   }
+}
+
+function lugar(e) {
+  if (!e.sede_en_chile) return `${e.pais_sede || "Extranjero"} · opera en Chile`;
+  return e.region ? (e.region === "Metropolitana" ? "Región Metropolitana" : e.region) : e.sede || "";
+}
+
+// "Sin dato" no se muestra como etiqueta (queda en la sección Datos de la ficha).
+function etiquetaTipo(tipo) {
+  if (!tipo || tipo === "Sin dato") return null;
+  return el("span", { class: `etq${tipo === "SpA" ? " etq-spa" : ""}` }, tipo);
 }
 
 // ---------------------------------------------------------------------------
@@ -93,12 +118,14 @@ function leerHash() {
   const v = p.get("v");
   estado.vista = VISTAS.includes(v) ? v : "directorio";
   if (p.get("s") && SECCIONES[p.get("s")]) estado.sector = p.get("s");
+  if (p.get("o")) estado.orden = p.get("o");
 }
 
 function escribirHash() {
   const p = new URLSearchParams();
   if (estado.vista !== "directorio") p.set("v", estado.vista);
   if (estado.vista === "sectores") p.set("s", estado.sector);
+  if (estado.orden !== "nombre") p.set("o", estado.orden);
   for (const [k, v] of Object.entries(estado.filtros)) {
     if (v === true) p.set(k, "1");
     else if (v) p.set(k, v);
@@ -116,59 +143,72 @@ function opciones(select, valores, etiquetaTodos) {
     ...valores.map(([v, t]) => el("option", { value: v }, t)));
 }
 
+function contarPor(lista, fn) {
+  const c = new Map();
+  for (const e of lista) {
+    const k = fn(e);
+    if (k == null) continue;
+    c.set(k, (c.get(k) || 0) + 1);
+  }
+  return c;
+}
+
 function prepararFiltros() {
   const form = $("#filtros");
-  const cuenta = (fn) => {
-    const c = new Map();
-    for (const e of estado.empresas) {
-      const k = fn(e);
-      c.set(k, (c.get(k) || 0) + 1);
-    }
-    return c;
-  };
-  const ind = cuenta((e) => e.macro_industria);
-  opciones(form.industria, [...ind.entries()].sort((a, b) => b[1] - a[1]).map(([k, n]) => [k, `${k} (${n})`]),
-    "Todas las industrias");
-  const tipos = cuenta((e) => e.tipo_sociedad);
+  const E = estado.empresas;
+  const ind = contarPor(E, (e) => e.macro_industria);
+  opciones(form.industria, [...ind].sort((a, b) => b[1] - a[1]).map(([k, n]) => [k, `${k} (${n})`]), "Todas");
+  const tipos = contarPor(E, (e) => e.tipo_sociedad);
   opciones(form.tipo, TIPOS.filter((t) => tipos.get(t)).map((t) => [t, `${t} (${tipos.get(t)})`]), "Todos");
-  const regiones = cuenta((e) => (e.sede_en_chile ? e.region || "Sin dato" : null));
-  regiones.delete(null);
-  opciones(form.region, [...regiones.entries()].sort((a, b) => b[1] - a[1]).map(([k, n]) => [k, `${k} (${n})`]),
-    "Todas");
-  const tam = cuenta((e) => tamanoGrupo(e) || "Sin dato");
-  opciones(form.tamano, [...TAMANOS, "Sin dato"].filter((t) => tam.get(t)).map((t) => [t, `${t} (${tam.get(t)})`]),
-    "Todos");
+  const regiones = contarPor(E.filter((e) => e.sede_en_chile), (e) => e.region || "Sin dato");
+  opciones(form.region, [...regiones].sort((a, b) => b[1] - a[1]).map(([k, n]) => [k, `${k} (${n})`]), "Todas");
+  const tam = contarPor(E, (e) => tamanoGrupo(e) || "Sin dato");
+  opciones(form.tamano, [...TAMANOS, "Sin dato"].filter((t) => tam.get(t)).map((t) => [t, `${t} (${tam.get(t)})`]), "Todos");
   opciones(form.puntaje, [80, 90, 100, 110, 120].map((v) => [String(v), `≥ ${v}`]), "Cualquiera");
-  const anios = [...new Set(estado.empresas.map((e) => e.anio_certificacion).filter(Boolean))].sort();
+  const anios = [...new Set(E.map((e) => e.anio_certificacion).filter(Boolean))].sort();
   opciones(form.anio, anios.map((a) => [String(a), String(a)]), "Cualquier año");
-  opciones(form.sede, [["chile", "Con sede en Chile"], ["extranjero", "Sede en el extranjero (opera en Chile)"]],
-    "Todas");
+  opciones(form.sede, [["chile", "En Chile"], ["extranjero", "En el extranjero"]], "Todas");
   opciones(form.seccion, Object.entries(SECCIONES), "Todas");
 
-  const sincronizar = () => {
-    for (const [k, v] of Object.entries(estado.filtros)) {
-      const campo = form.elements[k];
-      if (!campo) continue;
-      if (campo.type === "checkbox") campo.checked = !!v;
-      else campo.value = v;
-    }
-  };
-  sincronizar();
-
-  let t;
   form.addEventListener("input", (ev) => {
     const c = ev.target;
     if (!c.name) return;
     estado.filtros[c.name] = c.type === "checkbox" ? c.checked : c.value;
-    clearTimeout(t);
-    t = setTimeout(render, c.type === "search" ? 140 : 0);
-  });
-  $("#limpiar").addEventListener("click", () => {
-    estado.filtros = { ...FILTROS_VACIOS };
-    sincronizar();
+    estado.limite = PASO;
     render();
   });
+  let t;
+  $("#q").addEventListener("input", (ev) => {
+    estado.filtros.q = ev.target.value;
+    estado.limite = PASO;
+    clearTimeout(t);
+    t = setTimeout(render, 140);
+  });
+  $("#limpiar").addEventListener("click", () => {
+    estado.filtros = { ...FILTROS_VACIOS, q: estado.filtros.q };
+    estado.limite = PASO;
+    render();
+  });
+  $("#abrir-filtros").addEventListener("click", () => abrirDialogo($("#dlg-filtros")));
+  $("#ver-resultados").addEventListener("click", () => {
+    const suave = !matchMedia("(prefers-reduced-motion: reduce)").matches;
+    $("#chips").scrollIntoView({ behavior: suave ? "smooth" : "auto", block: "start" });
+  });
   $("#exportar").addEventListener("click", exportarCSV);
+  $("#orden").addEventListener("change", (ev) => { estado.orden = ev.target.value; estado.limite = PASO; render(); });
+  $("#mas").addEventListener("click", () => { estado.limite += PASO; renderDirectorio(); });
+}
+
+function sincronizarControles() {
+  const form = $("#filtros");
+  for (const [k, v] of Object.entries(estado.filtros)) {
+    const campo = form.elements[k];
+    if (!campo) continue;
+    if (campo.type === "checkbox") campo.checked = !!v;
+    else campo.value = v;
+  }
+  if ($("#q").value !== estado.filtros.q) $("#q").value = estado.filtros.q;
+  $("#orden").value = estado.orden;
 }
 
 function coincide(e, f) {
@@ -188,26 +228,40 @@ function coincide(e, f) {
   if (f.rut && !e.rut) return false;
   if (f.q) {
     const terminos = normal(f.q).replace(/\./g, "").split(/\s+/).filter(Boolean);
-    if (!terminos.every((t) => e._busqueda.includes(t))) return false;
+    if (!terminos.every((x) => e._busqueda.includes(x))) return false;
   }
   return true;
 }
 
+const ETIQUETAS_FILTRO = {
+  industria: (v) => v,
+  region: (v) => `Región: ${v}`,
+  tamano: (v) => `Tamaño: ${v}`,
+  puntaje: (v) => `Puntaje ≥ ${v}`,
+  anio: (v) => `Desde ${v}`,
+  sede: (v) => (v === "chile" ? "Sede en Chile" : "Sede en el extranjero"),
+  seccion: (v) => SECCIONES[v] || v,
+  web: () => "Con sitio web",
+  email: () => "Con email",
+  tel: () => "Con teléfono",
+  rut: () => "Con RUT",
+};
+
+function filtrosActivos() {
+  return Object.keys(ETIQUETAS_FILTRO).filter((k) => estado.filtros[k]);
+}
+
 function ordenar(lista) {
-  const { campo, dir } = estado.orden;
-  const valor = (e) => {
-    if (campo === "tamano") return ORDEN_TAMANO[tamanoGrupo(e)] ?? null;
-    return e[campo] ?? null;
+  const porNombre = (a, b) => a.nombre.localeCompare(b.nombre, "es");
+  const nulosAlFinal = (va, vb, cmp) => (va == null && vb == null ? 0 : va == null ? 1 : vb == null ? -1 : cmp(va, vb));
+  const criterios = {
+    nombre: porNombre,
+    puntaje: (a, b) => nulosAlFinal(a.puntaje_b, b.puntaje_b, (x, y) => y - x) || porNombre(a, b),
+    reciente: (a, b) => nulosAlFinal(a.certificada_desde, b.certificada_desde, (x, y) => y.localeCompare(x)) || porNombre(a, b),
+    industria: (a, b) => a.macro_industria.localeCompare(b.macro_industria, "es") || porNombre(a, b),
+    region: (a, b) => nulosAlFinal(a.region, b.region, (x, y) => x.localeCompare(y, "es")) || porNombre(a, b),
   };
-  return [...lista].sort((a, b) => {
-    const va = valor(a);
-    const vb = valor(b);
-    if (va == null && vb == null) return a.nombre.localeCompare(b.nombre, "es");
-    if (va == null) return 1;
-    if (vb == null) return -1;
-    const r = typeof va === "number" ? va - vb : String(va).localeCompare(String(vb), "es");
-    return r * dir || a.nombre.localeCompare(b.nombre, "es");
-  });
+  return [...lista].sort(criterios[estado.orden] || porNombre);
 }
 
 // ---------------------------------------------------------------------------
@@ -217,19 +271,32 @@ function ordenar(lista) {
 function render() {
   estado.lista = estado.empresas.filter((e) => coincide(e, estado.filtros));
   escribirHash();
-  $$(".tabs button").forEach((b) => b.toggleAttribute("aria-current", b.dataset.vista === estado.vista));
-  $$(".tabs button[aria-current]").forEach((b) => b.setAttribute("aria-current", "page"));
+  sincronizarControles();
+  for (const b of $$("[data-vista]")) {
+    if (b.dataset.vista === estado.vista) b.setAttribute("aria-current", "page");
+    else b.removeAttribute("aria-current");
+  }
   const filtrable = ["directorio", "industrias", "estadisticas"].includes(estado.vista);
-  $("#filtros").hidden = !filtrable;
-  $("#conteo").hidden = !filtrable;
-  $("#kpis").hidden = estado.vista === "metodologia";
+  $("#toolbar").hidden = !filtrable;
+  $("#resultados").hidden = !filtrable;
+  $(".orden").hidden = estado.vista !== "directorio";
+  $("#activos").hidden = !filtrable;
+  $("#hero").hidden = estado.vista === "metodologia";
   for (const v of VISTAS) $(`#vista-${v}`).hidden = v !== estado.vista;
 
-  renderKpis();
-  const total = estado.empresas.length;
-  $("#conteo").textContent = estado.lista.length === total
-    ? `Mostrando las ${total} Empresas B del directorio.`
-    : `Mostrando ${estado.lista.length} de ${total} Empresas B.`;
+  renderHero();
+  if (filtrable) {
+    renderChips();
+    renderActivos();
+    const total = estado.empresas.length;
+    const n = estado.lista.length;
+    $("#conteo").textContent = n === total ? plural(total, "empresa", "empresas") : `${nf0.format(n)} de ${plural(total, "empresa", "empresas")}`;
+  }
+  $("#ver-resultados").textContent = `Ver ${plural(estado.lista.length, "empresa", "empresas")}`;
+  const nAct = filtrosActivos().length + (estado.filtros.tipo ? 1 : 0);
+  $("#n-filtros").hidden = !nAct;
+  $("#n-filtros").textContent = String(nAct);
+
   if (estado.vista === "directorio") renderDirectorio();
   if (estado.vista === "industrias") renderIndustrias();
   if (estado.vista === "estadisticas") renderEstadisticas();
@@ -237,144 +304,160 @@ function render() {
   if (estado.vista === "metodologia") renderCobertura();
 }
 
-function tile(label, valor, sub) {
+function kpi(valor, label, sub) {
   return el("div", { class: "kpi" },
-    el("div", { class: "kpi-label" }, label),
     el("div", { class: "kpi-valor" }, valor),
+    el("div", { class: "kpi-label" }, label),
     sub ? el("div", { class: "kpi-sub" }, sub) : null);
 }
 
-function renderKpis() {
-  const kpis = $("#kpis");
-  if (estado.vista === "sectores") {
-    const s = estado.sectores.find((x) => x.id === estado.sector);
-    const todas = estado.sectores.reduce((a, x) => a + x.total, 0);
-    kpis.replaceChildren(
-      tile(`Empresas · ${s?.nombre ?? ""}`, nf0.format(s?.total ?? 0), "principales del sector en Chile"),
-      tile("Empresas B en el sector", nf0.format(s?.empresas_b ?? 0), "con ficha B Lab vigente"),
-      tile("Los 4 sectores", nf0.format(todas), "Data center · Robótica · Salmones · Marítimo"),
-    );
+const TITULOS = {
+  industrias: ["Por industria.", "Toca una industria para ver sus empresas."],
+  estadisticas: ["En cifras.", "Porcentajes por industria, tipo de sociedad, región y áreas de impacto."],
+  sectores: ["Sectores estratégicos.", "Data center, robótica, salmones y marítimo en Chile, sean o no Empresas B."],
+};
+
+function renderHero() {
+  const titulo = $("#hero-titulo");
+  const lead = $("#hero-lead");
+  const compacto = estado.vista in TITULOS;
+  $("#hero").classList.toggle("compacto", compacto);
+  $(".hero .meta").hidden = compacto;
+  $("#kpis").hidden = compacto;
+  if (compacto) {
+    [titulo.textContent, lead.textContent] = TITULOS[estado.vista];
     return;
   }
+  titulo.textContent = "Empresas B en Chile.";
+  lead.textContent = "Las empresas que equilibran propósito y utilidad, por industria, tipo de sociedad, economía y contacto.";
   const l = estado.lista;
   const n = l.length;
   const chile = l.filter((e) => e.sede_en_chile).length;
   const spa = l.filter((e) => e.tipo_sociedad === "SpA").length;
   const conTipo = l.filter((e) => e.tipo_sociedad !== "Sin dato").length;
   const p = l.map((e) => e.puntaje_b).filter((v) => v != null);
-  const contacto = l.filter((e) => e.contactos?.email || e.contactos?.telefono || e.contactos?.whatsapp).length;
-  kpis.replaceChildren(
-    tile("Empresas B", nf0.format(n), n === estado.empresas.length ? "en el directorio" : `de ${estado.empresas.length} en el directorio`),
-    tile("Con sede en Chile", nf0.format(chile), `${fmtPct(pct(chile, n))} · el resto opera en Chile`),
-    tile("Sociedades por acciones (SpA)", nf0.format(spa),
-      conTipo ? `${fmtPct(pct(spa, conTipo))} de las ${conTipo} con tipo conocido` : "tipo societario sin datos"),
-    tile("Puntaje B promedio", p.length ? nf.format(promedio(p)) : "—",
-      p.length ? `mediana ${nf.format(mediana(p))} · umbral de certificación 80` : null),
-    tile("Con email o teléfono", nf0.format(contacto), fmtPct(pct(contacto, n))),
+  $("#kpis").replaceChildren(
+    kpi(nf0.format(n), "Empresas B", n === estado.empresas.length ? "en el directorio" : `de ${nf0.format(estado.empresas.length)}`),
+    kpi(nf0.format(chile), "Con sede en Chile", fmtPct(pct(chile, n))),
+    kpi(nf0.format(spa), "Son SpA", conTipo ? `${fmtPct(pct(spa, conTipo))} de las con tipo conocido` : null),
+    kpi(p.length ? nf.format(promedio(p)) : "—", "Puntaje B promedio", p.length ? `mediana ${nf.format(mediana(p))}` : null),
   );
 }
 
-// ---------------------------------------------------------------------------
-// Directorio
-// ---------------------------------------------------------------------------
-
-function badgeTipo(tipo) {
-  return el("span", { class: `badge${tipo === "SpA" ? " badge-spa" : ""}` }, tipo);
+function renderChips() {
+  const base = estado.empresas.filter((e) => coincide(e, { ...estado.filtros, tipo: "" }));
+  const cuenta = contarPor(base, (e) => e.tipo_sociedad);
+  const chip = (valor, texto, n) => {
+    const b = el("button", { type: "button", class: "chip", "aria-pressed": String(estado.filtros.tipo === valor) },
+      texto, n != null ? el("span", { class: "n" }, nf0.format(n)) : null);
+    b.addEventListener("click", () => {
+      estado.filtros.tipo = estado.filtros.tipo === valor ? "" : valor;
+      estado.limite = PASO;
+      render();
+    });
+    return b;
+  };
+  $("#chips").replaceChildren(chip("", "Todas", base.length),
+    ...TIPOS.filter((t) => cuenta.get(t) || estado.filtros.tipo === t).map((t) => chip(t, t, cuenta.get(t) || 0)));
 }
 
-function linksContacto(c = {}) {
+function renderActivos() {
+  $("#activos").replaceChildren(...filtrosActivos().map((k) => {
+    const b = el("button", { type: "button", class: "activo", "aria-label": `Quitar filtro ${ETIQUETAS_FILTRO[k](estado.filtros[k])}` },
+      ETIQUETAS_FILTRO[k](estado.filtros[k]), icono("x"));
+    b.addEventListener("click", () => {
+      estado.filtros[k] = typeof FILTROS_VACIOS[k] === "boolean" ? false : "";
+      estado.limite = PASO;
+      render();
+    });
+    return b;
+  }));
+}
+
+// ---------------------------------------------------------------------------
+// Directorio (tarjetas)
+// ---------------------------------------------------------------------------
+
+function accionesContacto(c = {}) {
   const items = [
-    ["Web", c.sitio_web],
-    ["Email", c.email ? `mailto:${c.email}` : null],
-    ["Tel", telHref(c.telefono || c.whatsapp)],
-    ["in", c.linkedin],
-    ["IG", c.instagram],
-  ].filter(([, h]) => hrefSeguro(h));
-  if (!items.length) return el("span", { class: "vacio" }, "—");
-  return el("div", { class: "links" }, items.map(([t, h]) => {
-    const a = enlace(t, h, { "aria-label": `${t}` });
-    a.addEventListener("click", (ev) => ev.stopPropagation());
+    ["globe", "Sitio web", c.sitio_web],
+    ["mail", "Email", c.email ? `mailto:${c.email}` : null],
+    ["phone", "Llamar", telHref(c.telefono)],
+    ["chat", "WhatsApp", waHref(c.whatsapp)],
+    ["linkedin", "LinkedIn", c.linkedin],
+    ["instagram", "Instagram", c.instagram],
+  ].filter(([, , h]) => hrefSeguro(h));
+  if (!items.length) return el("p", { class: "t-sub vacio" }, "Sin contactos aún");
+  return el("div", { class: "t-acciones" }, items.slice(0, 4).map(([ico, nombre, h]) => {
+    const a = enlace(null, h, { class: "icono-btn", "aria-label": nombre, title: nombre });
+    a.replaceChildren(icono(ico));
     return a;
   }));
 }
 
-function tamanoTexto(e) {
-  return e.economia?.tramo_ventas_sii || e.economia?.tamano_sii || (e.tamano_empleados ? `${e.tamano_empleados} empl.` : "—");
+function tarjetaEmpresa(e) {
+  const nombre = el("button", { type: "button", class: "t-nombre" }, e.nombre);
+  nombre.addEventListener("click", () => abrirFicha(e));
+  return el("article", { class: "tarjeta" },
+    el("div", { class: "t-cab" }, nombre,
+      e.puntaje_b != null ? el("div", { class: "t-puntaje" }, el("b", {}, nf.format(e.puntaje_b)), el("span", {}, "puntaje B")) : null),
+    el("p", { class: "t-sub" }, [e.industria || e.macro_industria, lugar(e)].filter(Boolean).join(" · ")),
+    el("div", { class: "t-pie" },
+      el("div", { class: "etiquetas" }, etiquetaTipo(e.tipo_sociedad),
+        e.certificada_desde ? el("span", { class: "etq" }, `B desde ${e.certificada_desde.slice(0, 4)}`) : null,
+        (e.secciones || []).map((s) => el("span", { class: "etq" }, SECCIONES[s]))),
+      accionesContacto(e.contactos)));
 }
 
 function renderDirectorio() {
-  const tbody = $("#tabla tbody");
-  const filas = ordenar(estado.lista).map((e) => {
-    const sub = [e.razon_social && e.razon_social !== e.nombre ? e.razon_social : null, e.rut].filter(Boolean).join(" · ");
-    const tr = el("tr", { tabindex: "0" },
-      el("td", { "data-label": "Empresa" }, el("div", { class: "nombre" }, e.nombre), sub ? el("div", { class: "sec" }, sub) : null),
-      el("td", { "data-label": "Industria" }, el("div", {}, e.macro_industria), e.industria ? el("div", { class: "sec" }, e.industria) : null),
-      el("td", { "data-label": "Tipo" }, badgeTipo(e.tipo_sociedad)),
-      el("td", { "data-label": "Región" }, e.sede_en_chile ? e.region || "—" : `${e.pais_sede || "Extranjero"} (opera en Chile)`),
-      el("td", { class: "num", "data-label": "Puntaje B" }, e.puntaje_b != null ? nf.format(e.puntaje_b) : "—"),
-      el("td", { "data-label": "Certificada" }, e.certificada_desde || "—"),
-      el("td", { "data-label": "Tamaño" }, tamanoTexto(e)),
-      el("td", { "data-label": "Contacto" }, linksContacto(e.contactos)),
-    );
-    tr.addEventListener("click", () => abrirFicha(e));
-    tr.addEventListener("keydown", (ev) => { if (ev.key === "Enter") abrirFicha(e); });
-    return tr;
-  });
-  if (!filas.length) filas.push(el("tr", {}, el("td", { colspan: "8", class: "vacio" }, "Ninguna empresa coincide con los filtros.")));
-  tbody.replaceChildren(...filas);
-  $$("#tabla th").forEach((th) => {
-    const b = th.querySelector("button");
-    if (!b) return;
-    th.setAttribute("aria-sort", b.dataset.orden === estado.orden.campo
-      ? (estado.orden.dir === 1 ? "ascending" : "descending") : "none");
-  });
-}
-
-function prepararOrden() {
-  $$("#tabla th button").forEach((b) => b.addEventListener("click", () => {
-    const campo = b.dataset.orden;
-    estado.orden = { campo, dir: estado.orden.campo === campo ? -estado.orden.dir : (campo === "puntaje_b" ? -1 : 1) };
-    renderDirectorio();
-  }));
+  const orden = ordenar(estado.lista);
+  const visibles = orden.slice(0, estado.limite);
+  $("#lista").replaceChildren(...(visibles.length ? visibles.map(tarjetaEmpresa)
+    : [el("p", { class: "sin-resultados" }, "Ninguna empresa coincide con la búsqueda.")]));
+  const resto = orden.length - visibles.length;
+  $("#mas").hidden = resto <= 0;
+  $("#mas").textContent = `Mostrar más (${nf0.format(resto)})`;
 }
 
 // ---------------------------------------------------------------------------
-// Por industria
+// Por industria (acordeón)
 // ---------------------------------------------------------------------------
 
 function renderIndustrias() {
-  const cont = $("#vista-industrias");
   const grupos = new Map();
   for (const e of estado.lista) {
     if (!grupos.has(e.macro_industria)) grupos.set(e.macro_industria, []);
     grupos.get(e.macro_industria).push(e);
   }
   const n = estado.lista.length;
-  const secciones = [...grupos.entries()].sort((a, b) => b[1].length - a[1].length).map(([macro, lista]) => {
+  const max = Math.max(1, ...[...grupos.values()].map((l) => l.length));
+  const bloques = [...grupos].sort((a, b) => b[1].length - a[1].length).map(([macro, lista]) => {
     const p = lista.map((e) => e.puntaje_b).filter((v) => v != null);
     const spa = lista.filter((e) => e.tipo_sociedad === "SpA").length;
     lista.sort((a, b) => (b.puntaje_b ?? 0) - (a.puntaje_b ?? 0) || a.nombre.localeCompare(b.nombre, "es"));
-    return el("section", { class: "grupo" },
-      el("div", { class: "grupo-cab" },
-        el("h2", {}, macro),
-        el("p", {}, `${lista.length} empresas · ${fmtPct(pct(lista.length, n))} del total filtrado` +
-          (p.length ? ` · puntaje B promedio ${nf.format(promedio(p))}` : "") + ` · ${spa} SpA`)),
-      el("div", { class: "tarjetas" }, lista.map((e) => {
-        const b = el("button", { type: "button", class: "tarjeta" },
-          el("span", { class: "t-nombre" }, e.nombre),
-          el("span", { class: "t-meta" }, [e.industria, e.sede_en_chile ? e.region : `${e.pais_sede || "Extranjero"} (opera en Chile)`].filter(Boolean).join(" · ")),
-          el("span", { class: "t-pie" }, badgeTipo(e.tipo_sociedad),
-            e.puntaje_b != null ? el("span", { class: "badge" }, `B ${nf.format(e.puntaje_b)}`) : null,
-            e.certificada_desde ? el("span", { class: "t-meta" }, `desde ${e.certificada_desde.slice(0, 4)}`) : null));
-        b.addEventListener("click", () => abrirFicha(e));
-        return b;
-      })));
+    const filas = lista.map((e) => {
+      const b = el("button", { type: "button", class: "ind-fila" },
+        el("span", { class: "n1" }, e.nombre),
+        el("span", { class: "n3" }, e.puntaje_b != null ? nf.format(e.puntaje_b) : "—"),
+        el("span", { class: "n2" }, [e.tipo_sociedad !== "Sin dato" ? e.tipo_sociedad : null, lugar(e)].filter(Boolean).join(" · ")));
+      b.addEventListener("click", () => abrirFicha(e));
+      return b;
+    });
+    return el("details", { class: "ind" },
+      el("summary", {},
+        el("span", { class: "ind-tit" }, macro),
+        el("span", { class: "ind-chev" }, icono("chevron")),
+        el("span", { class: "ind-meta" }, `${plural(lista.length, "empresa", "empresas")} · ${fmtPct(pct(lista.length, n))}` +
+          (p.length ? ` · puntaje B ${nf.format(promedio(p))}` : "") + ` · ${spa} SpA`),
+        el("span", { class: "ind-barra", "aria-hidden": "true" }, el("span", { style: `width:${(lista.length / max) * 100}%` }))),
+      el("div", { class: "ind-cuerpo" }, filas));
   });
-  cont.replaceChildren(...(secciones.length ? secciones : [el("p", { class: "vacio" }, "Ninguna empresa coincide con los filtros.")]));
+  $("#vista-industrias").replaceChildren(bloques.length ? el("div", { class: "industrias" }, bloques)
+    : el("p", { class: "sin-resultados" }, "Ninguna empresa coincide con la búsqueda."));
 }
 
 // ---------------------------------------------------------------------------
-// Gráficos (HTML accesible: barras, columnas, barras apiladas) + tooltip
+// Gráficos (HTML accesible) + tooltip
 // ---------------------------------------------------------------------------
 
 const tooltip = () => $("#tooltip");
@@ -387,8 +470,7 @@ function mostrarTooltip(ev, titulo, filas) {
   const r = ev.currentTarget.getBoundingClientRect();
   const x = ev.clientX ?? r.left + r.width / 2;
   const y = ev.clientY ?? r.top;
-  const w = t.offsetWidth;
-  t.style.left = `${Math.min(Math.max(8, x + 12), window.innerWidth - w - 8)}px`;
+  t.style.left = `${Math.min(Math.max(8, x + 12), window.innerWidth - t.offsetWidth - 8)}px`;
   t.style.top = `${Math.max(8, y - t.offsetHeight - 12)}px`;
 }
 const ocultarTooltip = () => { tooltip().hidden = true; };
@@ -404,8 +486,8 @@ function conTooltip(nodo, titulo, filas) {
 }
 
 function figura(titulo, nota, cuerpo, tabla, ancho = false) {
-  const tablaWrap = el("div", { hidden: true }, tabla);
-  const boton = el("button", { type: "button", class: "btn btn-ghost ver-tabla", "aria-expanded": "false" }, "Ver tabla");
+  const tablaWrap = el("div", { class: "tabla-scroll", hidden: true }, tabla);
+  const boton = el("button", { type: "button", class: "ver-tabla", "aria-expanded": "false" }, "Ver tabla");
   boton.addEventListener("click", () => {
     const abrir = tablaWrap.hidden;
     tablaWrap.hidden = !abrir;
@@ -424,14 +506,12 @@ function tablaSimple(cabeceras, filas) {
     el("tbody", {}, filas.map((f) => el("tr", {}, f.map((v, i) => el("td", { class: i ? "num" : null }, v))))));
 }
 
-// datos: [{categoria, valor}] — una serie, un color; etiqueta de valor en la punta.
 function barrasH(titulo, nota, datos, total, ancho = false) {
   const max = Math.max(1, ...datos.map((d) => d.valor));
   const cuerpo = el("div", { class: "barras" }, datos.map((d) => {
-    const texto = `${nf0.format(d.valor)} · ${fmtPct(pct(d.valor, total))}`;
     const pista = el("div", { class: "b-pista" },
-      el("div", { class: "b-barra", style: `width:${(d.valor / max) * 100 * 0.82}%` }),
-      el("span", { class: "b-valor" }, texto));
+      el("div", { class: "b-barra", style: `width:${(d.valor / max) * 100 * 0.8}%` }),
+      el("span", { class: "b-valor" }, `${nf0.format(d.valor)} · ${fmtPct(pct(d.valor, total))}`));
     conTooltip(pista, d.categoria, [["--s1", `${nf0.format(d.valor)} empresas`], [null, `${fmtPct(pct(d.valor, total))} del total`]]);
     return [el("div", { class: "b-label" }, d.categoria), pista];
   }));
@@ -441,47 +521,41 @@ function barrasH(titulo, nota, datos, total, ancho = false) {
 
 function columnas(titulo, nota, datos, ancho = false) {
   const max = Math.max(1, ...datos.map((d) => d.valor));
-  const barras = el("div", { class: "columnas" }, datos.map((d) => {
-    const col = el("div", { class: "col" },
-      el("span", { class: "col-valor" }, d.valor ? nf0.format(d.valor) : ""),
-      el("div", { class: "col-barra", style: `height:${(d.valor / max) * 82}%` }));
-    return conTooltip(col, String(d.categoria), [["--s1", `${nf0.format(d.valor)} empresas`]]);
-  }));
+  const barras = el("div", { class: "columnas" }, datos.map((d) => conTooltip(el("div", { class: "col" },
+    el("span", { class: "col-valor" }, d.valor ? nf0.format(d.valor) : ""),
+    el("div", { class: "col-barra", style: `height:${(d.valor / max) * 82}%` })), String(d.categoria), [["--s1", `${nf0.format(d.valor)} empresas`]])));
   const ejes = el("div", { class: "col-ejes", "aria-hidden": "true" }, datos.map((d) => el("span", {}, String(d.categoria))));
   const tabla = tablaSimple(["Categoría", "Empresas"], datos.map((d) => [String(d.categoria), nf0.format(d.valor)]));
   return figura(titulo, nota, el("div", {}, barras, ejes), tabla, ancho);
 }
 
-// filas: [{categoria, areas:{...}, n}] — 5 series (áreas de impacto), leyenda siempre visible.
+function leyendaAreas(valores, base) {
+  return el("ul", { class: "leyenda" }, AREAS.filter(([k]) => !valores || valores[k] != null).map(([k, nombre, color]) =>
+    el("li", {}, el("span", { class: "muestra", style: `background:var(${color})` }),
+      valores ? `${nombre} ${nf.format(valores[k])} (${fmtPct(pct(valores[k], base))})` : nombre)));
+}
+
+function pilaAreas(valores, titulo) {
+  const total = AREAS.reduce((s, [k]) => s + (valores[k] || 0), 0);
+  return el("div", { class: "pila" }, AREAS.filter(([k]) => valores[k] != null).map(([k, nombre, color]) =>
+    conTooltip(el("div", { class: "seg-a", style: `flex:${valores[k]} 1 0;background:var(${color})` }),
+      `${titulo ? `${titulo} · ` : ""}${nombre}`, [[color, `${nf.format(valores[k])} puntos`], [null, `${fmtPct(pct(valores[k], total))} del puntaje`]])));
+}
+
 function apiladas(titulo, nota, filas) {
   const max = Math.max(1, ...filas.map((f) => AREAS.reduce((s, [k]) => s + (f.areas[k] || 0), 0)));
-  const leyenda = el("ul", { class: "leyenda" }, AREAS.map(([, nombre, color]) =>
-    el("li", {}, el("span", { class: "swatch", style: `background:var(${color})` }), nombre)));
   const cuerpo = el("div", { class: "apiladas" }, filas.map((f) => {
-    const totalFila = AREAS.reduce((s, [k]) => s + (f.areas[k] || 0), 0);
-    const pila = el("div", { class: "pila", style: `width:${(totalFila / max) * 86}%` }, AREAS.map(([k, nombre, color]) => {
-      const v = f.areas[k] || 0;
-      const seg = el("div", { class: "seg", style: `flex:${v} 1 0;background:var(${color})` });
-      return conTooltip(seg, `${f.categoria} · ${nombre}`, [[color, `${nf.format(v)} puntos`], [null, `${fmtPct(pct(v, totalFila))} del puntaje`]]);
-    }));
+    const total = AREAS.reduce((s, [k]) => s + (f.areas[k] || 0), 0);
+    const pila = pilaAreas(f.areas, f.categoria);
+    pila.style.width = `${(total / max) * 84}%`;
     return [el("div", { class: "b-label" }, `${f.categoria} (n=${f.n})`),
-      el("div", { class: "pila-fila" }, pila, el("span", { class: "pila-total" }, nf.format(totalFila)))];
+      el("div", { class: "pila-fila" }, pila, el("span", { class: "pila-total" }, nf.format(total)))];
   }));
   const tabla = tablaSimple(["Industria", ...AREAS.map((a) => a[1]), "Total"], filas.map((f) => {
     const t = AREAS.reduce((s, [k]) => s + (f.areas[k] || 0), 0);
     return [f.categoria, ...AREAS.map(([k]) => `${nf.format(f.areas[k] || 0)} (${fmtPct(pct(f.areas[k] || 0, t))})`), nf.format(t)];
   }));
-  return figura(titulo, nota, el("div", {}, leyenda, cuerpo), tabla, true);
-}
-
-function contar(lista, fn) {
-  const m = new Map();
-  for (const e of lista) {
-    const k = fn(e);
-    if (k == null) continue;
-    m.set(k, (m.get(k) || 0) + 1);
-  }
-  return m;
+  return figura(titulo, nota, el("div", {}, leyendaAreas(null), cuerpo), tabla, true);
 }
 
 function renderEstadisticas() {
@@ -489,18 +563,19 @@ function renderEstadisticas() {
   const n = l.length;
   const g = $("#graficos");
   if (!n) {
-    g.replaceChildren(el("p", { class: "vacio" }, "Ninguna empresa coincide con los filtros."));
+    g.replaceChildren(el("p", { class: "sin-resultados" }, "Ninguna empresa coincide con la búsqueda."));
     return;
   }
-  const porMacro = [...contar(l, (e) => e.macro_industria)].map(([categoria, valor]) => ({ categoria, valor }))
+  const porMacro = [...contarPor(l, (e) => e.macro_industria)].map(([categoria, valor]) => ({ categoria, valor }))
     .sort((a, b) => b.valor - a.valor);
   const porTipo = TIPOS.map((t) => ({ categoria: t, valor: l.filter((e) => e.tipo_sociedad === t).length })).filter((d) => d.valor);
   const chile = l.filter((e) => e.sede_en_chile);
-  const porRegion = [...contar(chile, (e) => e.region || "Sin dato")].map(([categoria, valor]) => ({ categoria, valor }))
+  const porRegion = [...contarPor(chile, (e) => e.region || "Sin dato")].map(([categoria, valor]) => ({ categoria, valor }))
     .sort((a, b) => b.valor - a.valor);
   const porTamano = [...TAMANOS, "Sin dato"].map((t) => ({ categoria: t, valor: l.filter((e) => (tamanoGrupo(e) || "Sin dato") === t).length }))
     .filter((d) => d.valor);
-  const anios = contar(l, (e) => e.anio_certificacion);
+  const conTamano = porTamano.filter((d) => d.categoria !== "Sin dato").reduce((s, d) => s + d.valor, 0);
+  const anios = contarPor(l, (e) => e.anio_certificacion);
   const rango = [...anios.keys()].sort();
   const porAnio = rango.length ? Array.from({ length: rango.at(-1) - rango[0] + 1 }, (_, i) => rango[0] + i)
     .map((a) => ({ categoria: a, valor: anios.get(a) || 0 })) : [];
@@ -508,175 +583,210 @@ function renderEstadisticas() {
   const bins = [[80, 90], [90, 100], [100, 110], [110, 120], [120, 140], [140, 201]];
   const porPuntaje = bins.map(([a, b]) => ({ categoria: b > 200 ? `${a}+` : `${a}–${b}`, valor: puntajes.filter((p) => p >= a && p < b).length }));
 
-  const completas = (e) => AREAS.every(([k]) => e.areas?.[k] != null);
-  const filasAreas = [];
-  const conAreas = l.filter(completas);
+  const completas = l.filter((e) => AREAS.every(([k]) => e.areas?.[k] != null));
   const promAreas = (lista) => Object.fromEntries(AREAS.map(([k]) => [k, promedio(lista.map((e) => e.areas[k]))]));
-  if (conAreas.length) filasAreas.push({ categoria: "Todas", areas: promAreas(conAreas), n: conAreas.length });
+  const filasAreas = completas.length ? [{ categoria: "Todas", areas: promAreas(completas), n: completas.length }] : [];
   for (const { categoria } of porMacro) {
-    const sub = conAreas.filter((e) => e.macro_industria === categoria);
+    const sub = completas.filter((e) => e.macro_industria === categoria);
     if (sub.length) filasAreas.push({ categoria, areas: promAreas(sub), n: sub.length });
   }
 
   g.replaceChildren(
     barrasH("Empresas B por industria", "Porcentaje sobre el total filtrado", porMacro, n, true),
-    barrasH("Tipo de sociedad", "Deducido de la razón social. «Sin dato»: razón social no encontrada todavía.", porTipo, n),
-    barrasH("Región de la sede", `Solo empresas con sede en Chile (${chile.length})`, porRegion, chile.length),
-    porTamano.filter((d) => d.categoria !== "Sin dato").reduce((s, d) => s + d.valor, 0) >= 10
-      ? barrasH("Tamaño según ventas (SII)", "Tramo SII cuando hay cruce por RUT; si no, tamaño informado por otras fuentes", porTamano, n)
-      : figura("Tamaño según ventas (SII)", "Pendiente: el cruce por RUT con la Nómina de Personas Jurídicas del SII se completa al habilitar el acceso a sii.cl.",
-        el("p", { class: "vacio" }, `${porTamano.filter((d) => d.categoria !== "Sin dato").reduce((s, d) => s + d.valor, 0)} empresas con tamaño informado por ahora.`),
+    barrasH("Tipo de sociedad", "Deducido de la razón social. «Sin dato»: aún no encontrada.", porTipo, n),
+    barrasH("Región de la sede", `Empresas con sede en Chile (${nf0.format(chile.length)})`, porRegion, chile.length),
+    conTamano >= 10
+      ? barrasH("Tamaño según ventas (SII)", "Tramo SII cuando hay cruce por RUT", porTamano, n)
+      : figura("Tamaño según ventas (SII)", "Se completa con el cruce por RUT con la Nómina de Personas Jurídicas del SII.",
+        el("p", { class: "nota" }, `${plural(conTamano, "empresa", "empresas")} con tamaño informado por ahora.`),
         tablaSimple(["Tamaño", "Empresas"], porTamano.map((d) => [d.categoria, nf0.format(d.valor)]))),
-    columnas("Primera certificación B por año", "Año en que la empresa se certificó por primera vez", porAnio),
-    columnas("Distribución del puntaje B", `${puntajes.length} empresas con puntaje · se certifica desde 80`, porPuntaje),
+    columnas("Primera certificación por año", "Año en que cada empresa se certificó por primera vez", porAnio),
+    columnas("Distribución del puntaje B", `${nf0.format(puntajes.length)} empresas con puntaje · se certifica desde 80`, porPuntaje),
     filasAreas.length
-      ? apiladas("Puntaje B por área de impacto (promedio por industria)",
-        "Solo empresas con desglose completo publicado (n). El ancho de cada tramo es el aporte del área al puntaje.", filasAreas)
-      : el("p", { class: "vacio" }, "Ninguna empresa filtrada tiene el desglose por área disponible."),
+      ? apiladas("Puntaje B por área de impacto", "Promedio por industria, solo empresas con desglose completo publicado (n).", filasAreas)
+      : figura("Puntaje B por área de impacto", null, el("p", { class: "nota" }, "Ninguna empresa filtrada tiene el desglose publicado."), el("span")),
   );
 }
 
 // ---------------------------------------------------------------------------
-// Ficha de empresa
+// Hojas (dialog) y fichas
 // ---------------------------------------------------------------------------
 
-function filaDL(dt, dd) {
-  if (dd == null || dd === "" || (Array.isArray(dd) && !dd.length)) return [];
-  return [el("dt", {}, dt), el("dd", {}, dd)];
-}
-
-function seccion(titulo, ...contenido) {
-  const items = contenido.flat().filter(Boolean);
-  if (!items.length) return null;
-  return el("section", {}, el("h3", {}, titulo), items);
-}
-
-function listaFuentes(items, texto, extra) {
-  return items?.length ? el("ul", { class: "lista-simple" }, items.map((it) => el("li", {}, texto(it),
-    it.fuente ? [" · ", enlace("fuente", it.fuente)] : null, extra ? extra(it) : null))) : null;
-}
-
-function bloquePuntaje(e) {
-  if (e.puntaje_b == null && !AREAS.some(([k]) => e.areas?.[k] != null)) return null;
-  const presentes = AREAS.filter(([k]) => e.areas?.[k] != null);
-  const base = e.puntaje_b || presentes.reduce((s, [k]) => s + e.areas[k], 0);
-  const pila = presentes.length ? el("div", { class: "pila", style: "width:100%;height:18px" }, presentes.map(([k, nombre, color]) =>
-    conTooltip(el("div", { class: "seg", style: `flex:${e.areas[k]} 1 0;background:var(${color})` }), nombre,
-      [[color, `${nf.format(e.areas[k])} puntos`], [null, `${fmtPct(pct(e.areas[k], base))} del puntaje`]]))) : null;
-  const leyenda = presentes.length ? el("ul", { class: "leyenda", style: "margin-top:10px" }, presentes.map(([k, nombre, color]) =>
-    el("li", {}, el("span", { class: "swatch", style: `background:var(${color})` }),
-      `${nombre}: ${nf.format(e.areas[k])} (${fmtPct(pct(e.areas[k], base))})`))) : null;
-  return seccion("Puntaje B (impacto)",
-    el("div", { class: "puntaje-cab" },
-      el("span", { class: "puntaje-num" }, e.puntaje_b != null ? nf.format(e.puntaje_b) : "—"),
-      el("span", { class: "nota" }, "puntos · certifica desde 80; mediana de empresas comunes ≈ 50,9")),
-    pila, leyenda,
-    presentes.length && presentes.length < AREAS.length ? el("p", { class: "nota" }, "Desglose por área incompleto en las fuentes públicas.") : null,
-    !presentes.length ? el("p", { class: "nota" }, "Desglose por área no disponible en las fuentes consultadas.") : null);
-}
-
-function dlConDatos(...filas) {
-  const dl = el("dl", { class: "dl" }, ...filas);
-  return dl.childElementCount ? dl : null;
-}
-
-function bloqueEconomia(eco = {}) {
-  const hay = eco.tramo_ventas_sii || eco.tamano_sii || eco.trabajadores_sii || eco.trabajadores || eco.resumen
-    || eco.cotiza_en_bolsa != null || eco.capacidad || eco.ventas_reportadas?.length || eco.financiamiento?.length
-    || eco.inversion_anunciada?.length;
-  if (!hay) return seccion("Cómo le va económicamente", el("p", { class: "nota" }, "Sin datos económicos públicos encontrados todavía."));
-  return seccion("Cómo le va económicamente",
-    dlConDatos(
-      filaDL("Tamaño (SII)", eco.tramo_ventas_sii || eco.tamano_sii),
-      filaDL("Trabajadores (SII)", eco.trabajadores_sii),
-      filaDL("Trabajadores", eco.trabajadores),
-      filaDL("Cotiza en bolsa", eco.cotiza_en_bolsa == null ? null : (eco.cotiza_en_bolsa ? "Sí" : "No")),
-      filaDL("Resumen", eco.resumen)),
-    eco.ventas_reportadas?.length ? [el("p", { class: "nota" }, "Ventas / ingresos reportados"),
-      listaFuentes(eco.ventas_reportadas, (v) => [v.valor, v.periodo ? ` (${v.periodo})` : ""].join(""))] : null,
-    eco.financiamiento?.length ? [el("p", { class: "nota" }, "Financiamiento e inversión"),
-      listaFuentes(eco.financiamiento, (v) => [v.descripcion, v.fecha ? ` (${v.fecha})` : ""].join(""))] : null,
-    eco.inversion_anunciada?.length ? [el("p", { class: "nota" }, "Inversión anunciada"),
-      listaFuentes(eco.inversion_anunciada, (v) => [v.valor, v.descripcion ? ` — ${v.descripcion}` : "", v.fecha ? ` (${v.fecha})` : ""].join(""))] : null,
-    eco.capacidad ? el("p", {}, `Capacidad: ${eco.capacidad}`) : null);
-}
-
-function bloquePropiedad(p = {}) {
-  if (!(p.controlador || p.grupo_empresarial || p.notas || p.socios?.length)) {
-    return seccion("Propiedad (dueños y porcentajes)", el("p", { class: "nota" },
-      "No publicada en las fuentes consultadas. En las SpA los accionistas rara vez son públicos."));
-  }
-  return seccion("Propiedad (dueños y porcentajes)",
-    dlConDatos(
-      filaDL("Controlador", p.controlador),
-      filaDL("Grupo empresarial", p.grupo_empresarial),
-      filaDL("Notas", p.notas)),
-    p.socios?.length ? listaFuentes(p.socios, (s) => `${s.nombre}${s.porcentaje != null ? ` — ${nf.format(s.porcentaje)}%` : " — % no publicado"}`) : null);
-}
-
-function bloqueContactos(c = {}) {
-  const maps = c.direccion ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(c.direccion)}` : null;
-  return seccion("Contactos corporativos",
-    dlConDatos(
-      filaDL("Sitio web", c.sitio_web ? enlace(dominio(c.sitio_web), c.sitio_web) : null),
-      filaDL("Email", c.email ? enlace(c.email, `mailto:${c.email}`) : null),
-      filaDL("Teléfono", c.telefono ? enlace(c.telefono, telHref(c.telefono)) : null),
-      filaDL("WhatsApp", c.whatsapp ? enlace(c.whatsapp, `https://wa.me/${c.whatsapp.replace(/\D/g, "")}`) : null),
-      filaDL("Dirección", c.direccion ? enlace(c.direccion, maps) : null),
-      filaDL("Comuna", c.comuna),
-      filaDL("LinkedIn", c.linkedin ? enlace("Perfil de la empresa", c.linkedin) : null),
-      filaDL("Instagram", c.instagram ? enlace("Instagram", c.instagram) : null),
-      filaDL("Facebook", c.facebook ? enlace("Facebook", c.facebook) : null),
-      filaDL("X", c.x ? enlace("X", c.x) : null),
-      filaDL("YouTube", c.youtube ? enlace("YouTube", c.youtube) : null)),
-    !Object.values(c).some(Boolean) ? el("p", { class: "nota" }, "Sin contactos corporativos encontrados todavía.") : null);
-}
-
-function bloquePersonas(personas) {
-  return personas?.length ? seccion("Líderes (fuentes públicas)", el("ul", { class: "lista-simple" }, personas.map((p) =>
-    el("li", {}, el("strong", {}, p.nombre), p.cargo ? ` — ${p.cargo}` : "",
-      p.linkedin ? [" · ", enlace("LinkedIn", p.linkedin)] : null, p.fuente ? [" · ", enlace("fuente", p.fuente)] : null)))) : null;
-}
-
-function bloqueFuentes(fuentes) {
-  return fuentes?.length ? seccion("Fuentes", el("ul", { class: "lista-simple fuentes-mini" },
-    fuentes.slice(0, 25).map((f) => el("li", {}, enlace(dominio(f) + (f.length > 60 ? "…" : ""), f))))) : null;
-}
-
-// "Santiago, Región Metropolitana" + "Metropolitana" -> sin repetir la región.
-function ubicacion(sede, region) {
-  if (!region) return sede || "";
-  if (sede && normal(sede).includes(normal(region))) return sede;
-  if (sede && region === "Metropolitana" && /metropolitan|santiago/i.test(sede)) return sede;
-  return [sede, `Región ${region}`].filter(Boolean).join(" · ");
-}
-
-function abrirDialogo(nodos) {
-  const d = $("#ficha");
-  $("#ficha-cuerpo").replaceChildren(...nodos.filter(Boolean));
+function abrirDialogo(d) {
   if (!d.open) d.showModal();
-  d.scrollTop = 0;
+  document.documentElement.style.overflow = "hidden";
+  const cuerpo = d.querySelector(".hoja-cuerpo");
+  if (cuerpo) cuerpo.scrollTop = 0;
+}
+
+function prepararDialogos() {
+  for (const d of $$("dialog.hoja")) {
+    d.addEventListener("click", (ev) => { if (ev.target === d) d.close(); });
+    d.addEventListener("close", () => { document.documentElement.style.overflow = ""; ocultarTooltip(); });
+    for (const b of $$("[data-cerrar]", d)) b.addEventListener("click", () => d.close());
+  }
+}
+
+const plural = (n, uno, varios) => `${nf0.format(n)} ${n === 1 ? uno : varios}`;
+
+// Fila de texto libre a todo el ancho (resúmenes, notas y avisos de "sin datos").
+function filaTexto(texto) {
+  return texto ? el("div", { class: "fila fila-texto" }, texto) : null;
+}
+
+function fila(k, v) {
+  if (v == null || v === "" || (Array.isArray(v) && !v.length)) return null;
+  return el("div", { class: "fila" }, el("span", {}, k), el("span", { class: "v" }, v));
+}
+
+function filaEnlace(k, texto, href) {
+  const h = hrefSeguro(href);
+  if (!h) return null;
+  const externo = /^https?:/i.test(h);
+  return el("a", { class: "fila fila-link", href: h, target: externo ? "_blank" : null, rel: externo ? "noopener" : null },
+    el("span", {}, k), el("span", { class: "v" }, texto));
+}
+
+function conFuente(texto, fuente) {
+  return [texto, fuente ? [" · ", enlace("fuente", fuente)] : null];
+}
+
+function grupo(titulo, filas, vacio) {
+  const items = filas.flat().filter(Boolean);
+  if (!items.length && !vacio) return null;
+  return [el("p", { class: "grupo-tit" }, titulo), el("div", { class: "grupo" }, items.length ? items : filaTexto(vacio))];
+}
+
+function accionesRapidas(c = {}) {
+  const items = [
+    ["globe", "Web", c.sitio_web],
+    ["phone", "Llamar", telHref(c.telefono)],
+    ["mail", "Email", c.email ? `mailto:${c.email}` : null],
+    ["chat", "WhatsApp", waHref(c.whatsapp)],
+    ["linkedin", "LinkedIn", c.linkedin],
+    ["pin", "Mapa", mapaHref(c.direccion)],
+  ].filter(([, , h]) => hrefSeguro(h));
+  if (!items.length) return null;
+  return el("div", { class: "acciones-rapidas" }, items.map(([ico, nombre, h]) => {
+    const a = enlace(null, h, { class: "accion" });
+    a.replaceChildren(icono(ico), el("span", {}, nombre));
+    return a;
+  }));
+}
+
+// Cada área ocupa su proporción real del puntaje total; lo no desglosado queda como tramo gris.
+function barraPuntaje(e, presentes, base) {
+  const suma = presentes.reduce((s, [k]) => s + e.areas[k], 0);
+  const segs = presentes.map(([k, nombre, color]) => conTooltip(
+    el("div", { class: "seg-a", style: `width:${(e.areas[k] / base) * 100}%;background:var(${color})` }),
+    nombre, [[color, `${nf.format(e.areas[k])} puntos`], [null, `${fmtPct(pct(e.areas[k], base))} del puntaje`]]));
+  if (base - suma > 0.5) {
+    segs.push(conTooltip(el("div", { class: "seg-a seg-resto", style: `width:${((base - suma) / base) * 100}%` }),
+      "Sin desglose público", [[null, `${nf.format(base - suma)} puntos`]]));
+  }
+  return el("div", { class: "pila-puntaje" }, segs);
+}
+
+function cajaPuntaje(e) {
+  const presentes = AREAS.filter(([k]) => e.areas?.[k] != null);
+  if (e.puntaje_b == null && !presentes.length) return null;
+  const base = e.puntaje_b || presentes.reduce((s, [k]) => s + e.areas[k], 0);
+  return [el("p", { class: "grupo-tit" }, "Puntaje B"),
+    el("div", { class: "puntaje-caja" },
+      el("div", { class: "puntaje-cab" },
+        el("span", { class: "puntaje-num" }, e.puntaje_b != null ? nf.format(e.puntaje_b) : "—"),
+        el("span", { class: "nota" }, "puntos · se certifica desde 80; una empresa común promedia ≈ 50,9")),
+      presentes.length ? barraPuntaje(e, presentes, base) : null,
+      presentes.length ? leyendaAreas(Object.fromEntries(presentes.map(([k]) => [k, e.areas[k]])), base) : null,
+      presentes.length < AREAS.length
+        ? el("p", { class: "nota" }, presentes.length ? "Desglose por área incompleto en las fuentes públicas." : "Desglose por área no disponible en las fuentes consultadas.")
+        : null)];
+}
+
+function grupoEconomia(eco = {}) {
+  return grupo("Cómo le va económicamente", [
+    fila("Tamaño (SII)", eco.tramo_ventas_sii || eco.tamano_sii),
+    fila("Trabajadores (SII)", eco.trabajadores_sii),
+    fila("Trabajadores", eco.trabajadores),
+    (eco.ventas_reportadas || []).map((v) => fila(v.periodo ? `Ventas ${v.periodo}` : "Ventas", conFuente(v.valor, v.fuente))),
+    (eco.financiamiento || []).map((v) => fila(v.fecha ? `Inversión ${v.fecha}` : "Inversión", conFuente(v.descripcion, v.fuente))),
+    (eco.inversion_anunciada || []).map((v) => fila(v.fecha ? `Inversión anunciada ${v.fecha}` : "Inversión anunciada",
+      conFuente([v.valor, v.descripcion].filter(Boolean).join(" — "), v.fuente))),
+    fila("Capacidad", eco.capacidad),
+    fila("Cotiza en bolsa", eco.cotiza_en_bolsa == null ? null : (eco.cotiza_en_bolsa ? "Sí" : "No")),
+    filaTexto(eco.resumen),
+  ], "Sin datos económicos públicos encontrados todavía.");
+}
+
+function grupoPropiedad(p = {}) {
+  return grupo("Propiedad", [
+    fila("Controlador", p.controlador),
+    fila("Grupo", p.grupo_empresarial),
+    (p.socios || []).map((s) => fila(s.nombre, conFuente(s.porcentaje != null ? `${nf.format(s.porcentaje)}%` : "% no publicado", s.fuente))),
+    filaTexto(p.notas),
+  ], "No publicada en las fuentes consultadas (en las SpA los accionistas rara vez son públicos).");
+}
+
+function grupoPersonas(personas) {
+  return grupo("Líderes", (personas || []).map((p) => p.linkedin
+    ? filaEnlace(p.nombre, p.cargo ? `${p.cargo} · LinkedIn` : "LinkedIn", p.linkedin)
+    : fila(p.nombre, p.cargo || "")));
+}
+
+function grupoContacto(c = {}) {
+  return grupo("Contacto corporativo", [
+    filaEnlace("Sitio web", c.sitio_web ? dominio(c.sitio_web) : null, c.sitio_web),
+    filaEnlace("Email", c.email, c.email ? `mailto:${c.email}` : null),
+    filaEnlace("Teléfono", c.telefono, telHref(c.telefono)),
+    filaEnlace("WhatsApp", c.whatsapp, waHref(c.whatsapp)),
+    filaEnlace("Dirección", c.direccion, mapaHref(c.direccion)),
+    fila("Comuna", c.comuna),
+    filaEnlace("LinkedIn", "Perfil de la empresa", c.linkedin),
+    filaEnlace("Instagram", "Ver perfil", c.instagram),
+    filaEnlace("Facebook", "Ver página", c.facebook),
+    filaEnlace("X", "Ver perfil", c.x),
+    filaEnlace("YouTube", "Ver canal", c.youtube),
+  ], "Sin contactos corporativos encontrados todavía.");
+}
+
+function grupoFuentes(fuentes) {
+  if (!fuentes?.length) return null;
+  return [el("p", { class: "grupo-tit" }, "Fuentes"),
+    el("div", { class: "grupo" }, el("ul", { class: "lista-fuentes" },
+      fuentes.slice(0, 25).map((f) => el("li", {}, enlace(dominio(f), f)))))];
 }
 
 function abrirFicha(e) {
   const reporte = `https://github.com/Nikolaaa11/EmpresasB/issues/new?title=${encodeURIComponent(`Corrección: ${e.nombre}`)}`;
-  abrirDialogo([
-    el("h2", { id: "ficha-titulo" }, e.nombre),
-    el("p", { class: "linea" }, [e.razon_social, e.rut ? `RUT ${e.rut}` : null].filter(Boolean).join(" · ") || "Razón social y RUT no encontrados todavía"),
-    el("p", { class: "linea" }, badgeTipo(e.tipo_sociedad), " ", el("span", { class: "badge badge-b" }, "Empresa B"), " ",
-      [e.macro_industria, e.industria].filter(Boolean).join(" › ")),
-    el("p", { class: "linea" }, [e.sede_en_chile ? ubicacion(e.sede, e.region) : `Sede: ${e.pais_sede} · opera en Chile`,
-      e.certificada_desde ? `certificada desde ${e.certificada_desde}` : null].filter(Boolean).join(" · ")),
-    e.descripcion ? el("p", {}, e.descripcion) : null,
-    el("p", { class: "linea" }, enlace("Ficha oficial en B Lab", e.url_blab), " · ", enlace("Reportar un error", reporte)),
-    bloquePuntaje(e),
-    bloqueEconomia(e.economia),
-    bloquePropiedad(e.propiedad),
-    bloqueContactos(e.contactos),
-    bloquePersonas(e.personas),
-    seccion("Calidad del registro", el("p", { class: "nota" }, `Completitud ${e.completitud}% · actualizado ${e.actualizado}`)),
-    bloqueFuentes(e.fuentes),
-  ]);
+  $("#ficha-cab").textContent = e.nombre;
+  $("#ficha-cuerpo").replaceChildren(...[
+    el("div", { class: "f-hero" },
+      el("h3", { id: "ficha-titulo" }, e.nombre),
+      el("p", { class: "f-razon" }, [e.razon_social && e.razon_social !== e.nombre ? e.razon_social : null, e.rut ? `RUT ${e.rut}` : null]
+        .filter(Boolean).join(" · ") || "Razón social y RUT por confirmar"),
+      el("div", { class: "etiquetas" }, etiquetaTipo(e.tipo_sociedad), el("span", { class: "etq etq-b" }, "Empresa B"),
+        el("span", { class: "etq" }, e.macro_industria))),
+    accionesRapidas(e.contactos),
+    e.descripcion ? el("p", { class: "f-desc" }, e.descripcion) : null,
+    cajaPuntaje(e),
+    grupoEconomia(e.economia),
+    grupoPropiedad(e.propiedad),
+    grupoPersonas(e.personas),
+    grupoContacto(e.contactos),
+    grupo("Datos", [
+      fila("Industria", e.industria),
+      fila("Sector B Lab", e.sector_blab),
+      fila("Sede", e.sede_en_chile ? e.sede : `${e.pais_sede} (opera en Chile)`),
+      fila("Región", e.region),
+      fila("Certificada desde", e.certificada_desde),
+      fila("Tipo de sociedad", e.tipo_sociedad),
+      fila("Giro", e.giro),
+    ]),
+    grupoFuentes(e.fuentes),
+    el("div", { class: "f-pie" }, enlace("Ficha oficial en B Lab", e.url_blab), enlace("Reportar un error", reporte)),
+    el("p", { class: "f-nota" }, `Completitud del registro ${e.completitud}% · actualizado ${e.actualizado}`),
+  ].flat().filter(Boolean));
+  abrirDialogo($("#ficha"));
 }
 
 function abrirFichaSector(s, sector) {
@@ -684,66 +794,70 @@ function abrirFichaSector(s, sector) {
     const b = estado.empresas.find((e) => e.id === s.id_empresa_b);
     if (b) return abrirFicha(b);
   }
-  abrirDialogo([
-    el("h2", { id: "ficha-titulo" }, s.nombre),
-    el("p", { class: "linea" }, [s.razon_social, s.rut ? `RUT ${s.rut}` : null].filter(Boolean).join(" · ") || "Razón social y RUT no encontrados todavía"),
-    el("p", { class: "linea" }, badgeTipo(s.tipo_sociedad || "Sin dato"), " ",
-      s.es_empresa_b ? el("span", { class: "badge badge-b" }, "Empresa B") : el("span", { class: "badge" }, "No es Empresa B"),
-      " ", [sector.nombre, s.subsector].filter(Boolean).join(" › ")),
-    el("p", { class: "linea" }, ubicacion(s.sede, s.region)),
-    s.descripcion ? el("p", {}, s.descripcion) : null,
-    s.url_blab ? el("p", { class: "linea" }, enlace("Ficha oficial en B Lab", s.url_blab)) : null,
-    bloqueEconomia(s.economia),
-    bloquePropiedad(s.propiedad),
-    bloqueContactos(s.contactos),
-    bloquePersonas(s.personas),
-    bloqueFuentes(s.fuentes),
-  ]);
+  $("#ficha-cab").textContent = s.nombre;
+  $("#ficha-cuerpo").replaceChildren(...[
+    el("div", { class: "f-hero" },
+      el("h3", { id: "ficha-titulo" }, s.nombre),
+      el("p", { class: "f-razon" }, [s.razon_social && s.razon_social !== s.nombre ? s.razon_social : null, s.rut ? `RUT ${s.rut}` : null]
+        .filter(Boolean).join(" · ") || "Razón social y RUT por confirmar"),
+      el("div", { class: "etiquetas" }, etiquetaTipo(s.tipo_sociedad),
+        s.es_empresa_b ? el("span", { class: "etq etq-b" }, "Empresa B") : null,
+        el("span", { class: "etq" }, sector.nombre), s.subsector ? el("span", { class: "etq" }, s.subsector) : null)),
+    accionesRapidas(s.contactos),
+    s.descripcion ? el("p", { class: "f-desc" }, s.descripcion) : null,
+    grupoEconomia(s.economia),
+    grupoPropiedad(s.propiedad),
+    grupoPersonas(s.personas),
+    grupoContacto(s.contactos),
+    grupo("Datos", [fila("Sector", sector.nombre), fila("Subsector", s.subsector), fila("Sede", s.sede), fila("Región", s.region)]),
+    grupoFuentes(s.fuentes),
+    s.url_blab ? el("div", { class: "f-pie" }, enlace("Ficha oficial en B Lab", s.url_blab)) : null,
+  ].flat().filter(Boolean));
+  abrirDialogo($("#ficha"));
 }
 
 // ---------------------------------------------------------------------------
 // Sectores estratégicos
 // ---------------------------------------------------------------------------
 
+function tarjetaSector(x, sector) {
+  const eco = x.economia || {};
+  const cifra = eco.ventas_reportadas?.[0]
+    ? `Ventas: ${eco.ventas_reportadas[0].valor}${eco.ventas_reportadas[0].periodo ? ` (${eco.ventas_reportadas[0].periodo})` : ""}`
+    : eco.inversion_anunciada?.[0] ? `Inversión: ${eco.inversion_anunciada[0].valor}` : eco.capacidad ? `Capacidad: ${eco.capacidad}` : null;
+  const control = x.propiedad?.controlador || (x.propiedad?.socios?.length ? x.propiedad.socios.map((p) => p.nombre).join(", ") : null);
+  const nombre = el("button", { type: "button", class: "t-nombre" }, x.nombre);
+  nombre.addEventListener("click", () => abrirFichaSector(x, sector));
+  return el("article", { class: "tarjeta" },
+    el("div", { class: "t-cab" }, nombre, x.es_empresa_b ? el("span", { class: "etq etq-b" }, "Empresa B") : null),
+    el("p", { class: "t-sub" }, [x.subsector, x.region].filter(Boolean).join(" · ") || sector.nombre),
+    cifra ? el("p", { class: "t-sub" }, cifra) : null,
+    control ? el("p", { class: "t-sub" }, `Propiedad: ${control}`) : null,
+    el("div", { class: "t-pie" },
+      el("div", { class: "etiquetas" }, etiquetaTipo(x.tipo_sociedad), eco.cotiza_en_bolsa ? el("span", { class: "etq" }, "Cotiza en bolsa") : null),
+      accionesContacto(x.contactos)));
+}
+
 function renderSectores() {
-  const nav = $("#subtabs");
-  nav.replaceChildren(...estado.sectores.map((s) => {
-    const b = el("button", { type: "button", "aria-current": s.id === estado.sector ? "true" : null }, `${s.nombre} (${s.total})`);
+  $("#subtabs").replaceChildren(...estado.sectores.map((s) => {
+    const b = el("button", { type: "button", "aria-current": s.id === estado.sector ? "true" : null }, `${s.nombre} · ${s.total}`);
     b.addEventListener("click", () => { estado.sector = s.id; render(); });
     return b;
   }));
   const s = estado.sectores.find((x) => x.id === estado.sector);
-  const cont = $("#sector");
   if (!s) {
-    cont.replaceChildren(el("p", { class: "vacio" }, "Sin datos del sector todavía."));
+    $("#sector").replaceChildren(el("p", { class: "sin-resultados" }, "Sin datos del sector todavía."));
     return;
   }
-  const filas = s.empresas.map((x) => {
-    const eco = x.economia || {};
-    const cifra = eco.ventas_reportadas?.[0] ? `${eco.ventas_reportadas[0].valor}${eco.ventas_reportadas[0].periodo ? ` (${eco.ventas_reportadas[0].periodo})` : ""}`
-      : eco.inversion_anunciada?.[0] ? `Inversión: ${eco.inversion_anunciada[0].valor}` : eco.capacidad || eco.trabajadores || "—";
-    const tr = el("tr", { tabindex: "0" },
-      el("td", { "data-label": "Empresa" }, el("div", { class: "nombre" }, x.nombre, x.es_empresa_b ? [" ", el("span", { class: "badge badge-b" }, "B")] : null),
-        x.razon_social && x.razon_social !== x.nombre ? el("div", { class: "sec" }, x.razon_social) : null),
-      el("td", { "data-label": "Subsector" }, x.subsector || "—"),
-      el("td", { "data-label": "Tipo" }, badgeTipo(x.tipo_sociedad || "Sin dato")),
-      el("td", { "data-label": "Región" }, x.region || "—"),
-      el("td", { "data-label": "Cifras" }, cifra),
-      el("td", { "data-label": "Propiedad" }, x.propiedad?.controlador || (x.propiedad?.socios?.length ? x.propiedad.socios.map((p) => p.nombre).join(", ") : "—")),
-      el("td", { "data-label": "Contacto" }, linksContacto(x.contactos)));
-    tr.addEventListener("click", () => abrirFichaSector(x, s));
-    tr.addEventListener("keydown", (ev) => { if (ev.key === "Enter") abrirFichaSector(x, s); });
-    return tr;
-  });
-  cont.replaceChildren(
+  const web = s.empresas.filter((x) => x.contactos?.sitio_web).length;
+  $("#sector").replaceChildren(
     el("div", { class: "sector-cab" },
-      el("h2", {}, s.nombre),
+      el("h2", {}, `${s.nombre}.`),
+      el("p", { class: "sector-cifras" }, `${nf0.format(s.total)} empresas · ${nf0.format(s.empresas_b)} Empresas B · ${nf0.format(web)} con sitio web`),
       s.resumen ? el("p", {}, s.resumen) : null,
-      s.fuentes?.length ? el("p", { class: "fuentes-mini" }, "Fuentes: ", s.fuentes.map((f, i) => [i ? " · " : "", enlace(dominio(f), f)])) : null,
-      el("p", { class: "nota" }, "Principales empresas del sector en Chile, sean o no Empresas B (marcadas con B).")),
-    el("div", { class: "tabla-wrap" }, el("table", { class: "tabla" },
-      el("thead", {}, el("tr", {}, ["Empresa", "Subsector", "Tipo", "Región", "Cifras", "Propiedad", "Contacto"].map((h) => el("th", { scope: "col" }, h)))),
-      el("tbody", {}, filas.length ? filas : el("tr", {}, el("td", { colspan: "7", class: "vacio" }, "Sin empresas registradas todavía."))))),
+      s.fuentes?.length ? el("p", { class: "fuentes-mini" }, "Fuentes: ", s.fuentes.map((f, i) => [i ? " · " : "", enlace(dominio(f), f)])) : null),
+    el("div", { class: "lista" }, s.empresas.length ? s.empresas.map((x) => tarjetaSector(x, s))
+      : el("p", { class: "sin-resultados" }, "Sin empresas registradas todavía.")),
   );
 }
 
@@ -808,18 +922,8 @@ function exportarCSV() {
 }
 
 // ---------------------------------------------------------------------------
-// Tema y arranque
+// Arranque
 // ---------------------------------------------------------------------------
-
-function prepararTema() {
-  $("#tema").addEventListener("click", () => {
-    const actual = document.documentElement.dataset.theme
-      || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-    const nuevo = actual === "dark" ? "light" : "dark";
-    document.documentElement.dataset.theme = nuevo;
-    try { localStorage.setItem("tema", nuevo); } catch { /* sin almacenamiento */ }
-  });
-}
 
 async function cargar(ruta) {
   const r = await fetch(ruta, { cache: "no-cache" });
@@ -828,7 +932,6 @@ async function cargar(ruta) {
 }
 
 async function iniciar() {
-  prepararTema();
   try {
     const [empresas, sectores, meta] = await Promise.all([
       cargar("data/empresas.json"), cargar("data/sectores.json"), cargar("data/meta.json")]);
@@ -842,19 +945,25 @@ async function iniciar() {
     $("#fecha").textContent = meta.generado || "—";
     $("#fecha").setAttribute("datetime", meta.generado || "");
   } catch (err) {
-    $("#contenido").prepend(el("p", { class: "vacio" }, `No se pudieron cargar los datos (${err.message}).`));
+    $("#contenido").prepend(el("p", { class: "sin-resultados" }, `No se pudieron cargar los datos (${err.message}).`));
     return;
   }
   leerHash();
   prepararFiltros();
-  prepararOrden();
-  $$(".tabs button").forEach((b) => b.addEventListener("click", () => {
-    estado.vista = b.dataset.vista;
+  prepararDialogos();
+  for (const b of $$("[data-vista]")) {
+    b.addEventListener("click", () => {
+      estado.vista = b.dataset.vista;
+      render();
+      window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    });
+  }
+  $(".marca").addEventListener("click", (ev) => {
+    ev.preventDefault();
+    estado.vista = "directorio";
     render();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }));
-  $("#ficha").addEventListener("click", (ev) => { if (ev.target === ev.currentTarget) ev.currentTarget.close(); });
-  $("#ficha").addEventListener("close", ocultarTooltip);
+    window.scrollTo({ top: 0 });
+  });
   window.addEventListener("hashchange", () => { leerHash(); render(); });
   render();
 }

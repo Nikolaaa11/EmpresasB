@@ -88,6 +88,9 @@ GitHub:
   docs/sectores_estrategicos.md
 - scripts/ reproducibles (consolidar, exportar, cruce SII) y data/raw/ con la investigación en bruto.
 Vercel (sitio estático):
+- Diseño estilo Apple, fondo blanco y móvil primero: tipografía del sistema (San Francisco), barra
+  superior translúcida, controles iOS (segmentados, hoja de filtros con interruptores, fichas como
+  hoja inferior), barra de pestañas abajo en el celular, objetivos táctiles de 44 px.
 - Pestañas: Directorio · Por industria · Estadísticas · Data center/Robótica/Salmones/Marítimo ·
   Metodología.
 - Filtros (una fila, aplican a todo): búsqueda (nombre, razón social, RUT), industria, tipo de
