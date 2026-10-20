@@ -101,6 +101,11 @@ python3 scripts/exportar.py        # CSV, XLSX, docs/, estadísticas y web/data/
 cd web && python3 -m http.server   # ver el sitio en http://localhost:8000
 ```
 
+`data/pendientes_enriquecimiento.json` es la cola de trabajo: las empresas que aún no tienen
+razón social, RUT, contactos o economía completos. Una nueva pasada de agentes (ver
+[SUPER_PROMPT.md](SUPER_PROMPT.md), fase 2) toma esa lista y deja sus resultados en
+`data/raw/enriquecimiento/`.
+
 Para agregar o corregir una empresa, edita o agrega un JSON en `data/raw/` (cada dato con su fuente)
 y vuelve a correr los dos últimos scripts. ¿Encontraste un error?
 [Abre un issue](https://github.com/Nikolaaa11/EmpresasB/issues/new).

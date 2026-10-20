@@ -441,6 +441,10 @@ def completitud(emp: dict) -> int:
     return round(sum(chequeos) / len(chequeos) * 100)
 
 
+def maestro_sede_chile(p: dict) -> bool:
+    return p.get("pais_sede") in (None, "Chile")
+
+
 ORDEN_CAMPOS = [
     "id", "nombre", "razon_social", "rut", "tipo_sociedad", "tipo_sociedad_base", "giro",
     "macro_industria", "macro_base", "industria", "industria_blab", "sector_blab", "secciones",
@@ -586,12 +590,28 @@ def main() -> None:
     }
     destino = ROOT / "data" / "empresas_b_chile.json"
     destino.write_text(json.dumps(maestro, ensure_ascii=False, indent=1), encoding="utf-8")
+    # Cola de trabajo para la siguiente pasada de enriquecimiento (en esta u otra sesión)
+    marcas = ("PENDIENTE", "INCOMPLETO", "PARCIAL")
+    pendientes_enr = [
+        {"id": e["id"], "nombre": e["nombre"], "url_blab": e["url_blab"], "sede": e.get("sede"),
+         "pais_sede": e.get("pais_sede"), "industria_blab": e.get("industria_blab"),
+         "descripcion": e.get("descripcion"), "sitio_web": e["contactos"].get("sitio_web"),
+         "motivo": "sin enriquecer" if not e["enriquecida"] else "enriquecimiento parcial",
+         "completitud": e["completitud"]}
+        for e in empresas
+        if not e["enriquecida"] or any(m in (e.get("notas") or "").upper()[:40] for m in marcas)
+    ]
+    pendientes_enr.sort(key=lambda p: (not maestro_sede_chile(p), p["completitud"], clave(p["nombre"])))
+    (ROOT / "data" / "pendientes_enriquecimiento.json").write_text(
+        json.dumps({"generado": HOY, "total": len(pendientes_enr), "empresas": pendientes_enr},
+                   ensure_ascii=False, indent=1), encoding="utf-8")
     sectores = consolidar_sectores(maestro["empresas"])
     (ROOT / "data" / "sectores_estrategicos.json").write_text(json.dumps(sectores, ensure_ascii=False, indent=1),
                                                               encoding="utf-8")
     print(f"Empresas B: {len(empresas)} ({maestro['sede_en_chile']} con sede en Chile) · "
           f"enriquecidas: {sum(e['enriquecida'] for e in empresas)} · SII: {n_sii} · "
-          f"sitios vía Apollo: {n_lookup} · Apollo enriquecidas: {n_apollo} · pendientes: {len(pendientes)}")
+          f"sitios vía Apollo: {n_lookup} · Apollo enriquecidas: {n_apollo} · sin ficha confirmada: {len(pendientes)} · "
+          f"por enriquecer: {len(pendientes_enr)}")
     for s in sectores["sectores"]:
         print(f"  {s['nombre']}: {s['total']} empresas ({s['empresas_b']} B)")
 
