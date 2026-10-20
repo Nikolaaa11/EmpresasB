@@ -384,6 +384,9 @@ def main() -> None:
                for e in empresas]
     (WEB / "empresas.json").write_text(json.dumps(publico, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (WEB / "sectores.json").write_text(json.dumps(sectores, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    for archivo in ("empresas_b_chile.csv", "empresas_b_chile.xlsx"):
+        if (DATA / archivo).exists():
+            shutil.copyfile(DATA / archivo, WEB / archivo)
     meta = {k: maestro[k] for k in ("titulo", "generado", "total", "sede_en_chile", "cruce_sii", "enriquecidas_apollo")}
     meta["cobertura"] = stats["todas"]["cobertura"]
     (WEB / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
