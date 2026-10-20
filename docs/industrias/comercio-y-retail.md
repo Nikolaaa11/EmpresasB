@@ -12,4 +12,4 @@ Subindustrias: Comercio minorista (3), Sin dato (2)
 | [Aguas Santa Amalia S.A.](https://www.bcorporation.net/en-us/find-a-b-corp/company/aguas-santa-amalia-sa/) | Aguas Santa Amalia S.A. | S.A. | — | Metropolitana | 91.9 | 2014-03 | — | — |
 | [Dijase](https://www.bcorporation.net/en-us/find-a-b-corp/company/dijase/) | — | Sin dato | — | Biobío | 86.7 | 2020-09 | [sitio](http://www.dijase.cl) | — |
 | [Future Foods SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/future-foods-sp-a/) | Future Foods SpA | SpA | Comercio minorista | Metropolitana | 83.9 | 2026-07 | — | — |
-| [LATE!](https://www.bcorporation.net/en-us/find-a-b-corp/company/late/) | — | Sin dato | Comercio minorista | Metropolitana | — | 2012-07 | — | — |
+| [LATE!](https://www.bcorporation.net/en-us/find-a-b-corp/company/late/) | — | Sin dato | Comercio minorista | Metropolitana | — | 2012-07 | [sitio](http://www.late.cl) | — |

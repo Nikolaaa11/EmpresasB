@@ -1,0 +1,2232 @@
+{
+ "fuente": "Apollo.io organizations lookup (gratuito)",
+ "notas": "coincidencia: exacta|probable|ninguna = resultado de la busqueda en Apollo; ya_resuelta = la empresa ya tenia contactos.sitio_web en enriq_lote_*.json y no se consulto en Apollo (dominio derivado del sitio_web; nombre_apollo/apollo_id nulos); pendiente = la consulta con filtro de ubicacion no dio resultados y el reintento sin filtro no se pudo hacer por el limite horario de Apollo (ver lista pendientes).",
+ "resumen": {
+  "exacta": 90,
+  "probable": 16,
+  "ninguna": 31,
+  "ya_resuelta": 66,
+  "pendiente": 25
+ },
+ "pendientes": [
+  "patagonia-biotecnologa-sa",
+  "plus-industrial",
+  "p-u-e-l-c-h-e-h-u-m-a-n-c-o-n-s-u-l-t-i-n-g-s-p-a",
+  "pura-aventura",
+  "rivervalley-consulting",
+  "servicios-agromostazal",
+  "servicios-intermediarios-reuse-chile-spa",
+  "sociedad-de-capacitacin-e-ingeniera-calar-ltda",
+  "sustenta-consultores-sp-a",
+  "the-cotton-group-sa",
+  "thermik-haus",
+  "yes-sociedad-annima",
+  "aconcagua-vision-srl",
+  "celulosa-pro",
+  "conscious-management-institute-sa",
+  "consultora-liquen",
+  "glove-travel",
+  "grupo-america-organica",
+  "mater-sustentable",
+  "pulso-corporacin-mdica-sac",
+  "qn-travel-peru",
+  "wild-labs",
+  "inversiones-y-servicios-atacama-spa",
+  "flexografia-y-digital-guerra-y-guerra-limitada",
+  "grupo-stakeholders"
+ ],
+ "organizaciones": [
+  {
+   "id": "40c-consultores",
+   "nombre": "40c Consultores",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "40c.cl",
+   "sitio_web": "http://www.40c.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "abinsa-sp-a",
+   "nombre": "Abinsa SpA (Aqua Baby)",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "aquababy.cl",
+   "sitio_web": "https://www.aquababy.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "abrantes",
+   "nombre": "Abrantes",
+   "nombre_apollo": "Abrantes S.A.",
+   "apollo_id": "54a11b6769702d84c56e3200",
+   "dominio": "abrantes.cl",
+   "sitio_web": "http://www.abrantes.cl",
+   "coincidencia": "exacta",
+   "nota": "hallado sin filtro de ubicacion (Apollo sin HQ); otros candidatos son de Brasil"
+  },
+  {
+   "id": "adclean",
+   "nombre": "Adclean SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "adclean.cl",
+   "sitio_web": "http://www.adclean.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "agencia-de-aduanas-felipe-serrano-solar-y-cia-ltada",
+   "nombre": "Agencia de Aduanas Felipe Serrano Solar y Cia Ltda",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "grow-betteragency",
+   "nombre": "Agencia de Marketing GrowBetter Spa",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "growbetter.agency",
+   "sitio_web": "http://www.growbetter.agency",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "agrcola-e-inversiones-terraman-limitada",
+   "nombre": "Agrícola e Inversiones Terraman Limitada",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "terraman.cl",
+   "sitio_web": "http://www.terraman.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "agrcola-valles-del-sur-sp-a",
+   "nombre": "Agrícola Valles del Sur SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "aguas-santa-amalia-sa",
+   "nombre": "Aguas Santa Amalia S.A.",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "alfa-sea",
+   "nombre": "Alfa Sea",
+   "nombre_apollo": "ALFA SEA SPA",
+   "apollo_id": "6727fbae4193e90001dbfdbb",
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "exacta",
+   "nota": "Apollo identifica la organizacion pero no registra dominio ni sitio web"
+  },
+  {
+   "id": "trendy",
+   "nombre": "Alimentos Trendy",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "alimentostrendy.com",
+   "sitio_web": "http://www.alimentostrendy.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "almaciguera-consultora",
+   "nombre": "Almaciguera Consultora",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "almaciguera.com",
+   "sitio_web": "http://www.almaciguera.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "almacruz",
+   "nombre": "Almacruz",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "reciclajes-industriales",
+   "nombre": "Armony Sustentable",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "asgreen-ingeniera-sustentable",
+   "nombre": "Asgreen Ingeniería Sustentable",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "asgreen.cl",
+   "sitio_web": "http://www.asgreen.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "aurys-consulting",
+   "nombre": "Aurys Consulting",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "aurysconsulting.com",
+   "sitio_web": "http://www.aurysconsulting.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "balloon-latam",
+   "nombre": "Balloon Latam",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "balloonlatam.com",
+   "sitio_web": "http://www.balloonlatam.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "bancoestado-microempresas",
+   "nombre": "BancoEstado Microempresas",
+   "nombre_apollo": "BancoEstado",
+   "apollo_id": "54a242d27468692e7194151b",
+   "dominio": "bancoestado.cl",
+   "sitio_web": "http://www.bancoestado.cl",
+   "coincidencia": "probable",
+   "nota": "marca matriz BancoEstado; la filial Microempresas no figura por separado en Apollo"
+  },
+  {
+   "id": "bermarg-spa",
+   "nombre": "Bermarg SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "bermarg.cl",
+   "sitio_web": "http://www.bermarg.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "better-brands",
+   "nombre": "Better Brands",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "betterbrands.cl",
+   "sitio_web": "http://www.betterbrands.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "burn-to-give",
+   "nombre": "Betterfly (ficha B Lab: burn to give)",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "betterfly.com",
+   "sitio_web": "http://www.betterfly.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "biobrush",
+   "nombre": "Biobrush",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "biobrush.cl",
+   "sitio_web": "http://www.biobrush.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "biocys",
+   "nombre": "Biocys",
+   "nombre_apollo": "Biocys",
+   "apollo_id": "6645836bfa55ab000134eb10",
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "exacta",
+   "nota": "Apollo identifica la organizacion pero no registra dominio ni sitio web"
+  },
+  {
+   "id": "bioelements-group-spa",
+   "nombre": "BIOELEMENTS GROUP SPA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "bioprocess-chile",
+   "nombre": "Bioprocess chile",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "bioprocess.cl",
+   "sitio_web": "http://www.bioprocess.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "biosfera-austral",
+   "nombre": "Biosfera Austral SPA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "biosfera-austral.cl",
+   "sitio_web": "http://www.biosfera-austral.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "birdschile",
+   "nombre": "BirdsChile",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "birdschile.com",
+   "sitio_web": "http://www.birdschile.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "sin-ficha-birdschile",
+   "nombre": "BirdsChile",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "birdschile.com",
+   "sitio_web": "http://www.birdschile.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "bligraf-sa",
+   "nombre": "Bligraf",
+   "nombre_apollo": "BLIGRAF S.A.",
+   "apollo_id": "56e7c87cf3e5bb6318001056",
+   "dominio": "bligraf.com",
+   "sitio_web": "http://www.bligraf.com",
+   "coincidencia": "exacta",
+   "nota": "hallado sin filtro de ubicacion"
+  },
+  {
+   "id": "bridge-chile",
+   "nombre": "Bridge Chile",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "b-tools",
+   "nombre": "Btools Spa",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "btoolsproducciones.com",
+   "sitio_web": "http://www.btoolsproducciones.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "buydepa",
+   "nombre": "Buydepa",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "buydepa.com",
+   "sitio_web": "http://www.buydepa.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "cajavecina",
+   "nombre": "CajaVecina",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "carboneutral",
+   "nombre": "Carboneutral",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "carboneutral.cl",
+   "sitio_web": "http://www.carboneutral.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "carga-inteligente",
+   "nombre": "Carga Inteligente",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "casa-molle",
+   "nombre": "Casa Molle",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "casaco",
+   "nombre": "CasaCo",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "casaco.org",
+   "sitio_web": "http://www.casaco.org",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "cavas-del-valle",
+   "nombre": "Cavas del Valle",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "cavasdelvalle.cl",
+   "sitio_web": "http://www.cavasdelvalle.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "cebra",
+   "nombre": "Cebra",
+   "nombre_apollo": "Cebra 🦓",
+   "apollo_id": "556d76f17369641208671001",
+   "dominio": "cebra.com",
+   "sitio_web": "http://www.cebra.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda",
+   "nombre": "Centro de Innovación y Emprendimiento Copayapu Consultores Ltda",
+   "nombre_apollo": "Copayapu Consultores",
+   "apollo_id": "6379a4a87d44b40001f2ef44",
+   "dominio": "copayapuconsultores.cl",
+   "sitio_web": "http://www.copayapuconsultores.cl",
+   "coincidencia": "probable",
+   "nota": "marca Copayapu Consultores; otros candidatos Copayapu Nos / Propiedades descartados"
+  },
+  {
+   "id": "cervecera-guayacan-spa",
+   "nombre": "Cervecera Guayacán SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "cervecera-chile-sa",
+   "nombre": "Cervecería Chile S.A.",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "coda",
+   "nombre": "Cervecería CODA",
+   "nombre_apollo": "Cervecería CODA",
+   "apollo_id": "5da2e4962c81690001c91425",
+   "dominio": "coda.cl",
+   "sitio_web": "http://www.coda.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "ciclo-fauna",
+   "nombre": "CicloFauna",
+   "nombre_apollo": "CicloFauna",
+   "apollo_id": "5a9e9321a6da98d9977cc487",
+   "dominio": "ciclofauna.cl",
+   "sitio_web": "http://www.ciclofauna.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "comaco",
+   "nombre": "COMACO",
+   "nombre_apollo": "Comaco Grúas",
+   "apollo_id": "60b07519a7331d00014f34f0",
+   "dominio": "comaco.cl",
+   "sitio_web": "http://www.comaco.cl",
+   "coincidencia": "probable",
+   "nota": "ambiguo: tambien existe Comaco Forestal (comacoforestal.com); se elige Comaco Grúas por rubro apoyo al transporte"
+  },
+  {
+   "id": "comercial-las-mellizas-spa",
+   "nombre": "Comercial Las Mellizas SPA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "compaas-cic",
+   "nombre": "Compañías CIC",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "cic.cl",
+   "sitio_web": "https://www.cic.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "constructora-oval",
+   "nombre": "Constructora Oval",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "constructoraoval.cl",
+   "sitio_web": "http://www.constructoraoval.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "cristin-fernndez-arquitectos",
+   "nombre": "Cristián Fernández Arquitectos",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "cfa.cl",
+   "sitio_web": "http://www.cfa.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "cultiva-empresa",
+   "nombre": "Cultiva Empresa",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "cultivaempresa.cl",
+   "sitio_web": "http://www.cultivaempresa.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "cumplo-chile-sa",
+   "nombre": "Cumplo",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "cumplo.com",
+   "sitio_web": "http://www.cumplo.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "c-z-abogados",
+   "nombre": "CZ Abogados",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "czabogados.cl",
+   "sitio_web": "http://www.czabogados.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "cz-tokosova-hydrovalv",
+   "nombre": "CZ Tokosova Hydrovalv SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "de-raz-chile",
+   "nombre": "De Raíz Chile",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "deraizchile.cl",
+   "sitio_web": "http://www.deraizchile.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "deisa",
+   "nombre": "DEISA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "deisa.cl",
+   "sitio_web": "http://www.deisa.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "sin-ficha-dictuc",
+   "nombre": "DICTUC",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "dictuc.cl",
+   "sitio_web": "http://www.dictuc.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "dictuc-sa",
+   "nombre": "Dictuc S.A.",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "dictuc.cl",
+   "sitio_web": "http://www.dictuc.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "dijase",
+   "nombre": "Dijase",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "dijase.cl",
+   "sitio_web": "http://www.dijase.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "ebco",
+   "nombre": "EBCO",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "ebco.cl",
+   "sitio_web": "http://www.ebco.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "eclass-sa",
+   "nombre": "eClass SA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "eclass.com",
+   "sitio_web": "http://www.eclass.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "ecomundo-reciclajes-sp-a",
+   "nombre": "Ecomundo Reciclajes SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "econsult-ambiental",
+   "nombre": "Econsult Ambiental",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "econsultambiental.cl",
+   "sitio_web": "http://www.econsultambiental.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "ecoterra",
+   "nombre": "Ecoterra",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "ecoterra.cl",
+   "sitio_web": "http://www.ecoterra.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "egaa-abogados",
+   "nombre": "Egaña Abogados",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "eycia.cl",
+   "sitio_web": "http://www.eycia.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "ematris",
+   "nombre": "Ematris",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "ematris.cl",
+   "sitio_web": "http://www.ematris.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "empresas-torre-sa",
+   "nombre": "Empresas Torre S.A.",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "energa-libre",
+   "nombre": "Energía Libre",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna",
+   "nota": "Apollo solo tiene homonimos sin sede en Chile (energialibre.com.mx, energialibre.net); no verificable, descartados"
+  },
+  {
+   "id": "entidad-patrocinante-unin-sp-a",
+   "nombre": "Entidad Patrocinante Unión Ltda",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "unionep.cl",
+   "sitio_web": "http://www.unionep.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "estudio-lado-humano-consultores-ltda",
+   "nombre": "Estudio Lado Humano Consultores Ltda",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "estudioladohumano.cl",
+   "sitio_web": "http://www.estudioladohumano.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "estudios-y-consultorias-focus",
+   "nombre": "Estudios y Consultorías Focus",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "explora-chile-s-a",
+   "nombre": "Explora Chile SA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "explora.com",
+   "sitio_web": "https://www.explora.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "finmas",
+   "nombre": "Finmas SA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "finmas.cl",
+   "sitio_web": "http://www.finmas.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "finterra",
+   "nombre": "Finterra",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "finterra.cl",
+   "sitio_web": "http://www.finterra.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "frisbi-marketing",
+   "nombre": "Frisbi Marketing",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "fruselva-amrica",
+   "nombre": "Fruselva Grupo",
+   "nombre_apollo": "Fruselva",
+   "apollo_id": "5e2454dc5fb47e009835293e",
+   "dominio": "fruselva.com",
+   "sitio_web": "http://www.fruselva.com",
+   "coincidencia": "probable",
+   "nota": "marca Fruselva coincide; HQ no verificable en Apollo (otro candidato Fruselva S.L. sin dominio)"
+  },
+  {
+   "id": "fruticola-olmue-spa",
+   "nombre": "Frutícola Olmué SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "olmue.com",
+   "sitio_web": "http://www.olmue.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "future-foods-sp-a",
+   "nombre": "Future Foods SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna",
+   "nota": "Apollo solo tiene homonimos 'Future Foods' (EE.UU. y otros, sin sede en Chile); no verificable, descartados"
+  },
+  {
+   "id": "garces-fruit",
+   "nombre": "Garces Fruit",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "garcesfruit.com",
+   "sitio_web": "http://www.garcesfruit.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "gesam-consultores-ambientales",
+   "nombre": "Gesam Consultores Ambientales",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "gesam.cl",
+   "sitio_web": "http://www.gesam.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "green-glass",
+   "nombre": "Green Glass",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "greenglass.cl",
+   "sitio_web": "http://www.greenglass.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "green-libros",
+   "nombre": "Green Libros",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "greenlibros.com",
+   "sitio_web": "http://www.greenlibros.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "green-spot-spa",
+   "nombre": "GREEN SPOT SPA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna",
+   "nota": "Apollo solo tiene homonimos 'Green Spot' (Ecuador, Tailandia, Rumania, otros); ninguno verificable como la empresa chilena"
+  },
+  {
+   "id": "greening-sp-a",
+   "nombre": "Greening SpA",
+   "nombre_apollo": "Greening | Consultoría Ambiental y Sostenibilidad",
+   "apollo_id": "5ed1dd455e7b850001b338e2",
+   "dominio": "greening-rca.cl",
+   "sitio_web": "http://www.greening-rca.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "grupo-educativo",
+   "nombre": "Grupo Educativo",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "grupoeducativo.cl",
+   "sitio_web": "http://www.grupoeducativo.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "grupo-enovus",
+   "nombre": "Grupo Enovus",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "enovus.cl",
+   "sitio_web": "http://www.enovus.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "grupo-verdical-spa",
+   "nombre": "Grupo Verdical SPA",
+   "nombre_apollo": "VerdicalCL",
+   "apollo_id": "6746fffa67b3f00001c01d8a",
+   "dominio": "verdical.cl",
+   "sitio_web": "http://www.verdical.cl",
+   "coincidencia": "probable",
+   "nota": "marca Verdical (hallado con q2 'Verdical' y filtro Chile)"
+  },
+  {
+   "id": "hilana",
+   "nombre": "HILANA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna",
+   "nota": "Apollo tiene 'HILANA: Upcycled Cotton' (id 5e5738b49c26710001e5132b) pero con dominio incoherente hairworkswny.com; descartado"
+  },
+  {
+   "id": "hortifrut-chile",
+   "nombre": "Hortifrut Chile",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "hortifrut.com",
+   "sitio_web": "http://www.hortifrut.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "imeko-spa",
+   "nombre": "IMEKO SPA",
+   "nombre_apollo": "IMEKO Global",
+   "apollo_id": "5db02928479bd500013d63d0",
+   "dominio": "imeko.cl",
+   "sitio_web": "http://www.imeko.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "impacto-35",
+   "nombre": "Impacto 35",
+   "nombre_apollo": "Impacto 35",
+   "apollo_id": "6371c3d43675270001dbf4e6",
+   "dominio": "impacto35.com",
+   "sitio_web": "http://www.impacto35.com",
+   "coincidencia": "probable",
+   "nota": "nombre unico pero sede no verificada en Apollo (hallado sin filtro de ubicacion)"
+  },
+  {
+   "id": "implementa-sur",
+   "nombre": "ImplementaSur",
+   "nombre_apollo": "ImplementaSur",
+   "apollo_id": "5b14b8a9a6da987120e1c583",
+   "dominio": "implementasur.com",
+   "sitio_web": "http://www.implementasur.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "inmobiliaria-norte-verde",
+   "nombre": "Inmobiliaria Norte Verde",
+   "nombre_apollo": "Inmobiliaria Norte Verde",
+   "apollo_id": "5c28063b80f93e329c68c469",
+   "dominio": "norte-verde.cl",
+   "sitio_web": "http://www.norte-verde.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "inmobiliaria-regenera",
+   "nombre": "Inmobiliaria Regenera",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "iregenera.cl",
+   "sitio_web": "http://www.iregenera.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "innspiral",
+   "nombre": "INNSPIRAL",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "innspiral.com",
+   "sitio_web": "http://www.innspiral.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "instituto-profesional-aiep",
+   "nombre": "Instituto Profesional AIEP",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "aiep.cl",
+   "sitio_web": "https://www.aiep.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "integra-chile-sa",
+   "nombre": "Integra Chile SPA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "integrachile.com",
+   "sitio_web": "http://www.integrachile.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "inversiones-focus-sp-a",
+   "nombre": "Inversiones SoyFocus SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "soyfocus.com",
+   "sitio_web": "http://www.soyfocus.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "isla-natura-exportadora-ltda",
+   "nombre": "Isla Natura Exportadora Ltda",
+   "nombre_apollo": "Isla Natura de Chile - Organic Superfoods from Patagonia: Maqui, Murta, Rosehip, Raw Honeys & Bars",
+   "apollo_id": "5fca25383e41f0000183f185",
+   "dominio": "islanatura.com",
+   "sitio_web": "http://www.islanatura.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "karibu",
+   "nombre": "Karibu",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "karibu.cl",
+   "sitio_web": "http://www.karibu.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "karbag",
+   "nombre": "Karübag",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "karubag.cl",
+   "sitio_web": "http://www.karubag.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "karun",
+   "nombre": "Karün",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "karunworld.com",
+   "sitio_web": "http://www.karunworld.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "kintu-spaces",
+   "nombre": "Kintu Spaces",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "kintuspaces.cl",
+   "sitio_web": "http://www.kintuspaces.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "kodama-consultores",
+   "nombre": "Kodama Consultores",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "kodamaconsultores.com",
+   "sitio_web": "http://www.kodamaconsultores.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "desarrollo-organizacional-kraakman-ltda",
+   "nombre": "Kraakman Coaching",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "kraakman.cl",
+   "sitio_web": "http://www.kraakman.cl",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "la-ventana-cine",
+   "nombre": "La Ventana Cine",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "laventanacine.com",
+   "sitio_web": "http://www.laventanacine.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "lacteos-y-turismo-playa-venado",
+   "nombre": "Lácteos y Turismo Playa Venado",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "late",
+   "nombre": "LATE!",
+   "nombre_apollo": "Late!",
+   "apollo_id": "54a12aba69702dc84181f101",
+   "dominio": "late.cl",
+   "sitio_web": "http://www.late.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "constructora-l-y-d",
+   "nombre": "LD Constructora",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "leytonmedia",
+   "nombre": "Leytonmedia",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": "leytonmedia.com",
+   "sitio_web": "http://www.leytonmedia.com",
+   "coincidencia": "ya_resuelta"
+  },
+  {
+   "id": "lof-servicios-spa",
+   "nombre": "LOF Servicios SPA",
+   "nombre_apollo": "LOF Servicios SpA",
+   "apollo_id": "6726411e7224cd0001d1ee1f",
+   "dominio": "lofservicios.com",
+   "sitio_web": "http://www.lofservicios.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "lonchera-sp-a",
+   "nombre": "Lonchera SpA",
+   "nombre_apollo": "Lonchera SpA",
+   "apollo_id": "64a26c3d238ed7000153a1f4",
+   "dominio": "lonchera.cl",
+   "sitio_web": "http://www.lonchera.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "lukkap-chile",
+   "nombre": "Lukkap Chile",
+   "nombre_apollo": "Lukkap Chile",
+   "apollo_id": "5ed5cc85c20b150001628f4a",
+   "dominio": "lukkap.cl",
+   "sitio_web": "http://www.lukkap.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "lup",
+   "nombre": "LUP",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna",
+   "nota": "candidatos de Apollo (LupaBTL, LUP manager, Lupa Consultoras, etc.) no corresponden al estudio de diseno LUP; descartados"
+  },
+  {
+   "id": "mali-spa",
+   "nombre": "Mali SPA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna",
+   "nota": "unico candidato chileno 'Mali Shop' (malishop.cl) no verificable como Mali SPA; descartado"
+  },
+  {
+   "id": "market-people-indumentarias-sp-a",
+   "nombre": "Market People Indumentarias SpA",
+   "nombre_apollo": "Market People",
+   "apollo_id": "623fc9811a04390001b71b62",
+   "dominio": "emarketpeople.com",
+   "sitio_web": "http://www.emarketpeople.com",
+   "coincidencia": "probable",
+   "nota": "marca Market People (con filtro Chile); verificar dominio, nombre legal Market People Indumentarias SpA"
+  },
+  {
+   "id": "marketgreen",
+   "nombre": "Marketgreen SPA",
+   "nombre_apollo": "Marketgreen",
+   "apollo_id": "5c2511f080f93e23fe5464f2",
+   "dominio": "marketgreen.cl",
+   "sitio_web": "http://www.marketgreen.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "mejores-prcticas",
+   "nombre": "Mejores Prácticas",
+   "nombre_apollo": "Mejores Prácticas Asociados SpA",
+   "apollo_id": "5569c1e67369642541508c00",
+   "dominio": "mejores-practicas.com",
+   "sitio_web": "http://www.mejores-practicas.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "mercado-circular-sp-a",
+   "nombre": "Mercado Circular SpA",
+   "nombre_apollo": "Mercado Circular",
+   "apollo_id": "660f960ef2d7610007a7fced",
+   "dominio": "mercadocircular.com",
+   "sitio_web": "http://www.mercadocircular.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "minka",
+   "nombre": "Minka",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna",
+   "nota": "Apollo tiene varias 'Minka' chilenas (Minka SpA cminka.cl, Minka Cooperativa de Trabajo, Minka Producciones) sin poder identificar la marca de accesorios; descartadas"
+  },
+  {
+   "id": "montes-wines",
+   "nombre": "Montes Wines",
+   "nombre_apollo": "Montes Wines",
+   "apollo_id": "5f4a8687e5f46f00017caa56",
+   "dominio": "monteswines.com",
+   "sitio_web": "http://www.monteswines.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "nijei-spa",
+   "nombre": "NEWEN",
+   "nombre_apollo": "Newen Cosmética",
+   "apollo_id": "61ec59cc1af1240001d89a91",
+   "dominio": "newencosmetica.com",
+   "sitio_web": "http://www.newencosmetica.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile; rubro cosmetica coincide (otros Newen descartados)"
+  },
+  {
+   "id": "nodo-chile",
+   "nombre": "Nodo Chile",
+   "nombre_apollo": "Nodo Chile",
+   "apollo_id": "55f6f814f3e5bb192c01d254",
+   "dominio": "nodochile.cl",
+   "sitio_web": "http://www.nodochile.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "novofarma-service-sa",
+   "nombre": "Novofarma Service S.A.",
+   "nombre_apollo": "Novofarma Service S.A.",
+   "apollo_id": "556dcf1473696411f4a1a501",
+   "dominio": "novofarma.com",
+   "sitio_web": "http://www.novofarma.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "hotel-awa",
+   "nombre": "Operadora Piedra Linda (Hotel AWA)",
+   "nombre_apollo": "Hotel AWA",
+   "apollo_id": "5e57db9d42a70300015eb00f",
+   "dominio": "hotelawa.cl",
+   "sitio_web": "http://www.hotelawa.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile; marca entre parentesis en el nombre (razon social Operadora Piedra Linda)"
+  },
+  {
+   "id": "rotter-y-krauss",
+   "nombre": "Ópticas Rotter y Krauss",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "orion",
+   "nombre": "Orion",
+   "nombre_apollo": "Orion LATAM",
+   "apollo_id": "55921648736964185f405e00",
+   "dominio": "orion.global",
+   "sitio_web": "http://www.orion.global",
+   "coincidencia": "probable",
+   "nota": "nombre generico; elegido por coincidir con consultora de transformacion digital en Latinoamerica (otros Orion descartados)"
+  },
+  {
+   "id": "gestin-ambiental-paiwe-limitada",
+   "nombre": "Pañiwe Sustentable",
+   "nombre_apollo": "Pañiwe Sustentable Ltd.",
+   "apollo_id": "6383d5645a298100016de287",
+   "dominio": "paniwe.cl",
+   "sitio_web": "http://www.paniwe.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "pas-denom",
+   "nombre": "Pas Denom",
+   "nombre_apollo": "PAS DENOM",
+   "apollo_id": "5b1481d7a6da98714a05370c",
+   "dominio": "pasdenom.cl",
+   "sitio_web": "http://www.pasdenom.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "patagonia-biotecnologa-sa",
+   "nombre": "Patagonia Biotecnología SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "patagua",
+   "nombre": "Patagua",
+   "nombre_apollo": "Patagua - Empresa B",
+   "apollo_id": "556d56eb73696411bc7be200",
+   "dominio": "patagua.cl",
+   "sitio_web": "http://www.patagua.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "peralta-abogados",
+   "nombre": "Peralta Abogados",
+   "nombre_apollo": "Peralta Abogados",
+   "apollo_id": "66e57d557bcf530001d1d6fc",
+   "dominio": "peraltabogados.cl",
+   "sitio_web": "http://www.peraltabogados.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "plus-industrial",
+   "nombre": "Plus Industrial",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "probenefit-comercial-y-servicios-sp-a",
+   "nombre": "Probenefit Comercial y Servicios SpA",
+   "nombre_apollo": "PROBENEFIT",
+   "apollo_id": "54a12a2a69702d9548fae801",
+   "dominio": "probenefit.cl",
+   "sitio_web": "http://www.probenefit.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "productos-san-camilo",
+   "nombre": "Productos San Camilo",
+   "nombre_apollo": "San Camilo, Panadería y Pastelería",
+   "apollo_id": "56d5f617f3e5bb34f700050e",
+   "dominio": "sancamilo.com",
+   "sitio_web": "http://www.sancamilo.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile; rubro panaderia coincide"
+  },
+  {
+   "id": "prolearning-gestiones-inostroza-pombett-sp-a",
+   "nombre": "PROLEARNING / Gestiones Inostroza Pombett SpA",
+   "nombre_apollo": "PROLEARNING",
+   "apollo_id": "54a1295269702d8cfc53c201",
+   "dominio": "prolearning.cl",
+   "sitio_web": "http://www.prolearning.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "proxima",
+   "nombre": "Próxima Servicios",
+   "nombre_apollo": "Próxima Servicios",
+   "apollo_id": "556d6e6d73696411c72b0a01",
+   "dominio": "proximaservicios.cl",
+   "sitio_web": "http://www.proximaservicios.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "proyecta",
+   "nombre": "Proyecta Impacto",
+   "nombre_apollo": "Proyecta Impacto",
+   "apollo_id": "5d328d08f651250e5c5641ce",
+   "dominio": "proyectaimpacto.com",
+   "sitio_web": "http://www.proyectaimpacto.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "p-u-e-l-c-h-e-h-u-m-a-n-c-o-n-s-u-l-t-i-n-g-s-p-a",
+   "nombre": "Puelche Human Consulting SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "pura-aventura",
+   "nombre": "Pura Aventura",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "rcr-spa",
+   "nombre": "RCR SPA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna",
+   "nota": "unico candidato 'RCR Chile' (rcrchile.cl) no verificable como RCR SPA (recicladora de plastico, Araucania); descartado"
+  },
+  {
+   "id": "recylink",
+   "nombre": "RECYLINK",
+   "nombre_apollo": "RECYLINK.com",
+   "apollo_id": "5c228515a3ae613811c79e79",
+   "dominio": "recylink.com",
+   "sitio_web": "http://www.recylink.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "regenera-orgnico",
+   "nombre": "Regenera Orgánico",
+   "nombre_apollo": "Regenera Orgánico",
+   "apollo_id": "63b9b38a3bf7a700015f06ea",
+   "dominio": "regeneraorganico.cl",
+   "sitio_web": "http://www.regeneraorganico.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "rheoli-sp-a",
+   "nombre": "Rheoli SpA",
+   "nombre_apollo": "Rheoli",
+   "apollo_id": "5c2434caf651256fba3e1170",
+   "dominio": "rheoliglobal.com",
+   "sitio_web": "http://www.rheoliglobal.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "rising-sun-chile",
+   "nombre": "Rising Sun Chile",
+   "nombre_apollo": "Rising Sun Chile",
+   "apollo_id": "5a9e5fa2a6da98d954dc3509",
+   "dominio": "risingsun.cl",
+   "sitio_web": "http://www.risingsun.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "rivervalley-consulting",
+   "nombre": "Rivervalley Consulting",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "rubtec",
+   "nombre": "Rubtec",
+   "nombre_apollo": "Rubtec",
+   "apollo_id": "6453699764a41a0001c36c52",
+   "dominio": "rubtec.cl",
+   "sitio_web": "http://www.rubtec.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "sudamerik",
+   "nombre": "SDK (Sudamerik)",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna"
+  },
+  {
+   "id": "sembrador",
+   "nombre": "Sembrador",
+   "nombre_apollo": "Sembrador Capital",
+   "apollo_id": "5f7152ecc3fd0e00db97a6b5",
+   "dominio": "sembradorcapital.com",
+   "sitio_web": "http://www.sembradorcapital.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile; gestora de fondos coincide con el rubro"
+  },
+  {
+   "id": "servicios-agromostazal",
+   "nombre": "Servicios Agromostazal SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "servicios-audiovisuales-sofan-sp-a",
+   "nombre": "Servicios Audiovisuales Sofan SpA",
+   "nombre_apollo": "SOFAN",
+   "apollo_id": "63837522437ff50001c58756",
+   "dominio": "sofan.cl",
+   "sitio_web": "http://www.sofan.cl",
+   "coincidencia": "probable",
+   "nota": "marca SOFAN; razon social Servicios Audiovisuales Sofan SpA"
+  },
+  {
+   "id": "servicios-intermediarios-reuse-chile-spa",
+   "nombre": "Servicios Intermediarios Reuse Chile SpA (Reuse)",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "asesorias-simplicity-spa",
+   "nombre": "Simplicity (Asesorías Simplicity SpA)",
+   "nombre_apollo": "Simplicity Agency",
+   "apollo_id": "556df15a73696410d0f80f00",
+   "dominio": "wearesimplicity.com",
+   "sitio_web": "http://www.wearesimplicity.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile; agencia de comunicaciones coincide (descartado homonimo SimpliCity simpli-city.cl)"
+  },
+  {
+   "id": "skinautica",
+   "nombre": "Skinautica",
+   "nombre_apollo": "SKINAUTICA",
+   "apollo_id": "5fc8045f5b06b00001bb6d64",
+   "dominio": "skinautica.cl",
+   "sitio_web": "http://www.skinautica.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "socialab",
+   "nombre": "Socialab",
+   "nombre_apollo": "Socialab",
+   "apollo_id": "54a11fa469702d8ccc42fd01",
+   "dominio": "socialab.com",
+   "sitio_web": "http://www.socialab.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "sociedad-de-capacitacin-e-ingeniera-calar-ltda",
+   "nombre": "Sociedad de Capacitación e Ingeniería Calar Ltda",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "southbridge",
+   "nombre": "Southbridge Compañía de Seguros Generales S.A",
+   "nombre_apollo": "Southbridge Compañía de Seguros",
+   "apollo_id": "5b1488d2a6da9870e3882e3e",
+   "dominio": "southbridgeseguros.cl",
+   "sitio_web": "http://www.southbridgeseguros.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "sphera-energy-sp-a",
+   "nombre": "Sphera Energy SpA",
+   "nombre_apollo": "Sphera Energy",
+   "apollo_id": "55f4892bf3e5bb509b000d02",
+   "dominio": "spheraenergy.com",
+   "sitio_web": "http://www.spheraenergy.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "sustenta-consultores-sp-a",
+   "nombre": "Sustenta Consultores SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "symnetics-chile",
+   "nombre": "Symnetics Chile",
+   "nombre_apollo": "SYM",
+   "apollo_id": "54a25f1a74686930c2abb81d",
+   "dominio": "symnetics.cl",
+   "sitio_web": "http://www.symnetics.cl",
+   "coincidencia": "probable",
+   "nota": "nombre Apollo 'SYM' pero dominio symnetics.cl coincide con Symnetics Chile"
+  },
+  {
+   "id": "the-cotton-group-sa",
+   "nombre": "The Cotton Group SA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "the-not-company",
+   "nombre": "The Not Company",
+   "nombre_apollo": "NotCo",
+   "apollo_id": "5f3fb2de6c0a770001a8a625",
+   "dominio": "notco.ai",
+   "sitio_web": "http://www.notco.ai",
+   "coincidencia": "probable",
+   "nota": "marca NotCo (hallado con q2 y filtro Chile); razon social The Not Company"
+  },
+  {
+   "id": "the-wild-foods",
+   "nombre": "The Wild Foods",
+   "nombre_apollo": "The Wild Foods",
+   "apollo_id": "5c1ffb1580f93e91862bb8f1",
+   "dominio": "thewildfoods.com",
+   "sitio_web": "http://www.thewildfoods.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "thermik-haus",
+   "nombre": "Thermik Haus",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "tironi",
+   "nombre": "TIRONI",
+   "nombre_apollo": "TIRONI",
+   "apollo_id": "5e57ac565e3c26000104a553",
+   "dominio": "tironi.cl",
+   "sitio_web": "http://www.tironi.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "pegas-con-sentido",
+   "nombre": "Trabajo con Sentido (Pegas con Sentido)",
+   "nombre_apollo": "Pegas con Sentido",
+   "apollo_id": "54a1346369702d4b2eba0200",
+   "dominio": "pegasconsentido.cl",
+   "sitio_web": "http://www.pegasconsentido.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile; marca entre parentesis en el nombre"
+  },
+  {
+   "id": "trasiego-wines-sa",
+   "nombre": "Trasiego Wines S.A.",
+   "nombre_apollo": "TRASIEGO WINES",
+   "apollo_id": "5f48a71429502e0001dbd191",
+   "dominio": "trasiegowines.com",
+   "sitio_web": "http://www.trasiegowines.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "trayecta-asesoras-inmobiliarias-sp-a",
+   "nombre": "Trayecta Inmobiliaria",
+   "nombre_apollo": "Inmobiliaria Trayecta",
+   "apollo_id": "6826d7a4b28701000102dae3",
+   "dominio": "trayecta.cl",
+   "sitio_web": "http://www.trayecta.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile; existe duplicado 'Trayecta Inmobiliaria' (id 66f38952a9898b00019d6e6d) sin dominio"
+  },
+  {
+   "id": "triciclos-brasil",
+   "nombre": "TriCiclos",
+   "nombre_apollo": "TriCiclosB",
+   "apollo_id": "54a1340b69702d2db49c5100",
+   "dominio": "triciclos.cl",
+   "sitio_web": "http://www.triciclos.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "sin-ficha-triciclos",
+   "nombre": "TriCiclos",
+   "nombre_apollo": "TriCiclosB",
+   "apollo_id": "54a1340b69702d2db49c5100",
+   "dominio": "triciclos.cl",
+   "sitio_web": "http://www.triciclos.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "unibag",
+   "nombre": "UNIBAG",
+   "nombre_apollo": "Unibag",
+   "apollo_id": "5e58e97a1bee7700012bbab3",
+   "dominio": "unibag.cl",
+   "sitio_web": "http://www.unibag.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "urbani-limitada",
+   "nombre": "Urbani Limitada",
+   "nombre_apollo": "Urbani - Gestión Inmobiliaria",
+   "apollo_id": "56e81767f3e5bb06d9000de2",
+   "dominio": "urbani.cl",
+   "sitio_web": "http://www.urbani.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile; rubro inmobiliario coincide"
+  },
+  {
+   "id": "sin-ficha-vina-concha-y-toro",
+   "nombre": "Viña Concha y Toro",
+   "nombre_apollo": "Viña Concha y Toro",
+   "apollo_id": "615e509c09c733000162151c",
+   "dominio": "vinacyt.com",
+   "sitio_web": "http://www.vinacyt.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "via-concha-y-toro-sa",
+   "nombre": "Viña Concha y Toro S.A.",
+   "nombre_apollo": "Viña Concha y Toro",
+   "apollo_id": "615e509c09c733000162151c",
+   "dominio": "vinacyt.com",
+   "sitio_web": "http://www.vinacyt.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "los-vascos",
+   "nombre": "Viña Los Vascos",
+   "nombre_apollo": "Viña Los Vascos SA",
+   "apollo_id": "5f72eca042bcea00f861a4ea",
+   "dominio": "xn--vialosvascos-bhb.cl",
+   "sitio_web": "http://www.xn--vialosvascos-bhb.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile; dominio en punycode (equivale a viñalosvascos.cl); existe duplicado 'Viña los Vascos' (id 56e42359f3e5bb68cb0006f5) sin dominio"
+  },
+  {
+   "id": "via-mont-gras",
+   "nombre": "Viña MontGras",
+   "nombre_apollo": "MontGras Winery",
+   "apollo_id": "5e57a75c10cdf70001eb98e0",
+   "dominio": "montgras.cl",
+   "sitio_web": "http://www.montgras.cl",
+   "coincidencia": "exacta",
+   "nota": "hallado con q2 'MontGras' y filtro Chile"
+  },
+  {
+   "id": "vina-polkura-sa",
+   "nombre": "Viña Polkura SpA",
+   "nombre_apollo": "vina polkura",
+   "apollo_id": "6718bb91ce50080001816040",
+   "dominio": "polkura.cl",
+   "sitio_web": "http://www.polkura.cl",
+   "coincidencia": "exacta",
+   "nota": "hallado con q2 'Polkura' y filtro Chile"
+  },
+  {
+   "id": "emiliana-vineyards",
+   "nombre": "Viñedos Emiliana S.A.",
+   "nombre_apollo": "Emiliana",
+   "apollo_id": "5f4a05c6c2fc4c000118dc6c",
+   "dominio": "emiliana.cl",
+   "sitio_web": "http://www.emiliana.cl",
+   "coincidencia": "probable",
+   "nota": "marca Emiliana (hallado con q2 y filtro Chile); razon social Vinedos Emiliana S.A."
+  },
+  {
+   "id": "virutex-ilko",
+   "nombre": "Virutex Ilko",
+   "nombre_apollo": "Empresas Virutex Ilko",
+   "apollo_id": "54a11fdf69702da7530d1702",
+   "dominio": "virutexilko.com",
+   "sitio_web": "http://www.virutexilko.com",
+   "coincidencia": "exacta",
+   "nota": "hallado con q2 'Virutex' y filtro Chile"
+  },
+  {
+   "id": "vita-foods",
+   "nombre": "VitaFoods",
+   "nombre_apollo": "Vitafoods",
+   "apollo_id": "5fcaedfda0add500018c3b6c",
+   "dominio": "vitafoods.com",
+   "sitio_web": "http://www.vitafoods.com",
+   "coincidencia": "probable",
+   "nota": "nombre identico y filtro Chile; dominio .com no verificado como la procesadora de berries (posible homonimo, p.ej. ferias nutraceuticas)"
+  },
+  {
+   "id": "wherex",
+   "nombre": "Wherex",
+   "nombre_apollo": "Wherex",
+   "apollo_id": "55f4c2dcf3e5bb167a001ea2",
+   "dominio": "wherex.com",
+   "sitio_web": "http://www.wherex.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "wild-lama",
+   "nombre": "Wild Lama",
+   "nombre_apollo": "Wild Lama",
+   "apollo_id": "63ac66f3b3e39600a37228d4",
+   "dominio": "wildlama.com",
+   "sitio_web": "http://www.wildlama.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "xiner-link-sa",
+   "nombre": "XinerLink SA",
+   "nombre_apollo": "XinerLink",
+   "apollo_id": "5c24bf4f80f93e245b9804ad",
+   "dominio": "xinerlink.cl",
+   "sitio_web": "http://www.xinerlink.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "yes-sociedad-annima",
+   "nombre": "Yes Sociedad Anónima (YES Publicidad)",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "10-pines-srl",
+   "nombre": "10Pines SRL",
+   "nombre_apollo": "10Pines",
+   "apollo_id": "55e15f78f3e5bb2e2b00008b",
+   "dominio": "10pines.com",
+   "sitio_web": "http://www.10pines.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "aconcagua-vision-srl",
+   "nombre": "Aconcagua Vision SRL",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "algeiba-sa",
+   "nombre": "Algeiba S.A",
+   "nombre_apollo": "Algeiba S.A.",
+   "apollo_id": "55f70a13f3e5bb1cf001f46f",
+   "dominio": "algeiba.com",
+   "sitio_web": "http://www.algeiba.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "argentina-on-the-go",
+   "nombre": "Argentina On the Go",
+   "nombre_apollo": "Argentina On The Go",
+   "apollo_id": "55f0fcb4f3e5bb501c00034a",
+   "dominio": "argentinaonthego.com",
+   "sitio_web": "http://www.argentinaonthego.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "arthoteles-ecuador-sa",
+   "nombre": "Arthoteles Ecuador S.A. (Art Hotels)",
+   "nombre_apollo": "Art Hotels Ecuador",
+   "apollo_id": "5e568f579d5ff70001d4c521",
+   "dominio": "arthotelsecuador.com",
+   "sitio_web": "http://www.arthotelsecuador.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Ecuador; marca Art Hotels entre parentesis en el nombre"
+  },
+  {
+   "id": "avancargo",
+   "nombre": "Avancargo",
+   "nombre_apollo": "Avancargo",
+   "apollo_id": "5a9e9780a6da98d97016b7ea",
+   "dominio": "avancargo.com",
+   "sitio_web": "http://www.avancargo.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina (descartado AvancargoCS)"
+  },
+  {
+   "id": "biogreen",
+   "nombre": "Biogreen",
+   "nombre_apollo": "Biogreen",
+   "apollo_id": "54a12b0f69702d8eeba1b402",
+   "dominio": "biogreen.com.ar",
+   "sitio_web": "http://www.biogreen.com.ar",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "bureo-inc",
+   "nombre": "Bureo Inc",
+   "nombre_apollo": "Bureo",
+   "apollo_id": "556d1cbd73696411e3caa000",
+   "dominio": "bureo.co",
+   "sitio_web": "http://www.bureo.co",
+   "coincidencia": "exacta",
+   "nota": "con filtro Estados Unidos"
+  },
+  {
+   "id": "campus-brasil",
+   "nombre": "Campus b",
+   "nombre_apollo": "campus b",
+   "apollo_id": "54a2749074686930c2dc3424",
+   "dominio": "campusb.org",
+   "sitio_web": "http://www.campusb.org",
+   "coincidencia": "exacta",
+   "nota": "con filtro Brasil"
+  },
+  {
+   "id": "carryt",
+   "nombre": "Carryt",
+   "nombre_apollo": "Carryt Ecommerce",
+   "apollo_id": "5e8da4095be41e00981f535b",
+   "dominio": "carryt.co",
+   "sitio_web": "http://www.carryt.co",
+   "coincidencia": "exacta",
+   "nota": "con filtro Colombia; existe duplicado 'Carryt' (id 66e8e07248135100013d93c4) sin dominio"
+  },
+  {
+   "id": "celulosa-pro",
+   "nombre": "Celulosa Pro",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "compaia-de-alimentos-y-cereales-sa",
+   "nombre": "Compañía de Alimentos y Cereales SA",
+   "nombre_apollo": "Compañía de Alimentos y Cereales SA",
+   "apollo_id": "60496ce310d73000019f5643",
+   "dominio": "companiadealimentos.com.ar",
+   "sitio_web": "http://www.companiadealimentos.com.ar",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "conscious-management-institute-sa",
+   "nombre": "Conscious Management Institute S.A.",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "consultora-liquen",
+   "nombre": "Consultora Liquen",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "crosshipping",
+   "nombre": "Crosshipping",
+   "nombre_apollo": "Crosshipping",
+   "apollo_id": "54a128f469702da220315901",
+   "dominio": "crosshipping.com",
+   "sitio_web": "http://www.crosshipping.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "esencia-patagonia",
+   "nombre": "Esencia Patagonia",
+   "nombre_apollo": "Esencia Patagonia",
+   "apollo_id": "6148d6ab8f251500a463c985",
+   "dominio": "esenciapatagonia.com",
+   "sitio_web": "http://www.esenciapatagonia.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "glove-travel",
+   "nombre": "Glove Travel",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "grupo-america-organica",
+   "nombre": "Grupo America Orgánica",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "international-bon-ton-toys",
+   "nombre": "International Bon Ton Toys B.V.",
+   "nombre_apollo": "Bon Ton Toys (B Corp)",
+   "apollo_id": "5c226410a3ae613811c7991a",
+   "dominio": "bontontoys.com",
+   "sitio_web": "http://www.bontontoys.com",
+   "coincidencia": "probable",
+   "nota": "hallado con q2 'Bon Ton Toys' sin filtro; marca coincide, razon social International Bon Ton Toys B.V."
+  },
+  {
+   "id": "lucha",
+   "nombre": "Lucha",
+   "nombre_apollo": "Lucha Partners",
+   "apollo_id": "5e5750133f150700016c1b8a",
+   "dominio": "lalucha.com.pe",
+   "sitio_web": "http://www.lalucha.com.pe",
+   "coincidencia": "probable",
+   "nota": "con filtro Peru; nombre corto generico, elegido por rubro (gestora de inversion 'Partners'); descartado LUCHA luchala.org"
+  },
+  {
+   "id": "machu-picchu-foods-sac",
+   "nombre": "Machu Picchu Foods",
+   "nombre_apollo": "Machu Picchu Foods",
+   "apollo_id": "556d7be1736964121f2a2501",
+   "dominio": "mpf.com.pe",
+   "sitio_web": "http://www.mpf.com.pe",
+   "coincidencia": "exacta",
+   "nota": "con filtro Peru; existe duplicado homonimo (id 559231887369641912d7c100) sin dominio"
+  },
+  {
+   "id": "mater-sustentable",
+   "nombre": "MATER SUSTENTABLE",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "neo-consulting",
+   "nombre": "Neo Consulting",
+   "nombre_apollo": "Neo Consulting - Consultora de Data e IA",
+   "apollo_id": "54a126dd69702d9313905000",
+   "dominio": "neoconsulting.ai",
+   "sitio_web": "http://www.neoconsulting.ai",
+   "coincidencia": "exacta",
+   "nota": "con filtro Peru"
+  },
+  {
+   "id": "oyikil-sa",
+   "nombre": "Oyikil SA",
+   "nombre_apollo": "Oyikil Travel",
+   "apollo_id": "54a134d269702d3a9c9d6200",
+   "dominio": "oyikiltravel.com",
+   "sitio_web": "http://www.oyikiltravel.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "patagonia-road",
+   "nombre": "Patagonia Road",
+   "nombre_apollo": "Patagonia Road",
+   "apollo_id": "5fd19c98cb2ec50001e71beb",
+   "dominio": "patagonia-road.com",
+   "sitio_web": "http://www.patagonia-road.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "pch-consultora",
+   "nombre": "PCH Consultora",
+   "nombre_apollo": "PCH Consultora",
+   "apollo_id": "57c502bea6da9869ef36a69a",
+   "dominio": "pchconsultora.com",
+   "sitio_web": "http://www.pchconsultora.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "pulso-corporacin-mdica-sac",
+   "nombre": "Pulso Corporación Médica S.A.C.",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "qn-travel-peru",
+   "nombre": "QN Travel Peru",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "rebatravel-sa",
+   "nombre": "Rebecca Adventure Travel",
+   "nombre_apollo": "Rebecca Adventure Travel | Galapagos & Latin America Luxury DMC | B Corp",
+   "apollo_id": "5a9f48b9a6da98d98c738527",
+   "dominio": "rebeccaadventuretravel.com",
+   "sitio_web": "http://www.rebeccaadventuretravel.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Ecuador"
+  },
+  {
+   "id": "sa-expeditions",
+   "nombre": "SA Expeditions",
+   "nombre_apollo": "SA Expeditions",
+   "apollo_id": "57c4ce72a6da986abef6bcf3",
+   "dominio": "saexpeditions.com",
+   "sitio_web": "http://www.saexpeditions.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Estados Unidos"
+  },
+  {
+   "id": "siga-turismo",
+   "nombre": "SIGA TURISMO",
+   "nombre_apollo": "Siga Turismo",
+   "apollo_id": "54a1352369702d4b2e546100",
+   "dominio": "sigaturismo.com",
+   "sitio_web": "http://www.sigaturismo.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "siigo-sas",
+   "nombre": "Siigo SAS",
+   "nombre_apollo": "Siigo",
+   "apollo_id": "54a1357d69702d2f9fef0d01",
+   "dominio": "siigo.com",
+   "sitio_web": "http://www.siigo.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Colombia"
+  },
+  {
+   "id": "espantapajaros",
+   "nombre": "Espantapajaros",
+   "nombre_apollo": "Restaurante Espantapajaros",
+   "apollo_id": "5f4a9b1be8861100017c7055",
+   "dominio": "espantapajaros.cl",
+   "sitio_web": "http://www.espantapajaros.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "freemet-comercial-spa",
+   "nombre": "Freemet Comercial SpA",
+   "nombre_apollo": "FREEMET CHILE",
+   "apollo_id": "5ed58070efe8b500011adf40",
+   "dominio": "freemet.cl",
+   "sitio_web": "http://www.freemet.cl",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "wild-labs",
+   "nombre": "Wild Labs SpA",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "holding-trazo-sa",
+   "nombre": "Grupo Amoblé (Holding Trazo S.A.)",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "ninguna",
+   "nota": "el unico candidato cercano en Apollo (AMOBLA, amobla.cl) no coincide con Amoble; sin resultado para Holding Trazo (no consultado)"
+  },
+  {
+   "id": "favima",
+   "nombre": "Favima",
+   "nombre_apollo": "Favima SpA",
+   "apollo_id": "6526a0ebbafd8800d085593d",
+   "dominio": "favima.com",
+   "sitio_web": "http://www.favima.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Chile"
+  },
+  {
+   "id": "inversiones-y-servicios-atacama-spa",
+   "nombre": "Inversiones y Servicios Atacama Spa",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "flexografia-y-digital-guerra-y-guerra-limitada",
+   "nombre": "Flexografia y Digital Guerra y Guerra Limitada",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  },
+  {
+   "id": "natura-cosmeticos-sa",
+   "nombre": "Natura Cosméticos SA",
+   "nombre_apollo": "Natura",
+   "apollo_id": "54a1274e69702d8eeb8ac100",
+   "dominio": "natura.com.br",
+   "sitio_web": "http://www.natura.com.br",
+   "coincidencia": "probable",
+   "nota": "marca Natura (con q2 'Natura' y filtro Brasil); razon social Natura Cosmeticos SA; el holding Natura &Co (naturaeco.com) descartado"
+  },
+  {
+   "id": "3ina-cosmetics",
+   "nombre": "3INA Makeup",
+   "nombre_apollo": "3INA",
+   "apollo_id": "56e5dcc5f3e5bb17f40016e5",
+   "dominio": "3ina.com",
+   "sitio_web": "http://www.3ina.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Espana"
+  },
+  {
+   "id": "bh-consulting-srl",
+   "nombre": "BH Consulting SRL",
+   "nombre_apollo": "BH Consulting",
+   "apollo_id": "556df2c273696411269a1300",
+   "dominio": "bhconsulting.com.ar",
+   "sitio_web": "http://www.bhconsulting.com.ar",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "unplastify",
+   "nombre": "Unplastify",
+   "nombre_apollo": "Unplastify",
+   "apollo_id": "5c249ab6f6512548ac38ae83",
+   "dominio": "unplastify.com",
+   "sitio_web": "http://www.unplastify.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Argentina"
+  },
+  {
+   "id": "bolsalea-embalaje-etico-y-sostenible-sl",
+   "nombre": "Bolsalea Embalaje Ético y Sostenible SL",
+   "nombre_apollo": "BOLSALEA ♻ B Corp Certified",
+   "apollo_id": "556d771e7369641202c62501",
+   "dominio": "bolsalea.com",
+   "sitio_web": "http://www.bolsalea.com",
+   "coincidencia": "exacta",
+   "nota": "con filtro Espana"
+  },
+  {
+   "id": "grupo-stakeholders",
+   "nombre": "Grupo Stakeholders",
+   "nombre_apollo": null,
+   "apollo_id": null,
+   "dominio": null,
+   "sitio_web": null,
+   "coincidencia": "pendiente",
+   "nota": "Consulta con filtro de ubicacion sin resultados; reintento sin filtro pendiente por limite horario de Apollo (200/h)"
+  }
+ ]
+}

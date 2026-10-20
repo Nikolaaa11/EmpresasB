@@ -9,4 +9,4 @@ Subindustrias: Insumos médicos y dentales (1), Farmacéutica (1)
 | Empresa | Razón social | Tipo | Industria | Región | Puntaje B | Certificada | Web | Contacto |
 |---|---|---|---|---|---:|---|---|---|
 | [Biobrush](https://www.bcorporation.net/en-us/find-a-b-corp/company/biobrush/) | — | Sin dato | Insumos médicos y dentales | Metropolitana | 92.3 | 2023-10 | [sitio](http://www.biobrush.cl) | — |
-| [Novofarma Service S.A.](https://www.bcorporation.net/en-us/find-a-b-corp/company/novofarma-service-sa/) | — | S.A. | Farmacéutica | Metropolitana | 81.7 | 2026-02 | — | — |
+| [Novofarma Service S.A.](https://www.bcorporation.net/en-us/find-a-b-corp/company/novofarma-service-sa/) | — | S.A. | Farmacéutica | Metropolitana | 81.7 | 2026-02 | [sitio](http://www.novofarma.com) | — |

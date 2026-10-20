@@ -5,7 +5,7 @@ por **industria** y por **tipo de sociedad** (SpA, S.A., Ltda., EIRL…), con pu
 les va económicamente, propiedad y contactos corporativos. Incluye una sección de **sectores
 estratégicos**: Data center, Robótica, Salmones y Marítimo (sean o no Empresas B).
 
-- **Sitio web (Vercel):** <!-- url:inicio -->se publica desde la carpeta `web/`<!-- url:fin -->
+- **Sitio web (Vercel):** <!-- url:inicio -->[empresas-b-chile.vercel.app](https://empresas-b-chile.vercel.app)<!-- url:fin -->
 - **Super prompt reutilizable:** [SUPER_PROMPT.md](SUPER_PROMPT.md)
 - **Listado por industria:** [docs/industrias](docs/industrias/README.md) · **por tipo de sociedad:**
   [docs/tipos_sociedad.md](docs/tipos_sociedad.md) · **sectores estratégicos:**
@@ -48,7 +48,7 @@ Actualizado el **2026-10-20**.
 | Tipo de sociedad | 111 | 49.6% |
 | Razón social | 43 | 19.2% |
 | RUT validado | 9 | 4% |
-| Sitio web | 65 | 29% |
+| Sitio web | 166 | 74.1% |
 | Email corporativo | 3 | 1.3% |
 | Teléfono | 5 | 2.2% |
 | Dirección | 7 | 3.1% |

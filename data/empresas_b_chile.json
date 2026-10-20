@@ -68,7 +68,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.10pines.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -82,11 +82,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/10-pines-srl/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -150,7 +152,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.3ina.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -164,12 +166,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/3ina-cosmetics/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net//find-a-b-corp/company/3ina-cosmetics"
+    "https://www.bcorporation.net//find-a-b-corp/company/3ina-cosmetics",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -442,7 +445,7 @@
     "notas": "DATO HISTÓRICO Y DE IDENTIDAD NO CONFIRMADA (Portal Frutícola, 2010): Champiñones Abrantes S.A. se constituyó tras el terremoto de 2010 con dueños Empresas Sutil, Alejandro Quesney, Ana María Larraín e hijos y Juan Pablo Sánchez (fundador de Abrantes Limitada, participación minoritaria); presidente en 2010: Edmundo Ruiz; Juan Sutil impulsó el proyecto. Sin porcentajes y sin datos posteriores a 2012; no usar como propiedad vigente."
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.abrantes.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -456,14 +459,15 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/abrantes/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "Identidad PROBABLE pero NO confirmada: B Lab lista 'Abrantes' (producción de champiñón fresco, Región Metropolitana) y la prensa describe a Champiñones Abrantes S.A. (Paine, Región Metropolitana), pero ninguna fuente encontrada vincula esa sociedad con la ficha B Lab. RUT, razón social vigente, contactos y sitio web NO encontrados; Apollo sin resultados. Genealog lista AGRIC ABRANTES LTDA (RUT 85.584.000-6, Paine) con giro de fruticultura: NO se asigna (https://www.genealog.cl/Geneanexus/empresa/CHILE/TODU1TwODQwMDAtNg-jTw/nombre-y-rut/AGRIC-ABRANTES-LTDA-85584000-6). Existe un homónimo en Argentina (Abrantes S.A., Escobar) que se descarta. Agrícola Funghi Chile es otra empresa sin relación según las fuentes.",
    "fuentes": [
     "https://www.bcorporation.net/en-us/find-a-b-corp/company/abrantes/",
     "https://www.portalfruticola.com/noticias/2010/07/21/chile-nueva-empresa-de-champinones-de-sutil-planea-doblar-produccion-en-cinco-anos",
-    "https://www.portalfruticola.com/?p=2512"
+    "https://www.portalfruticola.com/?p=2512",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -1247,7 +1251,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.algeiba.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -1261,11 +1265,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/algeiba-sa/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -1587,7 +1593,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.argentinaonthego.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -1601,12 +1607,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/argentina-on-the-go/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/argentina-on-the-go"
+    "https://www.bcorporation.net/find-a-b-corp/company/argentina-on-the-go",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -1749,7 +1756,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.arthotelsecuador.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -1763,12 +1770,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/arthoteles-ecuador-sa/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/arthoteles-ecuador-sa"
+    "https://www.bcorporation.net/find-a-b-corp/company/arthoteles-ecuador-sa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -2006,7 +2014,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.avancargo.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -2020,12 +2028,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/avancargo/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/avancargo"
+    "https://www.bcorporation.net/find-a-b-corp/company/avancargo",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -2170,7 +2179,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.bancoestado.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -2184,12 +2193,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/bancoestado-microempresas/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Consulta gratuita a Apollo sin resultados. Reintento con 'BancoEstado' bloqueado por el límite horario de Apollo.",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/bancoestado-microempresas/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/bancoestado-microempresas/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -2521,7 +2531,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.bhconsulting.com.ar",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -2535,12 +2545,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/bh-consulting-srl/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net//find-a-b-corp/company/bh-consulting-srl"
+    "https://www.bcorporation.net//find-a-b-corp/company/bh-consulting-srl",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -2892,7 +2903,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.biogreen.com.ar",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -2906,11 +2917,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/biogreen/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -3253,7 +3266,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.bligraf.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -3267,12 +3280,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/bligraf-sa/",
-   "completitud": 7,
+   "completitud": 14,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) no devolvió coincidencia. La ficha B Lab lista operaciones en Argentina y Chile y el resumen no indicó la sede: confirmar que la empresa tenga sede en Chile antes de publicarla. El slug 'bligraf-sa' sugiere S.A., sin verificar. Puntaje previo 2022: 84.7 (ficha B Lab).",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/bligraf-sa/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/bligraf-sa/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -3338,7 +3352,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.bolsalea.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -3352,12 +3366,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/bolsalea-embalaje-etico-y-sostenible-sl/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net//find-a-b-corp/company/bolsalea-embalaje-etico-y-sostenible-sl"
+    "https://www.bcorporation.net//find-a-b-corp/company/bolsalea-embalaje-etico-y-sostenible-sl",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -3592,7 +3607,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.bureo.co",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -3606,12 +3621,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/bureo-inc/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/bureo-inc"
+    "https://www.bcorporation.net/find-a-b-corp/company/bureo-inc",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -3845,7 +3861,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.campusb.org",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -3859,11 +3875,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/campus-brasil/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -4096,7 +4114,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.carryt.co",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -4110,12 +4128,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/carryt/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/carryt"
+    "https://www.bcorporation.net/find-a-b-corp/company/carryt",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -4434,7 +4453,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.cebra.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -4448,13 +4467,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/cebra/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Según la ficha B Lab también opera en Brasil, Colombia, Perú, España y Estados Unidos. Sector, países de operación y/o puntajes por área tomados de la investigación previa del proyecto sobre la ficha B Lab (seg_*.json); no re-verificados en esta pasada.",
    "fuentes": [
     "https://www.bcorporation.net/en-us/find-a-b-corp/company/cebra",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cebra/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cebra/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -4602,7 +4622,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.copayapuconsultores.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -4616,13 +4636,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda/",
-   "completitud": 36,
+   "completitud": 43,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Razón social y tipo tomados del nombre en la ficha B Lab, sin verificar en registros. Sector, países de operación y/o puntajes por área tomados de la investigación previa del proyecto sobre la ficha B Lab (seg_*.json); no re-verificados en esta pasada.",
    "fuentes": [
     "https://www.bcorporation.net/en-us/find-a-b-corp/company/centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -4855,7 +4876,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.coda.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -4869,12 +4890,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/coda/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. La ficha B Lab da sede en Valparaíso y el perfil indica que hoy está en Casablanca; opera desde 2015. Puntaje previo: 87.4 (2021). Áreas de la investigación previa: Governance 16.9, Customers 3.2. Sector, países de operación y/o puntajes por área tomados de la investigación previa del proyecto sobre la ficha B Lab (seg_*.json); no re-verificados en esta pasada.",
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/coda"
+    "https://www.bcorporation.net/find-a-b-corp/company/coda",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -4937,7 +4959,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.ciclofauna.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -4951,12 +4973,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/ciclo-fauna/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Puntaje 2022: 89.8 (ficha B Lab).",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/ciclo-fauna/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/ciclo-fauna/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -5021,7 +5044,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.comaco.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -5035,13 +5058,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/comaco/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Opera en Chile según la ficha B Lab. Un barrido previo sugirió Región de Coquimbo/La Serena sin confirmarlo; el lote indica Región Metropolitana: verificar la sede.",
    "fuentes": [
     "https://www.bcorporation.net/find-a-b-corp/company/comaco",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/comaco/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/comaco/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -5188,7 +5212,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.companiadealimentos.com.ar",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -5202,12 +5226,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/compaia-de-alimentos-y-cereales-sa/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/compaia-de-alimentos-y-cereales-sa"
+    "https://www.bcorporation.net/find-a-b-corp/company/compaia-de-alimentos-y-cereales-sa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -5764,7 +5789,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.crosshipping.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -5778,12 +5803,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/crosshipping/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/crosshipping"
+    "https://www.bcorporation.net/find-a-b-corp/company/crosshipping",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -7339,7 +7365,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.esenciapatagonia.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -7353,13 +7379,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/esencia-patagonia/",
-   "completitud": 36,
+   "completitud": 43,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net/find-a-b-corp/company/esencia-patagonia",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/esencia-patagonia/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/esencia-patagonia/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -7424,7 +7451,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.espantapajaros.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -7438,13 +7465,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/espantapajaros/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net//find-a-b-corp/company/espantapajaros",
-    "https://bcorporation.net/directory/espantapajaros"
+    "https://bcorporation.net/directory/espantapajaros",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -7785,7 +7813,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.favima.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -7799,12 +7827,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/favima/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net//en-us/find-a-b-corp/company/favima"
+    "https://www.bcorporation.net//en-us/find-a-b-corp/company/favima",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -8143,7 +8172,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.freemet.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -8157,12 +8186,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/freemet-comercial-spa/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net//find-a-b-corp/company/freemet-comercial-spa"
+    "https://www.bcorporation.net//find-a-b-corp/company/freemet-comercial-spa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -8320,7 +8350,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.fruselva.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -8334,12 +8364,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/fruselva-amrica/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "[PENDIENTE_WEB] No investigada en la web: el presupuesto de WebSearch del turno (200 búsquedas, compartido entre agentes) se agotó antes de procesar esta empresa. Datos B Lab (sector) tomados de la exploración previa del lote, basada en la ficha B Lab; no se registró RUT, contactos, personas, economía ni propiedad. Según la ficha opera en Chile, Colombia, México, España y Estados Unidos. Apollo no devolvió coincidencias para 'Fruselva'.",
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/fruselva-amrica"
+    "https://www.bcorporation.net/find-a-b-corp/company/fruselva-amrica",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -9071,7 +9102,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.greening-rca.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -9085,13 +9116,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/greening-sp-a/",
-   "completitud": 36,
+   "completitud": 43,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "[PENDIENTE_WEB] No investigada en la web: el presupuesto de WebSearch del turno (200 búsquedas, compartido entre agentes) se agotó antes de procesar esta empresa. La razón social y 'SpA' se toman del nombre legal que muestra la ficha B Lab; no se verificaron en un registro. Datos B Lab (sector) tomados de la exploración previa del lote. Apollo no devolvió coincidencias para 'Greening SpA'. No se registró RUT, contactos, personas, economía ni propiedad.",
    "fuentes": [
     "https://www.bcorporation.net/en-us/find-a-b-corp/company/greening-sp-a",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/greening-sp-a/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/greening-sp-a/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -9575,7 +9607,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.verdical.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -9589,12 +9621,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/grupo-verdical-spa/",
-   "completitud": 36,
+   "completitud": 43,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "[PENDIENTE_WEB] No investigada en la web: el presupuesto de WebSearch del turno (200 búsquedas, compartido entre agentes) se agotó antes de procesar esta empresa. La razón social y 'SpA' se toman del nombre legal que muestra la ficha B Lab; no se verificaron en un registro. Datos B Lab (sector) tomados de la exploración previa del lote. Apollo no devolvió coincidencias para 'Grupo Verdical'. No se registró RUT, contactos, personas, economía ni propiedad.",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/grupo-verdical-spa/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/grupo-verdical-spa/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -9839,7 +9872,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.imeko.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -9853,12 +9886,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/imeko-spa/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "[PENDIENTE_WEB] No investigada en la web: el presupuesto de WebSearch del turno (200 búsquedas, compartido entre agentes) se agotó antes de procesar esta empresa. Apollo no pudo consultarse (límite horario de la API alcanzado). La razón social y 'SpA' se toman del nombre legal que muestra la ficha B Lab; no se verificaron en un registro. Startup de recuperación de materiales (colillas de cigarro, material Re-tate); posible candidata a tener financiamiento o premios públicos que valdría la pena buscar. No se registró RUT, contactos, personas, economía ni propiedad.",
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/imeko-spa"
+    "https://www.bcorporation.net/find-a-b-corp/company/imeko-spa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -9921,7 +9955,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.impacto35.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -9935,12 +9969,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/impacto-35/",
-   "completitud": 0,
+   "completitud": 7,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "[PENDIENTE_WEB] No investigada en la web: el presupuesto de WebSearch del turno (200 búsquedas, compartido entre agentes) se agotó antes de procesar esta empresa. Apollo no pudo consultarse (límite horario de la API alcanzado). La exploración previa no vio datos de la ficha B Lab (sede, industria ni puntaje; solo apareció en una búsqueda Chile/Providencia, confianza baja): confirmar que sigue certificada y que es chilena antes de publicarla.",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/impacto-35/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/impacto-35/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -10006,7 +10041,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.implementasur.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -10020,12 +10055,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/implementa-sur/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "[PENDIENTE_WEB] No investigada en la web: el presupuesto de WebSearch del turno (200 búsquedas, compartido entre agentes) se agotó antes de procesar esta empresa. Apollo no pudo consultarse (límite horario de la API alcanzado). Opera en Chile y Colombia según la ficha B Lab. No se registró RUT, contactos, personas, economía ni propiedad.",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/implementa-sur"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/implementa-sur",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -10088,7 +10124,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.norte-verde.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -10102,12 +10138,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/inmobiliaria-norte-verde/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "[PENDIENTE_WEB] No investigada en la web: el presupuesto de WebSearch del turno (200 búsquedas, compartido entre agentes) se agotó antes de procesar esta empresa. Apollo no pudo consultarse (límite horario de la API alcanzado). La industria B Lab se tomó de un paréntesis de la exploración previa (confianza media): verificar en la ficha. No se registró RUT, contactos, personas, economía ni propiedad.",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/inmobiliaria-norte-verde/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/inmobiliaria-norte-verde/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -10548,7 +10585,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.bontontoys.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -10562,11 +10599,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/international-bon-ton-toys/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -10865,7 +10904,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.islanatura.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -10886,13 +10925,14 @@
     }
    ],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/isla-natura-exportadora-ltda/",
-   "completitud": 50,
+   "completitud": 57,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "ESTADO: investigada (4 búsquedas) con resultados mínimos. Razón social y 'Ltda.' tomadas del nombre en la ficha B Lab (el perfil de LinkedIn de la fundadora la menciona como 'Isla Natura Ltda.'); RUT NO encontrado. Sin datos de contacto, sitio web ni redes. La condición de fundadora es autodeclarada. Los demás resultados eran de la marca brasileña Natura u otros temas no relacionados. Apollo no devolvió coincidencia. Reintentar con 'Isla Natura' maqui orgánico + Puerto Varas/Los Lagos. La razón social y la forma societaria se tomaron del nombre en la ficha B Lab (sin RUT, no verificadas en un registro).",
    "fuentes": [
     "https://www.bcorporation.net/en-us/find-a-b-corp/company/isla-natura-exportadora-ltda/",
-    "https://cl.linkedin.com/in/britt-lewis-2a651a28"
+    "https://cl.linkedin.com/in/britt-lewis-2a651a28",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -11653,7 +11693,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.late.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -11667,12 +11707,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/late/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo no devolvió coincidencia (consulta 'LATE! Chile'). Ojo con homónimos (nombre muy genérico).",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/late/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/late/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -11900,7 +11941,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.lofservicios.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -11914,12 +11955,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/lof-servicios-spa/",
-   "completitud": 36,
+   "completitud": 43,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo (lookup gratuito) NO pudo consultarse para esta empresa: la API respondió con límite de tasa (50 llamadas/min y luego 200/hora, compartido con otros agentes); dominio pendiente. La razón social y la forma societaria se tomaron del nombre en la ficha B Lab (sin RUT, no verificadas en un registro).",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lof-servicios-spa"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lof-servicios-spa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -11984,7 +12026,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.lonchera.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -11998,13 +12040,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/lonchera-sp-a/",
-   "completitud": 36,
+   "completitud": 43,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo (lookup gratuito) NO pudo consultarse para esta empresa: la API respondió con límite de tasa (50 llamadas/min y luego 200/hora, compartido con otros agentes); dominio pendiente. La razón social y la forma societaria se tomaron del nombre en la ficha B Lab (sin RUT, no verificadas en un registro).",
    "fuentes": [
     "https://www.bcorporation.net/find-a-b-corp/company/lonchera-sp-a",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lonchera-sp-a/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lonchera-sp-a/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -12071,7 +12114,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.lalucha.com.pe",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -12085,11 +12128,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/lucha/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -12153,7 +12198,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.lukkap.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -12167,12 +12212,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/lukkap-chile/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo (lookup gratuito) NO pudo consultarse para esta empresa: la API respondió con límite de tasa (50 llamadas/min y luego 200/hora, compartido con otros agentes); dominio pendiente.",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lukkap-chile"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lukkap-chile",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -12319,7 +12365,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.mpf.com.pe",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -12333,12 +12379,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/machu-picchu-foods-sac/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/machu-picchu-foods-sac"
+    "https://www.bcorporation.net/find-a-b-corp/company/machu-picchu-foods-sac",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -12485,7 +12532,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.emarketpeople.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -12499,12 +12546,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/market-people-indumentarias-sp-a/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": true,
    "rut_descartado": false,
    "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo (lookup gratuito) NO pudo consultarse para esta empresa: la API respondió con límite de tasa (50 llamadas/min y luego 200/hora, compartido con otros agentes); dominio pendiente. La razón social y la forma societaria se tomaron del nombre en la ficha B Lab (sin RUT, no verificadas en un registro).",
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/market-people-indumentarias-sp-a/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/market-people-indumentarias-sp-a/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -12567,7 +12615,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.marketgreen.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -12581,12 +12629,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/marketgreen/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/marketgreen"
+    "https://www.bcorporation.net/find-a-b-corp/company/marketgreen",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -12739,7 +12788,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.mejores-practicas.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -12753,13 +12802,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/mejores-prcticas/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net/en-us/find-a-b-corp/company/mejores-prcticas",
-    "https://www.bcorporation.net/find-a-b-corp/company/mejores-prcticas"
+    "https://www.bcorporation.net/find-a-b-corp/company/mejores-prcticas",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -12822,7 +12872,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.mercadocircular.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -12836,12 +12886,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/mercado-circular-sp-a/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/mercado-circular-sp-a"
+    "https://www.bcorporation.net/find-a-b-corp/company/mercado-circular-sp-a",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -12987,7 +13038,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.monteswines.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13001,14 +13052,15 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/montes-wines/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net/find-a-b-corp/company/montes-wines",
     "https://wineindustryadvisor.com/2024/08/19/montes-wines-earns-prestigious-b-corp-certification/",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/montes-wines/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/montes-wines/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -13073,7 +13125,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.natura.com.br",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13087,12 +13139,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/natura-cosmeticos-sa/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net//find-a-b-corp/company/natura-cosmeticos-sa"
+    "https://www.bcorporation.net//find-a-b-corp/company/natura-cosmeticos-sa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -13157,7 +13210,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.neoconsulting.ai",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13171,13 +13224,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/neo-consulting/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net/en-us/find-a-b-corp/company/neo-consulting",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/neo-consulting/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/neo-consulting/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -13240,7 +13294,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.newencosmetica.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13254,11 +13308,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/nijei-spa/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -13320,7 +13376,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.nodochile.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13334,12 +13390,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/nodo-chile/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/nodo-chile"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/nodo-chile",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -13404,7 +13461,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.novofarma.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13418,12 +13475,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/novofarma-service-sa/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://intuitionlabs.ai/companies/cro/novofarma-service-s-a"
+    "https://intuitionlabs.ai/companies/cro/novofarma-service-s-a",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -13486,7 +13544,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.hotelawa.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13500,12 +13558,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/hotel-awa/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/hotel-awa"
+    "https://www.bcorporation.net/find-a-b-corp/company/hotel-awa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -13654,7 +13713,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.orion.global",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13668,12 +13727,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/orion/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://g5noticias.cl/2026/01/02/orion-se-convierte-en-la-primera-compania-de-servicios-tecnologicos-en-latinoamerica-en-certificarse-como-empresa-b/"
+    "https://g5noticias.cl/2026/01/02/orion-se-convierte-en-la-primera-compania-de-servicios-tecnologicos-en-latinoamerica-en-certificarse-como-empresa-b/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -13740,7 +13800,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.oyikiltravel.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13754,12 +13814,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/oyikil-sa/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/oyikil-sa"
+    "https://www.bcorporation.net/find-a-b-corp/company/oyikil-sa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -13822,7 +13883,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.paniwe.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13836,12 +13897,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/gestin-ambiental-paiwe-limitada/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/gestin-ambiental-paiwe-limitada"
+    "https://www.bcorporation.net/find-a-b-corp/company/gestin-ambiental-paiwe-limitada",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -13904,7 +13966,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.pasdenom.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -13918,11 +13980,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/pas-denom/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -14069,7 +14133,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.patagonia-road.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -14083,12 +14147,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/patagonia-road/",
-   "completitud": 36,
+   "completitud": 43,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/patagonia-road"
+    "https://www.bcorporation.net/find-a-b-corp/company/patagonia-road",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -14151,7 +14216,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.patagua.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -14165,11 +14230,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/patagua/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -14233,7 +14300,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.pchconsultora.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -14247,12 +14314,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/pch-consultora/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/pch-consultora"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/pch-consultora",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -14315,7 +14383,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.peraltabogados.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -14329,12 +14397,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/peralta-abogados/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/peralta-abogados"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/peralta-abogados",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -14479,7 +14548,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.probenefit.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -14493,11 +14562,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/probenefit-comercial-y-servicios-sp-a/",
-   "completitud": 36,
+   "completitud": 43,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -14561,7 +14632,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.sancamilo.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -14575,12 +14646,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/productos-san-camilo/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/productos-san-camilo"
+    "https://www.bcorporation.net/find-a-b-corp/company/productos-san-camilo",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -14645,7 +14717,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.prolearning.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -14659,12 +14731,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/prolearning-gestiones-inostroza-pombett-sp-a/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/prolearning-gestiones-inostroza-pombett-sp-a"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/prolearning-gestiones-inostroza-pombett-sp-a",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -14727,7 +14800,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.proximaservicios.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -14741,11 +14814,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/proxima/",
-   "completitud": 7,
+   "completitud": 14,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -14809,7 +14884,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.proyectaimpacto.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -14823,14 +14898,15 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/proyecta/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net/en-us/find-a-b-corp/company/proyecta",
     "https://www.bcorporation.net/find-a-b-corp/company/proyecta",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/proyecta/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/proyecta/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -15318,7 +15394,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.rebeccaadventuretravel.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -15332,12 +15408,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/rebatravel-sa/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/rebatravel-sa"
+    "https://www.bcorporation.net/find-a-b-corp/company/rebatravel-sa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -15400,7 +15477,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.recylink.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -15414,12 +15491,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/recylink/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/recylink"
+    "https://www.bcorporation.net/find-a-b-corp/company/recylink",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -15482,7 +15560,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.regeneraorganico.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -15496,13 +15574,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/regenera-orgnico/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net/find-a-b-corp/company/regenera-orgnico",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/regenera-orgnico/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/regenera-orgnico/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -15570,7 +15649,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.rheoliglobal.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -15584,12 +15663,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/rheoli-sp-a/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/rheoli-sp-a"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/rheoli-sp-a",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -15652,7 +15732,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.risingsun.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -15666,11 +15746,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/rising-sun-chile/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -15816,7 +15898,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.rubtec.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -15830,12 +15912,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/rubtec/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/rubtec"
+    "https://www.bcorporation.net/find-a-b-corp/company/rubtec",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -15900,7 +15983,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.saexpeditions.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -15914,12 +15997,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/sa-expeditions/",
-   "completitud": 36,
+   "completitud": 43,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/sa-expeditions"
+    "https://www.bcorporation.net/find-a-b-corp/company/sa-expeditions",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -16064,7 +16148,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.sembradorcapital.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -16078,11 +16162,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/sembrador/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -16227,7 +16313,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.sofan.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -16241,11 +16327,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/servicios-audiovisuales-sofan-sp-a/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -16392,7 +16480,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.sigaturismo.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -16406,12 +16494,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/siga-turismo/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/siga-turismo"
+    "https://www.bcorporation.net/find-a-b-corp/company/siga-turismo",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -16476,7 +16565,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.siigo.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -16490,11 +16579,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/siigo-sas/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -16559,7 +16650,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.wearesimplicity.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -16573,13 +16664,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/asesorias-simplicity-spa/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net/en-us/find-a-b-corp/company/asesorias-simplicity-spa",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/asesorias-simplicity-spa/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/asesorias-simplicity-spa/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -16644,7 +16736,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.skinautica.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -16658,11 +16750,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/skinautica/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -16724,7 +16818,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.socialab.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -16738,12 +16832,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/socialab/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/socialab"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/socialab",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -16888,7 +16983,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.southbridgeseguros.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -16902,11 +16997,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/southbridge/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -16968,7 +17065,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.spheraenergy.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -16982,12 +17079,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/sphera-energy-sp-a/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/sphera-energy-sp-a"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/sphera-energy-sp-a",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -17136,7 +17234,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.symnetics.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -17150,12 +17248,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/symnetics-chile/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/symnetics-chile"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/symnetics-chile",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -17300,7 +17399,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.notco.ai",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -17314,11 +17413,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/the-not-company/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -17386,7 +17487,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.thewildfoods.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -17400,12 +17501,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/the-wild-foods/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/the-wild-foods"
+    "https://www.bcorporation.net/find-a-b-corp/company/the-wild-foods",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -17548,7 +17650,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.tironi.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -17562,11 +17664,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/tironi/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -17630,7 +17734,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.pegasconsentido.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -17644,13 +17748,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/pegas-con-sentido/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net/en-us/find-a-b-corp/company/pegas-con-sentido",
-    "https://www.elmostrador.cl/mercados/2015/09/17/pegas-con-sentido-el-sello-de-la-generacion-y-a-la-hora-de-buscar-trabajo/"
+    "https://www.elmostrador.cl/mercados/2015/09/17/pegas-con-sentido-el-sello-de-la-generacion-y-a-la-hora-de-buscar-trabajo/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -17713,7 +17818,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.trasiegowines.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -17727,12 +17832,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/trasiego-wines-sa/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/trasiego-wines-sa"
+    "https://www.bcorporation.net/find-a-b-corp/company/trasiego-wines-sa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -17795,7 +17901,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.trayecta.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -17809,11 +17915,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/trayecta-asesoras-inmobiliarias-sp-a/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -17881,7 +17989,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.triciclos.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -17895,7 +18003,7 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/triciclos-brasil/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
@@ -17903,7 +18011,8 @@
     "https://chocale.cl/2026/05/chile-lidera-en-empresas-b-en-latinoamerica-ya-hay-cerca-de-270-certificadas/",
     "https://www.bcorporation.net/find-a-b-corp/company/triciclos-brasil",
     "https://latamlist.com/1-3-of-latin-americas-b-corps-are-registered-in-chile/",
-    "https://www.marcachile.cl/en/diez-empresas-chilenas-que-pusieron-el-reciclaje-en-el-centro-de-su-negocio/"
+    "https://www.marcachile.cl/en/diez-empresas-chilenas-que-pusieron-el-reciclaje-en-el-centro-de-su-negocio/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -17966,7 +18075,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.unibag.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -17980,11 +18089,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/unibag/",
-   "completitud": 7,
+   "completitud": 14,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -18049,7 +18160,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.unplastify.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -18063,12 +18174,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/unplastify/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net//en-us/find-a-b-corp/company/unplastify"
+    "https://www.bcorporation.net//en-us/find-a-b-corp/company/unplastify",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -18131,7 +18243,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.urbani.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -18145,11 +18257,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/urbani-limitada/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -18302,7 +18416,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.xn--vialosvascos-bhb.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -18316,12 +18430,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/los-vascos/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/los-vascos"
+    "https://www.bcorporation.net/find-a-b-corp/company/los-vascos",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -18384,7 +18499,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.montgras.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -18398,13 +18513,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/via-mont-gras/",
-   "completitud": 14,
+   "completitud": 21,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net/find-a-b-corp/company/via-mont-gras",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/via-mont-gras/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/via-mont-gras/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -18467,7 +18583,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.polkura.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -18481,12 +18597,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/vina-polkura-sa/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/vina-polkura-sa"
+    "https://www.bcorporation.net/find-a-b-corp/company/vina-polkura-sa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -18549,7 +18666,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.emiliana.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -18563,12 +18680,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/emiliana-vineyards/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/find-a-b-corp/company/emiliana-vineyards"
+    "https://www.bcorporation.net/find-a-b-corp/company/emiliana-vineyards",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -18635,7 +18753,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.virutexilko.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -18649,11 +18767,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/virutex-ilko/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -18717,7 +18837,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.vitafoods.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -18731,13 +18851,14 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/vita-foods/",
-   "completitud": 21,
+   "completitud": 29,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
     "https://www.bcorporation.net/find-a-b-corp/company/vita-foods",
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/vita-foods/"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/vita-foods/",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
@@ -18800,7 +18921,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.wherex.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -18814,11 +18935,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/wherex/",
-   "completitud": 7,
+   "completitud": 14,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -18966,7 +19089,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.wildlama.com",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -18980,11 +19103,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/wild-lama/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
-   "fuentes": [],
+   "fuentes": [
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
+   ],
    "actualizado": "2026-10-20"
   },
   {
@@ -19048,7 +19173,7 @@
     "notas": null
    },
    "contactos": {
-    "sitio_web": null,
+    "sitio_web": "http://www.xinerlink.cl",
     "email": null,
     "telefono": null,
     "whatsapp": null,
@@ -19062,12 +19187,13 @@
    },
    "personas": [],
    "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/xiner-link-sa/",
-   "completitud": 29,
+   "completitud": 36,
    "enriquecida": false,
    "rut_descartado": false,
    "notas": null,
    "fuentes": [
-    "https://www.bcorporation.net/en-us/find-a-b-corp/company/xiner-link-sa"
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/xiner-link-sa",
+    "https://www.apollo.io/ (búsqueda de organizaciones)"
    ],
    "actualizado": "2026-10-20"
   },
