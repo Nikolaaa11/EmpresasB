@@ -1,0 +1,1380 @@
+{
+ "segmento": "barrido",
+ "busquedas_realizadas": 18,
+ "consultas": [
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Santiago headquarters industry B Impact Score certified since",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Providencia headquarters industry overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Las Condes Santiago Metropolitan Region B Corp: headquarters, industry, sector, certified since, impact area scores governance workers community environment customers",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Vitacura B Corp headquarters industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Lo Barnechea B Corp headquarters industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Ñuñoa B Corp headquarters industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Huechuraba Quilicura Pudahuel Santiago Metropolitan Region B Corp industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Viña del Mar Valparaíso Concón Valparaíso Region B Corp industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Rancagua Talca Chillán O'Higgins Maule Ñuble Region B Corp industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Concepción Biobío Region B Corp industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Temuco Pucón Araucanía Region B Corp headquarters industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Valdivia Osorno Los Ríos Region B Corp headquarters industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Puerto Varas Puerto Montt Castro Chiloé Los Lagos Region B Corp headquarters industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Coyhaique Aysén Punta Arenas Magallanes Region B Corp headquarters industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile La Serena Coquimbo Coquimbo Region B Corp headquarters industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Copiapó Antofagasta Calama Atacama Antofagasta Region B Corp headquarters industry sector certified since overall B Impact Score",
+  "site:bcorporation.net \"find-a-b-corp/company\" Chile Iquique Arica Tarapacá Arica y Parinacota Region B Corp headquarters industry sector certified since overall B Impact Score",
+  "bcorporation.net find a B Corp company headquarters \"Valparaíso Region, Chile\" certified since overall B Impact Score industry"
+ ],
+ "totales_reportados": [
+  {
+   "total": 130,
+   "fecha": "2018",
+   "fuente": "https://latamlist.com/1-3-of-latin-americas-b-corps-are-registered-in-chile/",
+   "nota": "Segun resumen de busqueda: Chile tenia 130 B Corps en 2018 (27% de 477 en LatAm). Dato antiguo."
+  },
+  {
+   "total": 425,
+   "fecha": "2023 (anio del estudio)",
+   "fuente": "https://xreiss.efri.uniri.hr/article.php?id=74516",
+   "nota": "Estudio academico (revista Retos, 2023; tambien https://retos.ups.edu.ec/index.php/retos/article/view/7597/7579) que analizo 425 empresas de Chile del directorio Corp B de LatAm y el Caribe; puede ser una muestra y no equivaler a certificadas vigentes."
+  }
+ ],
+ "empresas": [
+  {
+   "nombre": "Almacruz",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/almacruz/",
+   "industria": "Accommodation",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "March 2023",
+   "puntaje_b": 80.4,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/almacruz/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Cebra",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/cebra/",
+   "industria": "Advertising & market research",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "September 2023",
+   "puntaje_b": 87.2,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "La ficha indica que ademas opera en varios otros paises (no detallados en el resumen).",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cebra/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Explora Chile SA",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/explora-chile-s-a/",
+   "industria": "Accommodation",
+   "sector": "Service with Significant Environmental Footprint",
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": [
+    "Argentina",
+    "Bolivia",
+    "Chile",
+    "Peru"
+   ],
+   "certificada_desde": "January 2021",
+   "puntaje_b": 108.5,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/explora-chile-s-a/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Yes Sociedad Anónima",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/yes-sociedad-annima/",
+   "industria": "Advertising & market research",
+   "sector": "Service with Significant Environmental Footprint",
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "February 2025",
+   "puntaje_b": 80.7,
+   "areas": {
+    "gobernanza": 12.9,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/yes-sociedad-annima/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Cervecera Chile S.A.",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/cervecera-chile-sa/",
+   "industria": "Beverages",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "October 2023",
+   "puntaje_b": 86.2,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cervecera-chile-sa/"
+   ],
+   "confianza": "alta",
+   "notas": "titulo de la ficha en minusculas ('cervecera chile sa'); el resumen la nombro 'Cerveceria Chile S.A.'"
+  },
+  {
+   "nombre": "Abrantes",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/abrantes/",
+   "industria": "Growing non-perennial crops",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "May 2023",
+   "puntaje_b": 83.4,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Produccion de champinon fresco.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/abrantes/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Impacto 35",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/impacto-35/",
+   "industria": null,
+   "sector": null,
+   "sede": null,
+   "pais_sede": null,
+   "opera_en": null,
+   "certificada_desde": null,
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/impacto-35/"
+   ],
+   "confianza": "baja",
+   "notas": "ficha aparece en busqueda Chile/Providencia; sin datos vistos"
+  },
+  {
+   "nombre": "Estudios y Consultorias Focus",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/estudios-y-consultorias-focus/",
+   "industria": "Other personal services",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "October 2012",
+   "puntaje_b": 90.7,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/estudios-y-consultorias-focus/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Centro de Innovación y Emprendimiento Copayapu Consultores Ltda",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda/",
+   "industria": "Management consultant",
+   "sector": "Service with Minor Environmental Footprint",
+   "sede": "Atacama Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "January 2020",
+   "puntaje_b": 103.6,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Consultora de gestion para empresas con fines de lucro.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Asesorias Simplicity SpA",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/asesorias-simplicity-spa/",
+   "industria": null,
+   "sector": null,
+   "sede": null,
+   "pais_sede": null,
+   "opera_en": null,
+   "certificada_desde": null,
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/asesorias-simplicity-spa/"
+   ],
+   "confianza": "baja",
+   "notas": "ficha aparece en busqueda Chile/Providencia; sin datos vistos"
+  },
+  {
+   "nombre": "Estudio Lado Humano Consultores Ltda",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/estudio-lado-humano-consultores-ltda/",
+   "industria": "Management consultant",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "July 2026",
+   "puntaje_b": 99.9,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/estudio-lado-humano-consultores-ltda/"
+   ],
+   "confianza": "media"
+  },
+  {
+   "nombre": "Compañías CIC",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/compaas-cic/",
+   "industria": "Other manufacturing",
+   "sector": "Manufacturing",
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": [
+    "Chile"
+   ],
+   "certificada_desde": "July 2023",
+   "puntaje_b": 84.6,
+   "areas": {
+    "gobernanza": 15.0,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Empresa chilena con 110 anos de historia; recicla y composta residuos en sus plantas y usa 100% electricidad renovable; tiene planta en Chillan.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/compaas-cic/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "40c Consultores",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/40c-consultores/",
+   "industria": "Management consultant",
+   "sector": "Service with Minor Environmental Footprint",
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": [
+    "Chile",
+    "Peru",
+    "United States"
+   ],
+   "certificada_desde": "September 2024",
+   "puntaje_b": 118.1,
+   "areas": {
+    "gobernanza": 18.7,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/40c-consultores/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Better Brands",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/better-brands/",
+   "industria": "Other business support",
+   "sector": "Service with Minor Environmental Footprint",
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": [
+    "Argentina",
+    "Chile",
+    "Colombia",
+    "Mexico",
+    "Peru",
+    "Uruguay"
+   ],
+   "certificada_desde": "December 2023",
+   "puntaje_b": 89.6,
+   "areas": {
+    "gobernanza": 16.3,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/better-brands/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "VitaFoods",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/vita-foods/",
+   "industria": "Agricultural Processing",
+   "sector": "Agriculture/Growers",
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": [
+    "Chile"
+   ],
+   "certificada_desde": "February 2024",
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Fundada en 2020 como alianza entre Alifrut y Hortifrut; enfocada en berries y otras frutas.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/vita-foods/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Lonchera SpA",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/lonchera-sp-a/",
+   "industria": "Food products",
+   "sector": "Wholesale/Retail",
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "January 2024",
+   "puntaje_b": 83.8,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lonchera-sp-a/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Neo Consulting",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/neo-consulting/",
+   "industria": null,
+   "sector": null,
+   "sede": null,
+   "pais_sede": null,
+   "opera_en": null,
+   "certificada_desde": null,
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/neo-consulting/"
+   ],
+   "confianza": "baja",
+   "notas": "ficha aparece en busqueda Chile/Nunoa; sede no confirmada: el resumen menciona resultados con sede en Lima/Peru no relevantes para Chile y Neo Consulting es el unico resultado sin describir; verificar si opera en Chile"
+  },
+  {
+   "nombre": "Entidad Patrocinante Unión Ltda",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/entidad-patrocinante-unin-sp-a/",
+   "industria": "Other professional, scientific & tech",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "December 2021",
+   "puntaje_b": 89.6,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/entidad-patrocinante-unin-sp-a/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "CasaCo",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/casaco/",
+   "industria": "Other business support",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "December 2016",
+   "puntaje_b": 88.2,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/casaco/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Proyecta Impacto",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/proyecta/",
+   "industria": "Environmental consulting",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "December 2016",
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Agencia de sustentabilidad / consultoria ambiental.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/proyecta/"
+   ],
+   "confianza": "media",
+   "notas": "industria 'Environmental consulting' tomada de un parentesis del resumen; verificar en ficha; sin puntaje visto"
+  },
+  {
+   "nombre": "Inmobiliaria Norte Verde",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/inmobiliaria-norte-verde/",
+   "industria": "Real estate (leased property)",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "September 2025",
+   "puntaje_b": 80.3,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/inmobiliaria-norte-verde/"
+   ],
+   "confianza": "media",
+   "notas": "industria tomada de un parentesis del resumen; verificar en ficha"
+  },
+  {
+   "nombre": "Agencia de Aduanas Felipe Serrano Solar y Cia Ltda",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/agencia-de-aduanas-felipe-serrano-solar-y-cia-ltada/",
+   "industria": null,
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "December 2024",
+   "puntaje_b": 82.1,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Agencia de aduanas (segun el resumen de la busqueda).",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/agencia-de-aduanas-felipe-serrano-solar-y-cia-ltada/"
+   ],
+   "confianza": "media"
+  },
+  {
+   "nombre": "Carboneutral",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/carboneutral/",
+   "industria": "Environmental consulting",
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "September 2025",
+   "puntaje_b": 88.2,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/carboneutral/"
+   ],
+   "confianza": "media",
+   "notas": "industria 'Environmental consulting' tomada de un parentesis del resumen; verificar en ficha"
+  },
+  {
+   "nombre": "Cavas del Valle",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/cavas-del-valle/",
+   "industria": "Agricultural processing",
+   "sector": null,
+   "sede": "Coquimbo Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "May 2022",
+   "puntaje_b": 88.7,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cavas-del-valle/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Viña MontGras",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/via-mont-gras/",
+   "industria": null,
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "February 2025",
+   "puntaje_b": 92.0,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/via-mont-gras/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Montes Wines",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/montes-wines/",
+   "industria": null,
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": [
+    "Argentina",
+    "Chile"
+   ],
+   "certificada_desde": "July 2024",
+   "puntaje_b": 92.4,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/montes-wines/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "BancoEstado Microempresas",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/bancoestado-microempresas/",
+   "industria": null,
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "December 2015",
+   "puntaje_b": 130.5,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Segun el resumen de la busqueda, es un banco con sede en Santiago (BancoEstado Microempresas).",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/bancoestado-microempresas/"
+   ],
+   "confianza": "media",
+   "notas": "industria 'Banking' inferida del resumen (banco); verificar"
+  },
+  {
+   "nombre": "Cervecera Guayacán SpA",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/cervecera-guayacan-spa/",
+   "industria": "Beverages",
+   "sector": null,
+   "sede": "Coquimbo Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "March 2017",
+   "puntaje_b": 80.2,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Cerveceria artesanal en la Region de Coquimbo.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cervecera-guayacan-spa/"
+   ],
+   "confianza": "alta",
+   "notas": "industria 'Beverages' inferida (cerveceria); verificar"
+  },
+  {
+   "nombre": "Btools Spa",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/b-tools/",
+   "industria": null,
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "April 2025",
+   "puntaje_b": 88.0,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/b-tools/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Greening SpA",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/greening-sp-a/",
+   "industria": "Environmental consulting",
+   "sector": "Service with Minor Environmental Footprint",
+   "sede": "Bío Bío Region",
+   "pais_sede": "Chile",
+   "opera_en": [
+    "Chile"
+   ],
+   "certificada_desde": "July 2020",
+   "puntaje_b": 95.3,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Consultora en medio ambiente y sustentabilidad con 10 anos de experiencia; opera principalmente en la zona centro-sur de Chile.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/greening-sp-a/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Biocys",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/biocys/",
+   "industria": null,
+   "sector": null,
+   "sede": "Santiago Metropolitan Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "April 2025",
+   "puntaje_b": 85.6,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/biocys/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Biobrush",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/biobrush/",
+   "industria": null,
+   "sector": null,
+   "sede": null,
+   "pais_sede": null,
+   "opera_en": null,
+   "certificada_desde": null,
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/biobrush/"
+   ],
+   "confianza": "baja",
+   "notas": "ficha aparece en busqueda Chile/Concepcion; sin datos vistos"
+  },
+  {
+   "nombre": "Bioprocess chile",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/bioprocess-chile/",
+   "industria": null,
+   "sector": null,
+   "sede": null,
+   "pais_sede": null,
+   "opera_en": null,
+   "certificada_desde": null,
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/bioprocess-chile/"
+   ],
+   "confianza": "baja",
+   "notas": "ficha aparece en busqueda Chile/Concepcion; sin datos vistos"
+  },
+  {
+   "nombre": "Pura Aventura",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/pura-aventura/",
+   "industria": null,
+   "sector": null,
+   "sede": null,
+   "pais_sede": null,
+   "opera_en": null,
+   "certificada_desde": null,
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/pura-aventura/",
+    "https://bcorporation.net/en-us/find-a-b-corp/company/pura-aventura/"
+   ],
+   "confianza": "baja",
+   "notas": "ficha aparece en busqueda Chile/Temuco-Pucon; sede y paises de operacion no vistos; podria ser empresa extranjera con operacion en Chile; verificar"
+  },
+  {
+   "nombre": "Esencia Patagonia",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/esencia-patagonia/",
+   "industria": null,
+   "sector": null,
+   "sede": "Río Negro Province",
+   "pais_sede": "Argentina",
+   "opera_en": [
+    "Argentina",
+    "Chile"
+   ],
+   "certificada_desde": null,
+   "puntaje_b": 85.0,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/esencia-patagonia/"
+   ],
+   "confianza": "media",
+   "notas": "sede fuera de Chile (Rio Negro, Argentina); el resumen dice que tambien opera en Chile"
+  },
+  {
+   "nombre": "Isla Natura Exportadora Ltda",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/isla-natura-exportadora-ltda/",
+   "industria": "Agricultural processing",
+   "sector": "Agriculture/Growers",
+   "sede": "Los Lagos Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "September 2022",
+   "puntaje_b": 86.2,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/isla-natura-exportadora-ltda/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Regenera Orgánico",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/regenera-orgnico/",
+   "industria": "Waste treatment and disposal",
+   "sector": "Manufacturing",
+   "sede": "Los Lagos Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "July 2021",
+   "puntaje_b": 88.9,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/regenera-orgnico/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Patagonia Biotecnología SpA",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/patagonia-biotecnologa-sa/",
+   "industria": "Chemicals",
+   "sector": "Manufacturing",
+   "sede": "Los Lagos Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "July 2022",
+   "puntaje_b": 80.7,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Produce bioestimulantes y fertilizantes a base de extractos de algas recolectadas en la Patagonia.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/patagonia-biotecnologa-sa/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Plus Industrial",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/plus-industrial/",
+   "industria": "Apparel",
+   "sector": "Manufacturing",
+   "sede": "Los Lagos Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "September 2023",
+   "puntaje_b": 83.5,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Segun el resumen, su ficha la ubica en Puerto Montt.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/plus-industrial/"
+   ],
+   "confianza": "alta",
+   "notas": "industria 'Apparel' tomada de parentesis del resumen"
+  },
+  {
+   "nombre": "Ecomundo Reciclajes SpA",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/ecomundo-reciclajes-sp-a/",
+   "industria": "Environmental consulting",
+   "sector": "Service with Significant Environmental Footprint",
+   "sede": "Los Lagos Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "December 2021",
+   "puntaje_b": 97.1,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/ecomundo-reciclajes-sp-a/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Servicios Agromostazal spa",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/servicios-agromostazal/",
+   "industria": "Agricultural support / post-harvest",
+   "sector": "Agriculture/Growers",
+   "sede": "Coquimbo Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "November 2021",
+   "puntaje_b": 82.1,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/servicios-agromostazal/"
+   ],
+   "confianza": "media",
+   "notas": "sede 'Coquimbo Region' segun resumen de busqueda; el nombre sugiere Mostazal (O'Higgins), verificar. Industria tomada de descripcion del resumen"
+  },
+  {
+   "nombre": "Comaco",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/comaco/",
+   "industria": null,
+   "sector": null,
+   "sede": null,
+   "pais_sede": null,
+   "opera_en": null,
+   "certificada_desde": null,
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/comaco/"
+   ],
+   "confianza": "baja",
+   "notas": "ficha aparece en busqueda Chile/La Serena; sin datos vistos; resumen sugiere Coquimbo Region pero no lo confirma"
+  },
+  {
+   "nombre": "Grupo Verdical SPA",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/grupo-verdical-spa/",
+   "industria": "Other education",
+   "sector": "Service with Minor Environmental Footprint",
+   "sede": "Antofagasta Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "March 2022",
+   "puntaje_b": 93.7,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Consultora de relaciones comunitarias.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/grupo-verdical-spa/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Sociedad de Capacitación e Ingeniería Calar Ltda",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/sociedad-de-capacitacin-e-ingeniera-calar-ltda/",
+   "industria": "Education & training services",
+   "sector": "Service with Minor Environmental Footprint",
+   "sede": "Atacama Region",
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "April 2025",
+   "puntaje_b": 88.0,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/sociedad-de-capacitacin-e-ingeniera-calar-ltda/"
+   ],
+   "confianza": "alta"
+  },
+  {
+   "nombre": "Consultora Liquen",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/consultora-liquen/",
+   "industria": null,
+   "sector": null,
+   "sede": "Neuquén Province",
+   "pais_sede": "Argentina",
+   "opera_en": [
+    "Argentina",
+    "Chile"
+   ],
+   "certificada_desde": "December 2025",
+   "puntaje_b": 90.3,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/consultora-liquen/"
+   ],
+   "confianza": "media",
+   "notas": "sede fuera de Chile (Neuquen, Argentina); la ficha lista Chile entre los paises donde opera"
+  },
+  {
+   "nombre": "Aconcagua Vision SRL",
+   "url_blab": "https://www.bcorporation.net/en-us/find-a-b-corp/company/aconcagua-vision-srl/",
+   "industria": null,
+   "sector": null,
+   "sede": "Mendoza",
+   "pais_sede": "Argentina",
+   "opera_en": [
+    "Argentina",
+    "Chile"
+   ],
+   "certificada_desde": "September 2022",
+   "puntaje_b": 93.7,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": null,
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/aconcagua-vision-srl/"
+   ],
+   "confianza": "media",
+   "notas": "sede fuera de Chile (Mendoza, Argentina); la ficha lista Chile entre los paises donde opera"
+  },
+  {
+   "nombre": "Viña Concha y Toro",
+   "url_blab": null,
+   "industria": null,
+   "sector": null,
+   "sede": null,
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "2021",
+   "puntaje_b": 93.9,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Segun prensa, primera empresa chilena listada en bolsa en obtener la certificacion B Corp (2021); una recertificacion posterior reporto 93.9 puntos.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://m.drinksint.com/news/fullstory.php/aid/11336/.html"
+   ],
+   "confianza": "baja",
+   "notas": "solo prensa (drinksint.com, resumen de busqueda); no se busco su ficha; fecha de recertificacion no indicada"
+  },
+  {
+   "nombre": "TriCiclos",
+   "url_blab": null,
+   "industria": "Waste management",
+   "sector": null,
+   "sede": null,
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": "2012",
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Segun articulos de 2018, primera Empresa B de Chile (certificada en 2012); empresa de gestion de residuos.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://latamlist.com/1-3-of-latin-americas-b-corps-are-registered-in-chile/"
+   ],
+   "confianza": "baja",
+   "notas": "solo prensa/estudios (resumenes de busqueda); no se busco su ficha; procedencia exacta de la URL aproximada; vigencia actual desconocida"
+  },
+  {
+   "nombre": "BirdsChile",
+   "url_blab": null,
+   "industria": null,
+   "sector": null,
+   "sede": null,
+   "pais_sede": "Chile",
+   "opera_en": null,
+   "certificada_desde": null,
+   "puntaje_b": null,
+   "areas": {
+    "gobernanza": null,
+    "trabajadores": null,
+    "comunidad": null,
+    "medio_ambiente": null,
+    "clientes": null
+   },
+   "sitio_web": null,
+   "descripcion": "Segun prensa especializada, primer operador turistico certificado como B Corporation en el sur de Chile.",
+   "tamano": null,
+   "estado": "certificada",
+   "fuentes": [
+    "https://adventuretravelnews.com/birdschile-becomes-the-first-tour-operator-certified-as-b-corporation-in-the-south-of-chile"
+   ],
+   "confianza": "baja",
+   "notas": "solo prensa (titulo del articulo); sin ficha ni fecha de certificacion vistas; vigencia desconocida"
+  }
+ ],
+ "consultas_pendientes_no_ejecutadas": [
+  "site:bcorporation.net find-a-b-corp company Chile \"SpA\" (barrido por forma legal) - NO EJECUTADA: presupuesto de WebSearch agotado",
+  "site:bcorporation.net find-a-b-corp company Chile \"S.A.\" - NO EJECUTADA: presupuesto de WebSearch agotado",
+  "site:bcorporation.net find-a-b-corp company Chile \"Ltda\" - NO EJECUTADA: presupuesto de WebSearch agotado",
+  "site:bcorporation.net find-a-b-corp company Chile \"Limitada\" - NO EJECUTADA: presupuesto de WebSearch agotado",
+  "site:bcorporation.net find-a-b-corp company Chile \"EIRL\" - NO EJECUTADA: presupuesto de WebSearch agotado",
+  "Segmento (c) prensa y Sistema B (nuevas Empresas B 2022-2026, recertificaciones, listas de Sistema B, df.cl, latercera.com, emol.com, elmostrador.cl, diariosustentable.com, chocale.cl, paiscircular.cl, sistemab.org, forbes.cl, ex-ante.cl) - NO EJECUTADO (0 de >=15 busquedas)",
+  "Verificacion de ficha (HQ, industria, puntajes por area) para: Impacto 35, Asesorias Simplicity SpA, Neo Consulting, Biobrush, Bioprocess chile, Comaco, Pura Aventura, Viña Concha y Toro, TriCiclos, BirdsChile"
+ ],
+ "notas_segmento": "Segmento INCOMPLETO por agotamiento del presupuesto global de WebSearch (limite de 200 llamadas por turno compartido entre todos los agentes). Se ejecutaron 18 busquedas (barrido geografico a) agrupando ciudades por region; las 5 busquedas del barrido por forma legal (b) fueron rechazadas por el limite y NO se contabilizan; el segmento (c) de prensa/Sistema B no se pudo ejecutar. WebSearch ignora el operador site: pero devolvio mayormente fichas de bcorporation.net. Las fichas de B Lab muestran la sede solo a nivel de region (no comuna), por lo que el barrido por comuna es poco discriminante. Los datos provienen de resumenes de busqueda (no de lectura directa de la ficha): puntajes por area casi nunca aparecieron (solo gobernanza en 4 fichas). url_blab normalizada a https://www.bcorporation.net/en-us/find-a-b-corp/company/<slug>/ (la busqueda devolvio variantes con // y sin /en-us)."
+}

@@ -1,0 +1,737 @@
+{
+  "sector": "robotica",
+  "busquedas_realizadas": 19,
+  "consultas_apollo_lookup_gratuitas": 38,
+  "resumen_sector": "El ecosistema robótico chileno es pequeño, depende en gran medida de tecnología importada y se concentra en minería: una nota antigua de El Mercurio (~2012, reproducida por MCH) estimaba cerca de 30 organizaciones ligadas a la robótica y que unas 15 darían origen a la Asociación Chilena de Robótica (Achiro). En minería destacan MIRS (según ficha de Codelco: HighService 53%, Codelco 36%, Nippon Mining & Metals 9%, KUKA 2%), Robotika (Antofagasta; tres robots limpian los chancadores de Antucoya), Kinamics (robot Arkytas MU-2.1 operando desde febrero de 2026 en El Teniente), Robotia (US$1 millón del Fondo Alza, publicado por DF en noviembre de 2024; contratos con Codelco y BHP) y Codelco Tech; Alza Mining Tech también invirtió US$1 millón en Kinamics (DF, junio de 2026) y Rocketbot (automatización/RPA) levantó US$2,1 millones liderados por Consorcio (US$1,5 millones según La Tercera). En la zona sur se concentra un nicho de ROV para acuicultura (Yagan Chile con apoyo Corfo, BioRobótica, Underdeep Solutions, Adentu y la filial de Deep Trekker en Puerto Montt; Sernapesca recibió dos ROV de AquaRov financiados por Corfo), mientras la robótica industrial se canaliza vía integradores y filiales de marcas globales: FANUC atiende Chile desde su sede sudamericana en São Paulo con integradores como Roboris y Mundos Virtuales (directorio de FANUC Brasil), y ABB Chile informa que, por la separación de su negocio de Robótica, las consultas de robótica pasan al sitio de ABB Robotics desde el 27/07/2026; no se encontraron filiales locales confirmadas de KUKA ni de Yaskawa. En drones operan fabricantes y proveedores como Robomotic (Santiago), GFDas y Ecodrones, y en agricultura no se identificó un fabricante comercial chileno de robots de cosecha (solo un desarrollo académico de la UC liderado por Miguel Torres).",
+  "fuentes_resumen": [
+    "https://www.camara.cl/cms/2019/10/04/comision-de-ciencias-y-tecnologia-analizo-situacion-de-la-robotica-en-chile/",
+    "https://www.mch.cl/robots-made-chile-buscan-revolucionar-la-industria-local/",
+    "https://www.df.cl/df-lab/transformacion-digital/aumenta-la-penetracion-de-la-robotica-en-diferentes-industrias-chilenas",
+    "https://codelco.com/innovacion/empresas-de-base-tecnologica/mining-industry-robotic-solutions-mirs",
+    "https://www.mch.cl/robots-al-servicio-de-la-mineria/",
+    "https://www.reporteminero.cl/noticia/tecnologia/2026/02/codelco-usa-robot-kinamics-inspeccionar-nuevos-frentes-mineros-el-teniente",
+    "https://www.df.cl/df-mas/punto-de-partida/fondo-de-alza-para-startups-mineras-firma-su-primer-cheque-us-1-millon",
+    "https://www.df.cl/df-lab/innovacion-y-startups/kinamics-levanta-capital-con-alza-mining-tech-para-llegar-a-peru-y",
+    "https://www.latercera.com/pulso/noticia/grupo-consorcio-invierte-us15-millones-en-startup-chilena-rocketbot/YWNNHTXMVRC3HJMTRCYLSIB224/",
+    "https://portalinnova.cl/?p=7372",
+    "https://www.fishfarmingexpert.com/article/rov-maker-opens-new-branch-in-chilean-salmon-heartland/",
+    "https://fanucamerica.com/fanuc-brazil/integrators",
+    "https://fanucamerica.com/about-us/locations/south-america-headquarters-sao-paulo-brazil",
+    "https://new.abb.com/south-america/sobre-nosotros/quienes-somos/contactos/centro-de-contacto-chile",
+    "https://www.df.cl/los-planes-de-robomotic-la-empresa-que-disena-y-fabrica-drones-en-chile",
+    "https://www.theclinic.cl/2025/03/05/investigadores-chilenos-logran-crear-robot-que-es-capaz-de-cosechar-frutas-delicadas-como-cerezas-y-arandanos/"
+  ],
+  "limitaciones": [
+    "El presupuesto compartido de WebSearch (200 por turno, compartido entre todos los agentes) se agotó tras 19 búsquedas efectivas; las 3 siguientes fueron rechazadas por la herramienta. No se completó el mínimo de 25 búsquedas ni la profundización por empresa (ventas, contactos, personas).",
+    "NO se verificó ninguna empresa en bcorporation.net (site:bcorporation.net). es_empresa_b=false significa 'no verificado / sin evidencia de ficha B Lab', no 'confirmado que no es Empresa B'. Como chequeo parcial, ninguna de estas empresas figura en raw/conocidas.txt (lista de Empresas B ya conocidas en el proyecto).",
+    "Los sitios web (dominio) provienen de apollo_organizations_lookup (herramienta gratuita); no se consumieron créditos. Para ABB Chile se usó la URL de su página de contacto hallada en resultados de búsqueda.",
+    "No aparecieron en resultados emails, teléfonos ni cifras de ventas de ninguna empresa; el único RUT hallado es el de Mirs S.A. (Codelco, memoria 2007; dígito verificador válido por módulo 11).",
+    "Muchas fuentes son notas antiguas (2008-2022); cargos y estructuras societarias pueden estar desactualizados y se señalan como tales."
+  ],
+  "candidatas_pendientes": [
+    {"nombre": "POCH S.A.", "subsector": "Industrial/Integrador", "motivo": "Un perfil de LinkedIn de un profesional (cl.linkedin.com/in/allan-luders) menciona un sistema robotizado de empaque y paletizado para Agrosuper con 16 robots FANUC y visión de máquina instalado por POCH; no se verificó con fuente de la empresa.", "fuente": "https://cl.linkedin.com/in/allan-luders"},
+    {"nombre": "Robotec Magnus SpA", "subsector": "Industrial/Integrador", "motivo": "Aparece en un directorio de distribuidores KUKA con sede en el área metropolitana de Santiago, pero la entrada puede estar desactualizada o mal ubicada.", "fuente": "https://www.machinetools.com/en/companies/47844-kuka-roboter-gmbh"},
+    {"nombre": "AquaRov", "subsector": "Submarina/Acuícola", "motivo": "Sernapesca recibió dos ROV de AquaRov financiados por Corfo para fiscalizar la acuicultura en el sur; no se investigó la empresa.", "fuente": "https://portalinnova.cl/?p=7372"},
+    {"nombre": "Tumi Robotics", "subsector": "Minería", "motivo": "Startup acelerada por Aster que, según titulares de Reporte Minero (2024) y G5 Noticias (2025), llegó al ecosistema minero chileno desde Perú; no se confirmó domicilio en Chile.", "fuente": "https://www.reporteminero.cl/noticia/noticias/2024/05/peru-tumi-robotics-aterriza-chile"},
+    {"nombre": "Formation Environmental Chile", "subsector": "Drones", "motivo": "Mencionada como operador de drones con AOC N° 2075 y datos multiespectrales; Apollo la asocia al dominio ghiproyectos.com, sin confirmar.", "fuente": "https://www.reporteminero.cl/noticia/noticias/2026/01/drones-certificados-chile-dan-151-dan-91-operaciones-criticas-mineria-agricultura-medio-ambiente"},
+    {"nombre": "HighService Corp", "subsector": "Minería", "motivo": "Holding matriz de MIRS (presidente y CEO: Hugo Salamanca); dominio highservice.cl según Apollo. No investigada como empresa aparte.", "fuente": "https://www.mch.cl/mirs-proyecta-mayor-demanda-de-sus-soluciones-roboticas-automatizadas-internacionalmente/"},
+    {"nombre": "AMTC (Advanced Mining Technology Center, U. de Chile)", "subsector": "Minería", "motivo": "Centro de investigación (no empresa) con desarrollos de mapeo 3D de túneles y operación de equipos con baja visibilidad junto a Thecne.", "fuente": "https://www.reporteminero.cl/noticia/noticias/2020/02/consorcio-ima-y-la-empresa-thecne-spa-firmaron-convenio-de-colaboracion"},
+    {"nombre": "Achiro (Asociación Chilena de Robótica)", "subsector": "Gremio", "motivo": "Asociación gremial presidida (2016) por Rodrigo Quevedo; no se halló lista de socios.", "fuente": "https://www.df.cl/empresas/innovacion-y-emprendimiento/noticias/inicia-operaciones-el-primer-laboratorio-de-robotica-en-chile"},
+    {"nombre": "FANUC / KUKA / Yaskawa (filiales locales)", "subsector": "Industrial/Integrador", "motivo": "No se confirmó oficina local de ninguna: FANUC atiende Chile desde São Paulo; KUKA figura solo como socio de MIRS (2%) y en un consorcio histórico de 2008 con High Services; no hubo resultados de Yaskawa en Chile.", "fuente": "https://fanucamerica.com/about-us/locations/south-america-headquarters-sao-paulo-brazil"},
+    {"nombre": "Agtech robótica (UC / Unifruti)", "subsector": "Agrícola", "motivo": "Solo se halló un robot de cosecha en desarrollo en la UC (Miguel Torres) y un piloto de Unifruti con una empresa israelí; no se identificó una startup agrícola chilena comercial.", "fuente": "https://www.portalfruticola.com/noticias/2025/03/19/robotica-fruticultura/"}
+  ],
+  "empresas": [
+    {
+      "nombre": "MIRS (Mining Industry Robotic Solutions)",
+      "razon_social": "Mirs S.A.",
+      "rut": "76.869.100-2",
+      "tipo_sociedad": "S.A. cerrada",
+      "subsector": "Minería",
+      "descripcion": "Empresa chilena de soluciones robóticas para la minería y la industria pesada: diseña, instala y mantiene robots para procesos mineros (muestreo robótico de concentrados, EMMR para cambio de revestimientos de molinos). Ha implementado soluciones en la fundición y refinería de Chuquicamata y en Radomiro Tomic; en septiembre de 2008 firmó un acuerdo marco con Codelco para estudios de robótica en toda la corporación.",
+      "sede": "Santiago",
+      "region": "Región Metropolitana de Santiago",
+      "sitio_web": "http://www.mirsrobotics.com",
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": "Alfredo Barros Errázuriz 1953, piso 11, Providencia, Santiago (directorio Automa.net); una nota de MCH registró también Av. Presidente Kennedy 6660, Vitacura (puede estar desactualizada)",
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [
+        {"nombre": "Javier Espinoza", "cargo": "Gerente general de MIRS (según nota de MCH; fecha no precisada)", "linkedin": null, "fuente": "https://www.mch.cl/mirs-proyecta-mayor-demanda-de-sus-soluciones-roboticas-automatizadas-internacionalmente/"},
+        {"nombre": "Hugo Salamanca", "cargo": "Presidente y CEO de HighService Corp., holding matriz de MIRS", "linkedin": null, "fuente": "https://www.mch.cl/mirs-proyecta-mayor-demanda-de-sus-soluciones-roboticas-automatizadas-internacionalmente/"}
+      ],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "No se encontraron cifras de ventas. Soluciones robóticas implementadas en Chuquicamata y Radomiro Tomic (Codelco); acuerdo marco con Codelco (septiembre de 2008)."
+      },
+      "propiedad": {
+        "controlador": "HighService Corp. (53%)",
+        "socios": [
+          {"nombre": "HighService (HighService Corp.)", "porcentaje": "53%", "fuente": "https://codelco.com/innovacion/empresas-de-base-tecnologica/mining-industry-robotic-solutions-mirs"},
+          {"nombre": "Codelco", "porcentaje": "36%", "fuente": "https://codelco.com/innovacion/empresas-de-base-tecnologica/mining-industry-robotic-solutions-mirs"},
+          {"nombre": "Nippon Mining & Metals", "porcentaje": "9%", "fuente": "https://codelco.com/innovacion/empresas-de-base-tecnologica/mining-industry-robotic-solutions-mirs"},
+          {"nombre": "KUKA", "porcentaje": "2%", "fuente": "https://codelco.com/innovacion/empresas-de-base-tecnologica/mining-industry-robotic-solutions-mirs"}
+        ],
+        "notas": "Porcentajes según la ficha de Codelco sobre empresas de base tecnológica (fecha de la ficha no precisada). RUT y condición de sociedad anónima cerrada según la memoria 2007 de Codelco."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://codelco.com/innovacion/empresas-de-base-tecnologica/mining-industry-robotic-solutions-mirs",
+        "https://codelco.com/flipbook/memorias/memoria2007/filiales/filial_robotic.htm",
+        "https://www.mch.cl/mirs-proyecta-mayor-demanda-de-sus-soluciones-roboticas-automatizadas-internacionalmente/",
+        "https://www.mch.cl/con-el-aporte-de-soluciones-innovadoras-desarrolladas-por-mirs-la-mineria-chilena-liderara-en-la-aplicacion-de-tecnologias-roboticas-a-sus-operaciones/",
+        "https://www.mch.cl/mirs-proyecta-alta-demanda-de-su-solucion-robotizada-para-cambio-de-revestimientos-de-molinos/",
+        "https://www.reporteminero.cl/noticia/reportajes/2019/09/mirs-lanzo-innovadora-solucion-robotica",
+        "https://automa.net/business-directory/kuka?page=31"
+      ]
+    },
+    {
+      "nombre": "Robotika",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Minería",
+      "descripcion": "Empresa chilena de alta tecnología establecida a fines de 2008, con sede en Antofagasta, que desarrolla soluciones de robótica aplicada mediante plataformas no tripuladas (equipos telecomandados y robotizados, diésel y eléctricos) para la minería; ofrece mantención, servicios operativos y arriendo de equipos con o sin operador. Figura también como Robotika Mining Innovation. En la faena Antucoya (Antofagasta Minerals) tres robots suyos limpian los chancadores; fue elegida entre cinco propuestas tras un pilotaje de cinco meses.",
+      "sede": "Antofagasta",
+      "region": "Región de Antofagasta",
+      "sitio_web": "http://www.robotika.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [
+        {"nombre": "Paulina González", "cargo": "Gerente general (Reporte Minero, dic. 2025); en 2019 Minería Chilena la citaba como gerente de Administración y Finanzas", "linkedin": null, "fuente": "https://www.reporteminero.cl/noticia/noticias/2025/12/robotika-aseo-industrial-robotizado-mineria-productividad"}
+      ],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Contrato de aseo robotizado de chancadores en Antucoya (Antofagasta Minerals) tras pilotaje de cinco meses. No se encontraron cifras de ventas ni dotación."
+      },
+      "propiedad": {"controlador": null, "socios": [], "notas": "No se halló información de propiedad."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.reporteminero.cl/noticia/exponor-2022/2022/06/robotika-plataformas-no-tripuladas",
+        "https://www.mch.cl/robots-al-servicio-de-la-mineria/",
+        "https://www.reporteminero.cl/noticia/noticias/2025/12/robotika-aseo-industrial-robotizado-mineria-productividad"
+      ]
+    },
+    {
+      "nombre": "Robotia",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Minería",
+      "descripcion": "Startup chilena de robótica e inteligencia artificial para minería, fundada por tres ingenieros mecánicos; su IA identifica elementos que obstruyen el proceso productivo de una mina. La idea nació de una visita a El Teniente (Codelco) en 2017; ha obtenido fondos Corfo y contratos con Codelco y BHP, y expande operaciones a Perú.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.robotia.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [
+        {"nombre": "Felipe Barahona", "cargo": "Mencionado en el relato fundacional de DF (rol exacto no aclarado en la fuente)", "linkedin": null, "fuente": "https://www.df.cl/df-mas/punto-de-partida/fondo-de-alza-para-startups-mineras-firma-su-primer-cheque-us-1-millon"}
+      ],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [
+          {"valor": "US$1.000.000", "descripcion": "Primer cheque del Fondo Alza (fondo especializado en startups mineras) para I+D e instalación de operaciones en Perú", "fecha": "2024-11 (fecha de publicación de DF)", "fuente": "https://www.df.cl/df-mas/punto-de-partida/fondo-de-alza-para-startups-mineras-firma-su-primer-cheque-us-1-millon"}
+        ],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Fondos Corfo (monto no informado) y contratos con Codelco y BHP según DF; no se encontraron cifras de ventas."
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [
+          {"nombre": "Fondo Alza (Alza Mining Tech)", "porcentaje": null, "fuente": "https://ecosistemastartup.com/robotia-us1m-para-robotizar-mineria-y-expandir-a-peru/"}
+        ],
+        "notas": "Fundada por tres ingenieros mecánicos; DF menciona los apellidos Fernández y Páez y a Felipe Barahona sin aclarar el rol de cada uno. Porcentaje del fondo no informado."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.df.cl/df-mas/punto-de-partida/fondo-de-alza-para-startups-mineras-firma-su-primer-cheque-us-1-millon",
+        "https://ecosistemastartup.com/robotia-us1m-para-robotizar-mineria-y-expandir-a-peru/"
+      ]
+    },
+    {
+      "nombre": "Kinamics",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Minería",
+      "descripcion": "Firma chilena de robótica minera. Su robot telecomandado Arkytas MU-2.1 opera desde febrero de 2026 en la mina Esmeralda de la División El Teniente de Codelco para inspeccionar frentes de avance sin exponer a trabajadores; su primera aplicación es la fotogrametría para generar modelos 3D del terreno.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.kinamics.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [
+          {"valor": "US$1.000.000", "descripcion": "Inversión de Alza Mining Tech (fondo de startups mineras); el titular de DF indica que el capital apoya su llegada a Perú", "fecha": "2026-06 (según DF)", "fuente": "https://www.df.cl/df-lab/innovacion-y-startups/kinamics-levanta-capital-con-alza-mining-tech-para-llegar-a-peru-y"}
+        ],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Cliente relevante: Codelco El Teniente (robot Arkytas MU-2.1 en mina Esmeralda, febrero de 2026). No se encontraron cifras de ventas."
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [
+          {"nombre": "Alza Mining Tech", "porcentaje": null, "fuente": "https://www.df.cl/df-lab/innovacion-y-startups/kinamics-levanta-capital-con-alza-mining-tech-para-llegar-a-peru-y"}
+        ],
+        "notas": "Porcentajes no informados."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.reporteminero.cl/noticia/tecnologia/2026/02/codelco-usa-robot-kinamics-inspeccionar-nuevos-frentes-mineros-el-teniente",
+        "https://www.df.cl/df-lab/innovacion-y-startups/kinamics-levanta-capital-con-alza-mining-tech-para-llegar-a-peru-y"
+      ]
+    },
+    {
+      "nombre": "Codelco Tech",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Minería",
+      "descripcion": "Filial tecnológica 100% de Codelco, creada al reestructurar en 2016 las empresas tecnológicas IM2, BioSigma y Codelco Lab; su mandato es conducir la investigación para una minería de mínimo impacto ambiental y riesgo para las personas. Codelco incorporó un área de automatización y robótica, y sus memorias describen los sistemas robóticos en tareas de alto riesgo como herramientas habilitantes para una minería más segura.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.codelcotech.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Memoria 2017 de Codelco: el aporte de los proyectos de innovación al Ebitda de Codelco se estimó sobre US$100 millones en 2017 (cifra de la corporación, no de la filial)."
+      },
+      "propiedad": {"controlador": "Codelco (100%)", "socios": [], "notas": "Según memorias 2016 y 2017 de Codelco; no se verificó el estado actual de la filial."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.codelco.com/memoria2016/pdf/mem2016codelco-negocios-innovacion.pdf",
+        "https://www.codelco.com/memoria2017/site/artic/20180319/asocfile/20180319155245/mem_codelco_2017_innovacion.pdf",
+        "https://www.codelco.com/memoria2015/pdf/memoria-anual/memoria2015-15-innovacionytecnologia.pdf"
+      ]
+    },
+    {
+      "nombre": "Enaex",
+      "razon_social": "Enaex S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Minería",
+      "descripcion": "Empresa del Grupo Sigdo Koppers que presentó equipos para voladuras mineras basados en automatización y robótica: el Robominer, robot teleoperado que captura el entorno minero en tiempo real con visión 3D y monitorea gases y temperatura, y el Mine-iTruck, camión de fabricación de explosivos operado a distancia (anuncios de hace varios años; estado actual por verificar). La robótica es una línea dentro de un negocio mayor.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.enaex.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "No se buscaron cifras financieras de Enaex; solo su línea de robótica y automatización."
+      },
+      "propiedad": {"controlador": "Grupo Sigdo Koppers", "socios": [], "notas": "Controlador según MCH; porcentajes no verificados."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.mch.cl/enaex-presento-equipos-para-voladuras-mineras-basados-en-automatizacion-y-robotica/"
+      ]
+    },
+    {
+      "nombre": "Thecne SpA",
+      "razon_social": "Thecne SpA",
+      "rut": null,
+      "tipo_sociedad": "SpA",
+      "subsector": "Minería",
+      "descripcion": "Empresa chilena que firmó un convenio de colaboración con el Consorcio IMA (Reporte Minero, febrero de 2020). Según resultados de MCH, el AMTC (U. de Chile) y el grupo asociado a Thecne desarrollaron un sistema robotizado de mapeo 3D de túneles para minería subterránea y un sistema de operación de equipos mineros en condiciones de baja visibilidad.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.thecne.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {"controlador": null, "socios": [], "notas": "No se halló información de propiedad."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.reporteminero.cl/noticia/noticias/2020/02/consorcio-ima-y-la-empresa-thecne-spa-firmaron-convenio-de-colaboracion"
+      ]
+    },
+    {
+      "nombre": "Robomotic",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Drones",
+      "descripcion": "Empresa con sede en Santiago que diseña, desarrolla y fabrica aeronaves no tripuladas (drones) y soluciones robóticas para minería, agricultura y seguridad; también diseña y fabrica robots terrestres para tareas como operaciones mineras y monitoreo de incendios. Según su fundador, nació en 2016 al notar que los drones comerciales eran muy limitados para uso profesional.",
+      "sede": "Santiago",
+      "region": "Región Metropolitana de Santiago",
+      "sitio_web": "http://www.robomotic.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [
+        {"nombre": "Alberto Munizaga", "cargo": "Fundador y CEO (perfil de Diario Financiero, febrero de 2026)", "linkedin": null, "fuente": "https://www.df.cl/los-planes-de-robomotic-la-empresa-que-disena-y-fabrica-drones-en-chile"}
+      ],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "DF reporta planes para ampliar su portafolio; no se encontraron cifras de ventas ni rondas."
+      },
+      "propiedad": {"controlador": "Alberto Munizaga (descrito como fundador y dueño en una entrevista)", "socios": [], "notas": "Porcentajes no informados."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.df.cl/los-planes-de-robomotic-la-empresa-que-disena-y-fabrica-drones-en-chile",
+        "https://www.commercialuavnews.com/mining/robomotic-and-how-robotics-are-helping-chile-s-copper-industry",
+        "https://www.meganoticias.cl/nacional/480989-empresa-chilena-fabrica-drones-pdp-03-04-2025.html"
+      ]
+    },
+    {
+      "nombre": "Inti Tech",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Servicio/Energía solar",
+      "descripcion": "Startup chilena nacida en 2016 desde ingenieros de la UC que desarrolla robots que limpian paneles solares con cepillos, sin agua; según CNN Chile (2019) limpian los paneles en unos cinco minutos sin desperdiciar agua. Un texto de LinkedIn asociado a la empresa menciona más de 750 robots vendidos y expansión a Estados Unidos y México (dato no verificado en fuente propia).",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.inti-tech.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [
+        {"nombre": "Camilo Contreras", "cargo": "Cofundador (ex alumno de Ciencia de la Computación UC)", "linkedin": "https://cl.linkedin.com/in/camilo86/en", "fuente": "https://www.uc.cl/noticias/investigadores-de-ciencia-de-la-computacion-uc-se-adjudicaron-fondos-para-limpiar-plantas-solares-con-robots/ (el perfil de LinkedIn apareció en la búsqueda sobre Inti Tech; identidad por confirmar)"},
+        {"nombre": "Mauricio Chiong", "cargo": "Cofundador (ex alumno de Ciencia de la Computación UC)", "linkedin": null, "fuente": "https://www.uc.cl/noticias/investigadores-de-ciencia-de-la-computacion-uc-se-adjudicaron-fondos-para-limpiar-plantas-solares-con-robots/"},
+        {"nombre": "Camilo Flores", "cargo": "Cofundador (ingeniero civil mecánico UC)", "linkedin": null, "fuente": "https://www.uc.cl/noticias/investigadores-de-ciencia-de-la-computacion-uc-se-adjudicaron-fondos-para-limpiar-plantas-solares-con-robots/"}
+      ],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [
+          {"valor": "aprox. US$1,5 millones (primeros dos años)", "descripcion": "Financiamiento de Engie Factory, CORFO, Brain Chile, Ministerio de Economía y capitales privados", "fecha": null, "fuente": "https://www.uc.cl/noticias/investigadores-de-ciencia-de-la-computacion-uc-se-adjudicaron-fondos-para-limpiar-plantas-solares-con-robots/"},
+          {"valor": "no divulgado", "descripcion": "Ronda con Engie Factory, Alaya Capital Partners y Albi Investments (monto confidencial)", "fecha": null, "fuente": "https://abogados.com.ar/carey-asesoro-a-inti-tech-en-ronda-de-financiamiento/24809"},
+          {"valor": null, "descripcion": "Emisión de créditos convertibles en acciones, con asesoría legal de Carey", "fecha": null, "fuente": "https://abogados.com.ar/carey-asesoro-a-inti-tech-en-la-emision-de-creditos-convertibles-en-acciones/28430"}
+        ],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Más de 750 robots vendidos según texto de LinkedIn (no verificado). Respaldo de Exagon Impact Capital a través de Sunroof mencionado en LinkedIn, sin monto ni fecha."
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [
+          {"nombre": "Engie Factory", "porcentaje": null, "fuente": "https://abogados.com.ar/carey-asesoro-a-inti-tech-en-ronda-de-financiamiento/24809"},
+          {"nombre": "Alaya Capital Partners", "porcentaje": null, "fuente": "https://abogados.com.ar/carey-asesoro-a-inti-tech-en-ronda-de-financiamiento/24809"},
+          {"nombre": "Albi Investments", "porcentaje": null, "fuente": "https://abogados.com.ar/carey-asesoro-a-inti-tech-en-ronda-de-financiamiento/24809"}
+        ],
+        "notas": "Fundadores: Camilo Contreras, Mauricio Chiong y Camilo Flores; porcentajes no informados."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.cnnchile.com/futuro360/startup-chilena-crea-robots-que-limpian-paneles-solares-en-solo-5-minutos-y-sin-desperdiciar-agua_20190502/",
+        "https://www.uc.cl/noticias/investigadores-de-ciencia-de-la-computacion-uc-se-adjudicaron-fondos-para-limpiar-plantas-solares-con-robots/",
+        "https://www.contxto.com/en/chile/chilean-inti-techs-solution-dirty-solar-panels-going-places/",
+        "https://abogados.com.ar/carey-asesoro-a-inti-tech-en-ronda-de-financiamiento/24809",
+        "https://abogados.com.ar/carey-asesoro-a-inti-tech-en-la-emision-de-creditos-convertibles-en-acciones/28430"
+      ]
+    },
+    {
+      "nombre": "Zippedi",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Servicio/Retail",
+      "descripcion": "Startup chilena creada por académicos de la UC que desarrolla un robot de retail que revisa góndolas de supermercados.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.zippedi.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "La búsqueda de detalle (fundadores, rondas, clientes) no pudo ejecutarse por agotarse el presupuesto de búsquedas."
+      },
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.mch.cl/robots-made-chile-buscan-revolucionar-la-industria-local/",
+        "https://www.df.cl/df-lab/transformacion-digital/aumenta-la-penetracion-de-la-robotica-en-diferentes-industrias-chilenas"
+      ]
+    },
+    {
+      "nombre": "ABB Chile",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": "Filial de grupo extranjero (ABB)",
+      "subsector": "Industrial/Integrador",
+      "descripcion": "Filial local de ABB, fabricante global de robótica y automatización. Exhibe en Chile el robot colaborativo YuMi (nota de 2023 sobre su visita a la galería Suizspacio en la estación Ñuñoa del Metro de Santiago; sala de exposición con YuMi en sus oficinas de la Gran Torre Costanera). Su página de contacto indica que, por la separación de su negocio de Robótica, las consultas de robótica deben dirigirse al sitio de ABB Robotics, disponible desde el 27/07/2026.",
+      "sede": "Santiago (oficinas en la Gran Torre Costanera, Providencia)",
+      "region": "Región Metropolitana de Santiago",
+      "sitio_web": "https://new.abb.com/south-america/sobre-nosotros/quienes-somos/contactos/centro-de-contacto-chile",
+      "contactos": {"email": null, "telefono": null, "direccion": "Gran Torre Costanera, Providencia, Santiago (según nota de ABB; fecha no precisada)", "linkedin": null, "instagram": null},
+      "personas": [
+        {"nombre": "Jorge Abraham", "cargo": "Gerente de la División Procesos Industriales de ABB en Chile (no de robótica; fecha de la nota no precisada)", "linkedin": null, "fuente": "https://new.abb.com/news/es/detail/101459/nuestro-arribo-a-la-gran-torre-costanera-reafirma-el-compromiso-con-chile-y-su-economia"}
+      ],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "No se buscaron cifras de la filial chilena."
+      },
+      "propiedad": {"controlador": "ABB (grupo matriz)", "socios": [], "notas": "Según la página de contacto de ABB Chile, el negocio de Robótica se separa del grupo (consultas de robótica van a ABB Robotics desde el 27/07/2026); detalles de esa operación no se verificaron en esta búsqueda."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://new.abb.com/south-america/sobre-nosotros/quienes-somos/contactos/centro-de-contacto-chile",
+        "https://new.abb.com/news/es/detail/101459/nuestro-arribo-a-la-gran-torre-costanera-reafirma-el-compromiso-con-chile-y-su-economia",
+        "https://new.abb.com/news/es/detail/100761/robot-colaborativo-abb-visita-galeria-suizspacio-en-estacion-nunoa-del-metro-de-santiago"
+      ]
+    },
+    {
+      "nombre": "Roboris",
+      "razon_social": "Roboris Ltda.",
+      "rut": null,
+      "tipo_sociedad": "Ltda.",
+      "subsector": "Industrial/Integrador",
+      "descripcion": "Empresa chilena con unos 25 años de trayectoria (según RankmyAI) dedicada a automatización flexible y control de movimiento, visión de máquina y automatización general; figura como integrador de robots FANUC en Santiago en el directorio de integradores de FANUC Brasil.",
+      "sede": "Santiago",
+      "region": "Región Metropolitana de Santiago",
+      "sitio_web": "http://www.roboris.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": "11-50 (RankmyAI)",
+        "cotiza_en_bolsa": null,
+        "resumen": "No se hallaron proyectos de referencia ni cifras de ventas."
+      },
+      "propiedad": {"controlador": null, "socios": [], "notas": "No se halló información de propiedad."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://fanucamerica.com/fanuc-brazil/integrators",
+        "https://www.rankmyai.com/tools/723cb360-4f0f-43b9-824d-125904353511/roboris"
+      ]
+    },
+    {
+      "nombre": "Schultz Automatización e Ingeniería",
+      "razon_social": "Schultz Automatización e Ingeniería S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Industrial/Integrador",
+      "descripcion": "Empresa de Santiago que ofrece servicios y productos de ingeniería y automatización industrial; un directorio (Automa.net) menciona robots industriales y automatización de procesos industriales entre su oferta, sin precisar marcas.",
+      "sede": "Santiago",
+      "region": "Región Metropolitana de Santiago",
+      "sitio_web": "http://www.schultzsa.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": "Razón social y dominio según Apollo (lookup gratuito); no se verificó en fuente propia."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://automa.net/business-directory/chile?page=6"
+      ]
+    },
+    {
+      "nombre": "AB Automation",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Industrial/Integrador",
+      "descripcion": "Empresa de automatización y robótica industrial con sede en Santiago según el directorio Automa.net.",
+      "sede": "Santiago",
+      "region": "Región Metropolitana de Santiago",
+      "sitio_web": "http://www.abautomation.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://automa.net/business-directory/chile?page=6",
+        "https://automa.net/business-directory/chile?page=5"
+      ]
+    },
+    {
+      "nombre": "Mundos Virtuales",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Industrial/Integrador",
+      "descripcion": "Integrador de robots FANUC listado en Santiago, Chile en el directorio de integradores de FANUC Brasil. El dominio mundos-virtuales.com proviene de Apollo y no se confirmó que corresponda a la misma entidad.",
+      "sede": "Santiago",
+      "region": "Región Metropolitana de Santiago",
+      "sitio_web": "http://www.mundos-virtuales.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://fanucamerica.com/fanuc-brazil/integrators"
+      ]
+    },
+    {
+      "nombre": "Rocketbot",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Automatización (RPA/software)",
+      "descripcion": "Startup chilena de automatización de procesos empresariales (robótica de software, no física; en Apollo figura como Rocketbot Agentic Enterprise Automation). Levantó US$2,1 millones en una ronda Pre Serie A liderada por Consorcio para apoyar su expansión internacional.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.rocketbot.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [
+          {"valor": "US$2.100.000", "descripcion": "Ronda Pre Serie A liderada por Consorcio (aporte de US$1,5 millones según La Tercera); también participaron Angel Ventures, Compusoluciones y Manutara Ventures", "fecha": null, "fuente": "https://elreferente.es/inversiones/rocketbot-levanta-2m-ronda-pre-serie-a-liderada-por-consorcio/"}
+        ],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Fecha de la ronda no confirmada en los resultados."
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [
+          {"nombre": "Consorcio", "porcentaje": null, "fuente": "https://www.latercera.com/pulso/noticia/grupo-consorcio-invierte-us15-millones-en-startup-chilena-rocketbot/YWNNHTXMVRC3HJMTRCYLSIB224/"},
+          {"nombre": "Angel Ventures", "porcentaje": null, "fuente": "https://elreferente.es/inversiones/rocketbot-levanta-2m-ronda-pre-serie-a-liderada-por-consorcio/"},
+          {"nombre": "Compusoluciones", "porcentaje": null, "fuente": "https://elreferente.es/inversiones/rocketbot-levanta-2m-ronda-pre-serie-a-liderada-por-consorcio/"},
+          {"nombre": "Manutara Ventures", "porcentaje": null, "fuente": "https://elreferente.es/inversiones/rocketbot-levanta-2m-ronda-pre-serie-a-liderada-por-consorcio/"}
+        ],
+        "notas": "Inversionistas de la ronda Pre Serie A; porcentajes no informados."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.latercera.com/pulso/noticia/grupo-consorcio-invierte-us15-millones-en-startup-chilena-rocketbot/YWNNHTXMVRC3HJMTRCYLSIB224/",
+        "https://elreferente.es/inversiones/rocketbot-levanta-2m-ronda-pre-serie-a-liderada-por-consorcio/"
+      ]
+    },
+    {
+      "nombre": "Yagan Chile",
+      "razon_social": "Yagan Chile SpA",
+      "rut": null,
+      "tipo_sociedad": "SpA",
+      "subsector": "Submarina/Acuícola",
+      "descripcion": "Desarrolla «Yagancito», un ROV para limpiar las mallas de las jaulas salmoneras, con apoyo del programa de innovación empresarial de Corfo; busca pasar del lavado manual a un sistema operado de forma remota, reduciendo costos sin sacrificar calidad.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.yaganchile.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": "Proyecto con apoyo Corfo (monto no informado)."},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://portalinnova.cl/?p=7372"
+      ]
+    },
+    {
+      "nombre": "Underdeep Solutions",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Submarina/Acuícola",
+      "descripcion": "Se dedica a la inspección y apoyo de centros de cultivo en Chile y la región; sus tres ROV Saab Seaeye Falcon trabajan a plena capacidad en las instalaciones acuícolas de Salmones Camanchaca.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.underdeep.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": "3 ROV Saab Seaeye Falcon", "trabajadores": null, "cotiza_en_bolsa": null, "resumen": "Cliente relevante: Salmones Camanchaca."},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://oceannews.com/?p=60242",
+        "https://www.oceannews.com/34fy"
+      ]
+    },
+    {
+      "nombre": "BioRobótica (Puerto Montt)",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Submarina/Acuícola",
+      "descripcion": "Con más de 10 años de experiencia, se especializa en inspección, monitoreo y reparaciones con equipos submarinos de última generación; usa BlueROV2 y ofrece lavado a presión entre sus servicios. La fuente exacta de cada dato no se pudo precisar entre los resultados de la búsqueda.",
+      "sede": "Puerto Montt",
+      "region": "Región de Los Lagos",
+      "sitio_web": null,
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": "Apollo solo devolvió una BioRobótica de México (biorobotica.com.mx), que no corresponde a esta empresa."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://weareaquaculture.com/news/aquaculture/state-of-the-art-technology-to-optimize-aquaculture-control-in-chile",
+        "https://bluerobotics.com/?p=191134"
+      ]
+    },
+    {
+      "nombre": "Adentu SUB",
+      "razon_social": "Adentu Ingeniería SpA",
+      "rut": null,
+      "tipo_sociedad": "SpA",
+      "subsector": "Submarina/Acuícola",
+      "descripcion": "Empresa de Puerto Varas especializada en tecnología marina, robótica submarina y soluciones para acuicultura; es distribuidora local de Blue Robotics.",
+      "sede": "Puerto Varas",
+      "region": "Región de Los Lagos",
+      "sitio_web": "http://www.adentu.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": "Razón social deducida del enlace del distribuidor en el sitio de Blue Robotics (adentu-ingenieria-spa)."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://bluerobotics.com/distributors/adentu-ingenieria-spa/"
+      ]
+    },
+    {
+      "nombre": "Deep Trekker (filial en Chile)",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": "Filial de empresa extranjera (Deep Trekker Inc.)",
+      "subsector": "Submarina/Acuícola",
+      "descripcion": "Fabricante de ROV que abrió una filial en Puerto Montt, en la zona salmonera, con su gama completa de productos submarinos, soporte técnico y servicios de capacitación.",
+      "sede": "Puerto Montt",
+      "region": "Región de Los Lagos",
+      "sitio_web": "http://www.deeptrekker.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": "Deep Trekker Inc. (matriz)", "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.fishfarmingexpert.com/article/rov-maker-opens-new-branch-in-chilean-salmon-heartland/"
+      ]
+    },
+    {
+      "nombre": "GFDas Drones y Minería (GeoMagDrone)",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Drones",
+      "descripcion": "Empresa chilena fundada en 2016 que entrega servicios geofísicos para la minería mediante drones equipados con magnetómetros y sensores para mapeo aéreo.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.gfdas.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.descubre.vc/gf-das-drone"
+      ]
+    },
+    {
+      "nombre": "Ecodrones Chile",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Drones",
+      "descripcion": "Se transformó en pionera en Chile tras recibir del Ministerio de Salud la autorización sanitaria para combatir plagas en predios agrícolas y forestales con drones.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.ecodrones.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.helis.com/database/news/drone-aerial-spraying-eco/es/"
+      ]
+    },
+    {
+      "nombre": "Smart Solution Chile",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Servicio",
+      "descripcion": "Empresa que desarrolla diseño y modelado de soluciones con ingenieros de diferentes nacionalidades y ha entregado servicios a centros comerciales y municipalidades de Santiago oriente; su presidente llevó a la Cámara de Diputados a Max, un robot humanoide que asesora a clientes (comisión de Ciencias y Tecnología, octubre de 2019).",
+      "sede": "Santiago (Santiago oriente)",
+      "region": "Región Metropolitana de Santiago",
+      "sitio_web": null,
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [
+        {"nombre": "Pablo Eckell", "cargo": "Presidente de Smart Solution Chile (2019)", "linkedin": null, "fuente": "https://www.camara.cl/cms/2019/10/04/comision-de-ciencias-y-tecnologia-analizo-situacion-de-la-robotica-en-chile/"}
+      ],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": "Apollo lista «Smart Solutions Chile» sin dominio; no se confirmó que sea la misma entidad."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.camara.cl/cms/2019/10/04/comision-de-ciencias-y-tecnologia-analizo-situacion-de-la-robotica-en-chile/"
+      ]
+    },
+    {
+      "nombre": "Robotics Lab SCL (Mentor Labs / Rotatecno)",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Educativa",
+      "descripcion": "Laboratorio y hub de robótica en la comuna de Recoleta, Santiago, donde se enseña y desarrolla robótica; concebido como primer hub de robótica del país y espacio de reunión de los socios de Achiro. Su director general, Rodrigo Quevedo, presidente de Achiro (Asociación Chilena de Robótica), fundó Rotatecno y Mentor Labs, que funciona en Robotics Lab SCL; Achiro trajo a Chile la licencia de la competencia RoboOne (según la BCN).",
+      "sede": "Recoleta, Santiago",
+      "region": "Región Metropolitana de Santiago",
+      "sitio_web": "http://www.roboticslab.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [
+        {"nombre": "Rodrigo Quevedo", "cargo": "Director general de Robotics Lab; presidente de Achiro (DF, 2016); fundador de Rotatecno y Mentor Labs", "linkedin": null, "fuente": "https://www.bcn.cl/observatorio/asiapacifico/noticias/rodrigo-quevedo-robotica-educacion-japon"}
+      ],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": "Rodrigo Quevedo (fundador de Rotatecno y Mentor Labs)", "socios": [], "notas": "Rotatecno tiene dominio rotatecno.com según Apollo. Datos de 2016-2019; pueden estar desactualizados."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.df.cl/empresas/innovacion-y-emprendimiento/noticias/inicia-operaciones-el-primer-laboratorio-de-robotica-en-chile",
+        "https://www.bcn.cl/observatorio/asiapacifico/noticias/rodrigo-quevedo-robotica-educacion-japon",
+        "https://www.mch.cl/robots-made-chile-buscan-revolucionar-la-industria-local/"
+      ]
+    }
+  ]
+}

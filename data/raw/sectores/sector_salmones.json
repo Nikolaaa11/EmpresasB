@@ -1,0 +1,1058 @@
+{
+  "sector": "salmones",
+  "busquedas_realizadas": 12,
+  "resumen_sector": "En 2025 las exportaciones chilenas de salmón y trucha rondaron US$6.550 millones (SalmonChile: US$6.549 M, +3%; Consejo del Salmón: US$6.552 M, +2,9%; Subrei vía Ex-Ante: US$6.597 M), cerca del 6% del total exportado y, por tercer año consecutivo, el segundo producto de exportación tras el cobre, aunque el alza no compensa la contracción acumulada de -3,4% de 2023 y 2024. Estados Unidos, Japón y Brasil son los principales destinos (casi 40% de los envíos va a EE.UU.), y el arancel estadounidense (10%, con alza a 12,5%) presiona los márgenes: Agrosuper estimó en US$28 M el costo de esos aranceles en 2025. Por tamaño lidera AquaChile (grupo Agrosuper/Vial; ~250.900 t WFE de salmón Atlántico y coho en 2024 y ventas 2025 de US$1.878 M), seguida según Emol por Cermaq; Multi X (Multiexport Foods con Mitsui y Cargill) es descrita como la segunda mayor exportadora (ingresos 2025 de US$870,8 M), y completan el grupo Mowi (~73.000 t en 2024 y ~78.000 t en 2025 en Chile), Salmones Camanchaca (~52.000 t WFE en 2024; ingresos 2025 de US$386 M), Blumar (ingresos 2025 de US$712,8 M; listada en la Bolsa de Santiago), Australis (Joyvio/Legend), Cooke, Salmones Aysén, Pesquera Los Fiordos, Yadrán, Trusal, Invertec y Tornagaleones. Las fuentes gremiales de datos son SalmonChile y el Consejo del Salmón (presidenta ejecutiva: Loreto Seguel; portal Infosalmon con indicadores Aquabench); según prensa, el Consejo reúne a AquaChile, Australis, Cermaq, Mowi y Salmones Aysén. En servicios, la zona salmonera de Los Lagos concentra proveedores de robótica submarina (ROV) para inspección y limpieza de mallas de centros de cultivo: Underdeep Solutions (tres ROV Saab Seaeye Falcon que trabajan para Salmones Camanchaca), Yagan Chile (ROV «Yagancito» con apoyo Corfo), BioRobótica y Adentu SUB, además de la filial en Puerto Montt del fabricante Deep Trekker; entre los procesadores figura Integra Chile, la única Empresa B identificada en esta sección.",
+  "fuentes_resumen": [
+    "https://www.radioagricultura.cl/noticias/nacional/exportaciones-de-salmon-en-2025-confirman-escenario-de-estancamiento-productivo_20260205/",
+    "https://www.latercera.com/pulso/noticia/aumenta-el-envio-de-salmon-y-se-consolida-como-el-segundo-producto-mas-exportado-de-chile/",
+    "https://www.ex-ante.cl/salmon-el-millonario-sobrecosto-que-genera-el-arancel-de-ee-uu-para-la-segunda-mayor-exportacion-de-chile/",
+    "https://www.t13.cl/noticia/ex-ante/negocios/salmon-millonario-sobrecosto-genera-arancel-eeuu-para-segunda-mayor-exportacion-25-7-2026",
+    "https://www.emol.com/noticias/Economia/2026/03/24/1195235/noruega-chile-salmon-financiamiento-ong.html",
+    "https://www.eldinamo.cl/economia/2026/02/04/salmon-chileno-y-aranceles-de-trump-agrosuper-calcula-efectos-por-us-28-millones-aunque-volumenes-y-competitividad-se-mantienen/",
+    "https://www.latercera.com/pulso/noticia/exportaciones-de-salmon-registran-en-2024-su-segunda-caida-anual-consecutiva/BYMVVWIV6FDJFOP32UA6JKR6H4/",
+    "https://infosalmon.cl/wp-content/uploads/2025/08/Indicadores-Productivos-S1-2025.pdf",
+    "https://infosalmon.cl/wp-content/uploads/2025/05/Indicadores-Productivos-2025.pdf",
+    "https://oceannews.com/?p=60242",
+    "https://portalinnova.cl/?p=7372",
+    "https://www.fishfarmingexpert.com/article/rov-maker-opens-new-branch-in-chilean-salmon-heartland/",
+    "https://www.bcorporation.net/find-a-b-corp/company/integra-chile-sa"
+  ],
+  "empresas": [
+    {
+      "nombre": "AquaChile",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Productor",
+      "descripcion": "Mayor productora de salmón y trucha de Chile (~250.900 t WFE de salmón Atlántico y coho cosechadas en 2024, según Emol); filial de Agrosuper (grupo Vial). Opera 335 concesiones de acuicultura: 242 en Aysén, 63 en Los Lagos, 29 en Magallanes y 1 en Los Ríos.",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [
+          {
+            "valor": "US$1.878 millones (ventas consolidadas, antes de fair value; margen EBITDA 17,5%; resultado operacional US$275 millones; resultado neto US$186 millones)",
+            "periodo": "2025",
+            "fuente": "https://www.elmostrador.cl/mercados/2026/01/30/aquachile-consolida-utilidades-en-base-a-innovacion-y-foco-en-las-personas/"
+          },
+          {
+            "valor": "US$481 millones (+10% vs US$437 millones en el 4T 2024)",
+            "periodo": "4T 2025",
+            "fuente": "https://www.elmostrador.cl/mercados/2026/01/30/aquachile-consolida-utilidades-en-base-a-innovacion-y-foco-en-las-personas/"
+          },
+          {
+            "valor": "Cerca de US$1.400 millones en ingresos; utilidad neta US$155 millones (+119% vs US$70,9 millones)",
+            "periodo": "enero-septiembre 2025",
+            "fuente": "https://www.seafoodsource.com/news/business-finance/aquachile-maintains-momentum-in-q3-top-line-revenues-near-usd-1-4-billion-over-first-nine-months-of-2025"
+          }
+        ],
+        "inversion_anunciada": [],
+        "capacidad": "335 concesiones de acuicultura (242 Aysén, 63 Los Lagos, 29 Magallanes, 1 Los Ríos). Cosecha 2024: 250.933 t WFE de salmón Atlántico y coho (Emol). Tabla Aquabench/Infosalmon de enero 2025: 5.721 t = 14,61% del total de 39.160 t (primera de la tabla).",
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "2025: ventas US$1.878 M, margen EBITDA 17,5%, utilidad neta US$186 M. Agrosuper estimó en US$28 M el costo de los aranceles de EE.UU. al salmón chileno en 2025. Reporta a la CMF a través de su matriz; no se encontró nemotécnico accionario."
+      },
+      "propiedad": {
+        "controlador": "Agrosuper (grupo Vial)",
+        "socios": [],
+        "notas": "Global AgInvesting titula que Agrosuper adquirió AquaChile por US$850 M y creó el segundo mayor productor mundial de salmón (fecha de la compra no verificada)."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.elmostrador.cl/mercados/2026/01/30/aquachile-consolida-utilidades-en-base-a-innovacion-y-foco-en-las-personas/",
+        "https://www.df.cl/empresas/resultados-de-empresas/agrosuper-eleva-sus-utilidades-53-en-2025-y-acelera-inversiones",
+        "https://www.df.cl/empresas/industria/que-mejora-en-el-negocio-del-salmon-productor-del-grupo-vial-se-dirige-a",
+        "https://www.seafoodsource.com/news/business-finance/aquachile-maintains-momentum-in-q3-top-line-revenues-near-usd-1-4-billion-over-first-nine-months-of-2025",
+        "https://www.seafoodsource.com/news/business-finance/aquachile-quadruples-profits-in-first-half-of-2025",
+        "https://www.globalaginvesting.com/agrosuper-acquires-aquachile-850m-creates-worlds-second-largest-salmon-farmer/",
+        "https://www.eldinamo.cl/economia/2026/02/04/salmon-chileno-y-aranceles-de-trump-agrosuper-calcula-efectos-por-us-28-millones-aunque-volumenes-y-competitividad-se-mantienen/",
+        "https://www.emol.com/noticias/Economia/2026/03/24/1195235/noruega-chile-salmon-financiamiento-ong.html",
+        "https://infosalmon.cl/wp-content/uploads/2025/05/Indicadores-Productivos-2025.pdf"
+      ],
+      "confianza": "media",
+      "notas": "Sede, gerente general, RUT, razón social y sitio web no confirmados (una fuente en inglés menciona Puerto Natales como sede; no verificado). AquaChile acordó vender su filial de alimentos para salmones a BioMar por US$17 M (La Tercera, fecha no verificada)."
+    },
+    {
+      "nombre": "Mowi Chile",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": "Filial de grupo extranjero (Mowi, Noruega)",
+      "subsector": "Productor",
+      "descripcion": "Filial chilena del grupo noruego Mowi (ex Marine Harvest; cambio de nombre oficializado en marzo de 2019). Cosechó ~73.000 t en Chile en 2024 (Emol) y ~78.000 t en 2025, segundo país en el volumen global de Mowi tras Noruega (332.000 t; total del grupo 559.000 t).",
+      "sede": "Puerto Montt (oficina en Camino a Chinquihue S/N Km 12, según directorio de 2019; vigencia por verificar)",
+      "region": "Los Lagos",
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": "Camino a Chinquihue S/N Km. 12, Puerto Montt (directorio de empresas noruegas en Chile, 2019)",
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [
+        {
+          "nombre": "Fernando Villarroel",
+          "cargo": "Gerente general / CEO de Mowi Chile (según nota de marzo de 2019 y directorio de 2019; vigencia NO confirmada)",
+          "linkedin": null,
+          "fuente": "https://www.norway.no/globalassets/2-world/chile/social-media/190506-norwegian-companies-in-chile.pdf"
+        }
+      ],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [
+          {
+            "valor": null,
+            "descripcion": "Nueva sala de operaciones para alimentación y monitoreo remoto en Chonchi",
+            "fecha": null,
+            "fuente": "https://www.diariodepuertomontt.cl/noticias/pulso-acuicola/4"
+          }
+        ],
+        "capacidad": "Cosecha en Chile: ~73.000 t (2024, Emol); ~78.000 t (2025, según reporte del grupo Mowi; fuente exacta no identificada).",
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Sin cifras de ventas ni dotación de Mowi Chile en los resultados. Miembro del Consejo del Salmón (según prensa)."
+      },
+      "propiedad": {
+        "controlador": "Mowi (grupo noruego, ex Marine Harvest)",
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.t13.cl/noticia/negocios/df-salmonera-marine-harvest-oficializa-cambio-nombre-mowi",
+        "https://www.diarioestrategia.cl/texto-diario/mostrar/1366691/marine-harvest-cambia-nombre-chile-nivel-global-pasa-llamarse-mowi",
+        "https://www.norway.no/globalassets/2-world/chile/social-media/190506-norwegian-companies-in-chile.pdf",
+        "https://www.diariodepuertomontt.cl/noticias/pulso-acuicola/4",
+        "https://www.emol.com/noticias/Economia/2026/03/24/1195235/noruega-chile-salmon-financiamiento-ong.html",
+        "https://www.latercera.com/pulso/noticia/exportaciones-de-salmon-registran-en-2024-su-segunda-caida-anual-consecutiva/BYMVVWIV6FDJFOP32UA6JKR6H4/"
+      ],
+      "confianza": "media",
+      "notas": "Razón social, RUT, sitio web, gerente general actual y dotación no confirmados."
+    },
+    {
+      "nombre": "Multi X",
+      "razon_social": "Multi X S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Productor",
+      "descripcion": "Productor integrado (cultivo, proceso y comercialización) de salmónidos; descrito como el segundo mayor exportador de salmón de Chile. Filial de Multiexport Foods S.A. (51%) con Mitsui y Cargill (24,5% cada uno).",
+      "sede": "Puerto Montt (por confirmar: su Capital Markets Day 2025 se realizó allí)",
+      "region": "Los Lagos",
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [
+        {
+          "nombre": "Cristián Swett",
+          "cargo": "CEO",
+          "linkedin": null,
+          "fuente": "https://weareaquaculture.com/news/finance/chilean-salmon-producer-multi-x-closed-2025-with-record-breaking-results"
+        }
+      ],
+      "economia": {
+        "ventas_reportadas": [
+          {
+            "valor": "US$870,8 millones de ingresos operacionales (+23,6%); EBITDA US$78,2 M (+83%); EBIT US$45,6 M (+287%); utilidad neta US$16,2 M (mejora de US$19,2 M frente a 2024)",
+            "periodo": "2025",
+            "fuente": "https://www.salmonbusiness.com/multi-x-ebit-jumps-287-in-2025-despite-weaker-salmon-prices/"
+          },
+          {
+            "valor": "US$246,9 millones (mayor ingreso histórico para un 4T); costo ex-farm US$4,33/kg (-16% interanual); cosecha récord de 37.500 t WFE",
+            "periodo": "4T 2025",
+            "fuente": "https://www.salmonbusiness.com/multi-x-ebit-jumps-287-in-2025-despite-weaker-salmon-prices/"
+          },
+          {
+            "valor": "US$230,9 millones; 30.113 t WFE vendidas; EBIT US$10,5 M",
+            "periodo": "1T 2026",
+            "fuente": "https://weareaquaculture.com/amp/story/news/finance/multi-x-q1-2026-record-sales-volume-for-a-first-quarter"
+          }
+        ],
+        "inversion_anunciada": [],
+        "capacidad": "Cosecha récord de 37.500 t WFE en el 4T 2025; ventas de 30.113 t WFE en el 1T 2026.",
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "2025: ingresos US$870,8 M, EBITDA US$78,2 M, EBIT US$45,6 M, utilidad US$16,2 M. La matriz Multiexport Foods S.A. publica análisis razonado trimestral y realiza Capital Markets Day; nemotécnico no confirmado en resultados."
+      },
+      "propiedad": {
+        "controlador": "Multiexport Foods S.A. (51%)",
+        "socios": [
+          {
+            "nombre": "Multiexport Foods S.A.",
+            "porcentaje": "51%",
+            "fuente": "https://weareaquaculture.com/news/finance/chilean-salmon-producer-multi-x-closed-2025-with-record-breaking-results"
+          },
+          {
+            "nombre": "MIT-Salmon Chile SpA (Mitsui & Co. (U.S.A.) Inc.)",
+            "porcentaje": "24,5%",
+            "fuente": "https://weareaquaculture.com/news/finance/chilean-salmon-producer-multi-x-closed-2025-with-record-breaking-results"
+          },
+          {
+            "nombre": "Cargill Chile Holdings SpA",
+            "porcentaje": "24,5%",
+            "fuente": "https://weareaquaculture.com/news/finance/chilean-salmon-producer-multi-x-closed-2025-with-record-breaking-results"
+          }
+        ],
+        "notas": "El RUT base 76.672.100 aparece en la URL del análisis razonado de Multiexport Foods S.A.; dígito verificador no confirmado en una fuente."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.salmonbusiness.com/multi-x-ebit-jumps-287-in-2025-despite-weaker-salmon-prices/",
+        "https://weareaquaculture.com/news/finance/chilean-salmon-producer-multi-x-closed-2025-with-record-breaking-results",
+        "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/76672100/analisis_razonado_76672100_2025Q4.pdf",
+        "https://weareaquaculture.com/amp/story/news/finance/multi-x-q1-2026-record-sales-volume-for-a-first-quarter"
+      ],
+      "confianza": "alta",
+      "notas": "RUT completo, sitio web, contactos, nemotécnico de la matriz y dotación pendientes."
+    },
+    {
+      "nombre": "Salmones Camanchaca",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Productor",
+      "descripcion": "División salmonera del grupo Camanchaca (pesca, salmón y mariscos). Cosechó 47.661 t WFE de salmón Atlántico y 4.493 t WFE de coho en 2024, y 58,3 mil t WFE de Atlántico en 2025 (+22%).",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [
+          {
+            "valor": "US$386 millones de ingresos (-5% vs 2024); EBITDA US$67,7 M (+38%); utilidad neta US$25,5 M (+83%; otra nota informa US$24,9 M)",
+            "periodo": "2025",
+            "fuente": "https://weareaquaculture.com/news/finance/salmones-camanchaca-closed-2025-with-a-38-ebitda-increase-year-on-year"
+          },
+          {
+            "valor": "US$108 millones de ingresos (-10% vs 4T 2024); EBITDA US$13,6 M",
+            "periodo": "4T 2025",
+            "fuente": "https://www.seafoodsource.com/news/business-finance/salmones-camanchaca-posts-q4-2025-profit-top-line-revenue-dips"
+          }
+        ],
+        "inversion_anunciada": [],
+        "capacidad": "Cosecha de Atlántico 2025: 58,3 mil t WFE (+22%); una nota informa 61.500 t en total (+18%, probablemente incluye coho). 2024: 47.661 t WFE Atlántico + 4.493 t WFE coho. Estimación 2026: ~65 mil t WFE en condiciones normales. Tabla Aquabench/Infosalmon S1 2025 (Atlántico por razón social): 13.774 t = 6,16% de 223.705 t.",
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "2025: EBITDA US$67,7 M, ingresos US$386 M. Grupo Camanchaca consolidado 2025: EBITDA US$136 M (+29%) y utilidad neta US$41,7 M. A septiembre de 2025 llevaba 44 mil t WFE cosechadas (+29% interanual, La Tercera)."
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": "Los resultados no entregaron controlador ni accionistas. Los RUT base 76.065.596 y 93.711.000 aparecen en URLs de análisis razonado (filial salmonera y matriz, sin confirmar cuál es cuál ni el dígito verificador)."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://weareaquaculture.com/news/finance/salmones-camanchaca-closed-2025-with-a-38-ebitda-increase-year-on-year",
+        "https://www.seafoodsource.com/news/business-finance/salmones-camanchaca-posts-q4-2025-profit-top-line-revenue-dips",
+        "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/76065596/analisis_razonado_76065596_2025Q4.pdf",
+        "https://weareaquaculture.com/amp/story/news/finance/camanchacas-profit-increased-by-90-in-2025",
+        "https://www.latercera.com/pulso/noticia/salmones-camanchaca-duplica-ganancias-gracias-a-mejores-cosechas-proyecta-produccion-historica-para-2025/",
+        "https://infosalmon.cl/wp-content/uploads/2025/08/Indicadores-Productivos-S1-2025.pdf"
+      ],
+      "confianza": "media",
+      "notas": "Razón social, RUT, sede, nemotécnico de la matriz, controlador, dotación y sitio web pendientes."
+    },
+    {
+      "nombre": "Blumar",
+      "razon_social": "Blumar S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A. abierta (cotiza en Bolsa de Santiago)",
+      "subsector": "Productor",
+      "descripcion": "Empresa chilena de acuicultura (salmón) y pesca listada en la Bolsa de Santiago; en 2025 recuperó volúmenes de salmón tras las floraciones algales de 2024.",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [
+          {
+            "valor": "US$712,8 millones de ingresos (+15%); utilidad neta US$18,1 M; EBITDA pre fair value US$79,7 M (-7%)",
+            "periodo": "2025",
+            "fuente": "https://www.salmonbusiness.com/blumar-2025-sales-grow-but-ebitda-falls-7/"
+          },
+          {
+            "valor": "US$144,1 millones de ingresos (-19%); EBITDA pre fair value -US$2,5 M",
+            "periodo": "4T 2025",
+            "fuente": "https://www.salmonbusiness.com/blumar-2025-sales-grow-but-ebitda-falls-7/"
+          }
+        ],
+        "inversion_anunciada": [],
+        "capacidad": "Tabla Aquabench/Infosalmon S1 2025 (salmón Atlántico por razón social): 22.083 t = 9,87% de 223.705 t, primera de esa tabla (métrica exacta no verificada).",
+        "trabajadores": null,
+        "cotiza_en_bolsa": true,
+        "resumen": "Cotiza en Bolsa de Santiago (nemotécnico BLUMAR según listado de Investing.com; MarketScreener indica Santiago S.E. y free float de 36,57%, dato de 2026 por verificar). Precio medio del salmón -5% en 2025 por mayor oferta global y aranceles de EE.UU."
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": "Free float de 36,57% según MarketScreener; controlador y accionistas principales no obtenidos (revisar memoria anual / CMF)."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.salmonbusiness.com/blumar-2025-sales-grow-but-ebitda-falls-7/",
+        "https://weareaquaculture.com/amp/story/news/finance/blumar-q3-2025-results-back-to-normal",
+        "https://uk.marketscreener.com/quote/stock/BLUMAR-S-A-20699345/",
+        "https://il.investing.com/equities/blumar",
+        "https://infosalmon.cl/wp-content/uploads/2025/08/Indicadores-Productivos-S1-2025.pdf"
+      ],
+      "confianza": "media",
+      "notas": "RUT, sede, controlador, dotación, tonelaje anual de salmón y sitio web pendientes."
+    },
+    {
+      "nombre": "Cermaq Chile",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": "Filial de grupo extranjero (Cermaq Group / Mitsubishi)",
+      "subsector": "Productor",
+      "descripcion": "Filial chilena del grupo salmonero Cermaq (propiedad de Mitsubishi); Emol la describe como el segundo actor de la industria en Chile. Adquirió Cultivos Marinos Chiloé; en 2022 la SMA inició un proceso sancionatorio por sobreproducción (~800 t) en un centro dentro de la Reserva Nacional Kawésqar (Magallanes).",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [
+        {
+          "nombre": "Steven Rafferty",
+          "cargo": "CEO de Cermaq Group (grupo matriz; no es gerente de Cermaq Chile)",
+          "linkedin": null,
+          "fuente": "https://www.seafoodsource.com/news/business-finance/cermaq-reports-lower-profits-despite-higher-harvests-due-to-low-salmon-prices"
+        }
+      ],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Sin cifras de Chile. Según Mitsubishi, el grupo Cermaq tuvo en los nueve meses a diciembre de 2025 una utilidad neta ligeramente menor pese a mayores cosechas, por precios bajos. Miembro del Consejo del Salmón (según prensa)."
+      },
+      "propiedad": {
+        "controlador": "Mitsubishi (vía Cermaq Group)",
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.emol.com/noticias/Economia/2026/03/24/1195235/noruega-chile-salmon-financiamiento-ong.html",
+        "https://salmonbusiness.com/cermaq-faces-sanctions-in-chile-for-overproduction/",
+        "https://www.seafoodsource.com/news/business-finance/cermaq-reports-lower-profits-despite-higher-harvests-due-to-low-salmon-prices",
+        "https://thefishsite.com/articles/cermaq-acquires-the-chilean-company-cultivos-marinos-chilo-1",
+        "https://ilaks.no/cermaq-oker-i-chile/"
+      ],
+      "confianza": "media",
+      "notas": "Cosecha 2025 en Chile, gerente general, sede, razón social, RUT, dotación y sitio web pendientes."
+    },
+    {
+      "nombre": "Australis Seafoods",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Productor",
+      "descripcion": "Productor chileno de salmón adquirido en 2018 por Joyvio (Legend Holdings, China) por ~US$880 millones (un reporte posterior cita US$920 millones al cierre); producía ~64.000 t/año (9% de la producción chilena de salmón al momento de la compra). Miembro del Consejo del Salmón (según prensa).",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [
+          {
+            "valor": "~US$880 millones (US$920 millones según un reporte posterior)",
+            "descripcion": "Compra de Australis Seafoods por Joyvio (Legend Holdings)",
+            "fecha": "2018",
+            "fuente": "https://globalaginvesting.com/legend-holdings-joyvio-group-acquires-major-chilean-salmon-farmer-880m/"
+          }
+        ],
+        "capacidad": "~64.000 t/año al momento de la compra en 2018 (9% de la producción chilena); Legend aspiraba a llegar a 100.000 t.",
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Pérdidas: ~US$25,4 M en 2023 y ~US$19,2 M en 2024; pérdida antes de impuestos de US$2,6 M en el 1T 2025. Sin cifras de cosecha o ventas 2025."
+      },
+      "propiedad": {
+        "controlador": "Joyvio Group (Legend Holdings, China)",
+        "socios": [],
+        "notas": "Reporte de 2025: Joyvio Food traspasa Australis a su unidad hermana Joyvio Premium Fresh por 1 yuan nominal (fecha exacta no verificada)."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.foodbusinessmea.com/joyvio-group-to-offload-salmon-subsidiary-australis-to-internal-unit/",
+        "https://www.just-food.com/news/joyvio-food-sells-australis",
+        "https://globalaginvesting.com/legend-holdings-joyvio-group-acquires-major-chilean-salmon-farmer-880m/",
+        "https://www.fishfarmingexpert.com/article/chinese-investor-completes-australis-takeover/",
+        "https://archive.foodbev.com/news/joyvio-to-acquire-salmon-producer-australis-seafoods-for-880m/"
+      ],
+      "confianza": "media",
+      "notas": "Razón social (posiblemente Australis Mar S.A.), RUT, sede, gerente general, dotación y sitio web no confirmados."
+    },
+    {
+      "nombre": "Cooke Aquaculture Chile",
+      "razon_social": "Cooke Aquaculture Chile S.A. (antes Salmones Cupquelan S.A.)",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Productor",
+      "descripcion": "Filial chilena de la canadiense Cooke (empresa familiar); entró a Chile en 2008 al comprar Salmones Cupquelán por US$106 millones. En 2024 cosechó el primer salmón Atlántico orgánico certificado del país en el fiordo Cupquelán (Aysén), inicialmente equivalente al 25% de su producción en Chile.",
+      "sede": "Puerto Montt",
+      "region": "Los Lagos",
+      "sitio_web": "https://cookeseafood.com",
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [
+          {
+            "valor": "US$106 millones",
+            "descripcion": "Compra de Salmones Cupquelán por Cooke para entrar a Chile",
+            "fecha": "2008",
+            "fuente": "https://weareaquaculture.com/news/aquaculture/chile-first-100-per-cent-organic-salmon-is-from-cooke"
+          },
+          {
+            "valor": "Decenas de millones de dólares",
+            "descripcion": "Inversión en cuatro años de trabajo para la primera cosecha de salmón orgánico en el fiordo Cupquelán (Aysén)",
+            "fecha": "2024",
+            "fuente": "https://weareaquaculture.com/news/aquaculture/chile-first-100-per-cent-organic-salmon-is-from-cooke"
+          }
+        ],
+        "capacidad": "Operaciones en Talca, Villarrica, Puerto Montt y fiordo Cupquelán (Aysén); AKVA group figura construyendo plantas de smolt para Cooke en Chile (fecha no verificada).",
+        "trabajadores": "201-500 (estimación de un agregador, no oficial)",
+        "cotiza_en_bolsa": false,
+        "resumen": "Empresa privada del grupo familiar Cooke. Litigio regulatorio: la SMA sostuvo que aumentos de producción sobre 35 t/año deben evaluarse ambientalmente; un tribunal le dio la razón y Cooke recurrió a la Corte Suprema (estado actual no verificado). La SMA ordenó además el cierre parcial de dos operaciones y multas."
+      },
+      "propiedad": {
+        "controlador": "Cooke (empresa familiar canadiense)",
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://weareaquaculture.com/news/aquaculture/chile-first-100-per-cent-organic-salmon-is-from-cooke",
+        "https://cookeseafood.com/wp-content/uploads/2024/03/Cooke-Chile-produce-el-primer-salmon-organico-del-pais-22-de-marzo-de-2024.pdf",
+        "https://perishablenews.com/seafood/cooke-chile-harvests-first-organic-salmon-in-the-country/",
+        "https://www.seafoodsource.com/news/aquaculture/chile-environmental-watchdog-orders-partial-closure-of-two-cooke-operations-levies-fines",
+        "https://pitchbook.com/profiles/company/60138-91",
+        "https://www.fishfarmingexpert.com/akva-chile-cooke/akva-in-line-to-build-several-smolt-plants-for-cooke/1144670"
+      ],
+      "confianza": "media",
+      "notas": "sitio_web es el sitio corporativo del grupo Cooke (aloja noticias de Cooke Chile); sitio propio de Cooke Chile no identificado. RUT, gerente general, ventas y dotación oficial pendientes. cotiza_en_bolsa=false es inferido de ser empresa familiar privada."
+    },
+    {
+      "nombre": "Salmones Aysén",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Productor",
+      "descripcion": "Productor de salmón chileno; integrante del Consejo del Salmón junto a AquaChile, Australis, Cermaq y Mowi (según reporte de exportaciones 2024).",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.latercera.com/pulso/noticia/exportaciones-de-salmon-registran-en-2024-su-segunda-caida-anual-consecutiva/BYMVVWIV6FDJFOP32UA6JKR6H4/"
+      ],
+      "confianza": "baja",
+      "notas": "No se obtuvieron cifras, propiedad, sede ni sitio web (límite de búsquedas). La atribución de la membresía a esta fuente es por inferencia; verificar."
+    },
+    {
+      "nombre": "Pesquera Los Fiordos",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Productor",
+      "descripcion": "Productor de salmón Atlántico; en la tabla Aquabench/Infosalmon de S1 2025 figura con 10.834 t (4,84% de 223.705 t), tercera tras Blumar y Camanchaca en esa tabla.",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": "S1 2025 (tabla Aquabench/Infosalmon, salmón Atlántico por razón social): 10.834 t = 4,84%.",
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://infosalmon.cl/wp-content/uploads/2025/08/Indicadores-Productivos-S1-2025.pdf"
+      ],
+      "confianza": "baja",
+      "notas": "Propiedad, cifras financieras, sede y sitio web pendientes."
+    },
+    {
+      "nombre": "Yadrán",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Productor",
+      "descripcion": "Productor de salmón que aparece en la tabla Aquabench/Infosalmon de S1 2025 (salmón Atlántico por razón social) junto a Blumar, Camanchaca, Los Fiordos, Australis, Trusal, Invertec y Tornagaleones.",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://infosalmon.cl/wp-content/uploads/2025/08/Indicadores-Productivos-S1-2025.pdf"
+      ],
+      "confianza": "baja",
+      "notas": "Toneladas individuales, propiedad, sede y sitio web no obtenidos."
+    },
+    {
+      "nombre": "Trusal",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Productor",
+      "descripcion": "Productor de salmón que aparece en la tabla Aquabench/Infosalmon de S1 2025 (salmón Atlántico por razón social).",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://infosalmon.cl/wp-content/uploads/2025/08/Indicadores-Productivos-S1-2025.pdf"
+      ],
+      "confianza": "baja",
+      "notas": "Toneladas individuales, propiedad, sede y sitio web no obtenidos."
+    },
+    {
+      "nombre": "Invertec",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Productor",
+      "descripcion": "Productor de salmón que aparece en la tabla Aquabench/Infosalmon de S1 2025 (salmón Atlántico por razón social).",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://infosalmon.cl/wp-content/uploads/2025/08/Indicadores-Productivos-S1-2025.pdf"
+      ],
+      "confianza": "baja",
+      "notas": "Toneladas individuales, propiedad, sede y sitio web no obtenidos."
+    },
+    {
+      "nombre": "Tornagaleones",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Productor",
+      "descripcion": "Productor de salmón que aparece en la tabla Aquabench/Infosalmon de S1 2025 (salmón Atlántico por razón social).",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://infosalmon.cl/wp-content/uploads/2025/08/Indicadores-Productivos-S1-2025.pdf"
+      ],
+      "confianza": "baja",
+      "notas": "Toneladas individuales, propiedad, sede y sitio web no obtenidos."
+    },
+    {
+      "nombre": "Integra Chile SpA",
+      "razon_social": "Integra Chile S.A. (la ficha B Lab la nombra «Integra Chile SPA»)",
+      "rut": "96.883.310-3",
+      "tipo_sociedad": "S.A. (posible transformación a SpA; por confirmar en SII)",
+      "subsector": "Procesamiento",
+      "descripcion": "Reprocesa y comercializa salmón chileno (y otros productos del mar: trucha, calamar gigante, mejillones) con foco en productos de valor agregado para consumidores minoristas; Mercantil la describe con clientes en más de 40 países. Empresa B certificada (industria B Lab: Fishing and aquaculture; Región de Los Lagos).",
+      "sede": "Puerto Montt",
+      "region": "Los Lagos",
+      "sitio_web": "http://www.integrachile.com",
+      "contactos": {
+        "email": "info@integrachile.com",
+        "telefono": null,
+        "direccion": "Juan Soler Manfredini 41, Edificio Torre Costanera 1, Oficina 1701, Puerto Montt",
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Sin cifras de ventas ni trabajadores. IntraFish (abril de 2026) reporta que «Integra», procesador chileno de salmón, ve en el retail (sobre todo en EE.UU.) el motor de crecimiento, con el food service mostrando señales de debilitamiento, y que apuesta por mayor valor agregado (no se confirmó que sea esta misma razón social). Panjiva (envíos a EE.UU.) lista el salmón entre sus principales productos."
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": true,
+      "url_blab": "https://www.bcorporation.net/find-a-b-corp/company/integra-chile-sa",
+      "fuentes": [
+        "https://www.bcorporation.net/find-a-b-corp/company/integra-chile-sa",
+        "https://mercantil.com/empresa/integra-chile-sa/puerto-montt/300115874/eng",
+        "https://panjiva.com/Integra-Chile-S-A/1134676",
+        "https://panjiva.com/Integra-Chile-S-A/42320817",
+        "https://www.intrafish.com/salmon/salmon-processor-doubles-down-on-value-added-push/2-1-1981231"
+      ],
+      "confianza": "media",
+      "notas": "Registro tomado de la extracción de otros agentes de esta sesión (enriq_lote_05.json, seg_1_alimentos.json y lote_05.json): ficha B Lab con certificación desde agosto de 2017 y puntaje B 99,4; RUT y razón social 'Integra Chile S.A.' según Mercantil (dígito verificador válido); sitio web obtenido por esos agentes con Apollo (gratuito). VERIFICAR: el email info@integrachile.com aparece solo en un directorio comercial, no en el sitio oficial; direcciones en conflicto entre fuentes (Juan Soler Manfredini 41 of. 1701 en listados recientes de Panjiva; Andina 062 en Mercantil; Ruta El Tepual km 9,4 en un registro de embarque de 2018); no se hallaron gerentes ni propietarios. No re-verificado con búsqueda propia (límite de búsquedas)."
+    },
+    {
+      "nombre": "BioMar",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Alimento",
+      "descripcion": "Fabricante de alimento para peces; según La Tercera, acordó comprar la filial de alimentos para salmones de AquaChile por US$17 millones (fecha no verificada).",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [
+          {
+            "valor": "US$17 millones",
+            "descripcion": "Acuerdo de compra de la filial de alimentos para salmones de AquaChile",
+            "fecha": null,
+            "fuente": "https://www.latercera.com/pulso/noticia/aquachile-acueda-venta-filial-alimentos-salmones-biomar-us17-millones/570419/"
+          }
+        ],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.latercera.com/pulso/noticia/aquachile-acueda-venta-filial-alimentos-salmones-biomar-us17-millones/570419/"
+      ],
+      "confianza": "baja",
+      "notas": "Solo se vio el titular (slug) del artículo de La Tercera. Entidad chilena (BioMar Chile), RUT, sede, sitio web y cifras pendientes."
+    },
+    {
+      "nombre": "AKVA group Chile",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Servicios",
+      "descripcion": "Proveedor tecnológico y de ingeniería acuícola; Fish Farming Expert informa que AKVA group estaba en línea para construir varias plantas de smolt para Cooke en Chile (fecha no verificada).",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.fishfarmingexpert.com/akva-chile-cooke/akva-in-line-to-build-several-smolt-plants-for-cooke/1144670"
+      ],
+      "confianza": "baja",
+      "notas": "Solo se vio el titular de Fish Farming Expert. Entidad chilena, sede, sitio web y cifras pendientes."
+    },
+    {
+      "nombre": "Yagan Chile",
+      "razon_social": "Yagan Chile SpA",
+      "rut": null,
+      "tipo_sociedad": "SpA",
+      "subsector": "Servicios",
+      "descripcion": "Desarrolla «Yagancito», un ROV para limpiar las mallas de las jaulas salmoneras, con apoyo del programa de innovación empresarial de Corfo; busca pasar del lavado manual a un sistema operado de forma remota, reduciendo costos sin sacrificar calidad.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.yaganchile.cl",
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Proyecto con apoyo Corfo (monto no informado)."
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://portalinnova.cl/?p=7372"
+      ],
+      "confianza": "baja",
+      "notas": "Registro tomado de raw/sector_robotica.json (otro agente de esta sesión; también figura en el sector robótica). Sitio web obtenido por ese agente con Apollo (gratuito). No verificado con búsqueda propia (límite de búsquedas)."
+    },
+    {
+      "nombre": "Underdeep Solutions",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Servicios",
+      "descripcion": "Se dedica a la inspección y apoyo de centros de cultivo en Chile y la región; sus tres ROV Saab Seaeye Falcon trabajan a plena capacidad en las instalaciones acuícolas de Salmones Camanchaca.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.underdeep.cl",
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": "3 ROV Saab Seaeye Falcon",
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Cliente relevante: Salmones Camanchaca."
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://oceannews.com/?p=60242",
+        "https://www.oceannews.com/34fy"
+      ],
+      "confianza": "baja",
+      "notas": "Registro tomado de raw/sector_robotica.json (otro agente de esta sesión; también figura en el sector robótica). Sitio web obtenido por ese agente con Apollo (gratuito). No verificado con búsqueda propia (límite de búsquedas)."
+    },
+    {
+      "nombre": "BioRobótica (Puerto Montt)",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Servicios",
+      "descripcion": "Con más de 10 años de experiencia, se especializa en inspección, monitoreo y reparaciones con equipos submarinos; usa BlueROV2 y ofrece lavado a presión entre sus servicios.",
+      "sede": "Puerto Montt",
+      "region": "Los Lagos",
+      "sitio_web": null,
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://weareaquaculture.com/news/aquaculture/state-of-the-art-technology-to-optimize-aquaculture-control-in-chile",
+        "https://bluerobotics.com/?p=191134"
+      ],
+      "confianza": "baja",
+      "notas": "Registro tomado de raw/sector_robotica.json (otro agente de esta sesión; también figura en el sector robótica). Sitio web obtenido por ese agente con Apollo (gratuito). No verificado con búsqueda propia (límite de búsquedas). Apollo solo devolvió una BioRobótica de México (biorobotica.com.mx), que no corresponde a esta empresa; sitio web pendiente. Ese agente indicó que la fuente exacta de cada dato no se pudo precisar entre los resultados."
+    },
+    {
+      "nombre": "Adentu SUB",
+      "razon_social": "Adentu Ingeniería SpA",
+      "rut": null,
+      "tipo_sociedad": "SpA",
+      "subsector": "Servicios",
+      "descripcion": "Empresa de Puerto Varas especializada en tecnología marina, robótica submarina y soluciones para acuicultura; es distribuidora local de Blue Robotics.",
+      "sede": "Puerto Varas",
+      "region": "Los Lagos",
+      "sitio_web": "http://www.adentu.cl",
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": null,
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://bluerobotics.com/distributors/adentu-ingenieria-spa/"
+      ],
+      "confianza": "baja",
+      "notas": "Registro tomado de raw/sector_robotica.json (otro agente de esta sesión; también figura en el sector robótica). Sitio web obtenido por ese agente con Apollo (gratuito). No verificado con búsqueda propia (límite de búsquedas). La razón social fue deducida del enlace del distribuidor en el sitio de Blue Robotics (adentu-ingenieria-spa)."
+    },
+    {
+      "nombre": "Deep Trekker (filial en Chile)",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": "Filial de empresa extranjera (Deep Trekker Inc.)",
+      "subsector": "Servicios",
+      "descripcion": "Fabricante de ROV que abrió una filial en Puerto Montt, en la zona salmonera, con su gama completa de productos submarinos, soporte técnico y servicios de capacitación.",
+      "sede": "Puerto Montt",
+      "region": "Los Lagos",
+      "sitio_web": "http://www.deeptrekker.com",
+      "contactos": {
+        "email": null,
+        "telefono": null,
+        "direccion": null,
+        "linkedin": null,
+        "instagram": null
+      },
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": "Deep Trekker Inc. (matriz)",
+        "socios": [],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "fuentes": [
+        "https://www.fishfarmingexpert.com/article/rov-maker-opens-new-branch-in-chilean-salmon-heartland/"
+      ],
+      "confianza": "baja",
+      "notas": "Registro tomado de raw/sector_robotica.json (otro agente de esta sesión; también figura en el sector robótica). Sitio web obtenido por ese agente con Apollo (gratuito). No verificado con búsqueda propia (límite de búsquedas). El sitio web es el de la matriz (deeptrekker.com)."
+    }
+  ],
+  "limitaciones": [
+    "Se agotó el límite de 200 búsquedas web por turno (compartido entre agentes) tras 12 búsquedas exitosas; las 4 siguientes (incluida la verificación site:bcorporation.net y la búsqueda de proveedores de alimento) fueron rechazadas. No se pudieron buscar proveedores de alimento, genética/ovas ni salud animal, ni ejecutivos, contactos corporativos, RUT y accionistas de la mayoría de las empresas.",
+    "apollo_organizations_lookup devolvió límite de tasa (200 llamadas/hora de la cuenta, compartidas entre agentes) en los 13 intentos (repetidos a lo largo de ~25 minutos), por lo que sitio_web queda null para los productores (salvo Cooke, cuyo sitio corporativo de grupo apareció en resultados). Los sitios web de Integra Chile y de las 5 empresas de servicios provienen de las extracciones de otros agentes (Apollo gratuito).",
+    "es_empresa_b=false significa 'sin evidencia de ficha B Lab vigente': ninguna de estas marcas figura entre los 453 nombres de Empresas B reunidos por otros agentes en el scratchpad (seg_*, lote_*, enriq_lote_* y conocidas.txt); no es una verificación directa en bcorporation.net. Integra Chile es true según la ficha B Lab recogida por otros agentes (certificada desde agosto de 2017, puntaje 99,4).",
+    "Registros tomados de otros agentes del scratchpad, no verificados por mí: Integra Chile (enriq_lote_05.json) y las 5 empresas de servicios ROV (sector_robotica.json: Yagan Chile, Underdeep Solutions, BioRobótica, Adentu SUB, Deep Trekker). Pueden duplicarse con el sector robótica.",
+    "Pendiente para una siguiente pasada con presupuesto de búsquedas: Skretting, BioMar Chile, Cargill/EWOS, Salmofood (alimento); AquaGen, Benchmark Genetics, Hendrix (genética/ovas); Pharmaq/Zoetis, Veterquimica, Centrovet, MSD (salud animal); buceo y limpieza de redes; wellboats; otros productores (Salmones Antártica, Nova Austral/Salmones Austral, Ventisqueros, Salmones Magallanes, Humboldt); y, para todos, RUT, sedes, contactos corporativos, ejecutivos, accionistas y verificación site:bcorporation.net.",
+    "La cifra de cosechas totales 2025 (~1,15 millones de t) apareció solo en el resumen de una búsqueda y no se pudo confirmar en una fuente primaria; no se incluyó en el resumen del sector.",
+    "Alfa Sea (Empresa B de servicios ambientales en Los Lagos, según datos de otros agentes; sin giro ni sitio confirmados) podría ser proveedor del sector acuícola; no se pudo verificar y no se incluyó."
+  ]
+}

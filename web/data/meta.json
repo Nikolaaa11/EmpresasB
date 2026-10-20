@@ -1,0 +1,23 @@
+{
+ "titulo": "Empresas B en Chile",
+ "generado": "2026-10-20",
+ "total": 224,
+ "sede_en_chile": 186,
+ "cruce_sii": 0,
+ "enriquecidas_apollo": 0,
+ "cobertura": {
+  "razon_social": 43,
+  "rut": 9,
+  "tipo_sociedad": 111,
+  "sitio_web": 65,
+  "email": 3,
+  "telefono": 5,
+  "direccion": 7,
+  "linkedin": 0,
+  "personas": 16,
+  "economia": 24,
+  "propiedad": 10,
+  "puntaje_b": 187,
+  "areas": 6
+ }
+}

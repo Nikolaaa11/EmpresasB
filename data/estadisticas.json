@@ -1,0 +1,1573 @@
+{
+ "generado": "2026-10-20",
+ "todas": {
+  "total": 224,
+  "sede_en_chile": 186,
+  "por_macro_industria": [
+   {
+    "categoria": "Consultoría y servicios profesionales",
+    "empresas": 45,
+    "pct": 20.1,
+    "puntaje_promedio": 94.6,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 7
+   },
+   {
+    "categoria": "Alimentos, bebidas y agro",
+    "empresas": 34,
+    "pct": 15.2,
+    "puntaje_promedio": 87.2,
+    "areas_promedio": {
+     "gobernanza": 16.7,
+     "trabajadores": 26.0,
+     "comunidad": 16.2,
+     "medio_ambiente": 31.0,
+     "clientes": 3.8
+    },
+    "con_areas": 1,
+    "spa": 7
+   },
+   {
+    "categoria": "Manufactura y bienes de consumo",
+    "empresas": 31,
+    "pct": 13.8,
+    "puntaje_promedio": 91.5,
+    "areas_promedio": {
+     "gobernanza": 17.7,
+     "trabajadores": 22.8,
+     "comunidad": 17.6,
+     "medio_ambiente": 21.6,
+     "clientes": 3.5
+    },
+    "con_areas": 3,
+    "spa": 7
+   },
+   {
+    "categoria": "Turismo, hotelería y recreación",
+    "empresas": 16,
+    "pct": 7.1,
+    "puntaje_promedio": 90.8,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 1
+   },
+   {
+    "categoria": "Tecnología y software",
+    "empresas": 14,
+    "pct": 6.2,
+    "puntaje_promedio": 93.3,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 1
+   },
+   {
+    "categoria": "Inmobiliario y construcción",
+    "empresas": 13,
+    "pct": 5.8,
+    "puntaje_promedio": 98.2,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 3
+   },
+   {
+    "categoria": "Medio ambiente y reciclaje",
+    "empresas": 13,
+    "pct": 5.8,
+    "puntaje_promedio": 84.3,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 4
+   },
+   {
+    "categoria": "Servicios financieros",
+    "empresas": 11,
+    "pct": 4.9,
+    "puntaje_promedio": 100.7,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 2
+   },
+   {
+    "categoria": "Marketing, comunicaciones y medios",
+    "empresas": 11,
+    "pct": 4.9,
+    "puntaje_promedio": 89.7,
+    "areas_promedio": {
+     "gobernanza": 18.8,
+     "trabajadores": 26.2,
+     "comunidad": 22.9,
+     "medio_ambiente": 11.8,
+     "clientes": 19.4
+    },
+    "con_areas": 1,
+    "spa": 2
+   },
+   {
+    "categoria": "Educación y capacitación",
+    "empresas": 11,
+    "pct": 4.9,
+    "puntaje_promedio": 94.2,
+    "areas_promedio": {
+     "gobernanza": 14.3,
+     "trabajadores": 25.5,
+     "comunidad": 8.8,
+     "medio_ambiente": 3.0,
+     "clientes": 40.1
+    },
+    "con_areas": 1,
+    "spa": 3
+   },
+   {
+    "categoria": "Otros servicios",
+    "empresas": 10,
+    "pct": 4.5,
+    "puntaje_promedio": 91.6,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 0
+   },
+   {
+    "categoria": "Comercio y retail",
+    "empresas": 5,
+    "pct": 2.2,
+    "puntaje_promedio": 90.7,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 2
+   },
+   {
+    "categoria": "Energía y agua",
+    "empresas": 4,
+    "pct": 1.8,
+    "puntaje_promedio": 95.6,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 2
+   },
+   {
+    "categoria": "Transporte y logística",
+    "empresas": 4,
+    "pct": 1.8,
+    "puntaje_promedio": 85.0,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 0
+   },
+   {
+    "categoria": "Salud y bienestar",
+    "empresas": 2,
+    "pct": 0.9,
+    "puntaje_promedio": 87.0,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 0
+   }
+  ],
+  "por_industria": [
+   {
+    "categoria": "Sin dato",
+    "empresas": 44,
+    "pct": 19.6
+   },
+   {
+    "categoria": "Consultoría de gestión",
+    "empresas": 12,
+    "pct": 5.4
+   },
+   {
+    "categoria": "Consultoría ambiental",
+    "empresas": 12,
+    "pct": 5.4
+   },
+   {
+    "categoria": "Procesamiento agrícola",
+    "empresas": 7,
+    "pct": 3.1
+   },
+   {
+    "categoria": "Desarrollo de software",
+    "empresas": 6,
+    "pct": 2.7
+   },
+   {
+    "categoria": "Publicidad e investigación de mercado",
+    "empresas": 6,
+    "pct": 2.7
+   },
+   {
+    "categoria": "Productos alimenticios",
+    "empresas": 6,
+    "pct": 2.7
+   },
+   {
+    "categoria": "Construcción",
+    "empresas": 6,
+    "pct": 2.7
+   },
+   {
+    "categoria": "Vestuario",
+    "empresas": 6,
+    "pct": 2.7
+   },
+   {
+    "categoria": "Alojamiento",
+    "empresas": 5,
+    "pct": 2.2
+   },
+   {
+    "categoria": "Recuperación y reciclaje de materiales",
+    "empresas": 5,
+    "pct": 2.2
+   },
+   {
+    "categoria": "Agencias de viaje y turismo",
+    "empresas": 4,
+    "pct": 1.8
+   },
+   {
+    "categoria": "Desarrollo inmobiliario",
+    "empresas": 4,
+    "pct": 1.8
+   },
+   {
+    "categoria": "Educación y capacitación",
+    "empresas": 4,
+    "pct": 1.8
+   },
+   {
+    "categoria": "Educación (otros)",
+    "empresas": 4,
+    "pct": 1.8
+   },
+   {
+    "categoria": "Reclutamiento y RR.HH.",
+    "empresas": 4,
+    "pct": 1.8
+   },
+   {
+    "categoria": "Comercio minorista",
+    "empresas": 3,
+    "pct": 1.3
+   },
+   {
+    "categoria": "Manufactura (otros)",
+    "empresas": 3,
+    "pct": 1.3
+   },
+   {
+    "categoria": "Recreación",
+    "empresas": 3,
+    "pct": 1.3
+   },
+   {
+    "categoria": "Bebidas",
+    "empresas": 3,
+    "pct": 1.3
+   },
+   {
+    "categoria": "Educación superior",
+    "empresas": 3,
+    "pct": 1.3
+   },
+   {
+    "categoria": "Servicios financieros",
+    "empresas": 3,
+    "pct": 1.3
+   },
+   {
+    "categoria": "Servicios legales",
+    "empresas": 3,
+    "pct": 1.3
+   },
+   {
+    "categoria": "Servicios personales",
+    "empresas": 3,
+    "pct": 1.3
+   },
+   {
+    "categoria": "Inversión de capital (mercados emergentes)",
+    "empresas": 3,
+    "pct": 1.3
+   },
+   {
+    "categoria": "Cuidado personal",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Otros servicios profesionales y científicos",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Servicios de apoyo empresarial",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Professional, scientific and technical services",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Apoyo al transporte",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Waste treatment and disposal",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Energías renovables",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Cleaning products",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Textiles",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Servicios agrícolas y poscosecha",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Cultivos anuales",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Customs agency",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Cultivos permanentes",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Reciclaje",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Crédito (mercados emergentes)",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Aplicaciones móviles",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Insumos médicos y dentales",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Procesamiento de pagos",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Postal and courier activities",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Arquitectura y diseño",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Other transport equipment",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Ingeniería",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Scientific R&D",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Papel y derivados",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Restaurants and food service",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Packaging",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Printing and recorded media",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Libros y medios",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Remediation and other waste management",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Muebles",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Newspapers and magazines publishing",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Real estate (leased property)",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Pesca y acuicultura",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Asesoría de inversiones",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Water supply & treatment",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Membership organizations",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Diseño y construcción",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Servicios de información",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Caucho y plásticos",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Farmacéutica",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Química",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Seguros de salud",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Technology-based support services",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Software publishing and SaaS",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Instalación de paneles solares",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Computers and electronics",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Artículos deportivos",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Other professional, scientific and technical activities",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Seguros generales",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Inmobiliario",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Agricultural support and post-harvest",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Software",
+    "empresas": 1,
+    "pct": 0.4
+   }
+  ],
+  "por_tipo_sociedad": [
+   {
+    "categoria": "SpA",
+    "empresas": 41,
+    "pct": 18.3
+   },
+   {
+    "categoria": "S.A.",
+    "empresas": 24,
+    "pct": 10.7
+   },
+   {
+    "categoria": "Ltda.",
+    "empresas": 13,
+    "pct": 5.8
+   },
+   {
+    "categoria": "Extranjera",
+    "empresas": 33,
+    "pct": 14.7
+   },
+   {
+    "categoria": "Sin dato",
+    "empresas": 113,
+    "pct": 50.4
+   }
+  ],
+  "por_region": [
+   {
+    "categoria": "Metropolitana",
+    "empresas": 127,
+    "pct": 68.3
+   },
+   {
+    "categoria": "Los Lagos",
+    "empresas": 20,
+    "pct": 10.8
+   },
+   {
+    "categoria": "Sin dato",
+    "empresas": 8,
+    "pct": 4.3
+   },
+   {
+    "categoria": "Valparaíso",
+    "empresas": 5,
+    "pct": 2.7
+   },
+   {
+    "categoria": "Coquimbo",
+    "empresas": 5,
+    "pct": 2.7
+   },
+   {
+    "categoria": "Biobío",
+    "empresas": 5,
+    "pct": 2.7
+   },
+   {
+    "categoria": "O'Higgins",
+    "empresas": 4,
+    "pct": 2.2
+   },
+   {
+    "categoria": "Maule",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "La Araucanía",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "Atacama",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "Ñuble",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Antofagasta",
+    "empresas": 1,
+    "pct": 0.5
+   }
+  ],
+  "por_anio_certificacion": [
+   {
+    "categoria": 2012,
+    "empresas": 5,
+    "pct": 2.2
+   },
+   {
+    "categoria": 2013,
+    "empresas": 4,
+    "pct": 1.8
+   },
+   {
+    "categoria": 2014,
+    "empresas": 6,
+    "pct": 2.7
+   },
+   {
+    "categoria": 2015,
+    "empresas": 5,
+    "pct": 2.2
+   },
+   {
+    "categoria": 2016,
+    "empresas": 5,
+    "pct": 2.2
+   },
+   {
+    "categoria": 2017,
+    "empresas": 7,
+    "pct": 3.1
+   },
+   {
+    "categoria": 2018,
+    "empresas": 6,
+    "pct": 2.7
+   },
+   {
+    "categoria": 2019,
+    "empresas": 12,
+    "pct": 5.4
+   },
+   {
+    "categoria": 2020,
+    "empresas": 16,
+    "pct": 7.1
+   },
+   {
+    "categoria": 2021,
+    "empresas": 18,
+    "pct": 8.0
+   },
+   {
+    "categoria": 2022,
+    "empresas": 27,
+    "pct": 12.1
+   },
+   {
+    "categoria": 2023,
+    "empresas": 34,
+    "pct": 15.2
+   },
+   {
+    "categoria": 2024,
+    "empresas": 21,
+    "pct": 9.4
+   },
+   {
+    "categoria": 2025,
+    "empresas": 20,
+    "pct": 8.9
+   },
+   {
+    "categoria": 2026,
+    "empresas": 15,
+    "pct": 6.7
+   },
+   {
+    "categoria": "Sin dato",
+    "empresas": 23,
+    "pct": 10.3
+   }
+  ],
+  "por_tamano_sii": [
+   {
+    "categoria": "Grande",
+    "empresas": 1,
+    "pct": 0.4
+   },
+   {
+    "categoria": "Sin dato",
+    "empresas": 223,
+    "pct": 99.6
+   }
+  ],
+  "puntaje_b": {
+   "con_puntaje": 187,
+   "promedio": 91.9,
+   "mediana": 88.4,
+   "minimo": 80.0,
+   "maximo": 142.8,
+   "distribucion": [
+    {
+     "categoria": "80–90",
+     "empresas": 105
+    },
+    {
+     "categoria": "90–100",
+     "empresas": 50
+    },
+    {
+     "categoria": "100–110",
+     "empresas": 13
+    },
+    {
+     "categoria": "110–120",
+     "empresas": 12
+    },
+    {
+     "categoria": "120–140",
+     "empresas": 6
+    },
+    {
+     "categoria": "140–200",
+     "empresas": 1
+    }
+   ]
+  },
+  "areas": {
+   "empresas_con_desglose": 6,
+   "promedio": {
+    "gobernanza": 17.2,
+    "trabajadores": 24.3,
+    "comunidad": 16.8,
+    "medio_ambiente": 18.4,
+    "clientes": 12.3
+   },
+   "pct_del_total": {
+    "gobernanza": 19.3,
+    "trabajadores": 27.3,
+    "comunidad": 18.9,
+    "medio_ambiente": 20.7,
+    "clientes": 13.8
+   }
+  },
+  "cobertura": {
+   "razon_social": 43,
+   "rut": 9,
+   "tipo_sociedad": 111,
+   "sitio_web": 65,
+   "email": 3,
+   "telefono": 5,
+   "direccion": 7,
+   "linkedin": 0,
+   "personas": 16,
+   "economia": 24,
+   "propiedad": 10,
+   "puntaje_b": 187,
+   "areas": 6
+  }
+ },
+ "sede_en_chile": {
+  "total": 186,
+  "sede_en_chile": 186,
+  "por_macro_industria": [
+   {
+    "categoria": "Consultoría y servicios profesionales",
+    "empresas": 40,
+    "pct": 21.5,
+    "puntaje_promedio": 95.1,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 7
+   },
+   {
+    "categoria": "Alimentos, bebidas y agro",
+    "empresas": 32,
+    "pct": 17.2,
+    "puntaje_promedio": 87.3,
+    "areas_promedio": {
+     "gobernanza": 16.7,
+     "trabajadores": 26.0,
+     "comunidad": 16.2,
+     "medio_ambiente": 31.0,
+     "clientes": 3.8
+    },
+    "con_areas": 1,
+    "spa": 7
+   },
+   {
+    "categoria": "Manufactura y bienes de consumo",
+    "empresas": 26,
+    "pct": 14.0,
+    "puntaje_promedio": 89.1,
+    "areas_promedio": {
+     "gobernanza": 17.7,
+     "trabajadores": 22.8,
+     "comunidad": 17.6,
+     "medio_ambiente": 21.6,
+     "clientes": 3.5
+    },
+    "con_areas": 3,
+    "spa": 7
+   },
+   {
+    "categoria": "Inmobiliario y construcción",
+    "empresas": 13,
+    "pct": 7.0,
+    "puntaje_promedio": 98.2,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 3
+   },
+   {
+    "categoria": "Servicios financieros",
+    "empresas": 10,
+    "pct": 5.4,
+    "puntaje_promedio": 101.5,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 2
+   },
+   {
+    "categoria": "Tecnología y software",
+    "empresas": 10,
+    "pct": 5.4,
+    "puntaje_promedio": 96.0,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 1
+   },
+   {
+    "categoria": "Marketing, comunicaciones y medios",
+    "empresas": 10,
+    "pct": 5.4,
+    "puntaje_promedio": 89.6,
+    "areas_promedio": {
+     "gobernanza": 18.8,
+     "trabajadores": 26.2,
+     "comunidad": 22.9,
+     "medio_ambiente": 11.8,
+     "clientes": 19.4
+    },
+    "con_areas": 1,
+    "spa": 2
+   },
+   {
+    "categoria": "Medio ambiente y reciclaje",
+    "empresas": 10,
+    "pct": 5.4,
+    "puntaje_promedio": 83.6,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 4
+   },
+   {
+    "categoria": "Educación y capacitación",
+    "empresas": 9,
+    "pct": 4.8,
+    "puntaje_promedio": 93.3,
+    "areas_promedio": {
+     "gobernanza": 14.3,
+     "trabajadores": 25.5,
+     "comunidad": 8.8,
+     "medio_ambiente": 3.0,
+     "clientes": 40.1
+    },
+    "con_areas": 1,
+    "spa": 3
+   },
+   {
+    "categoria": "Otros servicios",
+    "empresas": 7,
+    "pct": 3.8,
+    "puntaje_promedio": 93.7,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 0
+   },
+   {
+    "categoria": "Turismo, hotelería y recreación",
+    "empresas": 6,
+    "pct": 3.2,
+    "puntaje_promedio": 89.8,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 1
+   },
+   {
+    "categoria": "Comercio y retail",
+    "empresas": 5,
+    "pct": 2.7,
+    "puntaje_promedio": 90.7,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 2
+   },
+   {
+    "categoria": "Energía y agua",
+    "empresas": 4,
+    "pct": 2.2,
+    "puntaje_promedio": 95.6,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 2
+   },
+   {
+    "categoria": "Salud y bienestar",
+    "empresas": 2,
+    "pct": 1.1,
+    "puntaje_promedio": 87.0,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 0
+   },
+   {
+    "categoria": "Transporte y logística",
+    "empresas": 2,
+    "pct": 1.1,
+    "puntaje_promedio": 84.5,
+    "areas_promedio": null,
+    "con_areas": 0,
+    "spa": 0
+   }
+  ],
+  "por_industria": [
+   {
+    "categoria": "Sin dato",
+    "empresas": 29,
+    "pct": 15.6
+   },
+   {
+    "categoria": "Consultoría de gestión",
+    "empresas": 11,
+    "pct": 5.9
+   },
+   {
+    "categoria": "Consultoría ambiental",
+    "empresas": 11,
+    "pct": 5.9
+   },
+   {
+    "categoria": "Procesamiento agrícola",
+    "empresas": 7,
+    "pct": 3.8
+   },
+   {
+    "categoria": "Publicidad e investigación de mercado",
+    "empresas": 6,
+    "pct": 3.2
+   },
+   {
+    "categoria": "Productos alimenticios",
+    "empresas": 6,
+    "pct": 3.2
+   },
+   {
+    "categoria": "Construcción",
+    "empresas": 6,
+    "pct": 3.2
+   },
+   {
+    "categoria": "Vestuario",
+    "empresas": 6,
+    "pct": 3.2
+   },
+   {
+    "categoria": "Alojamiento",
+    "empresas": 4,
+    "pct": 2.2
+   },
+   {
+    "categoria": "Desarrollo inmobiliario",
+    "empresas": 4,
+    "pct": 2.2
+   },
+   {
+    "categoria": "Educación y capacitación",
+    "empresas": 4,
+    "pct": 2.2
+   },
+   {
+    "categoria": "Recuperación y reciclaje de materiales",
+    "empresas": 4,
+    "pct": 2.2
+   },
+   {
+    "categoria": "Reclutamiento y RR.HH.",
+    "empresas": 4,
+    "pct": 2.2
+   },
+   {
+    "categoria": "Comercio minorista",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "Manufactura (otros)",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "Bebidas",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "Servicios financieros",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "Servicios legales",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "Educación (otros)",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "Cuidado personal",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Servicios de apoyo empresarial",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Professional, scientific and technical services",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Recreación",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Apoyo al transporte",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Energías renovables",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Servicios personales",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Cleaning products",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Educación superior",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Textiles",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Desarrollo de software",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Inversión de capital (mercados emergentes)",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Servicios agrícolas y poscosecha",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Cultivos anuales",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Customs agency",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Cultivos permanentes",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Reciclaje",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Crédito (mercados emergentes)",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Aplicaciones móviles",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Insumos médicos y dentales",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Procesamiento de pagos",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Arquitectura y diseño",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Ingeniería",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Scientific R&D",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Papel y derivados",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Restaurants and food service",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Packaging",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Printing and recorded media",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Libros y medios",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Remediation and other waste management",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Muebles",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Real estate (leased property)",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Pesca y acuicultura",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Asesoría de inversiones",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Water supply & treatment",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Membership organizations",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Diseño y construcción",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Otros servicios profesionales y científicos",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Servicios de información",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Caucho y plásticos",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Farmacéutica",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Química",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Seguros de salud",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Software publishing and SaaS",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Waste treatment and disposal",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Instalación de paneles solares",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Computers and electronics",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Artículos deportivos",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Other professional, scientific and technical activities",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Seguros generales",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Inmobiliario",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Agricultural support and post-harvest",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Software",
+    "empresas": 1,
+    "pct": 0.5
+   }
+  ],
+  "por_tipo_sociedad": [
+   {
+    "categoria": "SpA",
+    "empresas": 41,
+    "pct": 22.0
+   },
+   {
+    "categoria": "S.A.",
+    "empresas": 19,
+    "pct": 10.2
+   },
+   {
+    "categoria": "Ltda.",
+    "empresas": 13,
+    "pct": 7.0
+   },
+   {
+    "categoria": "Sin dato",
+    "empresas": 113,
+    "pct": 60.8
+   }
+  ],
+  "por_region": [
+   {
+    "categoria": "Metropolitana",
+    "empresas": 127,
+    "pct": 68.3
+   },
+   {
+    "categoria": "Los Lagos",
+    "empresas": 20,
+    "pct": 10.8
+   },
+   {
+    "categoria": "Sin dato",
+    "empresas": 8,
+    "pct": 4.3
+   },
+   {
+    "categoria": "Valparaíso",
+    "empresas": 5,
+    "pct": 2.7
+   },
+   {
+    "categoria": "Coquimbo",
+    "empresas": 5,
+    "pct": 2.7
+   },
+   {
+    "categoria": "Biobío",
+    "empresas": 5,
+    "pct": 2.7
+   },
+   {
+    "categoria": "O'Higgins",
+    "empresas": 4,
+    "pct": 2.2
+   },
+   {
+    "categoria": "Maule",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "La Araucanía",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "Atacama",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
+    "categoria": "Ñuble",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Antofagasta",
+    "empresas": 1,
+    "pct": 0.5
+   }
+  ],
+  "por_anio_certificacion": [
+   {
+    "categoria": 2012,
+    "empresas": 5,
+    "pct": 2.7
+   },
+   {
+    "categoria": 2013,
+    "empresas": 4,
+    "pct": 2.2
+   },
+   {
+    "categoria": 2014,
+    "empresas": 5,
+    "pct": 2.7
+   },
+   {
+    "categoria": 2015,
+    "empresas": 4,
+    "pct": 2.2
+   },
+   {
+    "categoria": 2016,
+    "empresas": 5,
+    "pct": 2.7
+   },
+   {
+    "categoria": 2017,
+    "empresas": 7,
+    "pct": 3.8
+   },
+   {
+    "categoria": 2018,
+    "empresas": 6,
+    "pct": 3.2
+   },
+   {
+    "categoria": 2019,
+    "empresas": 10,
+    "pct": 5.4
+   },
+   {
+    "categoria": 2020,
+    "empresas": 16,
+    "pct": 8.6
+   },
+   {
+    "categoria": 2021,
+    "empresas": 16,
+    "pct": 8.6
+   },
+   {
+    "categoria": 2022,
+    "empresas": 26,
+    "pct": 14.0
+   },
+   {
+    "categoria": 2023,
+    "empresas": 31,
+    "pct": 16.7
+   },
+   {
+    "categoria": 2024,
+    "empresas": 15,
+    "pct": 8.1
+   },
+   {
+    "categoria": 2025,
+    "empresas": 16,
+    "pct": 8.6
+   },
+   {
+    "categoria": 2026,
+    "empresas": 11,
+    "pct": 5.9
+   },
+   {
+    "categoria": "Sin dato",
+    "empresas": 9,
+    "pct": 4.8
+   }
+  ],
+  "por_tamano_sii": [
+   {
+    "categoria": "Grande",
+    "empresas": 1,
+    "pct": 0.5
+   },
+   {
+    "categoria": "Sin dato",
+    "empresas": 185,
+    "pct": 99.5
+   }
+  ],
+  "puntaje_b": {
+   "con_puntaje": 158,
+   "promedio": 92.0,
+   "mediana": 88.7,
+   "minimo": 80.1,
+   "maximo": 142.8,
+   "distribucion": [
+    {
+     "categoria": "80–90",
+     "empresas": 87
+    },
+    {
+     "categoria": "90–100",
+     "empresas": 44
+    },
+    {
+     "categoria": "100–110",
+     "empresas": 11
+    },
+    {
+     "categoria": "110–120",
+     "empresas": 11
+    },
+    {
+     "categoria": "120–140",
+     "empresas": 4
+    },
+    {
+     "categoria": "140–200",
+     "empresas": 1
+    }
+   ]
+  },
+  "areas": {
+   "empresas_con_desglose": 6,
+   "promedio": {
+    "gobernanza": 17.2,
+    "trabajadores": 24.3,
+    "comunidad": 16.8,
+    "medio_ambiente": 18.4,
+    "clientes": 12.3
+   },
+   "pct_del_total": {
+    "gobernanza": 19.3,
+    "trabajadores": 27.3,
+    "comunidad": 18.9,
+    "medio_ambiente": 20.7,
+    "clientes": 13.8
+   }
+  },
+  "cobertura": {
+   "razon_social": 43,
+   "rut": 9,
+   "tipo_sociedad": 73,
+   "sitio_web": 65,
+   "email": 3,
+   "telefono": 5,
+   "direccion": 7,
+   "linkedin": 0,
+   "personas": 16,
+   "economia": 24,
+   "propiedad": 10,
+   "puntaje_b": 158,
+   "areas": 6
+  }
+ }
+}

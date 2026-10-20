@@ -1,0 +1,1321 @@
+{
+ "lote": "03",
+ "empresas": [
+  {
+   "id": "compaas-cic",
+   "nombre": "Compañías CIC",
+   "razon_social": "Compañías CIC S.A.",
+   "rut": "93.830.000-3",
+   "tipo_sociedad": "S.A. abierta",
+   "giro": "Fabricación de muebles (principalmente de madera), colchones y muebles de cocina",
+   "contactos": {
+    "sitio_web": "https://www.cic.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": "Avenida Esquina Blanca 960",
+    "comuna": "Maipú",
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Cristián Barreaux Iturra",
+     "cargo": "CEO (Chief Executive Officer, según Simply Wall St; unos 11,6 años en el cargo)",
+     "linkedin": null,
+     "fuente": "https://simplywall.st/stocks/cl/consumer-durables/snse-cic/companias-cic-shares/management"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [
+     {
+      "valor": "CLP 22.709 millones de ingresos en el trimestre (-3,15% interanual); la nota informa pérdidas",
+      "periodo": "T1 (enero-marzo) 2025, año según el resumen de búsqueda de la nota de La Tercera; verificar en el artículo",
+      "fuente": "https://www.latercera.com/pulso/noticia/jose-yuraszeck-y-leon-vial-no-la-pasan-bien-en-el-retail-cic-reporta-perdidas/"
+     },
+     {
+      "valor": "Ventas +19,65% respecto de 2023 (monto absoluto no obtenido); menor ticket promedio y mayores costos de materias primas",
+      "periodo": "2024",
+      "fuente": "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/93830000/analisis_razonado_93830000_2024Q4.pdf"
+     },
+     {
+      "valor": "Ventas nominales +0,47% vs T1 2025 y ganancia bruta +16,81% (montos absolutos no obtenidos)",
+      "periodo": "T1 2026",
+      "fuente": "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/93830000/analisis_razonado_93830000_2026Q1.pdf"
+     }
+    ],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": true,
+    "resumen": "Sociedad anónima abierta que cotiza en la Bolsa de Santiago (nemotécnico CIC, desde enero de 1993) y reporta a la CMF. Sus ventas crecieron 19,65% en 2024 y 0,47% nominal en el primer trimestre de 2026; una nota de La Tercera reporta ingresos de CLP 22.709 millones en un primer trimestre con pérdidas."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": "No se encontró en las búsquedas la lista de accionistas ni el controlador. Pista a verificar: la nota de La Tercera (URL en fuentes) lleva en el titular los nombres José Yuraszeck y León Vial junto a CIC, pero no se confirmó relación de propiedad. Fuentes directas para completar: memoria anual y hechos esenciales en CMF y cic.cl (sección accionistas). Opera mediante la filial CIC Muebles y Componentes S.A. según un perfil de terceros."
+   },
+   "blab": {
+    "industria": "Other manufacturing",
+    "sector": "Manufacturing",
+    "tamano": null,
+    "puntaje_b": 89.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": 17.9,
+     "medio_ambiente": 25.1,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.portalchile.org/empresa/companias-cic-s-a-93830000",
+    "https://www.genealog.cl/Geneanexus/empresa/CHILE/TOTM4TwMzAwMDAtMw-jTw/nombre-y-rut/CIC-93830000-3",
+    "https://www.dcv.cl/images/DCV_Registros_Clientes/anexostributariospdf-2020/cic_2020_anexo_tributario.pdf",
+    "https://simplywall.st/stocks/cl/consumer-durables/snse-cic/companias-cic-shares/information",
+    "https://simplywall.st/stocks/cl/consumer-durables/snse-cic/companias-cic-shares/management",
+    "https://theorg.com/org/companias-cic-sa",
+    "https://emis.cn/php/company-profile/CL/Companias_Cic_SA_en_1160343.html",
+    "https://www.latercera.com/pulso/noticia/jose-yuraszeck-y-leon-vial-no-la-pasan-bien-en-el-retail-cic-reporta-perdidas/",
+    "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/93830000/analisis_razonado_93830000_2024Q4.pdf",
+    "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/93830000/analisis_razonado_93830000_2026Q1.pdf",
+    "https://www.diarioestrategia.cl/texto-diario/mostrar/5232547/companias-cic-cita-junta-ordinaria-accionistas",
+    "https://www.cic.cl/on/demandware.static/-/Sites-CIC_CL-Library/es_CL/vbee426d84a872219674486d63aefb3abd7ebc795/Informacion-Corporativa/Informacion-Accionistas/Practicas-Gobierno-Corporativo-CIC.pdf",
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/compaas-cic/",
+    "https://www.diariosustentable.com/wp-content/uploads/2025/04/ESPECIAL-EMPRESAS-B.pdf"
+   ],
+   "notas": "RUT 93.830.000-3 confirmado en portalchile, genealog y anexo tributario del DCV (en los registros figura como Companias CIC S.A., sin tilde). Tipo de sociedad: el anexo del DCV la registra como sociedad anónima abierta y portalchile la muestra supervisada por la CMF; genealog la clasifica como cerrada (probable dato desactualizado). Domicilio CMF: Esquina Blanca 960, Maipú (otras fichas dicen Santiago). Sitio cic.cl: la ficha de un directorio B2B lo lista y el PDF de gobierno corporativo está alojado en ese dominio; Apollo no devolvió resultado con 'Compañías CIC' y el reintento con 'Companias CIC' quedó bloqueado por el límite de tasa de Apollo. La Tercera la describe como Compañía Industrial de Catres, fundada en 1912. Puntaje B: el lote indica 89.4 y las áreas comunidad 17.9 y medio ambiente 25.1 provienen de un segmento previo del proyecto (fuente diariosustentable.com); otra captura previa mostró puntaje 84.6 y gobernanza 15.0 para la misma ficha (posible puntaje inicial vs recertificación): verificar en la ficha B Lab. Cargo de Barreaux Iturra no confirmado en fuente oficial (CMF/memoria). No se encontraron email, teléfono ni redes. Búsquedas web realizadas: razón social/RUT, contacto, personas, propiedad y economía (propiedad sin resultados)."
+  },
+  {
+   "id": "constructora-oval",
+   "nombre": "Constructora Oval",
+   "razon_social": "Constructora Inmobiliaria e Inversiones Oval Ltda.",
+   "rut": "76.048.251-K",
+   "tipo_sociedad": "Ltda.",
+   "giro": "Desarrollo y construcción de proyectos inmobiliarios habitacionales (descripción de ficha B Lab y directorios; giro SII no encontrado)",
+   "contactos": {
+    "sitio_web": "http://www.constructoraoval.cl",
+    "email": null,
+    "telefono": "+56 2 2343 0660",
+    "whatsapp": null,
+    "direccion": "Avenida Presidente Riesco 3316",
+    "comuna": "Las Condes",
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Oscar Valladares Plaza",
+     "cargo": "Gerente General (también figura como representante legal, Oscar Rodrigo Valladares Plaza, en una presentación al SEA)",
+     "linkedin": null,
+     "fuente": "https://cl.linkedin.com/in/jose-chepe-86a607166"
+    },
+    {
+     "nombre": "Sergio Berrocal Domínguez",
+     "cargo": "Director General (según directorio Prospeo; no verificado en fuente oficial)",
+     "linkedin": null,
+     "fuente": "https://prospeo.io/c/constructora-oval-email-format"
+    },
+    {
+     "nombre": "Nicole Grimau Zavattaro",
+     "cargo": "Gerente de Administración y Finanzas (según directorio GetProspect; no verificado en fuente oficial)",
+     "linkedin": null,
+     "fuente": "https://getprospect.com/business-directory/constructora-oval"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": "100-500 empleados (rango de perfil no verificado en sustainabilitytracker.com)",
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Fue distinguida en Best Managed Companies 2024 (Deloitte, Santander y Escuela de Administración UC), por cuarta vez y segundo año consecutivo según su gerente general. No se encontraron ventas ni financiamiento."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": "No se encontraron socios ni controlador. Es una sociedad de responsabilidad limitada. Existe una presentación ambiental de 'Constructora e Inmobiliaria Presidente Riesco S.A.' (Cerro El Plomo 5420 of. 605, Las Condes) con proyecto en Av. Presidente Riesco; no se pudo confirmar relación con Oval."
+   },
+   "blab": {
+    "industria": "Construction",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 142.8,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://firma.sea.gob.cl/publicaciones/bf/66/2154305131",
+    "https://firma.sea.gob.cl/publicaciones/2024/05/04/1714782983_2162046584",
+    "https://prospeo.io/c/constructora-oval-email-format",
+    "https://getprospect.com/business-directory/constructora-oval",
+    "https://www.sustainabilitytracker.com/brand/constructora-oval/",
+    "https://cl.linkedin.com/in/jose-chepe-86a607166",
+    "https://www.chiletrabajos.cl/trabajo/3858793",
+    "https://www.chiletrabajos.cl/trabajo/abogado-rubro-inmobiliaria-3913494",
+    "https://www.bcorporation.net/find-a-b-corp/company/constructora-oval"
+   ],
+   "notas": "RUT 76.048.251-K respaldado por una sola fuente (presentación al SEA, firma.sea.gob.cl/publicaciones/bf/66/2154305131); conviene contrastarlo con el SII. La razón social aparece en presentaciones al SEA y en una oferta de empleo. Teléfono y dirección: el directorio Prospeo da Av. Presidente Riesco 3316 y +56 2 2343 0660; la dirección coincide con la presentada ante el SEA, el teléfono no se contrastó con el sitio oficial. El rol de gerente general de Valladares sale de una página de LinkedIn de un tercero que reproduce un comunicado de la empresa (Best Managed Companies 2024), por eso no se registra LinkedIn personal. Sitio web según Apollo (organizations lookup gratuito). Un perfil de terceros dice más de 12 años de experiencia y la ficha B Lab más de 16 años. Ofertas de empleo 2026 la describen como Empresa B."
+  },
+  {
+   "id": "cristin-fernndez-arquitectos",
+   "nombre": "Cristián Fernández Arquitectos",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Servicios de arquitectura (oficina de arquitectura; giro SII no encontrado)",
+   "contactos": {
+    "sitio_web": "http://www.cfa.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Cristián Fernández Eyzaguirre",
+     "cargo": "Fundador y arquitecto principal",
+     "linkedin": null,
+     "fuente": "https://www.metalocus.es/en/author/fernandez-arquitectos"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": "Metalocus indica que la oficina fue establecida por Cristián Fernández Eyzaguirre, Cristián Yutronic y Sebastián Baraona; una entrevista del MOP sitúa a Yutronic y Baraona en la oficina Lateral y a Fernández Eyzaguirre como arquitecto principal de su estudio independiente. No se encontró la estructura de propiedad ni porcentajes."
+   },
+   "blab": {
+    "industria": "Architecture design & planning",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.metalocus.es/en/author/fernandez-arquitectos",
+    "https://archdaily.com/office/cristian-fernandez-arquitectos",
+    "https://arquitectura.mop.gob.cl/uploads/sites/6/2024/11/entrevista-fernandez.pdf",
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cristin-fernndez-arquitectos"
+   ],
+   "notas": "No se encontró razón social ni RUT (las búsquedas devolvieron homónimos, p. ej. Cristian Herdalo Arquitectura, que no corresponde). No confundir con el arquitecto Cristián Fernández Cox (fallecido, otra persona). El sitio cfa.cl viene de Apollo (organizations lookup gratuito) y no se pudo revisar su página de contacto; el único canal directo hallado es el formulario del perfil de ArchDaily. Ubicación: oficina con base en Santiago según Metalocus; sin dirección exacta. Búsquedas web realizadas: razón social/RUT y contacto; personas parcialmente; economía y propiedad no se investigaron por separado."
+  },
+  {
+   "id": "cultiva-empresa",
+   "nombre": "Cultiva Empresa",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Consultoría ambiental (compensación de emisiones de carbono)",
+   "contactos": {
+    "sitio_web": "http://www.cultivaempresa.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": "Spin-off de Fundación Cultiva (relación indicada en la ficha B Lab)",
+    "socios": [],
+    "notas": "La ficha B Lab dice que Cultiva Empresa nació en 2010 como spin-off de Fundación Cultiva, organización creada para contribuir a descontaminar Santiago mediante educación y reforestación. No se encontró la participación accionaria."
+   },
+   "blab": {
+    "industria": "Environmental consulting",
+    "sector": "Service with significant environmental footprint",
+    "tamano": null,
+    "puntaje_b": 116.6,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cultiva-empresa"
+   ],
+   "notas": "INCOMPLETO: solo se hizo la búsqueda de razón social/RUT (sin resultados sobre esta empresa; genealog devolvió homónimos como Consultora en Responsabilidad Social Limitada, que no corresponden). Las búsquedas de contacto, personas, propiedad y economía no se ejecutaron porque se agotó el presupuesto compartido de WebSearch (200 por turno). Sitio web según Apollo (organizations lookup gratuito), sin verificar. Certificada B desde junio de 2013."
+  },
+  {
+   "id": "cumplo-chile-sa",
+   "nombre": "Cumplo",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Plataforma de financiamiento colectivo (crowdfunding) para pymes (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.cumplo.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other financial services",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cumplo-chile-sa/"
+   ],
+   "notas": "INCOMPLETO: solo se hizo la búsqueda de razón social/RUT y no devolvió nada sobre esta empresa. Las demás búsquedas (contacto, fundadores, rondas de inversión, ventas) no se ejecutaron por agotarse el presupuesto compartido de WebSearch. El identificador de la ficha B Lab es cumplo-chile-sa, lo que sugiere la razón social Cumplo Chile S.A. (no confirmada, por eso no se registra). Sitio web según Apollo (organizations lookup gratuito): cumplo.com; puede existir también cumplo.cl. Certificada B desde julio de 2013."
+  },
+  {
+   "id": "c-z-abogados",
+   "nombre": "CZ Abogados",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Servicios jurídicos (estudio jurídico que asesora a empresas y departamentos legales; descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.czabogados.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Legal activities",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 92.2,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/c-z-abogados"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Solo se registró el sitio web según Apollo (organizations lookup gratuito, nombre coincide) y datos B Lab ya disponibles en el proyecto. Certificada B desde abril de 2020."
+  },
+  {
+   "id": "cz-tokosova-hydrovalv",
+   "nombre": "CZ Tokosova Hydrovalv SpA",
+   "razon_social": "CZ Tokosova Hydrovalv SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": "Diseño y construcción de sistemas de riego para pequeños agricultores (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región de La Araucanía",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Construction",
+    "sector": "Manufacturing",
+    "tamano": null,
+    "puntaje_b": 101.0,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cz-tokosova-hydrovalv/"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Apollo (gratuito) no encontró la empresa con 'CZ Tokosova Hydrovalv'; los reintentos con 'Tokosova' y 'Hydrovalv' quedaron bloqueados por el límite de tasa de Apollo (200 por hora, compartido). La razón social y el tipo SpA se toman del nombre tal como figura en la ficha B Lab; el RUT no se encontró. Sector B Lab: un segmento previo del proyecto lo indica como Construction; Manufacturing. Certificada B desde enero de 2023."
+  },
+  {
+   "id": "de-raz-chile",
+   "nombre": "De Raíz Chile",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Recolección de residuos orgánicos y producción de compost y fertilizante orgánico (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.deraizchile.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Materials recovery & recycling",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 80.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/de-raz-chile"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Solo se registró el sitio web según Apollo (organizations lookup gratuito, nombre coincide) y datos B Lab ya disponibles en el proyecto. Certificada B desde febrero de 2022."
+  },
+  {
+   "id": "deisa",
+   "nombre": "DEISA",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Desarrollo inmobiliario (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.deisa.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Real estate development",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 90.0,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/deisa"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Solo se registró el sitio web según Apollo (organizations lookup gratuito; Apollo la lista como 'Deisa Inmobiliaria') y datos B Lab ya disponibles en el proyecto. Certificada B desde septiembre de 2023."
+  },
+  {
+   "id": "sin-ficha-dictuc",
+   "nombre": "DICTUC",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Servicios tecnológicos y de ingeniería de la Pontificia Universidad Católica de Chile (descripción previa del proyecto)",
+   "contactos": {
+    "sitio_web": "http://www.dictuc.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": "Pontificia Universidad Católica de Chile (según la nota de uc.cl citada en el proyecto; porcentaje no encontrado, no verificado con búsqueda propia)",
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": "Vínculo con la PUC tomado de la descripción previa del proyecto y de la nota https://www.uc.cl/noticias/dictuc-es-acreditada-como-una-empresa-b/ ; no se verificó la estructura societaria."
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.uc.cl/noticias/dictuc-es-acreditada-como-una-empresa-b/"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web propia porque se agotó el presupuesto compartido de WebSearch (200 por turno). Probable DUPLICADO de la entrada 'dictuc-sa' (Dictuc S.A., que sí tiene ficha B Lab): se sugiere fusionarlas. Sitio web según Apollo (organizations lookup gratuito, nombre coincide). La nota de uc.cl indica que DICTUC fue acreditada como Empresa B (fecha y vigencia no vistas)."
+  },
+  {
+   "id": "dictuc-sa",
+   "nombre": "Dictuc S.A.",
+   "razon_social": "Dictuc S.A.",
+   "rut": null,
+   "tipo_sociedad": "S.A.",
+   "giro": "Servicios de ingeniería (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.dictuc.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": "Pontificia Universidad Católica de Chile (según la nota de uc.cl asociada a DICTUC; verificar que corresponda a Dictuc S.A.; porcentaje no encontrado)",
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": "Vínculo con la PUC tomado de la descripción previa del proyecto y de la nota de uc.cl; no se verificó la estructura societaria con búsqueda propia."
+   },
+   "blab": {
+    "industria": "Engineering",
+    "sector": "Service with minor environmental footprint",
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/dictuc-sa",
+    "https://www.uc.cl/noticias/dictuc-es-acreditada-como-una-empresa-b/"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web propia porque se agotó el presupuesto compartido de WebSearch (200 por turno). Probable DUPLICADO de la entrada 'sin-ficha-dictuc' (DICTUC): se sugiere fusionarlas. La razón social y el tipo S.A. se toman del nombre en la ficha B Lab; el RUT no se encontró. Sitio web según Apollo (organizations lookup gratuito, nombre coincide). Certificada B desde mayo de 2016; la ficha no muestra puntaje en el lote."
+  },
+  {
+   "id": "dijase",
+   "nombre": "Dijase",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Distribución mayorista de productos de aseo y limpieza industrial, con énfasis en opciones biodegradables (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.dijase.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región del Biobío",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": "Wholesale/Retail",
+    "tamano": null,
+    "puntaje_b": 86.7,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/dijase/"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Solo se registró el sitio web según Apollo (organizations lookup gratuito; Apollo la lista como 'DIJASE - Comercializadora de Productos de Aseo Industrial') y datos B Lab ya disponibles en el proyecto. Certificada B desde septiembre de 2020."
+  },
+  {
+   "id": "ebco",
+   "nombre": "EBCO",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Desarrollo y construcción de proyectos residenciales, comerciales y de infraestructura logística (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.ebco.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": "Apollo lista varias entidades con nombre EBCO (ebco s.a, EBCO Energía, EBCO Industrial, EBCO Desarrollo y Rentas SpA, ebcosur s a), lo que sugiere un grupo de empresas; no se verificó ni la relación ni cuál es la entidad certificada B."
+   },
+   "blab": {
+    "industria": "Construction",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 97.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/ebco"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Solo se registró el sitio web según Apollo (organizations lookup gratuito; la entidad 'ebco s.a' con dominio ebco.cl) y datos B Lab ya disponibles en el proyecto. Razón social no confirmada (Apollo sugiere S.A., no verificado). Certificada B desde marzo de 2024; la ficha dice más de 40 años de trayectoria."
+  },
+  {
+   "id": "eclass-sa",
+   "nombre": "eClass SA",
+   "razon_social": "eClass SA",
+   "rut": null,
+   "tipo_sociedad": "S.A.",
+   "giro": "Educación flexible (e-learning y programas mixtos) en negocios, inglés y programas corporativos (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.eclass.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Education & training services",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 81.0,
+    "areas": {
+     "gobernanza": 18.7,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/eclass-sa"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Sitio web según Apollo (organizations lookup gratuito): eclass.com; ojo con homónimos en Apollo (eclassvirtual.com y 'eclass limitada' en eclassenglish.cl), no verificado cuál corresponde a la Empresa B. Razón social y tipo S.A. tomados del nombre en la ficha B Lab; RUT no encontrado. Gobernanza 18.7 proviene de una captura previa del proyecto (confianza media). Opera en Chile, Colombia y Perú según la ficha. Certificada B desde marzo de 2015."
+  },
+  {
+   "id": "ecomundo-reciclajes-sp-a",
+   "nombre": "Ecomundo Reciclajes SpA",
+   "razon_social": "Ecomundo Reciclajes SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": "Retiro de material asimilable a domiciliario desde empresas y clientes particulares (reciclaje); empresa familiar (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región de Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Environmental consulting",
+    "sector": "Service with Significant Environmental Footprint",
+    "tamano": null,
+    "puntaje_b": 97.1,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/ecomundo-reciclajes-sp-a/"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Apollo (gratuito) no encontró la empresa con 'Ecomundo Reciclajes'; el reintento con 'Ecomundo' quedó bloqueado por el límite de tasa de Apollo (200 por hora, compartido). Razón social y tipo SpA tomados del nombre en la ficha B Lab; RUT no encontrado. Certificada B desde diciembre de 2021."
+  },
+  {
+   "id": "econsult-ambiental",
+   "nombre": "Econsult Ambiental",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Consultoría en naturaleza y biodiversidad, con foco en minería y energías renovables (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.econsultambiental.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": "Puerto Varas",
+    "region": "Región de Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": "Más de 200 profesionales distribuidos en Chile (según la descripción de la ficha B Lab)",
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Scientific R&D",
+    "sector": null,
+    "tamano": "Más de 200 profesionales (según la descripción de la ficha B Lab)",
+    "puntaje_b": 81.7,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/econsult-ambiental"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Solo se registró el sitio web según Apollo (organizations lookup gratuito, nombre coincide), la sede (Puerto Varas, según B Lab) y datos B Lab ya disponibles en el proyecto. Certificada B desde diciembre de 2024."
+  },
+  {
+   "id": "ecoterra",
+   "nombre": "Ecoterra",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Comercialización de alimentos producidos con sistemas de sustentabilidad, en colaboración con pequeños agricultores y cooperativas; incluye huevos y lácteos Certified Humane (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.ecoterra.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": "Santiago",
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 85.8,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/ecoterra"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Sitio web según Apollo (organizations lookup gratuito): ecoterra.cl coincide por nombre exacto, pero Apollo también devolvió EcoTerra Chile (ecoterrachile.cl) y hay homónimos; NO se verificó que ecoterra.cl sea la Empresa B de alimentos, confirmar antes de publicar. La sede es 'Santiago' según B Lab (comuna exacta no indicada). Certificada B desde julio de 2020."
+  },
+  {
+   "id": "egaa-abogados",
+   "nombre": "Egaña Abogados",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Servicios jurídicos: capital de riesgo, M&A, fintech, derecho corporativo e inversión de impacto (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.eycia.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Legal activities",
+    "sector": "Service with Minor Environmental Footprint",
+    "tamano": null,
+    "puntaje_b": 88.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/egaa-abogados"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Sitio web según Apollo (organizations lookup gratuito): el nombre coincide exacto, pero el dominio eycia.cl no deriva del nombre; confirmar. Certificada B desde junio de 2025."
+  },
+  {
+   "id": "ematris",
+   "nombre": "Ematris",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Consultoría, coaching y levantamiento de fondos para innovadores y emprendedores sociales, culturales y de negocios (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.ematris.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Management consultant",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 91.1,
+    "areas": {
+     "gobernanza": 15.8,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/ematris"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Sitio web según Apollo (organizations lookup gratuito; Apollo la lista como 'ematris innovación y emprendimiento'). Gobernanza 15.8 proviene de una captura previa del proyecto de la ficha B Lab. Opera en Chile y Perú según la ficha. Certificada B desde septiembre de 2013."
+  },
+  {
+   "id": "empresas-torre-sa",
+   "nombre": "Empresas Torre S.A.",
+   "razon_social": "Empresas Torre S.A.",
+   "rut": null,
+   "tipo_sociedad": "S.A.",
+   "giro": "Fabricación de papel y productos de papel (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Paper & paper products",
+    "sector": "Manufacturing",
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/empresas-torre-sa/"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Apollo (gratuito) no encontró la empresa con 'Empresas Torre S.A.'; los reintentos con 'Empresas Torre' y con una consulta alternativa quedaron bloqueados por el límite de tasa de Apollo (200 por hora, compartido). Razón social y tipo S.A. tomados del nombre en la ficha B Lab; RUT no encontrado. Certificada B desde octubre de 2019."
+  },
+  {
+   "id": "energa-libre",
+   "nombre": "Energía Libre",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Asesoría a clientes industriales y comerciales en estrategia de energía y emisiones y servicios de gestión energética (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other renewable energy installation",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 86.1,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/energa-libre"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Apollo (gratuito) no encontró la empresa con 'Energía Libre'; el reintento con 'Energia Libre' quedó bloqueado por el límite de tasa de Apollo (200 por hora, compartido). Razón social, RUT y sitio web sin determinar. Certificada B desde agosto de 2023."
+  },
+  {
+   "id": "entidad-patrocinante-unin-sp-a",
+   "nombre": "Entidad Patrocinante Unión Ltda",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Gestión de proyectos de mejoramiento de vivienda social (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.unionep.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Professional, scientific and technical services",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 89.6,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/entidad-patrocinante-unin-sp-a/"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Conflicto de forma societaria: el nombre del lote dice 'Ltda', pero el identificador de la URL de B Lab (entidad-patrocinante-unin-sp-a) y la entidad que devolvió Apollo ('Entidad Patrocinante Unión SpA.', dominio unionep.cl) indican SpA; por eso razón social y tipo quedan null hasta confirmar con RUT/SII. Sitio web según Apollo (organizations lookup gratuito). Certificada B desde diciembre de 2021."
+  },
+  {
+   "id": "estudio-lado-humano-consultores-ltda",
+   "nombre": "Estudio Lado Humano Consultores Ltda",
+   "razon_social": "Estudio Lado Humano Consultores Ltda",
+   "rut": null,
+   "tipo_sociedad": "Ltda.",
+   "giro": "Consultoría en investigación, procesos de co-diseño y alineamiento estratégico (descripción de ficha B Lab)",
+   "contactos": {
+    "sitio_web": "http://www.estudioladohumano.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Management consultant",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 99.9,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/estudio-lado-humano-consultores-ltda"
+   ],
+   "notas": "INCOMPLETO: no se ejecutó ninguna búsqueda web sobre esta empresa porque se agotó el presupuesto compartido de WebSearch (200 por turno). Razón social y tipo Ltda. tomados del nombre en la ficha B Lab; RUT no encontrado. Sitio web según Apollo (organizations lookup gratuito, nombre coincide). Opera solo en Chile. Certificada B desde julio de 2026 (según el lote)."
+  }
+ ]
+}

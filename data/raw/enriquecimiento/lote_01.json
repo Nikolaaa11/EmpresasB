@@ -1,0 +1,1313 @@
+{
+ "lote": "01",
+ "empresas": [
+  {
+   "id": "40c-consultores",
+   "nombre": "40c Consultores",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.40c.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Armando Holzapfel",
+     "cargo": "Socio y director ejecutivo (listado como fundador y CEO en el directorio de Stanford PACS)",
+     "linkedin": null,
+     "fuente": "https://www.latercera.com/pulso/noticia/la-filantropia-se-profesionaliza-con-la-primera-multiphilanthropy-office/E5HANXQ2JRDUHEUQK5AZQN7G4U/"
+    },
+    {
+     "nombre": "Paula Streeter",
+     "cargo": "Socia y directora",
+     "linkedin": null,
+     "fuente": "https://www.latercera.com/pulso/noticia/la-filantropia-se-profesionaliza-con-la-primera-multiphilanthropy-office/E5HANXQ2JRDUHEUQK5AZQN7G4U/"
+    },
+    {
+     "nombre": "Natalia García-Huidobro",
+     "cargo": "Directora",
+     "linkedin": null,
+     "fuente": "https://www.latercera.com/pulso/noticia/la-filantropia-se-profesionaliza-con-la-primera-multiphilanthropy-office/E5HANXQ2JRDUHEUQK5AZQN7G4U/"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Consultora creada en 2020. Según su propia descripción (ficha B Lab) acumula más de 30 proyectos de consultoría en 3 años y 10 nuevas plataformas filantrópicas; La Tercera reporta que ayudó a levantar 10 fundaciones en cuatro años, con presupuestos de US$1,5 millones a US$40 millones. No se encontraron ventas ni número de trabajadores."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [
+     {
+      "nombre": "Armando Holzapfel",
+      "porcentaje": null,
+      "fuente": "https://www.latercera.com/pulso/noticia/la-filantropia-se-profesionaliza-con-la-primera-multiphilanthropy-office/E5HANXQ2JRDUHEUQK5AZQN7G4U/"
+     },
+     {
+      "nombre": "Paula Streeter",
+      "porcentaje": null,
+      "fuente": "https://www.latercera.com/pulso/noticia/la-filantropia-se-profesionaliza-con-la-primera-multiphilanthropy-office/E5HANXQ2JRDUHEUQK5AZQN7G4U/"
+     }
+    ],
+    "notas": "La Tercera describe a Holzapfel y Streeter como socios (Natalia García-Huidobro figura como directora). Holzapfel fue director ejecutivo de la fundación Chile+Hoy (2013-2020, iniciativas del grupo Drake de Nicolás Ibáñez); Streeter fue investigadora del Centro de Políticas Públicas UC. No se encontraron porcentajes de propiedad."
+   },
+   "blab": {
+    "industria": "Management consultant - for-profits",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 118.1,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.latercera.com/pulso/noticia/la-filantropia-se-profesionaliza-con-la-primera-multiphilanthropy-office/E5HANXQ2JRDUHEUQK5AZQN7G4U/",
+    "https://pacscenter.stanford.edu/philanthropist-resource/40c-consultants-for-latin-america",
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/40c-consultores/",
+    "http://www.40c.cl"
+   ],
+   "notas": "RUT y forma societaria NO encontrados (búsquedas en Genealog/Mercantil/Portal Chile sin resultados). Nombre completo usado por la empresa: '40c Consultora en Filantropía e Iniciativas Sociales' (La Tercera, Apollo); no se confirma si es SpA/Ltda. Dominio 40c.cl confirmado por Apollo y por el directorio de Stanford. Dirección histórica del directorio de Stanford (datos compilados desde 2017, posiblemente desactualizados): Cerro El Plomo 6622, of. 63, Santiago; NO se registra como vigente. El único correo encontrado es personal (de un socio) y no se registra. La ficha B Lab indica operaciones en Chile, Perú y Estados Unidos."
+  },
+  {
+   "id": "abinsa-sp-a",
+   "nombre": "Abinsa SpA (Aqua Baby)",
+   "razon_social": "Abinsa SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": "https://www.aquababy.cl",
+    "email": "contacto@aquababy.cl",
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Marca chilena de toallitas húmedas (agua purificada y aloe vera) vendida en Salcobrand, Jumbo, Falabella (vendedores terceros) y MercadoLibre; Jumbo la etiqueta como 'Marca Chilena Pyme'. No se encontraron ventas, trabajadores ni inversión."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Personal care products",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 81.8,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://giphy.com/aquababycl/",
+    "https://www.jumbo.cl/toallita-humeda-2036266/p",
+    "https://salcobrand.cl/products/toallitas-humedas-aqua-baby-60-unidades",
+    "https://www.falabella.com/falabella-cl/brand/AQUA%20BABY",
+    "https://www.mercadolibre.cl/tienda/aqua-baby",
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/abinsa-sp-a/"
+   ],
+   "notas": "RUT NO encontrado (las búsquedas en directorios no devolvieron Abinsa). La razón social 'Abinsa SpA' proviene del nombre de la ficha B Lab, no de un registro. Sitio y correo genérico (contacto@aquababy.cl) provienen del perfil de la marca en GIPHY (tercero); verificar en aquababy.cl. Fichas de Salcobrand y Jumbo indican fabricación en China (dato de producto). Vendedores terceros listados en Falabella (Distribuidora Pepito, Jeune SpA) no son Abinsa. Apollo sin resultados. No hay datos de dueños ni líderes."
+  },
+  {
+   "id": "abrantes",
+   "nombre": "Abrantes",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Sin datos económicos actuales. Una nota de 2010 sobre Champiñones Abrantes S.A. (identidad con la ficha B Lab NO confirmada) citaba una meta de 60 toneladas semanales de champiñón en seis meses tras la reconstrucción posterior al terremoto."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": "DATO HISTÓRICO Y DE IDENTIDAD NO CONFIRMADA (Portal Frutícola, 2010): Champiñones Abrantes S.A. se constituyó tras el terremoto de 2010 con dueños Empresas Sutil, Alejandro Quesney, Ana María Larraín e hijos y Juan Pablo Sánchez (fundador de Abrantes Limitada, participación minoritaria); presidente en 2010: Edmundo Ruiz; Juan Sutil impulsó el proyecto. Sin porcentajes y sin datos posteriores a 2012; no usar como propiedad vigente."
+   },
+   "blab": {
+    "industria": "Growing non-perennial crops",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 83.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.portalfruticola.com/noticias/2010/07/21/chile-nueva-empresa-de-champinones-de-sutil-planea-doblar-produccion-en-cinco-anos",
+    "https://www.portalfruticola.com/?p=2512",
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/abrantes/"
+   ],
+   "notas": "Identidad PROBABLE pero NO confirmada: B Lab lista 'Abrantes' (producción de champiñón fresco, Región Metropolitana) y la prensa describe a Champiñones Abrantes S.A. (Paine, Región Metropolitana), pero ninguna fuente encontrada vincula esa sociedad con la ficha B Lab. RUT, razón social vigente, contactos y sitio web NO encontrados; Apollo sin resultados. Genealog lista AGRIC ABRANTES LTDA (RUT 85.584.000-6, Paine) con giro de fruticultura: NO se asigna (https://www.genealog.cl/Geneanexus/empresa/CHILE/TODU1TwODQwMDAtNg-jTw/nombre-y-rut/AGRIC-ABRANTES-LTDA-85584000-6). Existe un homónimo en Argentina (Abrantes S.A., Escobar) que se descarta. Agrícola Funghi Chile es otra empresa sin relación según las fuentes."
+  },
+  {
+   "id": "adclean",
+   "nombre": "Adclean SpA",
+   "razon_social": "Adclean SpA",
+   "rut": "77.383.833-K",
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.adclean.cl",
+    "email": null,
+    "telefono": "+56 2 2684 8058",
+    "whatsapp": null,
+    "direccion": "Avenida Kennedy 7900",
+    "comuna": "Vitacura",
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Mauricio Navarrete",
+     "cargo": "Fundador y CEO",
+     "linkedin": "https://cl.linkedin.com/in/mauricio-navarrete-muro",
+     "fuente": "https://cl.linkedin.com/in/mauricio-navarrete-muro"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": "20 (perfil ConnectAmericas; dato posiblemente desactualizado)",
+    "financiamiento": [
+     {
+      "descripcion": "Fondo de US$1 millón del programa Discovery A del Centro de Innovación UC e Invexor Venture Partners (ronda Seed según Descubre.vc)",
+      "fecha": "octubre 2022",
+      "fuente": "https://www.df.cl/los-planes-de-expansion-de-la-healtech-adclean-tras-adjudicarse-fondo"
+     }
+    ],
+    "cotiza_en_bolsa": null,
+    "resumen": "Startup de química verde fundada en agosto de 2021 como escisión de Adquim; levantó cerca de US$1 millón (Seed, oct. 2022) y se integró a la red Endeavor en 2025. Según Emol trabaja con Agrosuper, Sodimac, Jumbo y SQM; Descubre.vc agrega Nestlé y Minera Escondida. Hoy se presenta como A.D. Cleantech con líneas Green Chemistry, WaterTech y FoodTech. No se encontraron cifras de ventas."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": "Inversionistas reportados en la ronda Seed de oct. 2022: Invexor Venture Partners y el Centro de Innovación UC Anacleto Angelini (Descubre.vc, DF). Navarrete también fundó Adquim (2012), de la cual se escindió Adclean. No se encontraron porcentajes de propiedad ni confirmación de que Adquim siga siendo accionista."
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 86.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.portalchile.org/empresa/adclean-spa-77383833",
+    "https://www.bcorporation.net/find-a-b-corp/company/adclean",
+    "https://www.df.cl/los-planes-de-expansion-de-la-healtech-adclean-tras-adjudicarse-fondo",
+    "https://www.emol.com/noticias/Economia/2025/07/02/1170997/cleantech-ingresa-a-endeavor.html",
+    "https://forbes.cl/comercial/2026-01-30/mauricio-navarrete-del-adblue-a-adclean-el-chileno-que-quiere-reescribir-la-quimica-mundial/",
+    "https://cl.linkedin.com/in/mauricio-navarrete-muro",
+    "https://www.descubre.vc/adclean",
+    "https://www.signalhire.com/companies/adclean",
+    "https://connectamericas.com/es/node/508097",
+    "https://www.diarioestrategia.cl/texto-diario/mostrar/4340319/adclean-obtiene-certificacion-como-empresa-b",
+    "https://www.jumbo.cl/cloro-destructor-no-toxico-adclean-1lt-2049465/p",
+    "http://www.adclean.cl"
+   ],
+   "notas": "RUT y comuna (Vitacura), inicio de actividades 26/07/2021 según Portal Chile (registro SII); el historial de razón social muestra variantes de escritura (ADCLEAN SpA / Adclean SpA): verificar forma exacta en SII/Diario Oficial. Teléfono y dirección provienen de SignalHire (agregador) y no se confirmaron en el sitio de la empresa. Página de empresa en LinkedIn, Instagram y email genérico NO encontrados. La empresa opera como A.D. Cleantech desde 2025 (Emol). ConnectAmericas aún indica la certificación B como pendiente (dato desactualizado). No se registra a Pablo Palma López (aparece como Division Manager en LinkedIn, sin confirmar vínculo con la empresa)."
+  },
+  {
+   "id": "agencia-de-aduanas-felipe-serrano-solar-y-cia-ltada",
+   "nombre": "Agencia de Aduanas Felipe Serrano Solar y Cia Ltda",
+   "razon_social": "Agencia de Aduanas Felipe Serrano Solar y Compañía Limitada",
+   "rut": "77.664.990-2",
+   "tipo_sociedad": "Ltda.",
+   "giro": "Agencias de aduanas; comercio exterior; transportes terrestres; logística y almacenaje",
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": "Providencia",
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Agencia de aduanas con más de 40 años de experiencia según su perfil en GetOnBoard, con certificaciones OEA/AEO, ISO 9001:2015 y modelo de prevención de delitos; participó en Expomin 2023 junto a Faser Cargo y Transam y es referente en minería. No se encontraron ventas ni trabajadores."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": "No se encontraron socios ni controlador. Expomin 2023 la presenta operando junto a Faser Cargo y Transam: es una alianza comercial, no se confirma relación societaria."
+   },
+   "blab": {
+    "industria": "Customs agency",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 82.1,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.genealog.cl/Geneanexus/empresa/CHILE/TNzc2TwNjQ5OTAtMg-jTw/nombre-y-rut/AGENCIA-DE-ADUANA-FELIPE-SERRANO-SOLAR-Y-CIA-LTDA.-77664990-2",
+    "https://www.getonbrd.com/companies/agencia-de-aduanas-felipe-serrano-cl",
+    "https://www.reporteminero.cl/noticia/expomin-2023/2023/02/agencias-aduanas-felipe-serrano",
+    "https://expomin.cl/?p=8493"
+   ],
+   "notas": "RUT, razón social y giro según Genealog (registro SII; inicio de actividades 30/10/2001; comuna Providencia; puede estar desactualizado). Sitio web, correo, dirección completa y redes NO encontrados (Apollo sin resultados); una oferta de empleo sitúa una sucursal en el Aeropuerto, Pudahuel. La página de Genealog expone en su código el número +56 2 2583 7900, que NO se registra por no poder verificarse como teléfono de la empresa. La empresa dispone de una plataforma 'Agencia en Línea' (GetOnBoard) cuya URL no se encontró. 'Felipe Serrano' también aparece como presidente de la Cámara Aduanera de Chile: no se establece que sea la misma persona, no se registra."
+  },
+  {
+   "id": "grow-betteragency",
+   "nombre": "Agencia de Marketing GrowBetter Spa",
+   "razon_social": "Agencia de Marketing GrowBetter SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.growbetter.agency",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Sergio Fuentealba",
+     "cargo": "Cofundador",
+     "linkedin": "https://cl.linkedin.com/in/sfuentealba",
+     "fuente": "https://cl.linkedin.com/in/sfuentealba"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": "5 a 25 (rango estimado por el directorio Sustainability Tracker; no verificado)",
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Agencia de marketing y publicidad sostenibles con sede en Chile; un directorio la ubica en el rango de 5 a 25 empleados (no verificado). No se encontraron ventas, inversión ni clientes."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Advertising & market research",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 99.2,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://cl.linkedin.com/in/sfuentealba",
+    "https://www.sustainabilitytracker.com/brand/growbetter-agency/",
+    "http://www.growbetter.agency",
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/grow-betteragency"
+   ],
+   "notas": "RUT NO encontrado. La razón social 'Agencia de Marketing GrowBetter SpA' proviene del nombre de la ficha B Lab, no de un registro. Dominio growbetter.agency según Apollo (organización 'GrowBetter Agency | Empresa B'). No se encontró email, teléfono, dirección ni redes de la empresa. Sergio Fuentealba se presenta como cofundador en su LinkedIn (dato autodeclarado); no se encontraron otros socios ni porcentajes. Homónimo descartado: GrowBetter de Praga (equipos de cultivo indoor)."
+  },
+  {
+   "id": "agrcola-e-inversiones-terraman-limitada",
+   "nombre": "Agrícola e Inversiones Terraman Limitada",
+   "razon_social": "Agrícola e Inversiones Terraman Limitada",
+   "rut": "76.309.898-2",
+   "tipo_sociedad": "Ltda.",
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.terraman.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": "Cauquenes",
+    "region": "Maule",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": "192 (según Portal Chile; fecha del dato no indicada)",
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Empresa agrícola con inicio de actividades el 06/08/2013 y predios registrados en Cauquenes (Maule) y Santa Bárbara (Biobío); Portal Chile le asigna 192 trabajadores. No se encontraron ventas."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 84.5,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.portalchile.org/empresa/agricola-e-inversiones-terraman-limitada-76309898",
+    "http://www.terraman.cl",
+    "https://www.bcorporation.net/find-a-b-corp/company/agrcola-e-inversiones-terraman-limitada"
+   ],
+   "notas": "RUT, comuna e inicio de actividades según Portal Chile (registro SII). Sucursales registradas: Fundo Don Toco 1 (Santa Bárbara, Biobío) y Fundo San Daniel - Quella (Cauquenes). Sitio terraman.cl según Apollo ('Agrícola Terraman'). No se confirmó la exportación de cerezas por fuente independiente. No se encontraron dueños, líderes, email ni teléfono. Un aviso de chiletrabajos.cl en Cauquenes busca agrónomos para cerezo, nogal y ciruelo pero no identifica a la empresa."
+  },
+  {
+   "id": "agrcola-valles-del-sur-sp-a",
+   "nombre": "Agrícola Valles del Sur SpA",
+   "razon_social": "Agrícola Valles del Sur SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "La Araucanía",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Growing perennial crops",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 80.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Consulta gratuita a Apollo sin resultados. Razón social tomada del nombre de la ficha B Lab, no verificada en registros."
+  },
+  {
+   "id": "aguas-santa-amalia-sa",
+   "nombre": "Aguas Santa Amalia S.A.",
+   "razon_social": "Aguas Santa Amalia S.A.",
+   "rut": null,
+   "tipo_sociedad": "S.A.",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 91.9,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Consulta gratuita a Apollo sin resultados. Razón social tomada del nombre de la ficha B Lab, no verificada en registros. No se verificó si es sociedad anónima abierta o cerrada."
+  },
+  {
+   "id": "alfa-sea",
+   "nombre": "Alfa Sea",
+   "razon_social": "ALFA SEA SPA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Apollo devuelve una organización 'ALFA SEA SPA' (sin dominio, sitio ni RUT); la razón social se toma de ese nombre, coincidencia por nombre no verificada con registros ni con la ubicación (Los Lagos). La ficha B Lab no tiene puntaje ni fecha de certificación en el lote."
+  },
+  {
+   "id": "trendy",
+   "nombre": "Alimentos Trendy",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.alimentostrendy.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Food products",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 81.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "http://www.alimentostrendy.com"
+   ],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Sitio web según consulta gratuita a Apollo (el nombre de la organización coincide)."
+  },
+  {
+   "id": "almaciguera-consultora",
+   "nombre": "Almaciguera Consultora",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.almaciguera.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 101.6,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "http://www.almaciguera.com",
+    "https://www.sistemab.org/chile/wp-content/uploads/sites/5/2025/12/Brochure-Consultoras-1.pdf"
+   ],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Sitio web según consulta gratuita a Apollo (el nombre de la organización coincide). El brochure de consultoras de Sistema B Chile (dic. 2025) la lista entre las consultoras aliadas (B Partner)."
+  },
+  {
+   "id": "almacruz",
+   "nombre": "Almacruz",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Accommodation",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 80.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Consulta gratuita a Apollo sin resultados. Reintentos bloqueados por el límite horario de Apollo."
+  },
+  {
+   "id": "reciclajes-industriales",
+   "nombre": "Armony Sustentable",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other recycling",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Consulta gratuita a Apollo sin resultados. (se probó 'Armony Sustentable' y 'Armony reciclaje'). El slug de la ficha B Lab es 'reciclajes-industriales'; no se pudo comprobar si corresponde a otra razón social. El reintento con 'Reciclajes Industriales' fue bloqueado por el límite horario de Apollo."
+  },
+  {
+   "id": "asgreen-ingeniera-sustentable",
+   "nombre": "Asgreen Ingeniería Sustentable",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.asgreen.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Maule",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 82.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "http://www.asgreen.cl"
+   ],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Sitio web según consulta gratuita a Apollo (el nombre de la organización coincide)."
+  },
+  {
+   "id": "aurys-consulting",
+   "nombre": "Aurys Consulting",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.aurysconsulting.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Management consultant - for-profits",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 81.7,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "http://www.aurysconsulting.com"
+   ],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Sitio web según consulta gratuita a Apollo (el nombre de la organización coincide)."
+  },
+  {
+   "id": "balloon-latam",
+   "nombre": "Balloon Latam",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.balloonlatam.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 123.2,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "http://www.balloonlatam.com"
+   ],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Sitio web según consulta gratuita a Apollo (el nombre de la organización coincide)."
+  },
+  {
+   "id": "bancoestado-microempresas",
+   "nombre": "BancoEstado Microempresas",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other credit - Emerging Markets",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 130.5,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Consulta gratuita a Apollo sin resultados. Reintento con 'BancoEstado' bloqueado por el límite horario de Apollo."
+  },
+  {
+   "id": "bermarg-spa",
+   "nombre": "Bermarg SpA",
+   "razon_social": "Bermarg SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.bermarg.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Valparaíso",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Construction",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "http://www.bermarg.cl"
+   ],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Sitio web según consulta gratuita a Apollo (el nombre de la organización coincide). Razón social tomada del nombre de la ficha B Lab, no verificada en registros."
+  },
+  {
+   "id": "better-brands",
+   "nombre": "Better Brands",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.betterbrands.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other business support",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 89.6,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "http://www.betterbrands.cl"
+   ],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Sitio web según consulta gratuita a Apollo (el nombre de la organización coincide)."
+  },
+  {
+   "id": "burn-to-give",
+   "nombre": "Betterfly (ficha B Lab: burn to give)",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.betterfly.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Mobile applications",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 87.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "http://www.betterfly.com"
+   ],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Apollo devuelve 'Betterfly' (betterfly.com) y 'Betterfly Brasil' (sin dominio, descartada). La equivalencia entre la ficha B Lab 'burn to give' y Betterfly es inferida (heredada del lote) y NO está confirmada por fuente; verificar antes de publicar el sitio."
+  },
+  {
+   "id": "biobrush",
+   "nombre": "Biobrush",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.biobrush.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Medical and dental supplies",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 92.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "http://www.biobrush.cl"
+   ],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Sitio web según consulta gratuita a Apollo (el nombre de la organización coincide)."
+  },
+  {
+   "id": "biocys",
+   "nombre": "Biocys",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Professional, scientific and technical services",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 85.6,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [],
+   "notas": "PENDIENTE_BUSQUEDA_WEB: no se ejecutaron las búsquedas web de razón social/RUT, contactos, personas/propiedad y economía porque el presupuesto compartido de WebSearch (200 por turno) se agotó antes de llegar a esta empresa. Apollo tiene una organización 'Biocys' (id 6645836bfa55ab000134eb10) pero sin dominio ni sitio web; no se registra sitio."
+  }
+ ]
+}

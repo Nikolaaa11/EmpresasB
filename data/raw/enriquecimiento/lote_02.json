@@ -1,0 +1,1317 @@
+{
+ "lote": "02",
+ "empresas": [
+  {
+   "id": "bioelements-group-spa",
+   "nombre": "BIOELEMENTS GROUP SPA",
+   "razon_social": "Bioelements Group SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": "Según prensa: producción de bioplásticos y envases/empaques biodegradables y compostables (resina BioE-8) para clientes B2B",
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "José Ignacio Parada",
+     "cargo": "Fundador y CEO",
+     "linkedin": null,
+     "fuente": "https://www.emol.com/noticias/Economia/2023/05/18/1095350/ignacio-parada-bioelements-empresas-chilenas.html"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [
+     {
+      "descripcion": "Ronda Serie A de US$30 millones liderada por BTG Pactual Impact Investment Fund (primer levantamiento de capital desde su fundación); fondos para expansión regional, equipos e I+D",
+      "fecha": "diciembre 2022 (reportada en enero 2023)",
+      "fuente": "https://www.bloomberglinea.com/2023/01/12/chilena-bioelements-levanta-us30-millones-en-ronda-encabezada-por-btg-pactual/"
+     }
+    ],
+    "cotiza_en_bolsa": null,
+    "resumen": "Startup chilena de bioplásticos con operaciones en Chile, México, Brasil, Perú, Colombia y Estados Unidos; levantó US$30 millones en una Serie A liderada por BTG Pactual (dic. 2022) y recibió en 2025 el premio de Environmental Finance a la iniciativa de reducción de plásticos. No se encontraron cifras de ventas ni de trabajadores."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [
+     {
+      "nombre": "BTG Pactual Impact Investment Fund (inversionista líder de la Serie A)",
+      "porcentaje": null,
+      "fuente": "https://www.oaklins.com/cl/en/deals/109509/"
+     }
+    ],
+    "notas": "No se encontraron porcentajes de propiedad ni otros accionistas en fuentes públicas."
+   },
+   "blab": {
+    "industria": "Other retail sale",
+    "sector": "Wholesale/Retail",
+    "tamano": null,
+    "puntaje_b": 100.4,
+    "areas": {
+     "gobernanza": 15.6,
+     "trabajadores": 18.0,
+     "comunidad": 23.5,
+     "medio_ambiente": 41.6,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/bioelements-group-spa/",
+    "https://www.dunsguide.com/company/ef6494e2a9fbc025befae05e8fe3379a/bioelements-group-spa",
+    "https://cn.panjiva.com/Bioelements-Group-SpA/145912934",
+    "https://www.emol.com/noticias/Economia/2023/05/18/1095350/ignacio-parada-bioelements-empresas-chilenas.html",
+    "https://www.bloomberglinea.com/2023/01/12/chilena-bioelements-levanta-us30-millones-en-ronda-encabezada-por-btg-pactual/",
+    "https://www.oaklins.com/cl/en/deals/109509/",
+    "https://www.descubre.vc/bioelements",
+    "https://dplnews.com/?p=212575",
+    "https://www.df.cl/df-lab/sostenibilidad/startup-bioelements-se-instalara-en-eeuu-con-sus-envases-de-bioplastico",
+    "https://gestion.pe/economia/empresas/startup-chilena-bioelements-apunta-al-sector-industrial-para-aumentar-facturacion-en-peru-noticia/",
+    "https://globalprivatecapital.org/?p=40574",
+    "https://www.environmental-finance.com/content/awards/sustainable-company-awards-2025/winners/plastic-reduction-initiative-of-the-year-bioelements-group.html",
+    "https://www.bcorporation.net/find-a-b-corp/company/bioelements-group-spa"
+   ],
+   "notas": "RUT no encontrado (Dunsguide lo muestra enmascarado). Razón social 'Bioelements Group S.P.A.' según Dunsguide, que indica fundación en 2018 mientras otras fuentes dicen 2014. Apollo organizations_lookup (gratuito) no devolvió coincidencia. Ninguna búsqueda mostró el sitio oficial, e-mail ni teléfono corporativos. Una bodega con dirección 'Av. Los Espejos 01565, Bodega 118, Santiago' figura como dirección del exportador en el perfil de embarques de Panjiva (https://cn.panjiva.com/Bioelements-Group-SpA/145912934); no se registra como dirección corporativa por no ser una fuente de la empresa. No confundir con Bioelements (marca de cuidado de la piel de Chicago): los teléfonos/e-mails de NeverBounce NO corresponden a esta empresa. Gestión.pe cita una meta de aumentar 80% la facturación en Perú hasta US$25 millones (alcance y año no claros; no se registra como venta). La ficha B Lab clasifica la industria como 'Other retail sale' aunque la prensa la describe como fabricante de bioplásticos. Puntajes por área según resumen de la ficha B Lab: Workers 18.0, Community 23.5, Environment 41.6; Governance 15.6 (suma de Mission & Engagement 2.2 + Ethics & Transparency 3.4 + Mission Locked 10); Customers no apareció. Sin evidencia sobre cotización en bolsa (es una SpA)."
+  },
+  {
+   "id": "bioprocess-chile",
+   "nombre": "Bioprocess chile",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": "Según prensa: valorización de aceite vegetal usado en lubricantes, desmoldantes y supresores de polvo biodegradables para minería, construcción y forestal",
+   "contactos": {
+    "sitio_web": "http://www.bioprocess.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "César Bastías",
+     "cargo": "Gerente Comercial",
+     "linkedin": null,
+     "fuente": "https://www.diarioestrategia.cl/texto-diario/mostrar/4664521/bioprocess-transformando-aceite-usado-productos-industriales-biodegradables"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": "12 colaboradores (según Diario Estrategia)",
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Opera desde 2018; en 2023 procesó 400 mil litros de aceite usado convertidos en lubricantes, desmoldantes y supresores de polvo; ganó el primer lugar en 'Valorización de Residuos' en los Premios Cero Basura (5ª versión). No se encontraron cifras de facturación."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other manufacturing",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 80.7,
+    "areas": {
+     "gobernanza": 15.2,
+     "trabajadores": 24.4,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/bioprocess-chile",
+    "http://www.bioprocess.cl",
+    "https://www.diarioestrategia.cl/texto-diario/mostrar/4664521/bioprocess-transformando-aceite-usado-productos-industriales-biodegradables"
+   ],
+   "notas": "RUT, razón social, e-mail, teléfono, dirección, gerente general/fundador y propiedad: no encontrados. sitio_web obtenido con Apollo organizations_lookup (gratuito) por coincidencia de nombre; sin segunda fuente. (dominio bioprocess.cl, nombre 'Bioprocess Chile'). El puntaje 80.7 (el lote traía null) y las áreas Governance 15.2 y Workers 24.4 salen del resumen de búsqueda de la ficha B Lab (certificada julio 2026, Standards v1.6); ese resumen mostró 'Environment 22.0' pero advirtió que estaba truncado, por eso no se registra; Community y Customers no aparecieron. No confundir con 'American Bioprocess SpA' (Quilpué), empresa distinta."
+  },
+  {
+   "id": "biosfera-austral",
+   "nombre": "Biosfera Austral SPA",
+   "razon_social": "Biosfera Austral SpA",
+   "rut": "77.160.612-1",
+   "tipo_sociedad": "SpA",
+   "giro": "SII: Otros servicios de apoyo a la silvicultura n.c.p. (giro secundario: asesoría de inversión). B Lab: desarrollo inmobiliario con proyectos de conservación habitable",
+   "contactos": {
+    "sitio_web": "http://www.biosfera-austral.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": "Providencia",
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": "13 trabajadores (registro SII reproducido por portalchile.org; fecha del dato no indicada)",
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Inició actividades el 11/06/2020 (SII). Desarrolla, con la plataforma Wbuild, un parque privado de conservación habitable tokenizado en Uruguay (88 ha cerca de Punta del Este/José Ignacio, 25 parcelas de 3 ha) financiado sin deuda bancaria. No se encontraron ventas."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [
+     {
+      "nombre": "Inversiones Austral dos SpA",
+      "porcentaje": null,
+      "fuente": "https://www.portalchile.org/empresa/biosfera-austral-spa-77160612"
+     },
+     {
+      "nombre": "Inversiones Patrimoniales R.E.D SpA",
+      "porcentaje": null,
+      "fuente": "https://www.portalchile.org/empresa/biosfera-austral-spa-77160612"
+     },
+     {
+      "nombre": "Compañía de Inversiones Santa Inés",
+      "porcentaje": null,
+      "fuente": "https://www.portalchile.org/empresa/biosfera-austral-spa-77160612"
+     }
+    ],
+    "notas": "Socios (personas jurídicas) según Diario Oficial reproducido en portalchile.org; sin porcentajes. Los accionistas finales no se identificaron."
+   },
+   "blab": {
+    "industria": "Real estate development",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 85.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/biosfera-austral",
+    "http://www.biosfera-austral.cl",
+    "https://www.portalchile.org/empresa/biosfera-austral-spa-77160612",
+    "https://www.diarioestrategia.cl/texto-diario/mostrar/5402908/empresas-chilenas-lanzan-uruguay-primer-parque-privado-conservacion-habitable-tokenizado-mundo"
+   ],
+   "notas": "RUT y estado 'Vigente' según portalchile.org (espejo de datos SII); el nombre es idéntico al de la ficha B Lab, pero conviene confirmar el RUT en el SII. No se encontraron e-mail, teléfono, dirección ni líderes con nombre (un perfil de LinkedIn de otra persona apareció en los resultados sin vínculo comprobado con la empresa; no se registra). sitio_web obtenido con Apollo organizations_lookup (gratuito) por coincidencia de nombre; sin segunda fuente. (dominio biosfera-austral.cl)."
+  },
+  {
+   "id": "birdschile",
+   "nombre": "BirdsChile",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.birdschile.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": "Puerto Varas",
+    "region": "Región de Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other recreation",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 82.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/birdschile",
+    "http://www.birdschile.com",
+    "https://www.lata.travel/members/birdschile-travel-for-giving-back-rewilding/",
+    "https://adventuretravelnews.com/birdschile-becomes-the-first-tour-operator-certified-as-b-corporation-in-the-south-of-chile"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. sitio_web obtenido con Apollo organizations_lookup (gratuito) por coincidencia de nombre; sin segunda fuente. Apollo devolvió 'BirdsChile Travel for Rewilding - B Corp' (birdschile.com). Comuna Puerto Varas según la sede declarada en la ficha B Lab. La ficha B Lab muestra puntajes previos de 88.1 (2021) y 90.2 (2017)."
+  },
+  {
+   "id": "sin-ficha-birdschile",
+   "nombre": "BirdsChile",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.birdschile.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": "Puerto Varas",
+    "region": "Región de Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other recreation",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 82.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "http://www.birdschile.com",
+    "https://www.bcorporation.net/find-a-b-corp/company/birdschile",
+    "https://www.lata.travel/members/birdschile-travel-for-giving-back-rewilding/",
+    "https://adventuretravelnews.com/birdschile-becomes-the-first-tour-operator-certified-as-b-corporation-in-the-south-of-chile"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. sitio_web obtenido con Apollo organizations_lookup (gratuito) por coincidencia de nombre; sin segunda fuente. Apollo devolvió 'BirdsChile Travel for Rewilding - B Corp' (birdschile.com). Comuna Puerto Varas según la sede declarada en la ficha B Lab. La ficha B Lab muestra puntajes previos de 88.1 (2021) y 90.2 (2017). ENTRADA DUPLICADA: 'sin-ficha-birdschile' es la misma empresa que 'birdschile' (entrada creada por prensa especializada: primer operador turístico B Corp del sur de Chile); fusionar ambas."
+  },
+  {
+   "id": "bligraf-sa",
+   "nombre": "Bligraf",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": null,
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 94.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/bligraf-sa/"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) no devolvió coincidencia. La ficha B Lab lista operaciones en Argentina y Chile y el resumen no indicó la sede: confirmar que la empresa tenga sede en Chile antes de publicarla. El slug 'bligraf-sa' sugiere S.A., sin verificar. Puntaje previo 2022: 84.7 (ficha B Lab)."
+  },
+  {
+   "id": "bridge-chile",
+   "nombre": "Bridge Chile",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Education & training services",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 91.9,
+    "areas": {
+     "gobernanza": 15.2,
+     "trabajadores": null,
+     "comunidad": 14.5,
+     "medio_ambiente": 9.5,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/bridge-chile"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) no devolvió coincidencia. Sector, países de operación y/o puntajes por área tomados de la investigación previa del proyecto sobre la ficha B Lab (seg_*.json); no re-verificados en esta pasada. Áreas (Governance 15.2, Community 14.5, Environment 9.5) de la ficha vigente (Standards v1.6, puntaje 91.9); Workers y Customers no se vieron. Una versión anterior de la ficha (2022) mostraba 96.8."
+  },
+  {
+   "id": "b-tools",
+   "nombre": "Btools Spa",
+   "razon_social": "Btools SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.btoolsproducciones.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other recreation",
+    "sector": "Service with Significant Environmental Footprint",
+    "tamano": null,
+    "puntaje_b": 88.0,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/b-tools/",
+    "http://www.btoolsproducciones.com"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. sitio_web obtenido con Apollo organizations_lookup (gratuito) por coincidencia de nombre; sin segunda fuente. Apollo devolvió 'BTools Producciones' (btoolsproducciones.com); se acepta por nombre comercial y rubro (producción de eventos/contenidos), pero conviene verificarlo. Razón social y tipo tomados del nombre en la ficha B Lab ('Btools Spa'), sin verificar en registros. La ficha indica que también opera en Colombia (lista de países no vista completa). Sector, países de operación y/o puntajes por área tomados de la investigación previa del proyecto sobre la ficha B Lab (seg_*.json); no re-verificados en esta pasada."
+  },
+  {
+   "id": "buydepa",
+   "nombre": "Buydepa",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.buydepa.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Real estate development",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 81.6,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/buydepa",
+    "http://www.buydepa.com"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. sitio_web obtenido con Apollo organizations_lookup (gratuito) por coincidencia de nombre; sin segunda fuente. Opera en Chile, Colombia y México según la ficha B Lab."
+  },
+  {
+   "id": "cajavecina",
+   "nombre": "CajaVecina",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Financial transaction processing",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 81.8,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/cajavecina"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) no devolvió coincidencia. Probar la variante 'Caja Vecina'."
+  },
+  {
+   "id": "carboneutral",
+   "nombre": "Carboneutral",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.carboneutral.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Environmental consulting",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 88.2,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/carboneutral",
+    "http://www.carboneutral.cl"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. sitio_web obtenido con Apollo organizations_lookup (gratuito) por coincidencia de nombre; sin segunda fuente. Apollo devolvió 'Carboneutral® | B Corp' (carboneutral.cl)."
+  },
+  {
+   "id": "carga-inteligente",
+   "nombre": "Carga Inteligente",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Transportation support",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 80.1,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/carga-inteligente"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) no devolvió coincidencia. Opera en Chile según la ficha B Lab."
+  },
+  {
+   "id": "casa-molle",
+   "nombre": "Casa Molle",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región de Coquimbo",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Accommodation",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/casa-molle"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) no devolvió coincidencia. El puntaje B no figura en el lote. Comuna no determinada (la sede es el Valle del Elqui, Región de Coquimbo)."
+  },
+  {
+   "id": "casaco",
+   "nombre": "CasaCo",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.casaco.org",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other business support",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 88.2,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/casaco/",
+    "http://www.casaco.org"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. sitio_web obtenido con Apollo organizations_lookup (gratuito) por coincidencia de nombre; sin segunda fuente. Apollo devolvió 'CasaCo' (casaco.org), nombre idéntico; el dominio es .org y no se confirmó que sea la empresa de Santiago: verificar. La descripción del lote es nula; la industria es solo la clasificación B Lab (Other business support)."
+  },
+  {
+   "id": "cavas-del-valle",
+   "nombre": "Cavas del Valle",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.cavasdelvalle.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región de Coquimbo",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Agricultural processing",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 88.7,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cavas-del-valle/",
+    "http://www.cavasdelvalle.cl"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. sitio_web obtenido con Apollo organizations_lookup (gratuito) por coincidencia de nombre; sin segunda fuente."
+  },
+  {
+   "id": "cebra",
+   "nombre": "Cebra",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Advertising and market research",
+    "sector": "Service with Minor Environmental Footprint",
+    "tamano": null,
+    "puntaje_b": 87.2,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cebra/"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Según la ficha B Lab también opera en Brasil, Colombia, Perú, España y Estados Unidos. Sector, países de operación y/o puntajes por área tomados de la investigación previa del proyecto sobre la ficha B Lab (seg_*.json); no re-verificados en esta pasada."
+  },
+  {
+   "id": "centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda",
+   "nombre": "Centro de Innovación y Emprendimiento Copayapu Consultores Ltda",
+   "razon_social": "Centro de Innovación y Emprendimiento Copayapu Consultores Ltda",
+   "rut": null,
+   "tipo_sociedad": "Ltda.",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región de Atacama",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Management consultant",
+    "sector": "Service with Minor Environmental Footprint",
+    "tamano": null,
+    "puntaje_b": 103.6,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda/"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Razón social y tipo tomados del nombre en la ficha B Lab, sin verificar en registros. Sector, países de operación y/o puntajes por área tomados de la investigación previa del proyecto sobre la ficha B Lab (seg_*.json); no re-verificados en esta pasada."
+  },
+  {
+   "id": "cervecera-guayacan-spa",
+   "nombre": "Cervecera Guayacán SpA",
+   "razon_social": "Cervecera Guayacán SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región de Coquimbo",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Beverages",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 80.2,
+    "areas": {
+     "gobernanza": 17.4,
+     "trabajadores": 23.9,
+     "comunidad": 15.2,
+     "medio_ambiente": null,
+     "clientes": 2.2
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cervecera-guayacan-spa/"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Áreas B Lab de la investigación previa: Governance 17.4 (otra copia de la ficha mostraba 17.1), Workers 23.9, Community 15.2, Customers 2.2; Environment no visto. Puntaje en 2017: 89.9. Razón social y tipo tomados del nombre en la ficha B Lab. Sector, países de operación y/o puntajes por área tomados de la investigación previa del proyecto sobre la ficha B Lab (seg_*.json); no re-verificados en esta pasada."
+  },
+  {
+   "id": "cervecera-chile-sa",
+   "nombre": "Cervecería Chile S.A.",
+   "razon_social": "Cervecería Chile S.A.",
+   "rut": null,
+   "tipo_sociedad": "S.A.",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": "AB InBev (según la descripción de la ficha B Lab; sin verificar con fuente societaria)",
+    "grupo_empresarial": "AB InBev",
+    "socios": [],
+    "notas": "Dato de la descripción B Lab ('cervecera chilena del grupo multinacional AB InBev'); no se buscó porcentaje ni cadena societaria."
+   },
+   "blab": {
+    "industria": "Beverages",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 86.2,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/cervecera-chile-sa/"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Razón social y tipo tomados del nombre en la ficha B Lab. Verificar si es S.A. abierta o cerrada y si reporta a la CMF."
+  },
+  {
+   "id": "coda",
+   "nombre": "Cervecería CODA",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": "Casablanca",
+    "region": "Región de Valparaíso",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Beverages",
+    "sector": "Manufacturing",
+    "tamano": null,
+    "puntaje_b": 97.4,
+    "areas": {
+     "gobernanza": 16.9,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": 3.2
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/coda"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. La ficha B Lab da sede en Valparaíso y el perfil indica que hoy está en Casablanca; opera desde 2015. Puntaje previo: 87.4 (2021). Áreas de la investigación previa: Governance 16.9, Customers 3.2. Sector, países de operación y/o puntajes por área tomados de la investigación previa del proyecto sobre la ficha B Lab (seg_*.json); no re-verificados en esta pasada."
+  },
+  {
+   "id": "ciclo-fauna",
+   "nombre": "CicloFauna",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región de Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Environmental consulting",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 96.0,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/ciclo-fauna/"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Puntaje 2022: 89.8 (ficha B Lab)."
+  },
+  {
+   "id": "comaco",
+   "nombre": "COMACO",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Transportation support",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 88.9,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/comaco"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Opera en Chile según la ficha B Lab. Un barrido previo sugirió Región de Coquimbo/La Serena sin confirmarlo; el lote indica Región Metropolitana: verificar la sede."
+  },
+  {
+   "id": "comercial-las-mellizas-spa",
+   "nombre": "Comercial Las Mellizas SPA",
+   "razon_social": "Comercial Las Mellizas SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 84.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/comercial-las-mellizas-spa"
+   ],
+   "notas": "PENDIENTE DE BÚSQUEDA WEB: el presupuesto de WebSearch del turno (200 llamadas compartidas) se agotó antes de investigar esta empresa; solo hay datos del lote/B Lab y, si se indica, el sitio web obtenido con Apollo gratuito. Apollo organizations_lookup (gratuito) devolvió error de límite de tasa (50/min y luego 200/h, compartido con otros procesos); no se obtuvo dominio: reintentar. Razón social y tipo tomados del nombre en la ficha B Lab. El lote no trae fecha de certificación ni industria."
+  }
+ ]
+}

@@ -1,0 +1,1411 @@
+{
+ "lote": "05",
+ "empresas": [
+  {
+   "id": "inmobiliaria-regenera",
+   "nombre": "Inmobiliaria Regenera",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.iregenera.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Real estate development",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 93.6,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/inmobiliaria-regenera"
+   ],
+   "notas": "ESTADO: investigada (4 búsquedas: RUT/razón social, contacto, personas, economía) SIN resultados sobre esta empresa; las búsquedas devolvieron solo inmobiliarias homónimas/ajenas. Único dato nuevo: dominio iregenera.cl vía Apollo gratuito (Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente.) No se halló RUT, razón social, personas ni datos económicos."
+  },
+  {
+   "id": "innspiral",
+   "nombre": "INNSPIRAL",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.innspiral.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Iván Vera",
+     "cargo": "Fundador y director (Founder & Chairman según su perfil de LinkedIn)",
+     "linkedin": "https://cl.linkedin.com/in/ivanveraspeaker",
+     "fuente": "https://www.df.cl/empresas/innovacion-y-emprendimiento/reportajes/ivan-vera-en-chile-las-empresas-no-se-dan-cuenta-que-innovar-es-un"
+    },
+    {
+     "nombre": "Arturo Herrera",
+     "cargo": "Socio y Gerente General (según columna de DF de septiembre de 2019; vigencia sin confirmar)",
+     "linkedin": null,
+     "fuente": "https://www.df.cl/opinion/columnistas/cuando-innovamos-de-mentira"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": "Aprox. 50 expertos en innovación a fines de 2019 (según biografía del fundador; dato antiguo)",
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Sin cifras de ventas. Un directorio de inversión (descubre.vc, no verificado) indica que opera en Chile con más de 15 clientes y ha ejecutado más de 30 convocatorias de innovación abierta; una biografía del fundador (2020) indica unos 50 expertos a fines de 2019."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [
+     {
+      "nombre": "Arturo Herrera",
+      "porcentaje": null,
+      "fuente": "https://www.df.cl/opinion/columnistas/cuando-innovamos-de-mentira"
+     }
+    ],
+    "notas": "Arturo Herrera figura como 'socio' en una columna de DF de 2019; no se encontró composición accionaria ni porcentajes. Iván Vera aparece como fundador (no se confirmó su participación)."
+   },
+   "blab": {
+    "industria": "Management consultant",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 84.6,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/innspiral",
+    "https://www.df.cl/empresas/innovacion-y-emprendimiento/reportajes/ivan-vera-en-chile-las-empresas-no-se-dan-cuenta-que-innovar-es-un",
+    "https://www.df.cl/opinion/columnistas/cuando-innovamos-de-mentira",
+    "https://cl.linkedin.com/in/ivanveraspeaker",
+    "https://www.descubre.vc/e/innspiral",
+    "https://www.nacchamber.com/events/440/innovation-speed-during-the-global-emergency",
+    "https://repositoriobibliotecas.uv.cl/bitstreams/5829c379-d23b-4462-924b-5052d28ce710/download"
+   ],
+   "notas": "ESTADO: investigada (4 búsquedas). RUT y razón social NO encontrados (la búsqueda devolvió homónimos como Innovacional SpA o Inzpiral S.A., que no se confirmaron como esta empresa). Datos de contacto (teléfono, email, dirección) no encontrados. Una tesis de la Universidad de Valparaíso la describe como consultora chilena de innovación que conecta grandes empresas con startups. Un resultado indicaba que el fundador 'cofundó INNSPIRAL en 1989'; el año no se registra por parecer dudoso. La cifra de ~50 expertos (2019) proviene de una biografía del fundador de 2020, probablemente la página del evento en nacchamber.com (atribución no verificada). Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente."
+  },
+  {
+   "id": "instituto-profesional-aiep",
+   "nombre": "Instituto Profesional AIEP",
+   "razon_social": "Instituto Profesional AIEP S.A.",
+   "rut": "96.621.640-9",
+   "tipo_sociedad": "S.A.",
+   "giro": "Institutos profesionales (educación superior), según clasificación de genealog.cl",
+   "contactos": {
+    "sitio_web": "https://www.aiep.cl",
+    "email": null,
+    "telefono": "+56 600 712 0015",
+    "whatsapp": null,
+    "direccion": "Av. Santa María 0792, Providencia, Santiago",
+    "comuna": "Providencia",
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Instituto profesional con alrededor de 90 mil estudiantes según una presentación institucional de la Universidad Andrés Bello (2024). AIEP publica informes anuales 'Hechos y Cifras' (matrícula, retención, titulados); no se obtuvieron ingresos ni estados financieros."
+   },
+   "propiedad": {
+    "controlador": "Universidad Andrés Bello (sostenedora de AIEP desde septiembre de 2020, tras el retiro de Laureate de Chile)",
+    "grupo_empresarial": "Universidad Andrés Bello (antes controlada por Laureate Education)",
+    "socios": [
+     {
+      "nombre": "Universidad Andrés Bello",
+      "porcentaje": null,
+      "fuente": "https://transparencia.aiep.cl/wp-content/uploads/2022/08/Historia-de-AIEP-sitio-Transparencia.pdf"
+     }
+    ],
+    "notas": "Historia institucional de AIEP: Laureate permaneció como sostenedor hasta septiembre de 2020 y desde entonces lo es la Universidad Andrés Bello. El porcentaje de propiedad no se encontró."
+   },
+   "blab": {
+    "industria": "Higher education",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 112.7,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/instituto-profesional-aiep",
+    "https://interior.gob.cl/transparencia/doc/Adquisicion/300/189348.pdf",
+    "https://www.genealog.cl/Geneanexus/empresa/CHILE/TOTY2TwMjE2NDAtOQ-jTw/nombre-y-rut/AIEP-96621640-9",
+    "https://mercantil.com/empresa/aiep/providencia/300052058/esp",
+    "https://prospeo.io/c/aiep",
+    "https://whed.net/institutions/IAU-008833",
+    "https://transparencia.aiep.cl/wp-content/uploads/2022/08/Historia-de-AIEP-sitio-Transparencia.pdf",
+    "https://institucional.unab.cl/wp-content/uploads/2024/10/PPT-introduccion-UNAB.pdf",
+    "https://transparencia.aiep.cl/wp-content/uploads/2025/07/Hechos-y-Cifras-2024_compressed.pdf",
+    "https://www.ciperchile.cl/?p=53200",
+    "https://www.eldinamo.cl/educacion/2018/05/18/grupo-laureate-queda-como-unico-sostenedor-del-instituto-profesional-aiep/",
+    "https://www.biobiochile.cl/especial/bbcl-investiga/noticias/articulos/2026/08/05/trama-penal-contra-aiep-querella-destapa-contradicciones-sobre-los-pagares-de-miles-de-alumnos.shtml"
+   ],
+   "notas": "ESTADO: investigada (4 búsquedas). VERIFICAR: (1) Forma societaria en conflicto: 'Instituto Profesional AIEP S.A.' según una factura 2023 publicada en interior.gob.cl y genealog.cl; 'INSTITUTO PROFESIONAL AIEP SPA' según Mercantil y documentos de Sercotec (posible transformación a SpA). Se registró S.A. por la factura con RUT; confirmar en SII. (2) Dirección en conflicto: Av. Santa María 0792, Providencia (factura); WHED indica Av. Santa María 729; Mercantil indica Av. Providencia 727; genealog muestra una dirección de Antofagasta (probable sucursal). (3) El teléfono +56 600 712 0015 y el dominio aiep.cl proceden de un directorio de terceros (prospeo.io) y del subdominio transparencia.aiep.cl; confirmar en el sitio oficial. No se registran emails (el directorio solo mostraba patrón de emails personales). No se encontraron rector/gerente general vigentes. Contexto reputacional: una nota de BioBioChile (2026-08-05) reporta una querella penal presentada por la empresa Comercial Remesa (adjudicataria en 2024 de una licitación para comprar carteras de deuda estudiantil, contrato de más de $1.100 millones) contra AIEP; AIEP declaró que las imputaciones no tendrían sustento. Decidir si se publica. Apollo no devolvió coincidencia."
+  },
+  {
+   "id": "integra-chile-sa",
+   "nombre": "Integra Chile SPA",
+   "razon_social": "Integra Chile S.A.",
+   "rut": "96.883.310-3",
+   "tipo_sociedad": "S.A.",
+   "giro": "Comercialización y procesamiento de productos del mar (salmón, trucha, calamar gigante, mejillones); descripción de Mercantil, no es el giro SII",
+   "contactos": {
+    "sitio_web": "http://www.integrachile.com",
+    "email": "info@integrachile.com",
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": "Juan Soler Manfredini 41, Edificio Torre Costanera 1, Oficina 1701, Puerto Montt",
+    "comuna": "Puerto Montt",
+    "region": "Región de Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Sin cifras de ventas ni trabajadores. IntraFish (abril 2026) reporta que 'Integra', procesador chileno de salmón, ve en el retail (sobre todo en EE. UU.) el motor de crecimiento, con el food service mostrando señales de debilitamiento, y que apuesta por mayor valor agregado. Mercantil la describe como comercializadora de productos del mar con más de 40 países cliente; Panjiva (envíos a EE. UU.) lista el salmón entre sus principales productos."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Fishing and aquaculture",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 99.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/integra-chile-sa",
+    "https://mercantil.com/empresa/integra-chile-sa/puerto-montt/300115874/eng",
+    "https://panjiva.com/Integra-Chile-S-A/1134676",
+    "https://panjiva.com/Integra-Chile-S-A/42320817",
+    "https://www.intrafish.com/salmon/salmon-processor-doubles-down-on-value-added-push/2-1-1981231"
+   ],
+   "notas": "ESTADO: investigada (4 búsquedas). VERIFICAR: la ficha B Lab del lote la nombra 'Integra Chile SPA' (slug 'integra-chile-sa') pero Mercantil la registra como 'INTEGRA CHILE S.A.' con RUT 96883310-3; posible transformación a SpA, confirmar en SII. Direcciones en conflicto: Juan Soler Manfredini 41, Of. 1701 (listados recientes de Panjiva), Andina 062 (Mercantil) y Ruta El Tepual km 9,4 (registro de embarque de 2018). El email info@integrachile.com aparece solo en un directorio comercial (no en el sitio oficial). No se registra el teléfono (solo uno de 2018 asociado a un contacto individual). La nota de IntraFish habla de 'Chile's Integra' y no se confirmó explícitamente que sea esta misma razón social. No se hallaron fundadores, gerentes ni propietarios. Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente."
+  },
+  {
+   "id": "inversiones-focus-sp-a",
+   "nombre": "Inversiones SoyFocus SpA",
+   "razon_social": "Inversiones SoyFocus SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": "Administración de fondos (el grupo controla SoyFocus Administradora General de Fondos, regulada por la CMF desde agosto de 2019)",
+   "contactos": {
+    "sitio_web": "http://www.soyfocus.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Eugenio Cisternas",
+     "cargo": "CEO y cofundador (ex gerente general de Asset AGF)",
+     "linkedin": "https://cl.linkedin.com/in/eugenio-cisternas-9ab47274",
+     "fuente": "https://cl.linkedin.com/in/eugenio-cisternas-9ab47274"
+    },
+    {
+     "nombre": "Francisco Errandonea",
+     "cargo": "Cofundador (ex gerente general de Santander Corredores de Bolsa)",
+     "linkedin": null,
+     "fuente": "https://www.df.cl/df-mas/punto-de-partida/focus-la-fintech-que-busca-pequenos-ahorrantes"
+    },
+    {
+     "nombre": "Rafael Donoso",
+     "cargo": "Cofundador y socio (ex gerente de Asset Chile)",
+     "linkedin": null,
+     "fuente": "https://www.df.cl/mercados/mercados-en-accion/rafael-donoso-cofundador-y-socio-de-la-agf-soyfocus-hemos"
+    },
+    {
+     "nombre": "María José Zaldívar",
+     "cargo": "Directora (exministra del Trabajo; se incorporó al directorio de la matriz en 2022)",
+     "linkedin": null,
+     "fuente": "https://chocale.cl/2022/04/soyfocus-incorporo-a-su-directorio-a-la-ex-ministra-maria-jose-zaldivar-y-a-la-economista-ana-maria-montoya/"
+    },
+    {
+     "nombre": "Ana María Montoya",
+     "cargo": "Directora (economista; se incorporó al directorio de la matriz en 2022)",
+     "linkedin": null,
+     "fuente": "https://chocale.cl/2022/04/soyfocus-incorporo-a-su-directorio-a-la-ex-ministra-maria-jose-zaldivar-y-a-la-economista-ana-maria-montoya/"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [
+     {
+      "descripcion": "Inversionistas citados por R. Donoso: grupo Prisma (familia Claro Mímica), familia Casanueva (GTD), Antonio Gil (ex CEO de Moneda) y Taram Capital, entre otros; en esa entrevista indicó que no requerían aumento de capital en el corto plazo",
+      "fecha": "2021-08 (entrevista; monto de rondas no indicado)",
+      "fuente": "https://www.df.cl/mercados/mercados-en-accion/rafael-donoso-cofundador-y-socio-de-la-agf-soyfocus-hemos"
+     }
+    ],
+    "cotiza_en_bolsa": null,
+    "resumen": "AGF fintech regulada por la CMF desde agosto de 2019. Administra cerca de US$120 millones (Pauta, agosto de 2025); en agosto de 2021 tenía US$32 millones y 3.600 clientes, con crecimiento de 20% mensual (entrevista a R. Donoso). No se encontraron ingresos ni número de trabajadores."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [
+     {
+      "nombre": "Rafael Donoso (cofundador y socio)",
+      "porcentaje": null,
+      "fuente": "https://www.df.cl/mercados/mercados-en-accion/rafael-donoso-cofundador-y-socio-de-la-agf-soyfocus-hemos"
+     },
+     {
+      "nombre": "Grupo Prisma (familia Claro Mímica)",
+      "porcentaje": null,
+      "fuente": "https://www.df.cl/mercados/mercados-en-accion/rafael-donoso-cofundador-y-socio-de-la-agf-soyfocus-hemos"
+     },
+     {
+      "nombre": "Familia Casanueva (GTD)",
+      "porcentaje": null,
+      "fuente": "https://www.df.cl/mercados/mercados-en-accion/rafael-donoso-cofundador-y-socio-de-la-agf-soyfocus-hemos"
+     },
+     {
+      "nombre": "Antonio Gil (ex CEO de Moneda)",
+      "porcentaje": null,
+      "fuente": "https://www.df.cl/mercados/mercados-en-accion/rafael-donoso-cofundador-y-socio-de-la-agf-soyfocus-hemos"
+     },
+     {
+      "nombre": "Taram Capital",
+      "porcentaje": null,
+      "fuente": "https://www.df.cl/mercados/mercados-en-accion/rafael-donoso-cofundador-y-socio-de-la-agf-soyfocus-hemos"
+     }
+    ],
+    "notas": "Lista de inversionistas según una entrevista de 2021 (puede estar desactualizada); no se encontraron porcentajes. La AGF (SoyFocus Administradora General de Fondos) es controlada por la matriz SoyFocus.com."
+   },
+   "blab": {
+    "industria": "Investment advisory",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 89.8,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/inversiones-focus-sp-a",
+    "https://www.df.cl/df-mas/punto-de-partida/focus-la-fintech-que-busca-pequenos-ahorrantes",
+    "https://www.df.cl/mercados/mercados-en-accion/rafael-donoso-cofundador-y-socio-de-la-agf-soyfocus-hemos",
+    "https://chocale.cl/2022/04/soyfocus-incorporo-a-su-directorio-a-la-ex-ministra-maria-jose-zaldivar-y-a-la-economista-ana-maria-montoya/",
+    "https://www.df.cl/maria-jose-zaldivar-y-ana-maria-montoya-se-integran-al-directorio-de-la",
+    "https://chocale.cl/2021/08/entrevista-rafael-donoso-soyfocus-agf-ahorro-inversion-objetivo-aspiracion-cliente/",
+    "https://www.pauta.cl/economia/panelistas-de-mercado-central/2025/08/25/fernanda-vicente-explica-el-funcionamiento-de-la-plataforma-de-inversion-soy-focus.html",
+    "https://cl.linkedin.com/in/eugenio-cisternas-9ab47274",
+    "https://www.fundssociety.com/es/?p=120205",
+    "https://altss.com/profile/soyfocus.md"
+   ],
+   "notas": "ESTADO: investigada (4 búsquedas). RUT NO encontrado (ni de la sociedad ni de la AGF). La razón social y la forma SpA provienen del nombre de la ficha B Lab (no verificadas en registro). La marca SoyFocus corresponde a 'Focus Administradora General de Fondos' (primera versión desde el 18-oct-2019) controlada por la matriz SoyFocus.com; confirmar en el registro de entidades de la CMF la razón social y el RUT de la AGF. No se encontraron datos de contacto (teléfono, email, dirección). Un resultado de Bloomberg Línea (2021-11-02, 'Sequoia entra a Chile con inversión en administrador de fondos') apareció en la búsqueda pero no se confirmó que se refiera a SoyFocus, por eso no se registra. Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente. La razón social y la forma societaria se tomaron del nombre en la ficha B Lab (sin RUT, no verificadas en un registro)."
+  },
+  {
+   "id": "isla-natura-exportadora-ltda",
+   "nombre": "Isla Natura Exportadora Ltda",
+   "razon_social": "Isla Natura Exportadora Ltda",
+   "rut": null,
+   "tipo_sociedad": "Ltda.",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región de Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Britt Lewis",
+     "cargo": "Fundadora y directora (autodeclarado en su perfil de LinkedIn)",
+     "linkedin": "https://cl.linkedin.com/in/britt-lewis-2a651a28",
+     "fuente": "https://cl.linkedin.com/in/britt-lewis-2a651a28"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Sin datos económicos. Según el perfil de LinkedIn de su fundadora, produce polvo de maqui 100% orgánico (surgió tras años de ecoturismo naturalista en el sur de Chile)."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Agricultural processing",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 86.2,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/isla-natura-exportadora-ltda/",
+    "https://cl.linkedin.com/in/britt-lewis-2a651a28"
+   ],
+   "notas": "ESTADO: investigada (4 búsquedas) con resultados mínimos. Razón social y 'Ltda.' tomadas del nombre en la ficha B Lab (el perfil de LinkedIn de la fundadora la menciona como 'Isla Natura Ltda.'); RUT NO encontrado. Sin datos de contacto, sitio web ni redes. La condición de fundadora es autodeclarada. Los demás resultados eran de la marca brasileña Natura u otros temas no relacionados. Apollo no devolvió coincidencia. Reintentar con 'Isla Natura' maqui orgánico + Puerto Varas/Los Lagos. La razón social y la forma societaria se tomaron del nombre en la ficha B Lab (sin RUT, no verificadas en un registro)."
+  },
+  {
+   "id": "karibu",
+   "nombre": "Karibu",
+   "razon_social": "Karibu Ltda",
+   "rut": null,
+   "tipo_sociedad": "Ltda.",
+   "giro": "Innovación y desarrollo tecnológico (desarrollo de software, RPA e inteligencia artificial), según oferta laboral en Get on Board",
+   "contactos": {
+    "sitio_web": "http://www.karibu.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Julio Arriagada Paredes",
+     "cargo": "CEO",
+     "linkedin": null,
+     "fuente": "https://cl.linkedin.com/in/sdiezdem"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Computer programming services",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 99.0,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/karibu",
+    "https://www.getonbrd.com/jobs/programacion/lider-tecnico-karibu-ltda-santiago-17d5",
+    "https://cl.linkedin.com/in/sdiezdem"
+   ],
+   "notas": "ESTADO: investigada parcialmente (5 búsquedas). La razón social 'Karibu Ltda' proviene de una oferta laboral de Get on Board (no de un registro); RUT NO encontrado. El CEO (Julio Arriagada Paredes) se menciona en una publicación de LinkedIn de otra persona vinculada a la empresa, que celebra la recertificación como Empresa B; su perfil de LinkedIn no apareció. VERIFICAR el dominio: Apollo devolvió dos 'Karibu' en Chile (karibu.cl y kaributienda.cl, esta última una tienda); se registró karibu.cl por ser el dominio corporativo plausible, pero ninguna búsqueda lo confirmó. No se hallaron contacto, economía ni propiedad."
+  },
+  {
+   "id": "karbag",
+   "nombre": "Karübag",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.karubag.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [
+    {
+     "nombre": "Matías Bravo",
+     "cargo": "Fundador y gerente general",
+     "linkedin": null,
+     "fuente": "https://www.pauta.cl/actualidad/2021/09/04/reciclaje-compostaje-basura-karubag-residuos-organicos-inorganicos.html"
+    }
+   ],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": "Sin cifras de ventas ni financiamiento. Su idea inicial fue vender bolsas de compostaje a municipalidades y desde marzo de 2018 gestiona también residuos orgánicos de cocina de casas, escuelas y empresas (Radio Pauta). AmCham Chile informó una alianza con P&G Chile (marzo de 2021) para los residuos orgánicos domiciliarios de esa empresa."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Membership organizations",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 117.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/karbag",
+    "https://www.pauta.cl/actualidad/2021/09/04/reciclaje-compostaje-basura-karubag-residuos-organicos-inorganicos.html",
+    "https://www.pauta.cl/ciudad/sustentabilidad/reciclaje-compostaje-basura-karubag-residuos-organicos-inorganicos",
+    "https://amchamchile.cl/en/wp-json/wp/v2/news/2327"
+   ],
+   "notas": "ESTADO: investigada (6 búsquedas). RUT y razón social NO encontrados (la búsqueda por 'Karubag SpA' solo devolvió homónimos). Contacto (teléfono, email, dirección, redes) no encontrado. La ficha B Lab del lote muestra un puntaje actual de 117.4 y uno previo de 84.6 (2021). Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente."
+  },
+  {
+   "id": "karun",
+   "nombre": "Karün",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.karunworld.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región de Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [
+     {
+      "descripcion": "Titular de LatamList: 'Karün raises $2.82M from Swedish Blue AB' (ronda de US$2,82 millones con el inversionista sueco Blue AB; detalle y fecha no revisados)",
+      "fecha": null,
+      "fuente": "https://latamlist.com/karun-raises-2-82m-from-swedish-blue-ab/"
+     },
+     {
+      "descripcion": "Titular de LexLatin: 'Karün obtiene capital semilla en ronda de financiamiento' (monto y fecha no revisados)",
+      "fecha": null,
+      "fuente": "https://lexlatin.com/noticias/karun-obtiene-capital-semilla-en-ronda-de-financiamiento"
+     },
+     {
+      "descripcion": "Titular de Meganoticias: 'Empresa chilena de lentes recibió fuerte inversión para salir de complejo panorama económico' (monto no revisado)",
+      "fecha": "2025-03-28 (según la URL de la nota)",
+      "fuente": "https://www.meganoticias.cl/nacional/480385-karun-empresa-de-lentes-recibio-importante-ayuda-economica-para-superar-complejo-momento-economico-pdp-28-03-2025.html"
+     }
+    ],
+    "cotiza_en_bolsa": null,
+    "resumen": "Sin cifras de ventas. Aparecen titulares de prensa sobre una ronda de capital (US$2,82 millones con Blue AB, Suecia) y una 'fuerte inversión' reportada en marzo de 2025 para superar un complejo panorama económico; no se revisó el detalle de las notas."
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": "Un titular de LatamList menciona al inversionista sueco Blue AB en una ronda de US$2,82 millones; no se confirmó participación accionaria ni porcentaje."
+   },
+   "blab": {
+    "industria": "Apparel",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/karun/",
+    "https://latamlist.com/karun-raises-2-82m-from-swedish-blue-ab/",
+    "https://lexlatin.com/noticias/karun-obtiene-capital-semilla-en-ronda-de-financiamiento",
+    "https://www.meganoticias.cl/nacional/480385-karun-empresa-de-lentes-recibio-importante-ayuda-economica-para-superar-complejo-momento-economico-pdp-28-03-2025.html"
+   ],
+   "notas": "ESTADO: PARCIAL. No se alcanzaron a hacer las búsquedas propias (RUT, contacto, personas) por agotarse el presupuesto de WebSearch; los datos de financiamiento salieron incidentalmente de resultados de otra consulta (solo títulos). Los tres titulares podrían referirse a la misma ronda; verificar montos y fechas. Los resultados la describen como empresa chilena de lentes/gafas. Pendiente: razón social, RUT, contactos, fundadores y propietarios. Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente."
+  },
+  {
+   "id": "kintu-spaces",
+   "nombre": "Kintu Spaces",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.kintuspaces.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Design & building",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/kintu-spaces"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente. Apollo lista el nombre como 'Kintu Spaces | Diseño y Remodelación de Oficinas Corporativas'."
+  },
+  {
+   "id": "kodama-consultores",
+   "nombre": "Kodama Consultores",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.kodamaconsultores.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other professional, scientific & tech",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/kodama-consultores"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente."
+  },
+  {
+   "id": "desarrollo-organizacional-kraakman-ltda",
+   "nombre": "Kraakman Coaching",
+   "razon_social": "Desarrollo Organizacional Kraakman Ltda",
+   "rut": null,
+   "tipo_sociedad": "Ltda.",
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.kraakman.cl",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región del Biobío",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Management consultant",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 103.1,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/desarrollo-organizacional-kraakman-ltda"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente. La razón social proviene del slug de la ficha B Lab ('desarrollo-organizacional-kraakman-ltda'), no de un registro; el nombre comercial es Kraakman Coaching (Apollo)."
+  },
+  {
+   "id": "la-ventana-cine",
+   "nombre": "La Ventana Cine",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.laventanacine.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other info service activities",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 96.9,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/la-ventana-cine"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente."
+  },
+  {
+   "id": "lacteos-y-turismo-playa-venado",
+   "nombre": "Lácteos y Turismo Playa Venado",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región de Los Lagos",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 86.4,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/lacteos-y-turismo-playa-venado"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo no devolvió coincidencia (consulta 'Playa Venado')."
+  },
+  {
+   "id": "late",
+   "nombre": "LATE!",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Other retail sale",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": null,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/late/"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo no devolvió coincidencia (consulta 'LATE! Chile'). Ojo con homónimos (nombre muy genérico)."
+  },
+  {
+   "id": "constructora-l-y-d",
+   "nombre": "LD Constructora",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Construction",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 96.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/constructora-l-y-d"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo no devolvió coincidencia (consulta 'LD Constructora')."
+  },
+  {
+   "id": "leytonmedia",
+   "nombre": "Leytonmedia",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": "http://www.leytonmedia.com",
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Computer programming services",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 97.0,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/find-a-b-corp/company/leytonmedia"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Sitio web/dominio obtenido con Apollo organizations_lookup (herramienta gratuita); el nombre coincide con la empresa; no verificado en una segunda fuente."
+  },
+  {
+   "id": "lof-servicios-spa",
+   "nombre": "LOF Servicios SPA",
+   "razon_social": "LOF Servicios SPA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Environmental consulting",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 88.3,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lof-servicios-spa"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo (lookup gratuito) NO pudo consultarse para esta empresa: la API respondió con límite de tasa (50 llamadas/min y luego 200/hora, compartido con otros agentes); dominio pendiente. La razón social y la forma societaria se tomaron del nombre en la ficha B Lab (sin RUT, no verificadas en un registro)."
+  },
+  {
+   "id": "lonchera-sp-a",
+   "nombre": "Lonchera SpA",
+   "razon_social": "Lonchera SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Food products",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 83.8,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lonchera-sp-a/"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo (lookup gratuito) NO pudo consultarse para esta empresa: la API respondió con límite de tasa (50 llamadas/min y luego 200/hora, compartido con otros agentes); dominio pendiente. La razón social y la forma societaria se tomaron del nombre en la ficha B Lab (sin RUT, no verificadas en un registro)."
+  },
+  {
+   "id": "lukkap-chile",
+   "nombre": "Lukkap Chile",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Employment placement & HR",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 90.1,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lukkap-chile"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo (lookup gratuito) NO pudo consultarse para esta empresa: la API respondió con límite de tasa (50 llamadas/min y luego 200/hora, compartido con otros agentes); dominio pendiente."
+  },
+  {
+   "id": "lup",
+   "nombre": "LUP",
+   "razon_social": null,
+   "rut": null,
+   "tipo_sociedad": null,
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Rubber and plastics products",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 80.6,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/lup/"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo (lookup gratuito) NO pudo consultarse para esta empresa: la API respondió con límite de tasa (50 llamadas/min y luego 200/hora, compartido con otros agentes); dominio pendiente. Ojo con homónimos (nombre muy corto)."
+  },
+  {
+   "id": "mali-spa",
+   "nombre": "Mali SPA",
+   "razon_social": "Mali SPA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": "Apparel",
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 96.5,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/mali-spa/"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo (lookup gratuito) NO pudo consultarse para esta empresa: la API respondió con límite de tasa (50 llamadas/min y luego 200/hora, compartido con otros agentes); dominio pendiente. La razón social y la forma societaria se tomaron del nombre en la ficha B Lab (sin RUT, no verificadas en un registro)."
+  },
+  {
+   "id": "market-people-indumentarias-sp-a",
+   "nombre": "Market People Indumentarias SpA",
+   "razon_social": "Market People Indumentarias SpA",
+   "rut": null,
+   "tipo_sociedad": "SpA",
+   "giro": null,
+   "contactos": {
+    "sitio_web": null,
+    "email": null,
+    "telefono": null,
+    "whatsapp": null,
+    "direccion": null,
+    "comuna": null,
+    "region": "Región Metropolitana de Santiago",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "x": null,
+    "youtube": null
+   },
+   "personas": [],
+   "economia": {
+    "tamano_sii": null,
+    "ventas_reportadas": [],
+    "trabajadores": null,
+    "financiamiento": [],
+    "cotiza_en_bolsa": null,
+    "resumen": null
+   },
+   "propiedad": {
+    "controlador": null,
+    "grupo_empresarial": null,
+    "socios": [],
+    "notas": null
+   },
+   "blab": {
+    "industria": null,
+    "sector": null,
+    "tamano": null,
+    "puntaje_b": 80.2,
+    "areas": {
+     "gobernanza": null,
+     "trabajadores": null,
+     "comunidad": null,
+     "medio_ambiente": null,
+     "clientes": null
+    }
+   },
+   "fuentes": [
+    "https://www.bcorporation.net/en-us/find-a-b-corp/company/market-people-indumentarias-sp-a/"
+   ],
+   "notas": "ESTADO: PENDIENTE de investigación web. Se agotó el presupuesto de WebSearch del turno (límite de 200 búsquedas compartido entre agentes) antes de procesar esta empresa; no se hicieron las búsquedas de RUT/razón social, contacto, personas ni economía. Solo constan los datos B Lab del lote y, si se indica, el dominio devuelto por Apollo gratuito. Apollo (lookup gratuito) NO pudo consultarse para esta empresa: la API respondió con límite de tasa (50 llamadas/min y luego 200/hora, compartido con otros agentes); dominio pendiente. La razón social y la forma societaria se tomaron del nombre en la ficha B Lab (sin RUT, no verificadas en un registro)."
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Empresas B en Chile</title>
+  <meta name="description" content="Directorio de Empresas B certificadas en Chile: por industria, tipo de sociedad (SpA, S.A., Ltda.), región, puntaje de impacto, economía, propiedad y contactos corporativos. Incluye sectores Data center, Robótica, Salmones y Marítimo.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230b0b0b'/%3E%3Ctext x='32' y='44' font-family='system-ui,sans-serif' font-size='34' font-weight='700' text-anchor='middle' fill='%23fcfcfb'%3EB%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/tema.js"></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="top">
+    <div class="marca">
+      <span class="logo" aria-hidden="true">B</span>
+      <div>
+        <h1>Empresas B en Chile</h1>
+        <p class="sub">Directorio por industria, tipo de sociedad, economía y contactos · actualizado <time id="fecha">—</time></p>
+      </div>
+    </div>
+    <div class="top-acciones">
+      <a class="btn btn-ghost" href="https://github.com/Nikolaaa11/EmpresasB" target="_blank" rel="noopener">GitHub</a>
+      <button class="btn btn-ghost" id="tema" type="button" aria-label="Cambiar tema claro/oscuro">Tema</button>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Vistas">
+    <button type="button" data-vista="directorio" aria-current="page">Directorio</button>
+    <button type="button" data-vista="industrias">Por industria</button>
+    <button type="button" data-vista="estadisticas">Estadísticas</button>
+    <button type="button" data-vista="sectores">Data center · Robótica · Salmones · Marítimo</button>
+    <button type="button" data-vista="metodologia">Metodología</button>
+  </nav>
+
+  <main id="contenido">
+    <section class="kpis" id="kpis" aria-label="Resumen"></section>
+
+    <form class="filtros" id="filtros" role="search" aria-label="Filtros" onsubmit="return false">
+      <label class="campo campo-q">
+        <span>Buscar</span>
+        <input type="search" name="q" placeholder="Nombre, razón social, RUT, rubro…" autocomplete="off">
+      </label>
+      <label class="campo campo-ancho"><span>Industria</span><select name="industria"></select></label>
+      <label class="campo"><span>Tipo de sociedad</span><select name="tipo"></select></label>
+      <label class="campo"><span>Región</span><select name="region"></select></label>
+      <label class="campo"><span>Tamaño (SII)</span><select name="tamano"></select></label>
+      <label class="campo"><span>Puntaje B</span><select name="puntaje"></select></label>
+      <label class="campo"><span>Certificada desde</span><select name="anio"></select></label>
+      <label class="campo"><span>Sede</span><select name="sede"></select></label>
+      <label class="campo"><span>Sección</span><select name="seccion"></select></label>
+      <fieldset class="checks">
+        <legend>Con</legend>
+        <label><input type="checkbox" name="web"> web</label>
+        <label><input type="checkbox" name="email"> email</label>
+        <label><input type="checkbox" name="tel"> teléfono</label>
+        <label><input type="checkbox" name="rut"> RUT</label>
+      </fieldset>
+      <div class="filtros-acciones">
+        <button class="btn btn-ghost" type="button" id="limpiar">Limpiar</button>
+        <button class="btn" type="button" id="exportar">Exportar CSV</button>
+      </div>
+    </form>
+    <p class="conteo" id="conteo" aria-live="polite"></p>
+
+    <section class="vista" id="vista-directorio" aria-label="Directorio">
+      <div class="tabla-wrap">
+        <table class="tabla" id="tabla">
+          <thead>
+            <tr>
+              <th scope="col"><button type="button" data-orden="nombre">Empresa</button></th>
+              <th scope="col"><button type="button" data-orden="macro_industria">Industria</button></th>
+              <th scope="col"><button type="button" data-orden="tipo_sociedad">Tipo</button></th>
+              <th scope="col"><button type="button" data-orden="region">Región</button></th>
+              <th scope="col" class="num"><button type="button" data-orden="puntaje_b">Puntaje B</button></th>
+              <th scope="col"><button type="button" data-orden="certificada_desde">Certificada</button></th>
+              <th scope="col"><button type="button" data-orden="tamano">Tamaño</button></th>
+              <th scope="col">Contacto</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="vista" id="vista-industrias" aria-label="Por industria" hidden></section>
+
+    <section class="vista" id="vista-estadisticas" aria-label="Estadísticas" hidden>
+      <div class="graficos" id="graficos"></div>
+    </section>
+
+    <section class="vista" id="vista-sectores" aria-label="Sectores estratégicos" hidden>
+      <nav class="subtabs" id="subtabs" aria-label="Sectores"></nav>
+      <div id="sector"></div>
+    </section>
+
+    <section class="vista prosa" id="vista-metodologia" aria-label="Metodología" hidden>
+      <h2>Metodología</h2>
+      <p>Este directorio reúne las <strong>Empresas B certificadas</strong> con sede u operación en Chile y las ordena por industria, tipo de sociedad, región, tamaño y puntaje de impacto. Cada ficha muestra sus fuentes.</p>
+      <h3>Fuentes</h3>
+      <ul>
+        <li><strong>Directorio oficial de B Lab</strong> (<a href="https://www.bcorporation.net/en-us/find-a-b-corp/" target="_blank" rel="noopener">bcorporation.net</a>): nombre, industria, sector, sede, fecha de certificación, puntaje B total y por área de impacto.</li>
+        <li><strong>Registros públicos y sitios de las empresas</strong>: razón social, RUT (validado con su dígito verificador), giro, dirección y canales de contacto corporativos.</li>
+        <li><strong>Prensa y memorias</strong> (DF, La Tercera, Emol, CMF, comunicados): ventas reportadas, rondas de inversión, trabajadores, controladores y accionistas.</li>
+        <li><strong>SII – Nómina de Personas Jurídicas</strong>: tramo de ventas y número de trabajadores por RUT. El script <code>scripts/sii_nomina.py</code> hace el cruce cuando hay acceso a sii.cl. El campo «Tamaño (SII)» muestra el tramo cuando el cruce existe; si no, el tamaño informado por otras fuentes.</li>
+        <li><strong>Apollo.io</strong> (búsqueda gratuita de organizaciones): dominio y sitio web.</li>
+      </ul>
+      <h3>Cómo se clasifica</h3>
+      <ul>
+        <li><strong>Industria</strong>: la industria de la ficha B Lab, agrupada en macro-industrias. Si falta, se usa la descripción de la empresa.</li>
+        <li><strong>Tipo de sociedad</strong>: se deduce de la razón social (SpA, S.A., Ltda., EIRL…). «Sin dato» significa que no se encontró la razón social en fuentes públicas.</li>
+        <li><strong>Porcentajes</strong>: (1) peso de cada área de impacto dentro del puntaje B de la empresa; (2) porcentaje que representa cada industria, tipo de sociedad y región dentro del total filtrado; (3) participación de socios o accionistas cuando es pública.</li>
+      </ul>
+      <h3>Privacidad</h3>
+      <p>Solo se publican canales de contacto <strong>corporativos</strong> (sitio web, email genérico, teléfono central, dirección y redes de la empresa) y el nombre y cargo de líderes que aparecen en fuentes públicas. No se publican emails ni teléfonos personales.</p>
+      <h3>Limitaciones</h3>
+      <ul>
+        <li>Los datos se recolectaron de fuentes públicas en la fecha indicada y pueden contener errores u omisiones. Las certificaciones B vencen y se renuevan cada 3 años.</li>
+        <li>Las cifras económicas provienen de lo que cada empresa o la prensa publicó; no son estados financieros auditados.</li>
+        <li>¿Encontraste un error? <a href="https://github.com/Nikolaaa11/EmpresasB/issues/new" target="_blank" rel="noopener">Repórtalo en GitHub</a>.</li>
+      </ul>
+      <h3>Cobertura de datos</h3>
+      <div id="cobertura"></div>
+    </section>
+  </main>
+
+  <dialog class="ficha" id="ficha" aria-labelledby="ficha-titulo">
+    <div class="ficha-cuerpo" id="ficha-cuerpo"></div>
+    <form method="dialog"><button class="btn btn-ghost cerrar" aria-label="Cerrar ficha">Cerrar</button></form>
+  </dialog>
+
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+
+  <footer class="pie">
+    <p>Datos públicos recopilados para fines informativos. «B Corp» y «Empresa B» son marcas de B Lab. Este sitio no está afiliado a B Lab ni a Sistema B.</p>
+  </footer>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

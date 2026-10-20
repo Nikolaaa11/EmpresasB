@@ -1,0 +1,729 @@
+{
+  "sector": "maritimo",
+  "busquedas_realizadas": 8,
+  "resumen_sector": "El sector marítimo chileno se organiza en torno a grandes grupos privados (Quiñenco/Luksic con CSAV y SAAM; la familia Urenda con Grupo Empresas Navieras (GEN), Agunsa y Compañía Marítima Chilena; el grupo Ultramar/Von Appen con Ultramar, Ultranav y TPS) y a las empresas portuarias estatales (Arica, Iquique, Antofagasta, Valparaíso, San Antonio, entre otras). CSAV, que tras la fusión con Hapag-Lloyd (2014) mantiene ~30% de la naviera alemana, ganó US$ 213,1 millones en 2025 (-45% vs 2024) por menores tarifas y mayores costos; SAAM, mayor operador de remolcadores de las Américas (203 remolcadores, 12 países), registró utilidad récord de US$ 80,4 millones y EBITDA de US$ 216,9 millones en 2025 (+15%) y proyecta invertir ~US$ 120 millones en 2026. GEN controla Compañía Marítima Chilena (ex CCNI, que vendió su negocio de contenedores a Hamburg Süd en 2015), Agunsa y sociedades portuarias; según el directorio Infobel (registros comerciales no auditados, sin año ni moneda) GEN y Agunsa lideran por ingresos con 969 y 799 millones. No se alcanzó a recopilar carga portuaria (TEU/toneladas) ni datos de astilleros o servicios para acuicultura porque se agotó el tope de búsquedas web.",
+  "fuentes_resumen": [
+    "https://mundomaritimo.cl/noticias/csav-cierra-2025-con-utilidades-por-us2131-millones-45-menos-que-en-2024",
+    "https://www.portalfruticola.com/?p=613926",
+    "https://www.csav.com/wp-content/uploads/2026/03/27032026-CSAV-Resultados-2025-1.pdf",
+    "https://www.csav.com/wp-content/uploads/2025/06/CSAV-Memoria2024.pdf",
+    "https://www.df.cl/empresas/resultados-de-empresas/saam-cierra-2025-con-utilidades-record-de-us-80-4-millones",
+    "https://www.portalfruticola.com/?p=614575",
+    "https://quartr.com/events/sociedad-matriz-saam-sa-smsaam-q2-2026_FTPWeJzR",
+    "https://negocios.udd.cl/?p=10598",
+    "https://gen-2026.canalcero.com/en/?p=1360",
+    "https://www.infobelpro.com/companies/chile/shipping",
+    "https://multiples.vc/largest-marine-transportation-public-comps-in-chile",
+    "https://www.mundomaritimo.cl/noticias/industria-naviera-chilena-acapara-el-apetito-de-actores-mundiales"
+  ],
+  "limitaciones": [
+    "Tope de WebSearch compartido (200 por turno entre todos los agentes) agotado: solo 8 búsquedas efectivas (se pedían 25-50); 2 intentos posteriores fueron rechazados por la herramienta y no se intentó rodear el límite.",
+    "Apollo organizations_lookup (gratuito) devolvió 20 empresas con dominio; luego alcanzó el límite horario (200/h) y 6 consultas finales fallaron (Puerto Lirquén, Compañía Marítima Chilena, Grupo Empresas Navieras, Neltume Ports, Cruz del Sur/Chacao, Complejo Portuario Mejillones). No se consumió ningún crédito.",
+    "Verificación B Lab: solo una búsqueda genérica site:bcorporation.net (sin resultados de bcorporation.net) y ninguna por empresa. es_empresa_b=false significa SIN EVIDENCIA, no negativa confirmada; cruzar los nombres con el listado de Empresas B de Chile.",
+    "Las cifras provienen de resúmenes de resultados de búsqueda (no se abrieron los PDF/artículos): verificar en memorias, comunicados y CMF antes de publicar. Cifras de Infobel no tienen año fiscal ni moneda y no están auditadas.",
+    "Contactos corporativos (email, teléfono, dirección, LinkedIn) y líderes públicos no se capturaron, salvo la familia Urenda (GEN/CMC) con fuentes antiguas (2013-2015).",
+    "RUT: solo CSAV y SAAM. El cuerpo numérico aparece en rutas de archivos del repositorio CMF (analisis_razonado_90160000_..., hechos_relevantes_76196718_...) y el dígito verificador se calculó por módulo 11. Un resumen del buscador entregó 76.196.718-K para SAAM, que NO valida (el DV correcto es 5).",
+    "Entradas con nivel_verificacion = minimo solo tienen nombre, categoría y dominio (Apollo) o una mención en un directorio; todo lo demás está en null a propósito."
+  ],
+  "pendientes_investigar": [
+    "Terminales y concesionarios sin investigar: DP World San Antonio, San Antonio Terminal Internacional (STI), Terminal Cerros de Valparaíso (TCVAL), Puerto Lirquén, Puerto Coronel, San Vicente Terminal Internacional, Iquique Terminal Internacional (ITI), Terminal Puerto Arica (TPA), Puerto Angamos/Terminal Graneles del Norte, Puerto Panul, Portuaria Cabo Froward, Talcahuano Terminal Portuario, Portuaria Mar Austral, Portuaria Corral.",
+    "Empresas portuarias estatales restantes: Talcahuano-San Vicente, Coquimbo, Puerto Montt, Chacabuco y Austral (Punta Arenas).",
+    "Remolcadores y servicios: Ultratug (Ultranav), Sitrans, Inchcape, Wilhelmsen, otras agencias marítimas.",
+    "Navieras extranjeras con operación en Chile (tipo Extranjera): Maersk, MSC, Hapag-Lloyd, CMA CGM, COSCO.",
+    "Astilleros: Marco Chilena, ASENAV y otros; transporte de pasajeros/carga en el sur: Cruz del Sur (Chacao), Transmarchilay y otros; servicios marítimos para acuicultura (wellboats, naves de apoyo): sin investigar.",
+    "Carga portuaria (TEU/toneladas) 2024-2025 por puerto, trabajadores, contactos corporativos, líderes públicos y verificación B Lab (site:bcorporation.net) por empresa."
+  ],
+  "empresas": [
+    {
+      "nombre": "CSAV",
+      "razon_social": "Compañía Sud Americana de Vapores S.A.",
+      "rut": "90.160.000-7",
+      "tipo_sociedad": "S.A. abierta",
+      "subsector": "Naviera",
+      "descripcion": "Naviera chilena histórica que en 2014 fusionó su negocio de portacontenedores con Hapag-Lloyd; hoy su principal activo es una participación de ~30% en la naviera alemana. En 2024 extendió hasta 2030 el pacto de accionistas con Kühne Maritime (junto a la ciudad de Hamburgo).",
+      "sede": null,
+      "region": null,
+      "sitio_web": "https://www.csav.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [
+          {"valor": "Utilidad US$ 213,1 millones (-45% vs 2024)", "periodo": "2025", "fuente": "https://mundomaritimo.cl/noticias/csav-cierra-2025-con-utilidades-por-us2131-millones-45-menos-que-en-2024"},
+          {"valor": "Participación en el resultado de Hapag-Lloyd US$ 309,1 millones (-60% vs 2024)", "periodo": "2025", "fuente": "https://www.portalfruticola.com/?p=613926"},
+          {"valor": "Caja US$ 324 millones al cierre; se repartieron US$ 590 millones en el año (incluye devoluciones de retenciones de impuestos de Alemania y el dividendo de Hapag-Lloyd)", "periodo": "2025", "fuente": "https://www.csav.com/wp-content/uploads/2026/03/27032026-CSAV-Resultados-2025-1.pdf"}
+        ],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": true,
+        "resumen": "Su resultado depende de su ~30% de Hapag-Lloyd (30,0% al 31-dic-2024). Hapag-Lloyd 2025: volúmenes +8%, ingresos +2%, tarifas más bajas y costos +12%, utilidad ~US$ 1.044 millones; Hapag-Lloyd anunció la compra de ZIM (pendiente de aprobaciones). Nemotécnico no capturado en resultados (conocimiento general: VAPORES; verificar)."
+      },
+      "propiedad": {
+        "controlador": "Quiñenco S.A. (grupo Luksic), 66,5% a dic-2024 según resumen de búsqueda que cita a Quiñenco",
+        "socios": [
+          {"nombre": "Quiñenco S.A.", "porcentaje": "66,5% (dic-2024)", "fuente": "https://dev-quinenco.lfi.cl/en/?p=20181"}
+        ],
+        "notas": "Quiñenco invirtió por primera vez en CSAV en 2011. El pacto de CSAV con la ciudad de Hamburgo y Kühne Maritime agrupa 73,6% de Hapag-Lloyd (según Quiñenco, dic-2024). El 66,5% salió de una sola búsqueda; un segundo intento no lo reconfirmó."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "alto (cifras 2025 y propiedad con fuentes); contactos pendientes",
+      "notas": "RUT: cuerpo 90160000 aparece en la ruta del repositorio CMF (analisis_razonado_90160000_2025Q4.pdf); DV 7 calculado por módulo 11. Infobel muestra ~64 millones de ingresos para CSAV (registro comercial, no comparable con sus resultados). Sede, contactos y directivos están en la memoria 2024 (csav.com) y quedaron pendientes. Sin verificación B Lab.",
+      "fuentes": [
+        "https://www.csav.com/wp-content/uploads/2025/06/CSAV-Memoria2024.pdf",
+        "https://www.csav.com/wp-content/uploads/2026/04/Memoria-CSAV-2025.pdf",
+        "https://www.csav.com/wp-content/uploads/2026/03/27032026-CSAV-Resultados-2025-1.pdf",
+        "https://www.csav.com/wp-content/uploads/2026/03/AR-4Q2025-CSAV.pdf",
+        "https://mundomaritimo.cl/noticias/csav-cierra-2025-con-utilidades-por-us2131-millones-45-menos-que-en-2024",
+        "https://www.portalfruticola.com/?p=613926",
+        "https://dev-quinenco.lfi.cl/en/?p=20181",
+        "https://www.portalfruticola.com/?p=18281",
+        "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/90160000/analisis_razonado_90160000_2025Q4.pdf"
+      ]
+    },
+    {
+      "nombre": "SAAM (Sociedad Matriz SAAM)",
+      "razon_social": "Sociedad Matriz SAAM S.A.",
+      "rut": "76.196.718-5",
+      "tipo_sociedad": "S.A. abierta",
+      "subsector": "Remolcadores",
+      "descripcion": "Mayor operador de remolcadores de las Américas y tercero a nivel global: 203 remolcadores en más de 100 puertos de 12 países (SAAM Towage), más un negocio de logística aérea. Nació de la división de CSAV.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.saam.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [
+          {"valor": "Utilidad récord US$ 80,4 millones", "periodo": "2025", "fuente": "https://www.df.cl/empresas/resultados-de-empresas/saam-cierra-2025-con-utilidades-record-de-us-80-4-millones"},
+          {"valor": "EBITDA US$ 216,9 millones (+15% vs 2024)", "periodo": "2025", "fuente": "https://www.df.cl/empresas/resultados-de-empresas/saam-cierra-2025-con-utilidades-record-de-us-80-4-millones"},
+          {"valor": "Ingresos +9% vs 2024; US$ 632 millones según un resumen de junta de accionistas (cifra por verificar)", "periodo": "2025", "fuente": "https://www.df.cl/empresas/resultados-de-empresas/saam-cierra-2025-con-utilidades-record-de-us-80-4-millones"},
+          {"valor": "SAAM Towage: EBITDA US$ 187 millones (margen 35,6%), ingresos sobre US$ 526 millones (+9%)", "periodo": "2025", "fuente": "https://www.df.cl/empresas/resultados-de-empresas/saam-cierra-2025-con-utilidades-record-de-us-80-4-millones"},
+          {"valor": "Utilidad US$ 64 millones a septiembre (+48%); ventas del trimestre US$ 160,5 millones", "periodo": "9M/3T 2025", "fuente": "https://www.portalfruticola.com/?p=607293"},
+          {"valor": "Ingresos US$ 332,5 millones (+10%) y EBITDA US$ 103,0 millones (+3%)", "periodo": "1S 2026", "fuente": "https://quartr.com/events/sociedad-matriz-saam-sa-smsaam-q2-2026_FTPWeJzR"},
+          {"valor": "Ingresos US$ 171,1 millones (+11%), EBITDA US$ 53,1 millones (+4%), utilidad atribuible US$ 18,0 millones (-17%)", "periodo": "2T 2026", "fuente": "https://quartr.com/events/sociedad-matriz-saam-sa-smsaam-q2-2026_FTPWeJzR"}
+        ],
+        "inversion_anunciada": [
+          {"valor": "US$ 120 millones", "descripcion": "Plan 2026: nuevos remolcadores, mantenciones mayores de naves, infraestructura y proyectos de sostenibilidad", "fecha": "2026", "fuente": "https://www.portalfruticola.com/?p=614575"}
+        ],
+        "capacidad": "203 remolcadores; presencia en 12 países y más de 100 puertos (2T 2026)",
+        "trabajadores": null,
+        "cotiza_en_bolsa": true,
+        "resumen": "Nemotécnico SMSAAM (según resumen de Quartr). Dividendos 2025: definitivo US$ 60,4 millones más provisorio US$ 20 millones (dic-2025). Sobre utilidades 2024 se propuso un definitivo de US$ 39,18 millones más un provisorio de US$ 20 millones. El segmento remolcadores aportó la mayor parte del EBITDA; logística aérea US$ 26,7 millones de ingresos en 2T 2026."
+      },
+      "propiedad": {
+        "controlador": "Quiñenco S.A. (grupo Luksic): casi 60% en nov-2021; porcentaje vigente por verificar en la memoria 2024",
+        "socios": [
+          {"nombre": "Quiñenco S.A.", "porcentaje": "casi 60% (nov-2021)", "fuente": "https://eldesconcierto.cl/2021/11/10/luksic-aumenta-su-propiedad-en-operadora-portuaria-y-alcanza-casi-el-60-de-sus-acciones"},
+          {"nombre": "Sociedad de Felipe Ibáñez (nombre de la sociedad no capturado)", "porcentaje": "12,65% (cierre 2021, según memoria SAAM); sobre 13% (13,37%) según La Tercera, fecha no determinada", "fuente": "https://www.latercera.com/pulso-pm/noticia/felipe-ibanez-sigue-apostando-por-saam-y-sube-su-participacion-sobre-el-13/XDBLI2S7YNE55MHR3V6T3KRWDY/"}
+        ],
+        "notas": "Datos de propiedad de 2021; la memoria 2024 (quinenco.cl/content/uploads/2017/07/SM-SAAM-Memoria-Anual-2024.pdf) trae la tabla vigente."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "alto (resultados 2025-2026 con fuentes); propiedad vigente y contactos pendientes",
+      "notas": "RUT: cuerpo 76196718 aparece en rutas del repositorio CMF; DV 5 calculado por módulo 11 (un resumen del buscador dijo 76.196.718-K, que no valida). Sitio de remolcadores: http://www.saamtowage.com (Apollo). Resultados 1S/2T 2026 vienen de un resumen de terceros (Quartr): verificar con el reporte oficial. Sin verificación B Lab.",
+      "fuentes": [
+        "https://www.df.cl/empresas/resultados-de-empresas/saam-cierra-2025-con-utilidades-record-de-us-80-4-millones",
+        "https://www.portalfruticola.com/?p=614575",
+        "https://www.portalfruticola.com/?p=607293",
+        "https://container-news.com/saam-reports-strong-q3-2025-results/",
+        "https://quartr.com/events/sociedad-matriz-saam-sa-smsaam-q2-2026_FTPWeJzR",
+        "https://quinenco.cl/content/uploads/2017/07/SM-SAAM-Memoria-Anual-2024.pdf",
+        "https://www.sustainabilityreports.com/sociedad-matriz-saam/2024/integrated-report-es",
+        "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/76196718/hechos_relevantes/hechos_relevantes_76196718_2024Q4.pdf",
+        "https://eldesconcierto.cl/2021/11/10/luksic-aumenta-su-propiedad-en-operadora-portuaria-y-alcanza-casi-el-60-de-sus-acciones",
+        "https://www.latercera.com/pulso-pm/noticia/felipe-ibanez-sigue-apostando-por-saam-y-sube-su-participacion-sobre-el-13/XDBLI2S7YNE55MHR3V6T3KRWDY/",
+        "https://www.portalfruticola.com/?p=18281"
+      ]
+    },
+    {
+      "nombre": "Grupo Empresas Navieras (GEN)",
+      "razon_social": "Grupo Empresas Navieras S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A. (abierta: inferido, verificar)",
+      "subsector": "Naviera",
+      "descripcion": "Holding de la familia Urenda con negocios armatorial (Compañía Marítima Chilena, ex CCNI), agencia y logística (Agunsa) y aeropuertos y puertos. Controla Portuaria Cabo Froward, Talcahuano Terminal Portuario y Portuaria Mar Austral y participa con 35% en Antofagasta Terminal Internacional. Su mayor ingreso proviene del segmento Logística.",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [
+        {"nombre": "José Manuel Urenda", "cargo": "Presidente de GEN según artículos de 2013-2015 (vigencia no verificada)", "linkedin": null, "fuente": "https://mundomaritimo.cl/noticias/grupo-empresas-navieras-invertira-us700-millones-en-tres-anos"},
+        {"nombre": "Beltrán Urenda", "cargo": "Presidente de Compañía Marítima Chilena (CMC, ex CCNI) según Mundo Marítimo (artículo de ~2015)", "linkedin": null, "fuente": "https://www.mundomaritimo.cl/noticias/beltran-urenda-presidente-de-cmc-ldquoestamos-buscando-como-reconvertirnos"},
+        {"nombre": "Maximiliano Urenda", "cargo": "Cargo no capturado; el perfil de DF Más lo presenta como la cuarta generación a cargo de la expansión de... (título truncado en el resultado)", "linkedin": null, "fuente": "https://www.df.cl/df-mas/personaje/maximiliano-urenda-la-cuarta-generacion-a-cargo-de-la-expansion-de"}
+      ],
+      "economia": {
+        "ventas_reportadas": [
+          {"valor": "969 millones (moneda no especificada; registro comercial Infobel, no auditado)", "periodo": null, "fuente": "https://www.infobelpro.com/companies/chile/shipping"}
+        ],
+        "inversion_anunciada": [
+          {"valor": "US$ 700 millones", "descripcion": "Plan de inversión a tres años según artículo de Mundo Marítimo de fecha no determinada (probablemente 2013-2015; no vigente)", "fecha": null, "fuente": "https://mundomaritimo.cl/noticias/grupo-empresas-navieras-invertira-us700-millones-en-tres-anos"}
+        ],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": true,
+        "resumen": "Segmentos operativos: Armatorial, Agencia, Logística, Aeropuertos y Puertos; el mayor ingreso viene de Logística (multiples.vc, que lo lista entre las empresas públicas del rubro marítimo; condición bursátil y nemotécnico por verificar). En el ranking Infobel 2026 por ingresos aparece primero entre las navieras de Chile."
+      },
+      "propiedad": {
+        "controlador": "Familia Urenda (según DF Más y artículos de Mundo Marítimo)",
+        "socios": [],
+        "notas": "Participaciones de GEN en filiales según su página de inversionistas (sin fecha): Agencias Universales 99,58%; Compañía Marítima Chilena 99,36%; Portuaria Cabo Froward 91,99%; Talcahuano Terminal Portuario 99%; Antofagasta Terminal Internacional 35%. Accionistas de GEN no capturados."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "medio (estructura y propiedad de filiales verificadas; cifras no auditadas; contactos pendientes)",
+      "notas": "El sitio web de GEN no se capturó (el lookup de Apollo falló por límite horario). La inversión de US$ 700 millones es de un artículo antiguo. RUT y sede pendientes. Sin verificación B Lab.",
+      "fuentes": [
+        "https://negocios.udd.cl/?p=10598",
+        "https://gen-2026.canalcero.com/en/?p=1360",
+        "https://www.infobelpro.com/companies/chile/shipping",
+        "https://multiples.vc/largest-marine-transportation-public-comps-in-chile",
+        "https://www.bnamericas.com/en/company-profile/infrastructure/grupo-empresas-navieras-sa-gen",
+        "https://www.df.cl/df-mas/personaje/maximiliano-urenda-la-cuarta-generacion-a-cargo-de-la-expansion-de",
+        "https://mundomaritimo.cl/noticias/grupo-empresas-navieras-invertira-us700-millones-en-tres-anos",
+        "https://www.mundomaritimo.cl/noticias/beltran-urenda-presidente-de-cmc-ldquoestamos-buscando-como-reconvertirnos"
+      ]
+    },
+    {
+      "nombre": "Agunsa (Agencias Universales)",
+      "razon_social": "Agencias Universales S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Agencia/Servicios marítimos",
+      "descripcion": "Agencia marítima y operador logístico, filial de GEN (99,58% según su página de inversionistas). Segunda empresa de la lista Infobel de mayores navieras de Chile por ingresos.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.agunsa.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [
+          {"valor": "799 millones (moneda no especificada; registro comercial Infobel, no auditado)", "periodo": null, "fuente": "https://www.infobelpro.com/companies/chile/shipping"}
+        ],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": "Con GEN poseyendo 99,58%, un flotante bursátil es improbable; condición bursátil sin verificar."
+      },
+      "propiedad": {
+        "controlador": "Grupo Empresas Navieras S.A. (99,58%, página de inversionistas de GEN, sin fecha)",
+        "socios": [
+          {"nombre": "Grupo Empresas Navieras S.A.", "porcentaje": "99,58%", "fuente": "https://gen-2026.canalcero.com/en/?p=1360"}
+        ],
+        "notas": null
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "medio-bajo (propiedad y ranking verificados; sin cifras auditadas ni contactos)",
+      "notas": "Dominio agunsa.com verificado con Apollo (también existen agunsalogistics.com.co, de Colombia). Sin verificación B Lab.",
+      "fuentes": [
+        "http://www.agunsa.com",
+        "https://www.infobelpro.com/companies/chile/shipping",
+        "https://gen-2026.canalcero.com/en/?p=1360",
+        "https://negocios.udd.cl/?p=10598"
+      ]
+    },
+    {
+      "nombre": "Compañía Marítima Chilena (CMC, ex CCNI)",
+      "razon_social": "Compañía Marítima Chilena",
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Naviera",
+      "descripcion": "Brazo armatorial del grupo GEN y continuadora de la Compañía Chilena de Navegación Interoceánica (CCNI), que vendió su negocio de contenedores a Hamburg Süd en 2015. Su presidente, Beltrán Urenda, hablaba de buscar cómo reconvertirse.",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [
+        {"nombre": "Beltrán Urenda", "cargo": "Presidente de CMC (artículo de Mundo Marítimo de ~2015; vigencia no verificada)", "linkedin": null, "fuente": "https://www.mundomaritimo.cl/noticias/beltran-urenda-presidente-de-cmc-ldquoestamos-buscando-como-reconvertirnos"}
+      ],
+      "economia": {
+        "ventas_reportadas": [],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {
+        "controlador": "Grupo Empresas Navieras S.A. (99,36%)",
+        "socios": [
+          {"nombre": "Grupo Empresas Navieras S.A.", "porcentaje": "99,36%", "fuente": "https://gen-2026.canalcero.com/en/?p=1360"}
+        ],
+        "notas": "Porcentaje de la página de inversionistas de GEN (sin fecha). La equivalencia CMC = ex CCNI se dedujo de los resultados de búsqueda (el nombre actual aparece en las declaraciones de su presidente)."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "bajo (existencia, propiedad y presidente de fuentes antiguas)",
+      "notas": "Sitio web no capturado (lookup de Apollo falló por límite horario). Sin verificación B Lab.",
+      "fuentes": [
+        "https://www.mundomaritimo.cl/noticias/beltran-urenda-presidente-de-cmc-ldquoestamos-buscando-como-reconvertirnos",
+        "https://gen-2026.canalcero.com/en/?p=1360",
+        "https://www.mundomaritimo.cl/noticias/industria-naviera-chilena-acapara-el-apetito-de-actores-mundiales"
+      ]
+    },
+    {
+      "nombre": "Ultramar Agencia Marítima",
+      "razon_social": "Ultramar Agencia Marítima",
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Agencia/Servicios marítimos",
+      "descripcion": "Agencia marítima chilena. Por su nombre se asocia al grupo Ultramar (familia Von Appen), al que Mundo Marítimo vincula con Ultranav y TPS; ese vínculo con Ultramar Agencia Marítima está por confirmar.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.umar.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": "Grupo Ultramar / familia Von Appen: vínculo inferido por el nombre; sin porcentajes."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio vía Apollo y mención del grupo)",
+      "notas": "Dominio umar.cl verificado con Apollo (gratuito). Pendiente: razón social/RUT, sede, contactos, líderes, cifras y verificación B Lab.",
+      "fuentes": [
+        "http://www.umar.cl",
+        "https://www.mundomaritimo.cl/noticias/industria-naviera-chilena-acapara-el-apetito-de-actores-mundiales"
+      ]
+    },
+    {
+      "nombre": "Ultranav",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Naviera",
+      "descripcion": "Naviera chilena del grupo Ultramar (familia Von Appen), según un artículo antiguo de Mundo Marítimo.",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": "Grupo Ultramar (familia Von Appen), según Mundo Marítimo", "socios": [], "notas": "Sin porcentajes."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo mención en prensa)",
+      "notas": "El lookup de Apollo devolvió ultranav.dk, que parece ser de una filial en Dinamarca y no se confirmó como sitio oficial, por eso sitio_web queda en null. Pendiente: sitio oficial, razón social/RUT, sede, contactos, líderes, cifras y verificación B Lab.",
+      "fuentes": [
+        "https://www.mundomaritimo.cl/noticias/industria-naviera-chilena-acapara-el-apetito-de-actores-mundiales"
+      ]
+    },
+    {
+      "nombre": "TPS (Terminal Pacífico Sur Valparaíso)",
+      "razon_social": "Terminal Pacífico Sur Valparaíso S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Puerto/Terminal",
+      "descripcion": "Terminal portuario en Valparaíso, vinculado al grupo Ultramar. Su presidente comentó, en una nota antigua de Portal Frutícola, los cambios que las fusiones de navieras traerían al negocio portuario.",
+      "sede": "Valparaíso",
+      "region": "Región de Valparaíso",
+      "sitio_web": "http://www.tps.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": "Vinculada al grupo Ultramar (familia Von Appen); porcentajes no capturados", "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo",
+      "notas": "Dominio tps.cl verificado con Apollo. Ubicación deducida del nombre. Pendiente: RUT, contactos, líderes, TEU/ingresos, propiedad detallada y verificación B Lab.",
+      "fuentes": [
+        "http://www.tps.cl",
+        "https://www.portalfruticola.com/?p=37428",
+        "https://www.bnamericas.com/en/company-profile/terminal-pacifico-sur-valparaiso-sa-tps"
+      ]
+    },
+    {
+      "nombre": "Puerto Ventanas",
+      "razon_social": "Puerto Ventanas S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Puerto/Terminal",
+      "descripcion": "Empresa portuaria privada chilena (Puerto Ventanas S.A.).",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.puertoventanas.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo; aparece en una comparación de CB Insights. Pendiente todo lo demás: sede, controlador, bolsa, cifras, contactos, líderes y verificación B Lab.",
+      "fuentes": [
+        "http://www.puertoventanas.cl",
+        "https://www.cbinsights.com/compare/puerto-ventanas-vs-shippter"
+      ]
+    },
+    {
+      "nombre": "Puerto Central",
+      "razon_social": "Puerto Central S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Puerto/Terminal",
+      "descripcion": "Terminal portuario privado chileno (Puerto Central S.A.).",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.puertocentral.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo. Pista no verificada: podría operar en San Antonio (Región de Valparaíso). Pendiente todo lo demás.",
+      "fuentes": [
+        "http://www.puertocentral.cl"
+      ]
+    },
+    {
+      "nombre": "Neltume Ports",
+      "razon_social": "Neltume Ports S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Puerto/Terminal",
+      "descripcion": "Operador portuario chileno con perfil en BNamericas; detalle pendiente.",
+      "sede": null,
+      "region": null,
+      "sitio_web": null,
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo perfil en BNamericas)",
+      "notas": "Solo se vio el título del perfil en BNamericas; el lookup de Apollo falló por límite horario. Pendiente todo lo demás.",
+      "fuentes": [
+        "https://www.bnamericas.com/es/perfil-empresa/neltume-ports-sa"
+      ]
+    },
+    {
+      "nombre": "Complejo Portuario Mejillones (CPM)",
+      "razon_social": "Complejo Portuario Mejillones S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Puerto/Terminal",
+      "descripcion": "Complejo portuario en Mejillones con perfil en BNamericas; detalle pendiente.",
+      "sede": "Mejillones",
+      "region": "Región de Antofagasta",
+      "sitio_web": null,
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo perfil en BNamericas)",
+      "notas": "Ubicación deducida del nombre. El lookup de Apollo falló por límite horario. Pendiente todo lo demás.",
+      "fuentes": [
+        "https://bnamericas.com/en/company-profile/complejo-portuario-mejillones-sa-cpm"
+      ]
+    },
+    {
+      "nombre": "Antofagasta Terminal Internacional (ATI)",
+      "razon_social": "Antofagasta Terminal Internacional",
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Puerto/Terminal",
+      "descripcion": "Terminal portuario de Antofagasta en el que GEN participa con 35% según su página de inversionistas.",
+      "sede": "Antofagasta",
+      "region": "Región de Antofagasta",
+      "sitio_web": null,
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {
+        "controlador": null,
+        "socios": [
+          {"nombre": "Grupo Empresas Navieras S.A.", "porcentaje": "35%", "fuente": "https://gen-2026.canalcero.com/en/?p=1360"}
+        ],
+        "notas": "Resto de los accionistas no capturado."
+      },
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo participación de GEN)",
+      "notas": "Ubicación deducida del nombre. Pendiente todo lo demás.",
+      "fuentes": [
+        "https://gen-2026.canalcero.com/en/?p=1360"
+      ]
+    },
+    {
+      "nombre": "Empresa Portuaria Valparaíso (EPV)",
+      "razon_social": "Empresa Portuaria Valparaíso",
+      "rut": null,
+      "tipo_sociedad": "Empresa del Estado",
+      "subsector": "Empresa portuaria estatal",
+      "descripcion": "Empresa portuaria estatal que administra el puerto de Valparaíso.",
+      "sede": "Valparaíso",
+      "region": "Región de Valparaíso",
+      "sitio_web": "http://www.puertovalparaiso.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": false, "resumen": null},
+      "propiedad": {"controlador": "Estado de Chile", "socios": [], "notas": "Naturaleza estatal según la clasificación del encargo; no verificada en resultados."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo. Pendiente: RUT, gerente general, carga movilizada, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.puertovalparaiso.cl"
+      ]
+    },
+    {
+      "nombre": "Empresa Portuaria San Antonio (Puerto San Antonio)",
+      "razon_social": "Empresa Portuaria San Antonio",
+      "rut": null,
+      "tipo_sociedad": "Empresa del Estado",
+      "subsector": "Empresa portuaria estatal",
+      "descripcion": "Empresa portuaria estatal que administra el puerto de San Antonio (marca Puerto San Antonio).",
+      "sede": "San Antonio",
+      "region": "Región de Valparaíso",
+      "sitio_web": "http://www.puertosanantonio.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": false, "resumen": null},
+      "propiedad": {"controlador": "Estado de Chile", "socios": [], "notas": "Naturaleza estatal según la clasificación del encargo; no verificada en resultados."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo (registro Puerto San Antonio). Pendiente: RUT, gerente general, TEU/toneladas, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.puertosanantonio.com"
+      ]
+    },
+    {
+      "nombre": "Empresa Portuaria Antofagasta (EPA)",
+      "razon_social": "Empresa Portuaria Antofagasta",
+      "rut": null,
+      "tipo_sociedad": "Empresa del Estado",
+      "subsector": "Empresa portuaria estatal",
+      "descripcion": "Empresa portuaria estatal que administra el puerto de Antofagasta.",
+      "sede": "Antofagasta",
+      "region": "Región de Antofagasta",
+      "sitio_web": "http://www.puertoantofagasta.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": false, "resumen": null},
+      "propiedad": {"controlador": "Estado de Chile", "socios": [], "notas": "Naturaleza estatal según la clasificación del encargo; no verificada en resultados."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo. Pendiente: RUT, gerente general, carga movilizada, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.puertoantofagasta.cl"
+      ]
+    },
+    {
+      "nombre": "Empresa Portuaria Iquique (EPI)",
+      "razon_social": "Empresa Portuaria Iquique",
+      "rut": null,
+      "tipo_sociedad": "Empresa del Estado",
+      "subsector": "Empresa portuaria estatal",
+      "descripcion": "Empresa portuaria estatal que administra el puerto de Iquique.",
+      "sede": "Iquique",
+      "region": "Región de Tarapacá",
+      "sitio_web": "http://www.epi.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": false, "resumen": null},
+      "propiedad": {"controlador": "Estado de Chile", "socios": [], "notas": "Naturaleza estatal según la clasificación del encargo; no verificada en resultados."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo (registro Empresa Portuaria Iquique - EPI). Pendiente: RUT, gerente general, carga movilizada, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.epi.cl"
+      ]
+    },
+    {
+      "nombre": "Empresa Portuaria Arica (EPA Arica)",
+      "razon_social": "Empresa Portuaria Arica",
+      "rut": null,
+      "tipo_sociedad": "Empresa del Estado",
+      "subsector": "Empresa portuaria estatal",
+      "descripcion": "Empresa portuaria estatal que administra el puerto de Arica; tiene perfil en BNamericas.",
+      "sede": "Arica",
+      "region": "Región de Arica y Parinacota",
+      "sitio_web": "http://www.puertoarica.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": false, "resumen": null},
+      "propiedad": {"controlador": "Estado de Chile", "socios": [], "notas": "Naturaleza estatal según la clasificación del encargo; no verificada en resultados."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo. Pendiente: RUT, gerente general, carga movilizada, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.puertoarica.cl",
+        "https://bnamericas.com/en/company-profile/empresa-portuaria-arica-epa-arica"
+      ]
+    },
+    {
+      "nombre": "Navimag",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Transporte pasajeros/carga sur",
+      "descripcion": "Naviera de transporte marítimo de pasajeros y carga en el sur de Chile (Navimag Ferries).",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.navimag.com",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo (registro Navimag Ferries). Pendiente: razón social (probable Naviera Magallanes S.A., sin verificar), RUT, sede, propiedad, cifras, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.navimag.com"
+      ]
+    },
+    {
+      "nombre": "TABSA",
+      "razon_social": null,
+      "rut": null,
+      "tipo_sociedad": null,
+      "subsector": "Transporte pasajeros/carga sur",
+      "descripcion": "Operador de transbordadores de pasajeros y carga en el sur de Chile (sigla TABSA).",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.tabsa.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo. Pendiente: razón social (probable Transbordadora Austral Broom S.A., sin verificar), RUT, sede, propiedad, cifras, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.tabsa.cl"
+      ]
+    },
+    {
+      "nombre": "Naviera Austral",
+      "razon_social": "Naviera Austral S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Transporte pasajeros/carga sur",
+      "descripcion": "Naviera de transporte marítimo en el sur de Chile (Naviera Austral S.A.).",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.navieraustral.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo. Pendiente: RUT, sede, rutas, propiedad, cifras, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.navieraustral.cl"
+      ]
+    },
+    {
+      "nombre": "Naviera Frasal",
+      "razon_social": "Compañía Naviera Frasal S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Naviera",
+      "descripcion": "Naviera chilena que aparece tercera entre las mayores navieras del país por ingresos en el directorio Infobel (2026).",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.frasal.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {
+        "ventas_reportadas": [
+          {"valor": "81 millones (moneda no especificada; registro comercial Infobel, no auditado)", "periodo": null, "fuente": "https://www.infobelpro.com/companies/chile/shipping"}
+        ],
+        "inversion_anunciada": [],
+        "capacidad": null,
+        "trabajadores": null,
+        "cotiza_en_bolsa": null,
+        "resumen": null
+      },
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (ranking Infobel y dominio)",
+      "notas": "Dominio verificado con Apollo. Pendiente: RUT, sede, flota, propiedad, cifras auditadas, contactos y verificación B Lab. Relevante revisar si presta servicios a la acuicultura.",
+      "fuentes": [
+        "http://www.frasal.cl",
+        "https://www.infobelpro.com/companies/chile/shipping"
+      ]
+    },
+    {
+      "nombre": "Somarco",
+      "razon_social": "Somarco Ltda",
+      "rut": null,
+      "tipo_sociedad": "Ltda.",
+      "subsector": "Naviera",
+      "descripcion": "Empresa marítima chilena (Somarco Ltda).",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.somarco.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo. Pendiente: giro exacto, RUT, sede, propiedad, cifras, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.somarco.cl"
+      ]
+    },
+    {
+      "nombre": "ASMAR (Astilleros y Maestranzas de la Armada)",
+      "razon_social": "Astilleros y Maestranzas de la Armada",
+      "rut": null,
+      "tipo_sociedad": "Empresa del Estado",
+      "subsector": "Astillero",
+      "descripcion": "Astillero estatal ligado a la Armada de Chile (ASMAR).",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.asmar.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": false, "resumen": null},
+      "propiedad": {"controlador": "Estado de Chile (vinculado a la Armada)", "socios": [], "notas": "Naturaleza estatal según la clasificación del encargo; no verificada en resultados."},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo. Pendiente: RUT, astilleros y sedes, ingresos, trabajadores, directivos, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.asmar.cl"
+      ]
+    },
+    {
+      "nombre": "Alwoplast",
+      "razon_social": "Alwoplast S.A.",
+      "rut": null,
+      "tipo_sociedad": "S.A.",
+      "subsector": "Astillero",
+      "descripcion": "Empresa de construcción naval chilena (Alwoplast S.A.); categoría asignada por nombre y dominio, por verificar.",
+      "sede": null,
+      "region": null,
+      "sitio_web": "http://www.alwoplast.cl",
+      "contactos": {"email": null, "telefono": null, "direccion": null, "linkedin": null, "instagram": null},
+      "personas": [],
+      "economia": {"ventas_reportadas": [], "inversion_anunciada": [], "capacidad": null, "trabajadores": null, "cotiza_en_bolsa": null, "resumen": null},
+      "propiedad": {"controlador": null, "socios": [], "notas": null},
+      "es_empresa_b": false,
+      "url_blab": null,
+      "nivel_verificacion": "minimo (solo dominio y existencia)",
+      "notas": "Dominio verificado con Apollo. Pendiente: giro exacto, RUT, sede, propiedad, cifras, contactos y verificación B Lab.",
+      "fuentes": [
+        "http://www.alwoplast.cl"
+      ]
+    }
+  ]
+}
