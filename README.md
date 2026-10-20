@@ -9,7 +9,8 @@ estratégicos**: Data center, Robótica, Salmones y Marítimo (sean o no Empresa
 - **Super prompt reutilizable:** [SUPER_PROMPT.md](SUPER_PROMPT.md)
 - **Listado por industria:** [docs/industrias](docs/industrias/README.md) · **por tipo de sociedad:**
   [docs/tipos_sociedad.md](docs/tipos_sociedad.md) · **sectores estratégicos:**
-  [docs/sectores_estrategicos.md](docs/sectores_estrategicos.md)
+  [docs/sectores_estrategicos.md](docs/sectores_estrategicos.md) · **peor rendimiento económico:**
+  [docs/peor_rendimiento.md](docs/peor_rendimiento.md)
 
 ## Cifras actuales
 
@@ -20,6 +21,7 @@ Actualizado el **2026-10-20**.
 - Puntaje B promedio **91.9** (mediana 88.4; rango 80.0–142.8).
 - Tipo de sociedad: SpA 41 (18.3%), S.A. 24 (10.7%), Ltda. 13 (5.8%), Extranjera 33 (14.7%), Sin dato 113 (50.4%).
 - Sectores estratégicos: Data center 13 (0 B), Robótica 25 (0 B), Salmones 22 (1 B), Marítimo 25 (0 B).
+- [Peor rendimiento económico](docs/peor_rendimiento.md): Sin revisar 224.
 
 | Industria | Empresas | % |
 |---|---:|---:|
@@ -66,6 +68,7 @@ Actualizado el **2026-10-20**.
 | `data/por_industria/*.csv` | Una planilla por macro-industria |
 | `data/por_tipo_sociedad/*.csv` | Una planilla por tipo de sociedad (`spa.csv`, `s-a.csv`, `ltda.csv`, …) |
 | `data/sectores_estrategicos/*.csv` | Data center, Robótica, Salmones y Marítimo |
+| `data/peor_rendimiento.csv` | Empresas con señales económicas negativas (crítico / negativo), con fuentes |
 | `data/estadisticas.json` | Porcentajes por industria, tipo, región, tamaño; promedios por área de impacto |
 | `docs/` | Las mismas tablas en Markdown, navegables en GitHub |
 | `data/raw/` | Investigación en bruto de cada agente (trazabilidad) |

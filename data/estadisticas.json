@@ -734,6 +734,13 @@
     "pct": 99.6
    }
   ],
+  "por_rendimiento": [
+   {
+    "categoria": "Sin revisar",
+    "empresas": 224,
+    "pct": 100.0
+   }
+  ],
   "puntaje_b": {
    "con_puntaje": 187,
    "promedio": 91.9,
@@ -1502,6 +1509,13 @@
     "categoria": "Sin dato",
     "empresas": 185,
     "pct": 99.5
+   }
+  ],
+  "por_rendimiento": [
+   {
+    "categoria": "Sin revisar",
+    "empresas": 186,
+    "pct": 100.0
    }
   ],
   "puntaje_b": {

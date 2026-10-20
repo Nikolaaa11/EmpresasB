@@ -13,11 +13,20 @@ const SECCIONES = { "data-center": "Data center", robotica: "Robótica", salmone
 const TIPOS = ["SpA", "S.A.", "Ltda.", "EIRL", "Cooperativa", "Fundación/Corporación", "Extranjera", "Sin dato"];
 const TAMANOS = ["Micro", "Pequeña", "Mediana", "Grande"];
 const ORDEN_TAMANO = { Micro: 1, "Pequeña": 2, Mediana: 3, Grande: 4 };
-const VISTAS = ["directorio", "industrias", "estadisticas", "sectores", "metodologia"];
+const VISTAS = ["directorio", "industrias", "peor", "estadisticas", "sectores", "metodologia"];
+const VISTAS_FILTRABLES = ["directorio", "industrias", "peor", "estadisticas"];
 const FILTROS_VACIOS = {
-  q: "", industria: "", tipo: "", region: "", tamano: "", puntaje: "", anio: "", sede: "", seccion: "",
+  q: "", industria: "", tipo: "", region: "", tamano: "", puntaje: "", anio: "", sede: "", seccion: "", rend: "",
   web: false, email: false, tel: false, rut: false,
 };
+const NIVELES = {
+  critico: "Crítico", negativo: "Negativo", sin_senales: "Sin señales públicas", sin_revisar: "Sin revisar",
+};
+const TIPO_SENAL = {
+  insolvencia: "Insolvencia", cierre: "Cierre", perdidas: "Pérdidas", caida_ventas: "Caída de ventas",
+  despidos: "Despidos", deuda: "Deuda", rescate: "Rescate financiero", otra: "Otra señal",
+};
+const nivelDe = (e) => e.rendimiento?.nivel || "sin_revisar";
 const PASO = 48;
 const SVGNS = "http://www.w3.org/2000/svg";
 
@@ -97,6 +106,11 @@ function lugar(e) {
   return e.region ? (e.region === "Metropolitana" ? "Región Metropolitana" : e.region) : e.sede || "";
 }
 
+function etiquetaNivel(nivel) {
+  if (nivel !== "critico" && nivel !== "negativo") return null;
+  return el("span", { class: `etq etq-${nivel}` }, icono("alert"), NIVELES[nivel]);
+}
+
 // "Sin dato" no se muestra como etiqueta (queda en la sección Datos de la ficha).
 function etiquetaTipo(tipo) {
   if (!tipo || tipo === "Sin dato") return null;
@@ -169,6 +183,10 @@ function prepararFiltros() {
   opciones(form.anio, anios.map((a) => [String(a), String(a)]), "Cualquier año");
   opciones(form.sede, [["chile", "En Chile"], ["extranjero", "En el extranjero"]], "Todas");
   opciones(form.seccion, Object.entries(SECCIONES), "Todas");
+  const niveles = contarPor(E, nivelDe);
+  const conSenales = (niveles.get("critico") || 0) + (niveles.get("negativo") || 0);
+  opciones(form.rend, [["alerta", `Con señales negativas (${conSenales})`],
+    ...Object.entries(NIVELES).filter(([k]) => niveles.get(k)).map(([k, t]) => [k, `${t} (${niveles.get(k)})`])], "Todas");
 
   form.addEventListener("input", (ev) => {
     const c = ev.target;
@@ -221,6 +239,7 @@ function coincide(e, f) {
   if (f.sede === "chile" && !e.sede_en_chile) return false;
   if (f.sede === "extranjero" && e.sede_en_chile) return false;
   if (f.seccion && !(e.secciones || []).includes(f.seccion)) return false;
+  if (f.rend && (f.rend === "alerta" ? !["critico", "negativo"].includes(nivelDe(e)) : nivelDe(e) !== f.rend)) return false;
   const c = e.contactos || {};
   if (f.web && !c.sitio_web) return false;
   if (f.email && !c.email) return false;
@@ -241,6 +260,7 @@ const ETIQUETAS_FILTRO = {
   anio: (v) => `Desde ${v}`,
   sede: (v) => (v === "chile" ? "Sede en Chile" : "Sede en el extranjero"),
   seccion: (v) => SECCIONES[v] || v,
+  rend: (v) => (v === "alerta" ? "Con señales negativas" : `Rendimiento: ${NIVELES[v] || v}`),
   web: () => "Con sitio web",
   email: () => "Con email",
   tel: () => "Con teléfono",
@@ -276,7 +296,7 @@ function render() {
     if (b.dataset.vista === estado.vista) b.setAttribute("aria-current", "page");
     else b.removeAttribute("aria-current");
   }
-  const filtrable = ["directorio", "industrias", "estadisticas"].includes(estado.vista);
+  const filtrable = VISTAS_FILTRABLES.includes(estado.vista);
   $("#toolbar").hidden = !filtrable;
   $("#resultados").hidden = !filtrable;
   $(".orden").hidden = estado.vista !== "directorio";
@@ -299,6 +319,7 @@ function render() {
 
   if (estado.vista === "directorio") renderDirectorio();
   if (estado.vista === "industrias") renderIndustrias();
+  if (estado.vista === "peor") renderPeor();
   if (estado.vista === "estadisticas") renderEstadisticas();
   if (estado.vista === "sectores") renderSectores();
   if (estado.vista === "metodologia") renderCobertura();
@@ -313,6 +334,7 @@ function kpi(valor, label, sub) {
 
 const TITULOS = {
   industrias: ["Por industria.", "Toca una industria para ver sus empresas."],
+  peor: ["Peor rendimiento económico.", "Empresas B con señales económicas negativas publicadas, de la más grave a la menos."],
   estadisticas: ["En cifras.", "Porcentajes por industria, tipo de sociedad, región y áreas de impacto."],
   sectores: ["Sectores estratégicos.", "Data center, robótica, salmones y marítimo en Chile, sean o no Empresas B."],
 };
@@ -403,7 +425,7 @@ function tarjetaEmpresa(e) {
       e.puntaje_b != null ? el("div", { class: "t-puntaje" }, el("b", {}, nf.format(e.puntaje_b)), el("span", {}, "puntaje B")) : null),
     el("p", { class: "t-sub" }, [e.industria || e.macro_industria, lugar(e)].filter(Boolean).join(" · ")),
     el("div", { class: "t-pie" },
-      el("div", { class: "etiquetas" }, etiquetaTipo(e.tipo_sociedad),
+      el("div", { class: "etiquetas" }, etiquetaNivel(nivelDe(e)), etiquetaTipo(e.tipo_sociedad),
         e.certificada_desde ? el("span", { class: "etq" }, `B desde ${e.certificada_desde.slice(0, 4)}`) : null,
         (e.secciones || []).map((s) => el("span", { class: "etq" }, SECCIONES[s]))),
       accionesContacto(e.contactos)));
@@ -417,6 +439,55 @@ function renderDirectorio() {
   const resto = orden.length - visibles.length;
   $("#mas").hidden = resto <= 0;
   $("#mas").textContent = `Mostrar más (${nf0.format(resto)})`;
+}
+
+// ---------------------------------------------------------------------------
+// Peor rendimiento económico
+// ---------------------------------------------------------------------------
+
+const fechaSenal = (e) => String(e.rendimiento?.senales?.[0]?.fecha || "");
+
+function tarjetaAlerta(e) {
+  const r = e.rendimiento;
+  const nombre = el("button", { type: "button", class: "t-nombre" }, e.nombre);
+  nombre.addEventListener("click", () => abrirFicha(e));
+  return el("article", { class: "tarjeta" },
+    el("div", { class: "t-cab" }, nombre, etiquetaNivel(r.nivel)),
+    el("p", { class: "t-sub" }, [e.industria || e.macro_industria, lugar(e)].filter(Boolean).join(" · ")),
+    el("ul", { class: "senales" }, r.senales.slice(0, 3).map((s) => el("li", {},
+      el("b", {}, TIPO_SENAL[s.tipo] || s.tipo), s.fecha ? el("span", { class: "fecha" }, ` · ${s.fecha}`) : null,
+      ` — ${s.descripcion} `, enlace("fuente", s.fuente)))),
+    r.senales.length > 3 ? el("p", { class: "contexto" }, `+${r.senales.length - 3} señales más en la ficha`) : null,
+    r.contexto ? el("p", { class: "contexto" }, `Contexto: ${r.contexto}`) : null);
+}
+
+function renderPeor() {
+  const l = estado.lista;
+  const cuenta = contarPor(l, nivelDe);
+  const grupos = ["critico", "negativo"].map((nivel) => [nivel,
+    l.filter((e) => nivelDe(e) === nivel).sort((a, b) => fechaSenal(b).localeCompare(fechaSenal(a)) || a.nombre.localeCompare(b.nombre, "es"))]);
+  const titulos = { critico: "Críticas", negativo: "Con resultados negativos" };
+  const descripciones = {
+    critico: "Liquidación o quiebra, reorganización judicial o cierre de operaciones.",
+    negativo: "Pérdidas, caída de ventas, despidos o reestructuración, deuda impaga o rescate financiero.",
+  };
+  $("#vista-peor").replaceChildren(
+    el("div", { class: "resumen-peor" },
+      kpi(nf0.format(cuenta.get("critico") || 0), "Críticas", "insolvencia o cierre"),
+      kpi(nf0.format(cuenta.get("negativo") || 0), "Negativas", "pérdidas, caídas, despidos"),
+      kpi(nf0.format(cuenta.get("sin_senales") || 0), "Sin señales públicas", "revisadas"),
+      kpi(nf0.format(cuenta.get("sin_revisar") || 0), "Sin revisar", "pendientes")),
+    grupos.flatMap(([nivel, lista]) => [
+      el("h2", { class: "peor-tit" }, titulos[nivel], el("span", { class: "n" }, nf0.format(lista.length))),
+      el("p", { class: "nota", style: "margin:-6px 0 14px" }, descripciones[nivel]),
+      lista.length ? el("div", { class: "lista" }, lista.map(tarjetaAlerta))
+        : el("p", { class: "sin-resultados", style: "padding:20px 0" }, "Ninguna empresa con señales de este nivel en las fuentes revisadas."),
+    ]),
+    el("p", { class: "aviso" }, el("strong", {}, "Cómo leer esta lista. "),
+      "Solo incluye hechos publicados por fuentes confiables (prensa económica, Boletín Concursal, CMF, Poder Judicial o la propia empresa), cada uno con su fuente. ",
+      "Que una empresa no aparezca no significa que le vaya bien: la mayoría no publica estados financieros. ",
+      "El cruce con el tramo de ventas del SII completará este análisis."),
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -718,6 +789,21 @@ function grupoEconomia(eco = {}) {
   ], "Sin datos económicos públicos encontrados todavía.");
 }
 
+function grupoRendimiento(r) {
+  if (!r) return null;
+  const negativas = r.senales || [];
+  const positivas = r.positivas || [];
+  if (!negativas.length && !positivas.length) {
+    return grupo("Rendimiento económico", [fila("Estado", NIVELES[r.nivel] || "Sin revisar")]);
+  }
+  return grupo("Rendimiento económico", [
+    negativas.length ? el("div", { class: "fila" }, el("span", {}, "Estado"), etiquetaNivel(r.nivel)) : null,
+    negativas.map((s) => fila(`${TIPO_SENAL[s.tipo] || s.tipo}${s.fecha ? ` · ${s.fecha}` : ""}`, conFuente(s.descripcion, s.fuente))),
+    filaTexto(r.contexto ? `Contexto: ${r.contexto}` : null),
+    positivas.map((p) => fila(`Señal positiva${p.fecha ? ` · ${p.fecha}` : ""}`, conFuente(p.descripcion, p.fuente))),
+  ]);
+}
+
 function grupoPropiedad(p = {}) {
   return grupo("Propiedad", [
     fila("Controlador", p.controlador),
@@ -764,11 +850,12 @@ function abrirFicha(e) {
       el("h3", { id: "ficha-titulo" }, e.nombre),
       el("p", { class: "f-razon" }, [e.razon_social && e.razon_social !== e.nombre ? e.razon_social : null, e.rut ? `RUT ${e.rut}` : null]
         .filter(Boolean).join(" · ") || "Razón social y RUT por confirmar"),
-      el("div", { class: "etiquetas" }, etiquetaTipo(e.tipo_sociedad), el("span", { class: "etq etq-b" }, "Empresa B"),
-        el("span", { class: "etq" }, e.macro_industria))),
+      el("div", { class: "etiquetas" }, etiquetaNivel(nivelDe(e)), etiquetaTipo(e.tipo_sociedad),
+        el("span", { class: "etq etq-b" }, "Empresa B"), el("span", { class: "etq" }, e.macro_industria))),
     accionesRapidas(e.contactos),
     e.descripcion ? el("p", { class: "f-desc" }, e.descripcion) : null,
     cajaPuntaje(e),
+    grupoRendimiento(e.rendimiento),
     grupoEconomia(e.economia),
     grupoPropiedad(e.propiedad),
     grupoPersonas(e.personas),
@@ -901,7 +988,10 @@ function exportarCSV() {
     ["certificada_desde", (e) => e.certificada_desde], ["puntaje_b", (e) => e.puntaje_b],
     ...AREAS.map(([k]) => [`puntaje_${k}`, (e) => e.areas?.[k]]),
     ["tamano_sii", (e) => e.economia?.tramo_ventas_sii || e.economia?.tamano_sii], ["trabajadores", (e) => e.economia?.trabajadores_sii || e.economia?.trabajadores],
-    ["resumen_economico", (e) => e.economia?.resumen], ["controlador", (e) => e.propiedad?.controlador],
+    ["resumen_economico", (e) => e.economia?.resumen],
+    ["rendimiento_economico", (e) => NIVELES[nivelDe(e)]],
+    ["senales_negativas", (e) => (e.rendimiento?.senales || []).map((s) => `${TIPO_SENAL[s.tipo] || s.tipo} (${s.fecha || "s/f"}): ${s.descripcion}`).join(" | ")],
+    ["controlador", (e) => e.propiedad?.controlador],
     ["socios", (e) => (e.propiedad?.socios || []).map((s) => `${s.nombre}${s.porcentaje != null ? ` (${s.porcentaje}%)` : ""}`).join(" | ")],
     ["sitio_web", (e) => e.contactos?.sitio_web], ["email", (e) => e.contactos?.email], ["telefono", (e) => e.contactos?.telefono],
     ["whatsapp", (e) => e.contactos?.whatsapp], ["direccion", (e) => e.contactos?.direccion], ["linkedin", (e) => e.contactos?.linkedin],

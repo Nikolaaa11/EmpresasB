@@ -81,6 +81,9 @@ button { cursor: pointer; }
   min-height: 44px; padding: 0 4px;
 }
 .nav-accion .ico { width: 18px; height: 18px; }
+.nav-derecha { display: flex; align-items: center; gap: 8px; }
+.nav-info { display: none; border: 0; background: none; min-width: 44px; justify-content: center; }
+.nav-info .ico { width: 22px; height: 22px; }
 
 /* Control segmentado (iOS) */
 .seg { display: inline-flex; background: var(--relleno); border-radius: 9px; padding: 2px; gap: 2px; max-width: 100%; overflow-x: auto; scrollbar-width: none; }
@@ -201,6 +204,11 @@ button { cursor: pointer; }
 }
 .etq-spa { background: var(--azul-lavado); color: #0058b0; }
 .etq-b { background: var(--texto); color: #fff; }
+/* Estado económico: color + ícono + texto (nunca solo color) */
+.etq-critico, .etq-negativo { gap: 4px; padding-left: 8px; }
+.etq-critico { background: rgba(208, 59, 59, 0.10); color: #b42318; }
+.etq-negativo { background: rgba(236, 131, 90, 0.16); color: #a14a12; }
+.etq .ico { width: 14px; height: 14px; stroke-width: 2.2; }
 .t-acciones { display: flex; gap: 6px; position: relative; z-index: 1; margin-left: auto; }
 .icono-btn {
   width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
@@ -209,6 +217,20 @@ button { cursor: pointer; }
 .icono-btn:hover { background: var(--azul-lavado); text-decoration: none; }
 .vacio { color: var(--texto-3); }
 .sin-resultados { text-align: center; color: var(--texto-2); padding: 48px 0; }
+
+/* ------------------------------------------------------------------ Peor rendimiento */
+.resumen-peor { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 4px 0 8px; }
+.resumen-peor .kpi { text-align: center; }
+.peor-tit { font-size: 24px; letter-spacing: -0.02em; margin: 28px 0 12px; display: flex; align-items: center; gap: 10px; }
+.peor-tit .n { color: var(--texto-2); font-weight: 500; font-size: 17px; }
+.senales { list-style: none; margin: 2px 0 0; padding: 0; display: grid; gap: 8px; }
+.senales li { font-size: 14px; line-height: 1.45; color: var(--texto); background: var(--bg-2); border-radius: 10px; padding: 8px 10px; }
+.senales b { font-weight: 600; }
+.senales .fecha { color: var(--texto-2); }
+.senales a { position: relative; z-index: 1; }
+.contexto { font-size: 13px; color: var(--texto-2); margin: 0; }
+.aviso { background: var(--bg-2); border-radius: var(--r); padding: 16px 18px; color: var(--texto-2); font-size: 15px; line-height: 1.5; margin: 20px 0 0; }
+.aviso strong { color: var(--texto); }
 
 /* ------------------------------------------------------------------ Industrias (acordeón) */
 .industrias { display: grid; gap: 12px; }
@@ -400,6 +422,9 @@ button { cursor: pointer; }
   :root { --tab-h: 56px; }
   body { font-size: 17px; }
   .seg-nav { display: none; }
+  .nav-info { display: inline-flex; }
+  .resumen-peor { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .peor-tit { font-size: 21px; }
   .marca-txt { font-size: 17px; }
   .hero { padding: 32px 16px 20px; }
   .kpis { grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 26px; }

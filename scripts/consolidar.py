@@ -9,6 +9,7 @@ Entradas (todas opcionales salvo la primera):
   data/raw/sectores/*.json          investigación de los sectores estratégicos
   data/raw/sii/cruce_sii.json       cruce por RUT con la Nómina de Personas Jurídicas del SII
   data/raw/apollo/*.json            enriquecimiento de empresa desde Apollo.io
+  data/raw/rendimiento/*.json       señales económicas negativas (insolvencia, cierres, pérdidas, despidos…)
 
 Uso:  python3 scripts/consolidar.py
 """
@@ -370,6 +371,74 @@ def aplicar_apollo(empresas: list[dict]) -> int:
 
 
 # ---------------------------------------------------------------------------
+# 3b. Rendimiento económico: señales negativas publicadas
+# ---------------------------------------------------------------------------
+
+TIPOS_SENAL = ("insolvencia", "cierre", "perdidas", "caida_ventas", "despidos", "deuda", "rescate", "otra")
+TIPOS_CRITICOS = {"insolvencia", "cierre"}
+
+
+def limpiar_senales(senales) -> list[dict]:
+    salida, vistos = [], set()
+    for s in senales or []:
+        if not isinstance(s, dict):
+            continue
+        fuente, desc = url(s.get("fuente")), limpiar(s.get("descripcion"))
+        if not fuente or not desc:  # sin fuente verificable no se publica
+            continue
+        tipo = s.get("tipo") if s.get("tipo") in TIPOS_SENAL else "otra"
+        if (tipo, fuente) in vistos:
+            continue
+        vistos.add((tipo, fuente))
+        salida.append({"tipo": tipo, "descripcion": desc, "fecha": fecha_mes(s.get("fecha")) or limpiar(s.get("fecha")),
+                       "fuente": fuente})
+    return sorted(salida, key=lambda s: str(s["fecha"] or ""), reverse=True)
+
+
+def cargar_rendimiento() -> tuple[dict[str, dict], set[str]]:
+    """Une los resultados de todos los agentes. Las alertas de confianza baja no se publican."""
+    alertas: dict[str, dict] = {}
+    revisadas: set[str] = set()
+    for ruta in sorted(glob.glob(str(RAW / "rendimiento" / "*.json"))):
+        datos = leer_json(ruta)
+        revisadas.update(x for x in datos.get("revisadas") or [] if isinstance(x, str))
+        for a in datos.get("alertas") or []:
+            if not a.get("id") or a.get("confianza") not in ("alta", "media"):
+                continue
+            r = alertas.setdefault(a["id"], {"senales": [], "contexto": None, "confianza": "media", "positivas": []})
+            r["senales"] = limpiar_senales(r["senales"] + (a.get("senales") or []))
+            r["contexto"] = limpiar(a.get("contexto")) or r["contexto"]
+            if a.get("confianza") == "alta":
+                r["confianza"] = "alta"
+            revisadas.add(a["id"])
+        for p in datos.get("positivas") or []:
+            if p.get("id") and url(p.get("fuente")) and limpiar(p.get("descripcion")):
+                r = alertas.setdefault(p["id"], {"senales": [], "contexto": None, "confianza": "media", "positivas": []})
+                r["positivas"].append({"descripcion": limpiar(p["descripcion"]), "fecha": limpiar(p.get("fecha")),
+                                       "fuente": url(p["fuente"])})
+                revisadas.add(p["id"])
+    return alertas, revisadas
+
+
+def aplicar_rendimiento(empresas: list[dict]) -> None:
+    alertas, revisadas = cargar_rendimiento()
+    for emp in empresas:
+        a = alertas.get(emp["id"]) or {}
+        senales = a.get("senales") or []
+        if senales:
+            nivel = "critico" if any(s["tipo"] in TIPOS_CRITICOS for s in senales) else "negativo"
+        else:
+            nivel = "sin_senales" if emp["id"] in revisadas else "sin_revisar"
+        emp["rendimiento"] = {
+            "nivel": nivel,
+            "senales": senales,
+            "contexto": a.get("contexto") if senales else None,
+            "confianza": a.get("confianza") if senales else None,
+            "positivas": a.get("positivas") or [],
+        }
+
+
+# ---------------------------------------------------------------------------
 # 4. Campos derivados y validaciones
 # ---------------------------------------------------------------------------
 
@@ -450,7 +519,7 @@ ORDEN_CAMPOS = [
     "macro_industria", "macro_base", "industria", "industria_blab", "sector_blab", "secciones",
     "sede", "region", "pais_sede", "sede_en_chile", "opera_en",
     "estado_b", "certificada_desde", "anio_certificacion", "puntaje_b", "areas", "areas_pct", "areas_consistentes",
-    "tamano_empleados", "descripcion", "economia", "propiedad", "contactos", "personas",
+    "tamano_empleados", "descripcion", "economia", "rendimiento", "propiedad", "contactos", "personas",
     "url_blab", "completitud", "enriquecida", "rut_descartado", "notas", "fuentes", "actualizado",
 ]
 
@@ -573,6 +642,7 @@ def main() -> None:
     n_sii = aplicar_sii(empresas)
     n_lookup = aplicar_apollo_lookup(empresas)
     n_apollo = aplicar_apollo(empresas)
+    aplicar_rendimiento(empresas)
     for emp in empresas:
         derivar(emp)
     empresas.sort(key=lambda e: clave(e["nombre"]))
@@ -614,6 +684,8 @@ def main() -> None:
           f"por enriquecer: {len(pendientes_enr)}")
     for s in sectores["sectores"]:
         print(f"  {s['nombre']}: {s['total']} empresas ({s['empresas_b']} B)")
+    niveles = collections.Counter(e["rendimiento"]["nivel"] for e in empresas)
+    print("  Rendimiento económico: " + ", ".join(f"{k} {v}" for k, v in niveles.most_common()))
 
 
 if __name__ == "__main__":

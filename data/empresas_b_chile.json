@@ -61,6 +61,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -144,6 +151,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -231,6 +245,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Consultora creada en 2020. Según su propia descripción (ficha B Lab) acumula más de 30 proyectos de consultoría en 3 años y 10 nuevas plataformas filantrópicas; La Tercera reporta que ayudó a levantar 10 fundaciones en cuatro años, con presupuestos de US$1,5 millones a US$40 millones. No se encontraron ventas ni número de trabajadores."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -351,6 +372,13 @@
     "cotiza_en_bolsa": null,
     "resumen": "Marca chilena de toallitas húmedas (agua purificada y aloe vera) vendida en Salcobrand, Jumbo, Falabella (vendedores terceros) y MercadoLibre; Jumbo la etiqueta como 'Marca Chilena Pyme'. No se encontraron ventas, trabajadores ni inversión."
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -437,6 +465,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Sin datos económicos actuales. Una nota de 2010 sobre Champiñones Abrantes S.A. (identidad con la ficha B Lab NO confirmada) citaba una meta de 60 toneladas semanales de champiñón en seis meses tras la reconstrucción posterior al terremoto."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -532,6 +567,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -620,6 +662,13 @@
     ],
     "cotiza_en_bolsa": null,
     "resumen": "Startup de química verde fundada en agosto de 2021 como escisión de Adquim; levantó cerca de US$1 millón (Seed, oct. 2022) y se integró a la red Endeavor en 2025. Según Emol trabaja con Agrosuper, Sodimac, Jumbo y SQM; Descubre.vc agrega Nestlé y Minera Escondida. Hoy se presenta como A.D. Cleantech con líneas Green Chemistry, WaterTech y FoodTech. No se encontraron cifras de ventas."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -721,6 +770,13 @@
     "cotiza_en_bolsa": null,
     "resumen": "Agencia de aduanas con más de 40 años de experiencia según su perfil en GetOnBoard, con certificaciones OEA/AEO, ISO 9001:2015 y modelo de prevención de delitos; participó en Expomin 2023 junto a Faser Cargo y Transam y es referente en minería. No se encontraron ventas ni trabajadores."
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -809,6 +865,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Agencia de marketing y publicidad sostenibles con sede en Chile; un directorio la ubica en el rango de 5 a 25 empleados (no verificado). No se encontraron ventas, inversión ni clientes."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -904,6 +967,13 @@
     "cotiza_en_bolsa": null,
     "resumen": "Empresa agrícola con inicio de actividades el 06/08/2013 y predios registrados en Cauquenes (Maule) y Santa Bárbara (Biobío); Portal Chile le asigna 192 trabajadores. No se encontraron ventas."
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -990,6 +1060,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -1074,6 +1151,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -1155,6 +1239,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -1244,6 +1335,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -1327,6 +1425,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -1413,6 +1518,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -1498,6 +1610,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -1586,6 +1705,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -1669,6 +1795,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -1748,6 +1881,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -1831,6 +1971,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -1917,6 +2064,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -2007,6 +2161,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -2090,6 +2251,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -2171,6 +2339,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -2254,6 +2429,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -2343,6 +2525,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -2437,6 +2626,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -2524,6 +2720,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -2607,6 +2810,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -2689,6 +2899,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -2785,6 +3002,13 @@
     ],
     "cotiza_en_bolsa": null,
     "resumen": "Startup chilena de bioplásticos con operaciones en Chile, México, Brasil, Perú, Colombia y Estados Unidos; levantó US$30 millones en una Serie A liderada por BTG Pactual (dic. 2022) y recibió en 2025 el premio de Environmental Finance a la iniciativa de reducción de plásticos. No se encontraron cifras de ventas ni de trabajadores."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -2896,6 +3120,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -2977,6 +3208,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Opera desde 2018; en 2023 procesó 400 mil litros de aceite usado convertidos en lubricantes, desmoldantes y supresores de polvo; ganó el primer lugar en 'Valorización de Residuos' en los Premios Cero Basura (5ª versión). No se encontraron cifras de facturación."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -3069,6 +3307,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Inició actividades el 11/06/2020 (SII). Desarrolla, con la plataforma Wbuild, un parque privado de conservación habitable tokenizado en Uruguay (88 ha cerca de Punta del Este/José Ignacio, 25 parcelas de 3 ha) financiado sin deuda bancaria. No se encontraron ventas."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -3171,6 +3416,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -3259,6 +3511,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -3345,6 +3604,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -3427,6 +3693,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -3514,6 +3787,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -3599,6 +3879,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -3687,6 +3974,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -3769,6 +4063,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -3854,6 +4155,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -3935,6 +4243,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -4023,6 +4338,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -4107,6 +4429,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -4190,6 +4519,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -4271,6 +4607,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -4354,6 +4697,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -4446,6 +4796,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -4533,6 +4890,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -4614,6 +4978,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -4701,6 +5072,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -4783,6 +5161,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": "AB InBev (según la descripción de la ficha B Lab; sin verificar con fuente societaria)",
@@ -4869,6 +5254,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -4951,6 +5343,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -5037,6 +5436,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -5121,6 +5527,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -5204,6 +5617,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -5305,6 +5725,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": true,
     "resumen": "Sociedad anónima abierta que cotiza en la Bolsa de Santiago (nemotécnico CIC, desde enero de 1993) y reporta a la CMF. Sus ventas crecieron 19,65% en 2024 y 0,47% nominal en el primer trimestre de 2026; una nota de La Tercera reporta ingresos de CLP 22.709 millones en un primer trimestre con pérdidas."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -5410,6 +5837,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -5489,6 +5923,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Fue distinguida en Best Managed Companies 2024 (Deloitte, Santander y Escuela de Administración UC), por cuarta vez y segundo año consecutivo según su gerente general. No se encontraron ventas ni financiamiento."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -5602,6 +6043,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -5684,6 +6132,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -5782,6 +6237,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -5867,6 +6329,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": "Spin-off de Fundación Cultiva (relación indicada en la ficha B Lab)",
@@ -5950,6 +6419,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -6031,6 +6507,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -6114,6 +6597,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -6195,6 +6685,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -6278,6 +6775,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -6359,6 +6863,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": "Pontificia Universidad Católica de Chile (según la nota de uc.cl asociada a DICTUC; verificar que corresponda a Dictuc S.A.; porcentaje no encontrado)",
@@ -6443,6 +6954,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -6524,6 +7042,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -6611,6 +7136,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -6692,6 +7224,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -6778,6 +7317,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -6860,6 +7406,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -6941,6 +7494,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -7027,6 +7587,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -7108,6 +7675,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -7191,6 +7765,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -7272,6 +7853,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -7357,6 +7945,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -7444,6 +8039,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -7530,6 +8132,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -7612,6 +8221,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Figura en la lista Great Place to Work de mejores pequeñas y medianas empresas de Chile 2014 y un perfil de terceros la ubica en el rango de 5-25 empleados. No se hallaron ventas ni financiamiento."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -7702,6 +8318,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Mercantil la clasifica como Gran Empresa (+500). La prensa reporta expansión: un lodge en tierras de la Fundación Tompkins y un hotel de lujo en Santa Cruz (Argentina) según titulares de Diario Financiero; en julio de 2024 The Clinic informó un proyecto de alojamiento para 130 trabajadores en Torres del Paine, adjudicado a Surex Chile, vinculada a Explora. No se hallaron ventas ni número de trabajadores."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": "Familia Ibáñez, a través del holding Grupo Córpora (según La Tercera; fecha del artículo no verificada)",
@@ -7806,6 +8429,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -7888,6 +8518,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Corredora regulada por la CMF que opera en la Bolsa de Productos de Chile. La prensa (2020-2021) la señala como la corredora que más pymes financió en 2019 y 2020, gracias en parte a su alianza con Xepelin, y como la primera alianza permanente de Agrosuper en la Bolsa de Productos. No se hallaron ventas, número de trabajadores ni rondas de inversión."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -7993,6 +8630,13 @@
     "cotiza_en_bolsa": null,
     "resumen": "Un perfil de terceros (Prospeo) la describe fundada en 2013, con 21-50 empleados y sin financiamiento registrado. No se hallaron ventas ni rondas de inversión."
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -8083,6 +8727,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -8164,6 +8815,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -8255,6 +8913,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -8343,6 +9008,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -8426,6 +9098,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -8508,6 +9187,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -8589,6 +9275,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -8675,6 +9368,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -8763,6 +9463,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -8844,6 +9551,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -8929,6 +9643,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -9010,6 +9731,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -9094,6 +9822,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -9181,6 +9916,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -9262,6 +10004,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -9347,6 +10096,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -9431,6 +10187,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -9518,6 +10281,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -9599,6 +10369,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -9685,6 +10462,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -9783,6 +10567,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -9864,6 +10655,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -9947,6 +10745,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -10034,6 +10839,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -10116,6 +10928,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -10200,6 +11019,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -10281,6 +11107,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Sin cifras de ventas. Un directorio de inversión (descubre.vc, no verificado) indica que opera en Chile con más de 15 clientes y ha ejecutado más de 30 convocatorias de innovación abierta; una biografía del fundador (2020) indica unos 50 expertos a fines de 2019."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -10389,6 +11222,13 @@
     "cotiza_en_bolsa": null,
     "resumen": "Instituto profesional con alrededor de 90 mil estudiantes según una presentación institucional de la Universidad Andrés Bello (2024). AIEP publica informes anuales 'Hechos y Cifras' (matrícula, retención, titulados); no se obtuvieron ingresos ni estados financieros."
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": "Universidad Andrés Bello (sostenedora de AIEP desde septiembre de 2020, tras el retiro de Laureate de Chile)",
     "grupo_empresarial": "Universidad Andrés Bello (antes controlada por Laureate Education)",
@@ -10490,6 +11330,13 @@
     "cotiza_en_bolsa": null,
     "resumen": "Sin cifras de ventas ni trabajadores. IntraFish (abril 2026) reporta que 'Integra', procesador chileno de salmón, ve en el retail (sobre todo en EE. UU.) el motor de crecimiento, con el food service mostrando señales de debilitamiento, y que apuesta por mayor valor agregado. Mercantil la describe como comercializadora de productos del mar con más de 40 países cliente; Panjiva (envíos a EE. UU.) lista el salmón entre sus principales productos."
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -10578,6 +11425,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -10665,6 +11519,13 @@
     ],
     "cotiza_en_bolsa": null,
     "resumen": "AGF fintech regulada por la CMF desde agosto de 2019. Administra cerca de US$120 millones (Pauta, agosto de 2025); en agosto de 2021 tenía US$32 millones y 3.600 clientes, con crecimiento de 20% mensual (entrevista a R. Donoso). No se encontraron ingresos ni número de trabajadores."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -10815,6 +11676,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -10896,6 +11764,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Sin datos económicos. Según el perfil de LinkedIn de su fundadora, produce polvo de maqui 100% orgánico (surgió tras años de ecoturismo naturalista en el sur de Chile)."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -10990,6 +11865,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -11080,6 +11962,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": "Sin cifras de ventas ni financiamiento. Su idea inicial fue vender bolsas de compostaje a municipalidades y desde marzo de 2018 gestiona también residuos orgánicos de cocina de casas, escuelas y empresas (Radio Pauta). AmCham Chile informó una alianza con P&G Chile (marzo de 2021) para los residuos orgánicos domiciliarios de esa empresa."
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -11189,6 +12078,13 @@
     "cotiza_en_bolsa": null,
     "resumen": "Sin cifras de ventas. Aparecen titulares de prensa sobre una ronda de capital (US$2,82 millones con Blue AB, Suecia) y una 'fuerte inversión' reportada en marzo de 2025 para superar un complejo panorama económico; no se revisó el detalle de las notas."
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -11274,6 +12170,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -11356,6 +12259,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -11440,6 +12350,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -11521,6 +12438,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -11604,6 +12528,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -11685,6 +12616,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -11769,6 +12707,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -11850,6 +12795,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -11933,6 +12885,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -12018,6 +12977,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -12107,6 +13073,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -12191,6 +13164,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -12273,6 +13253,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -12357,6 +13344,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -12443,6 +13437,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -12524,6 +13525,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -12607,6 +13615,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -12697,6 +13712,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -12780,6 +13802,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -12865,6 +13894,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -12948,6 +13984,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -13030,6 +14073,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -13118,6 +14168,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -13203,6 +14260,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -13287,6 +14351,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -13368,6 +14439,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -13454,6 +14532,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -13536,6 +14621,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -13622,6 +14714,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -13705,6 +14804,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -13793,6 +14899,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -13875,6 +14988,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -13959,6 +15079,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -14040,6 +15167,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -14126,6 +15260,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -14208,6 +15349,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -14293,6 +15441,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -14375,6 +15530,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -14459,6 +15621,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -14540,6 +15709,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -14624,6 +15800,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -14710,6 +15893,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -14792,6 +15982,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -14876,6 +16073,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -14964,6 +16168,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -15051,6 +16262,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -15130,6 +16348,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -15217,6 +16442,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -15298,6 +16530,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -15387,6 +16626,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -15470,6 +16716,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -15552,6 +16805,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -15642,6 +16902,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -15725,6 +16992,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -15806,6 +17080,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -15890,6 +17171,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -15976,6 +17264,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -16061,6 +17356,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -16140,6 +17442,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -16222,6 +17531,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -16306,6 +17622,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -16387,6 +17710,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -16473,6 +17803,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -16558,6 +17895,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -16642,6 +17986,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -16729,6 +18080,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -16810,6 +18168,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -16894,6 +18259,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -16976,6 +18348,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -17057,6 +18436,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -17143,6 +18529,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -17226,6 +18619,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -17312,6 +18712,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -17391,6 +18798,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -17480,6 +18894,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -17563,6 +18984,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -17642,6 +19070,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -17727,6 +19162,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -17811,6 +19253,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -17893,6 +19342,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -17982,6 +19438,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -18068,6 +19531,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -18153,6 +19623,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -18235,6 +19712,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -18321,6 +19805,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -18409,6 +19900,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -18491,6 +19989,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -18576,6 +20081,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -18658,6 +20170,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -18746,6 +20265,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -18829,6 +20355,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -18914,6 +20447,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -18995,6 +20535,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -19082,6 +20629,13 @@
     "cotiza_en_bolsa": null,
     "resumen": null
    },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
+   },
    "propiedad": {
     "controlador": null,
     "grupo_empresarial": null,
@@ -19165,6 +20719,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,
@@ -19250,6 +20811,13 @@
     "financiamiento": [],
     "cotiza_en_bolsa": null,
     "resumen": null
+   },
+   "rendimiento": {
+    "nivel": "sin_revisar",
+    "senales": [],
+    "contexto": null,
+    "confianza": null,
+    "positivas": []
    },
    "propiedad": {
     "controlador": null,

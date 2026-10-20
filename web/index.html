@@ -30,6 +30,7 @@
       <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3.5l8.5 4.5L12 12.5 3.5 8z"/><path d="M3.5 12.2L12 16.7l8.5-4.5M3.5 16.2L12 20.7l8.5-4.5"/></symbol>
       <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.8v.01"/></symbol>
       <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7.5 10.5L12 15l4.5-4.5M5 20h14"/></symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24"><path d="M10.3 4.6L2.8 17.8A2 2 0 0 0 4.5 20.8h15a2 2 0 0 0 1.7-3L13.7 4.6a2 2 0 0 0-3.4 0z"/><path d="M12 9.5v4.5M12 17.2v.01"/></symbol>
       <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v4.5A1.5 1.5 0 0 1 16.5 20h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"/></symbol>
     </defs>
   </svg>
@@ -45,13 +46,19 @@
       <nav class="seg seg-nav" aria-label="Vistas">
         <button type="button" data-vista="directorio">Directorio</button>
         <button type="button" data-vista="industrias">Industrias</button>
+        <button type="button" data-vista="peor">Peor rendimiento</button>
         <button type="button" data-vista="estadisticas">Estadísticas</button>
         <button type="button" data-vista="sectores">Sectores</button>
         <button type="button" data-vista="metodologia">Metodología</button>
       </nav>
-      <a class="nav-accion" href="data/empresas_b_chile.xlsx" download aria-label="Descargar Excel">
-        <svg class="ico" aria-hidden="true"><use href="#i-download"/></svg><span>Excel</span>
-      </a>
+      <div class="nav-derecha">
+        <button class="nav-accion nav-info" type="button" data-vista="metodologia" aria-label="Metodología">
+          <svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>
+        </button>
+        <a class="nav-accion" href="data/empresas_b_chile.xlsx" download aria-label="Descargar Excel">
+          <svg class="ico" aria-hidden="true"><use href="#i-download"/></svg><span>Excel</span>
+        </a>
+      </div>
     </div>
   </header>
 
@@ -102,6 +109,8 @@
 
       <section class="vista" id="vista-industrias" aria-label="Por industria" hidden></section>
 
+      <section class="vista" id="vista-peor" aria-label="Peor rendimiento económico" hidden></section>
+
       <section class="vista" id="vista-estadisticas" aria-label="Estadísticas" hidden>
         <div class="graficos" id="graficos"></div>
       </section>
@@ -150,9 +159,9 @@
   <nav class="tabbar" aria-label="Vistas">
     <button type="button" data-vista="directorio"><svg class="ico" aria-hidden="true"><use href="#i-list"/></svg><span>Directorio</span></button>
     <button type="button" data-vista="industrias"><svg class="ico" aria-hidden="true"><use href="#i-grid"/></svg><span>Industrias</span></button>
+    <button type="button" data-vista="peor"><svg class="ico" aria-hidden="true"><use href="#i-alert"/></svg><span>Alertas</span></button>
     <button type="button" data-vista="estadisticas"><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg><span>Cifras</span></button>
     <button type="button" data-vista="sectores"><svg class="ico" aria-hidden="true"><use href="#i-layers"/></svg><span>Sectores</span></button>
-    <button type="button" data-vista="metodologia"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg><span>Info</span></button>
   </nav>
 
   <dialog class="hoja" id="dlg-filtros" aria-labelledby="filtros-titulo">
@@ -174,6 +183,10 @@
         <label class="fila"><span>Región</span><select name="region"></select></label>
         <label class="fila"><span>Sede</span><select name="sede"></select></label>
         <label class="fila"><span>Tamaño (SII)</span><select name="tamano"></select></label>
+      </div>
+      <p class="grupo-tit">Economía</p>
+      <div class="grupo">
+        <label class="fila"><span>Rendimiento</span><select name="rend"></select></label>
       </div>
       <p class="grupo-tit">Impacto</p>
       <div class="grupo">
