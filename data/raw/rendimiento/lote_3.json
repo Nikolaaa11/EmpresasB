@@ -1,0 +1,181 @@
+{
+  "lote": "3",
+  "busquedas_realizadas": 44,
+  "revisadas": [
+    "nijei-spa",
+    "nodo-chile",
+    "novofarma-service-sa",
+    "hotel-awa",
+    "rotter-y-krauss",
+    "orion",
+    "gestin-ambiental-paiwe-limitada",
+    "pas-denom",
+    "patagonia-biotecnologa-sa",
+    "patagua",
+    "peralta-abogados",
+    "plus-industrial",
+    "probenefit-comercial-y-servicios-sp-a",
+    "productos-san-camilo",
+    "prolearning-gestiones-inostroza-pombett-sp-a",
+    "proxima",
+    "proyecta",
+    "p-u-e-l-c-h-e-h-u-m-a-n-c-o-n-s-u-l-t-i-n-g-s-p-a",
+    "pura-aventura",
+    "rcr-spa",
+    "recylink",
+    "regenera-orgnico",
+    "rheoli-sp-a",
+    "rising-sun-chile",
+    "rivervalley-consulting",
+    "rubtec",
+    "sudamerik",
+    "sembrador",
+    "servicios-agromostazal",
+    "servicios-audiovisuales-sofan-sp-a",
+    "servicios-intermediarios-reuse-chile-spa",
+    "asesorias-simplicity-spa",
+    "skinautica",
+    "socialab",
+    "sociedad-de-capacitacin-e-ingeniera-calar-ltda",
+    "southbridge",
+    "sphera-energy-sp-a",
+    "sustenta-consultores-sp-a",
+    "symnetics-chile",
+    "the-cotton-group-sa",
+    "the-not-company",
+    "the-wild-foods",
+    "thermik-haus",
+    "tironi",
+    "pegas-con-sentido",
+    "trasiego-wines-sa",
+    "trayecta-asesoras-inmobiliarias-sp-a",
+    "triciclos-brasil",
+    "unibag",
+    "urbani-limitada",
+    "via-concha-y-toro-sa",
+    "los-vascos",
+    "via-mont-gras",
+    "vina-polkura-sa",
+    "emiliana-vineyards",
+    "virutex-ilko",
+    "vita-foods",
+    "wherex",
+    "wild-labs",
+    "wild-lama",
+    "xiner-link-sa",
+    "yes-sociedad-annima"
+  ],
+  "alertas": [
+    {
+      "id": "the-not-company",
+      "nombre": "The Not Company",
+      "nivel": "negativo",
+      "senales": [
+        {
+          "tipo": "despidos",
+          "descripcion": "NotCo despidió a 16 personas en Chile y EE.UU. (incluidos altos ejecutivos) en una reestructuración de su modelo operativo orientada a alcanzar la rentabilidad.",
+          "fecha": "2026-07",
+          "fuente": "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2026/07/31/notco-aplica-despidos-en-chile-y-eeuu-incluyendo-altos-ejecutivos.shtml"
+        },
+        {
+          "tipo": "otra",
+          "descripcion": "NotCo vendió sus operaciones de Argentina y Uruguay (a Molinos Río de la Plata) y de Brasil (al grupo Ferrara) y, según Diario Financiero, cerró sin comprador su negocio en México, cierre no oficializado por la empresa.",
+          "fecha": "2026-09",
+          "fuente": "https://www.meganoticias.cl/nacional/531259-notco-reduce-presencia-internacional-vende-brasil-cierra-mexico-chile-bajo-presion-09-09-2026.html"
+        },
+        {
+          "tipo": "perdidas",
+          "descripcion": "Reportes de prensa indican que el negocio de NotCo en Chile mantiene resultados negativos y que tiene plazo hasta fines de 2026 para demostrar que puede alcanzar la rentabilidad.",
+          "fecha": "2026-09",
+          "fuente": "https://www.meganoticias.cl/nacional/531259-notco-reduce-presencia-internacional-vende-brasil-cierra-mexico-chile-bajo-presion-09-09-2026.html"
+        },
+        {
+          "tipo": "cierre",
+          "descripcion": "NotCo cerró sus oficinas de Nueva York y traspasó las ventas en EE.UU. a su socio Kraft Heinz.",
+          "fecha": "2025-02",
+          "fuente": "https://www.emol.com/noticias/Economia/2025/02/04/1156382/notco-cierra-oficinas-nuevas-york.html"
+        }
+      ],
+      "contexto": "Las fuentes describen el repliegue como un giro estratégico hacia el licenciamiento de su plataforma de IA (NotCo AI) y la búsqueda de rentabilidad; no se reportan procedimientos concursales ni insolvencia. El único cierre de operaciones reportado es parcial (México, no oficializado) y la compañía sigue operando en Chile.",
+      "confianza": "alta"
+    },
+    {
+      "id": "emiliana-vineyards",
+      "nombre": "Viñedos Emiliana S.A.",
+      "nivel": "negativo",
+      "senales": [
+        {
+          "tipo": "perdidas",
+          "descripcion": "Cerró el ejercicio 2025 con una pérdida de $195,7 millones y con ingresos 3,19% menores ($28.716 millones), según Vinetur sobre estados financieros presentados a la CMF.",
+          "fecha": "2026-03",
+          "fuente": "https://www.vinetur.com/2026032397984/chilean-wineries-report-widespread-losses-as-global-wine-consumption-hits-historic-lows.html"
+        },
+        {
+          "tipo": "perdidas",
+          "descripcion": "En el primer semestre de 2026 sus ingresos cayeron 12,86% y registró una pérdida de $318 millones, frente a una utilidad de $684 millones en el primer semestre de 2025 (El Mercurio, reproducido por Emol).",
+          "fecha": "2026-08",
+          "fuente": "https://www.emol.com/noticias/Economia/2026/08/26/1209567/vinas-chilenas-se-tienen-rojo.html"
+        }
+      ],
+      "contexto": "Pérdidas en un contexto sectorial de caída del consumo mundial de vino: de las seis viñas que reportan a la CMF, solo dos (Concha y Toro y San Pedro Tarapacá) tuvieron utilidades en 2025. La Tercera informó que el directorio aprobó en 2024 el proceso de venta del Fundo Totihue. No se reportan procedimientos concursales.",
+      "confianza": "alta"
+    },
+    {
+      "id": "los-vascos",
+      "nombre": "Viña Los Vascos",
+      "nivel": "negativo",
+      "senales": [
+        {
+          "tipo": "perdidas",
+          "descripcion": "Cerró el ejercicio 2025 con una pérdida de US$473 mil y con ingresos 5,3% menores (US$17,8 millones), según Vinetur sobre estados financieros presentados a la CMF.",
+          "fecha": "2026-03",
+          "fuente": "https://www.vinetur.com/2026032397984/chilean-wineries-report-widespread-losses-as-global-wine-consumption-hits-historic-lows.html"
+        }
+      ],
+      "contexto": "Pérdida de monto bajo y en contexto sectorial (solo dos de seis viñas reportantes a la CMF tuvieron utilidades en 2025). En el primer semestre de 2025 había reportado utilidad de US$151 mil, revirtiendo la pérdida de US$2,5 millones del primer semestre de 2024. El resultado del primer semestre de 2026 no pudo verificarse; Emol (26-08-2026) indica un primer semestre débil para las seis viñas reportantes, algunas con pérdidas.",
+      "confianza": "media"
+    },
+    {
+      "id": "via-concha-y-toro-sa",
+      "nombre": "Viña Concha y Toro S.A.",
+      "nivel": "negativo",
+      "senales": [
+        {
+          "tipo": "caida_ventas",
+          "descripcion": "En el primer trimestre de 2026 las ventas cayeron 7,8% (a $192.613 millones) y la utilidad atribuible bajó 36,3% (a $8.779 millones).",
+          "fecha": "2026-05",
+          "fuente": "https://www.theclinic.cl/2026/05/07/ventas-y-utilidades-de-concha-y-toro-se-desploman-en-medio-de-crisis-global-del-vino/"
+        },
+        {
+          "tipo": "caida_ventas",
+          "descripcion": "En el primer semestre de 2026 las ventas retrocedieron 6,2% (a $425.895 millones) y las ganancias cayeron 14% (a $28.186 millones), por menores ventas en EE.UU. y en algunos mercados de exportación.",
+          "fecha": "2026",
+          "fuente": "https://www.df.cl/empresas/resultados-de-empresas/ganancias-de-concha-y-toro-bajan-en-el-primer-semestre-y-firma-acusa-golpe"
+        }
+      ],
+      "contexto": "Sigue siendo rentable y fue una de las dos viñas reportantes a la CMF con utilidades en 2025 (utilidad 2025 de $67.220 millones, -13,1%; ingresos 2025 +1,7%). En el segundo trimestre de 2026 la utilidad subió 2,1% y la compañía proyecta crecimiento de un dígito para 2026. Señal negativa moderada, sin indicios de insolvencia.",
+      "confianza": "media"
+    },
+    {
+      "id": "productos-san-camilo",
+      "nombre": "Productos San Camilo",
+      "nivel": "negativo",
+      "senales": [
+        {
+          "tipo": "perdidas",
+          "descripcion": "La Tercera reportó que la cadena de panaderías registró pérdidas de $764 millones en 2019 y de $1.395 millones en 2020, según una carta de despido citada en un juicio laboral.",
+          "fecha": "2023",
+          "fuente": "https://www.latercera.com/pulso-pm/noticia/los-ajustes-que-aplicado-la-cadena-de-panaderias-san-camilo-tras-cuatro-anos-de-perdidas/YBFIZMREGJH2LPGHCAYCAS4HFU/"
+        },
+        {
+          "tipo": "despidos",
+          "descripcion": "Según el mismo artículo, la empresa despidió a 187 trabajadores entre octubre de 2019 y 2023, justificando los despidos ante tribunales como ajuste de gastos operacionales al nivel real de ingresos.",
+          "fecha": "2023",
+          "fuente": "https://www.latercera.com/pulso-pm/noticia/los-ajustes-que-aplicado-la-cadena-de-panaderias-san-camilo-tras-cuatro-anos-de-perdidas/YBFIZMREGJH2LPGHCAYCAS4HFU/"
+        }
+      ],
+      "contexto": "Situación recuperada según el mismo medio: sus estados financieros muestran utilidades en 2021 y 2022 (2022: $1.350 millones) y la empresa cuestionó los reportes de pérdidas de esos años, pese a que el titular habla de cuatro años de pérdidas. La fecha del artículo (2023) se infirió del contenido; no se encontró información posterior (2024-2026) sobre cierres, despidos o resultados.",
+      "confianza": "media"
+    }
+  ]
+}

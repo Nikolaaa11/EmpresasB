@@ -66,6 +66,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -157,6 +158,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -247,10 +249,11 @@
     "resumen": "Consultora creada en 2020. Según su propia descripción (ficha B Lab) acumula más de 30 proyectos de consultoría en 3 años y 10 nuevas plataformas filantrópicas; La Tercera reporta que ayudó a levantar 10 fundaciones en cuatro años, con presupuestos de US$1,5 millones a US$40 millones. No se encontraron ventas ni número de trabajadores."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -373,10 +376,11 @@
     "resumen": "Marca chilena de toallitas húmedas (agua purificada y aloe vera) vendida en Salcobrand, Jumbo, Falabella (vendedores terceros) y MercadoLibre; Jumbo la etiqueta como 'Marca Chilena Pyme'. No se encontraron ventas, trabajadores ni inversión."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -467,10 +471,11 @@
     "resumen": "Sin datos económicos actuales. Una nota de 2010 sobre Champiñones Abrantes S.A. (identidad con la ficha B Lab NO confirmada) citaba una meta de 60 toneladas semanales de champiñón en seis meses tras la reconstrucción posterior al terremoto."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -572,6 +577,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -664,10 +670,11 @@
     "resumen": "Startup de química verde fundada en agosto de 2021 como escisión de Adquim; levantó cerca de US$1 millón (Seed, oct. 2022) y se integró a la red Endeavor en 2025. Según Emol trabaja con Agrosuper, Sodimac, Jumbo y SQM; Descubre.vc agrega Nestlé y Minera Escondida. Hoy se presenta como A.D. Cleantech con líneas Green Chemistry, WaterTech y FoodTech. No se encontraron cifras de ventas."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -771,10 +778,11 @@
     "resumen": "Agencia de aduanas con más de 40 años de experiencia según su perfil en GetOnBoard, con certificaciones OEA/AEO, ISO 9001:2015 y modelo de prevención de delitos; participó en Expomin 2023 junto a Faser Cargo y Transam y es referente en minería. No se encontraron ventas ni trabajadores."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -867,10 +875,11 @@
     "resumen": "Agencia de marketing y publicidad sostenibles con sede en Chile; un directorio la ubica en el rango de 5 a 25 empleados (no verificado). No se encontraron ventas, inversión ni clientes."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -968,10 +977,11 @@
     "resumen": "Empresa agrícola con inicio de actividades el 06/08/2013 y predios registrados en Cauquenes (Maule) y Santa Bárbara (Biobío); Portal Chile le asigna 192 trabajadores. No se encontraron ventas."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1061,10 +1071,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1152,10 +1163,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1241,10 +1253,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1340,6 +1353,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1427,10 +1441,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1519,10 +1534,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1612,10 +1628,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1710,6 +1727,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1796,10 +1814,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1887,6 +1906,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -1973,10 +1993,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -2066,10 +2087,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -2166,6 +2188,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -2252,10 +2275,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -2341,10 +2365,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -2431,10 +2456,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -2527,10 +2553,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -2627,10 +2654,24 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
-    "senales": [],
-    "contexto": null,
-    "confianza": null,
+    "nivel": "negativo",
+    "senales": [
+     {
+      "tipo": "cierre",
+      "descripcion": "En un plan de reestructuración despidió a unas 30 personas y cerró operaciones en Colombia, Ecuador, Perú, Argentina y Brasil; continúa solo en Chile, México y España.",
+      "fecha": "2025-03",
+      "fuente": "https://www.emol.com/noticias/Economia/2025/03/14/1160419/betterfly-cierra-despidos.html"
+     },
+     {
+      "tipo": "despidos",
+      "descripcion": "Despidió a cerca del 30% de su plantilla en enero de 2023 (tras un recorte de unas 30 personas en agosto de 2022); su CEO lo atribuyó al complejo entorno económico mundial.",
+      "fecha": "2023-01",
+      "fuente": "https://www.bloomberglinea.com/2023/01/18/chilena-betterfly-despide-a-un-30-de-sus-trabajadores/"
+     }
+    ],
+    "contexto": "La empresa declaró tener más de cinco años de caja y que Chile, México y España generan el 94% de sus ingresos; el repliegue busca concentrarse en el mercado de EE.UU. No se encontraron cifras de pérdidas publicadas ni noticias posteriores a marzo de 2025.",
+    "confianza": "alta",
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -2725,6 +2766,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -2811,10 +2853,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -2858,7 +2901,7 @@
    "giro": null,
    "macro_industria": "Consultoría y servicios profesionales",
    "macro_base": "industria",
-   "industria": "Professional, scientific and technical services",
+   "industria": "Servicios profesionales, científicos y técnicos",
    "industria_blab": "Professional, scientific and technical services",
    "sector_blab": null,
    "secciones": [],
@@ -2901,10 +2944,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3004,10 +3048,11 @@
     "resumen": "Startup chilena de bioplásticos con operaciones en Chile, México, Brasil, Perú, Colombia y Estados Unidos; levantó US$30 millones en una Serie A liderada por BTG Pactual (dic. 2022) y recibió en 2025 el premio de Environmental Finance a la iniciativa de reducción de plásticos. No se encontraron cifras de ventas ni de trabajadores."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3125,6 +3170,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3210,10 +3256,11 @@
     "resumen": "Opera desde 2018; en 2023 procesó 400 mil litros de aceite usado convertidos en lubricantes, desmoldantes y supresores de polvo; ganó el primer lugar en 'Valorización de Residuos' en los Premios Cero Basura (5ª versión). No se encontraron cifras de facturación."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3309,10 +3356,11 @@
     "resumen": "Inició actividades el 11/06/2020 (SII). Desarrolla, con la plataforma Wbuild, un parque privado de conservación habitable tokenizado en Uruguay (88 ha cerca de Punta del Este/José Ignacio, 25 parcelas de 3 ha) financiado sin deuda bancaria. No se encontraron ventas."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3417,10 +3465,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3512,10 +3561,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3609,6 +3659,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3695,10 +3746,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3788,10 +3840,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3885,6 +3938,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -3975,11 +4029,18 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
-    "positivas": []
+    "revision": null,
+    "positivas": [
+     {
+      "descripcion": "Triplicó sus ventas en un año y cerró una ronda de US$3 millones en 2024; en enero de 2025 debutó en ScaleX (Bolsa de Santiago) recaudando cerca de US$3,1 millones. No se encontraron señales negativas.",
+      "fecha": "2025-01",
+      "fuente": "https://www.df.cl/df-mas/punto-de-partida/buydepa-triplica-sus-ventas-en-un-ano-y-cierra-ronda-de-us-3-millones"
+     }
+    ]
    },
    "propiedad": {
     "controlador": null,
@@ -4065,10 +4126,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -4160,6 +4222,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -4245,10 +4308,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -4339,10 +4403,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -4385,7 +4450,7 @@
    "giro": null,
    "macro_industria": "Transporte y logística",
    "macro_base": "industria",
-   "industria": "Postal and courier activities",
+   "industria": "Servicios postales y de mensajería",
    "industria_blab": "Postal and courier activities",
    "sector_blab": null,
    "secciones": [],
@@ -4434,6 +4499,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -4520,10 +4586,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -4609,10 +4676,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -4699,10 +4767,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -4797,10 +4866,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -4845,7 +4915,7 @@
    "giro": null,
    "macro_industria": "Medio ambiente y reciclaje",
    "macro_base": "industria",
-   "industria": "Waste treatment and disposal",
+   "industria": "Tratamiento de residuos",
    "industria_blab": "Waste treatment and disposal",
    "sector_blab": null,
    "secciones": [],
@@ -4895,6 +4965,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -4980,10 +5051,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -5073,10 +5145,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -5163,10 +5236,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -5255,10 +5329,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -5345,10 +5420,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -5437,10 +5513,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -5528,10 +5605,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -5623,6 +5701,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -5727,10 +5806,36 @@
     "resumen": "Sociedad anónima abierta que cotiza en la Bolsa de Santiago (nemotécnico CIC, desde enero de 1993) y reporta a la CMF. Sus ventas crecieron 19,65% en 2024 y 0,47% nominal en el primer trimestre de 2026; una nota de La Tercera reporta ingresos de CLP 22.709 millones en un primer trimestre con pérdidas."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
-    "senales": [],
-    "contexto": null,
-    "confianza": null,
+    "nivel": "negativo",
+    "senales": [
+     {
+      "tipo": "perdidas",
+      "descripcion": "Reportó pérdidas en el primer trimestre de 2025: ingresos -3,15% a $22.709 millones y línea de colchones con pérdida de $1.358 millones (vs. ganancia de $124 millones un año antes).",
+      "fecha": "2025-05",
+      "fuente": "https://www.latercera.com/pulso/noticia/jose-yuraszeck-y-leon-vial-no-la-pasan-bien-en-el-retail-cic-reporta-perdidas/"
+     },
+     {
+      "tipo": "despidos",
+      "descripcion": "Aplicó un ajuste de gastos de fabricación y administración que implicó $1.357 millones en indemnizaciones (primer trimestre de 2025).",
+      "fecha": "2025-05",
+      "fuente": "https://www.latercera.com/pulso/noticia/jose-yuraszeck-y-leon-vial-no-la-pasan-bien-en-el-retail-cic-reporta-perdidas/"
+     },
+     {
+      "tipo": "caida_ventas",
+      "descripcion": "Las ventas de 2025 cayeron 5,09% respecto del período anterior por la contracción del mercado de bienes durables, afectando a ambos segmentos (especialmente colchones).",
+      "fecha": "2025",
+      "fuente": "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/93830000/analisis_razonado_93830000_2025Q4.pdf"
+     },
+     {
+      "tipo": "perdidas",
+      "descripcion": "El análisis razonado de diciembre de 2025 muestra como comparativo una pérdida de unos $935 millones en 2024 (cifra en miles de pesos, unidad inferida).",
+      "fecha": "2024",
+      "fuente": "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/93830000/analisis_razonado_93830000_2025Q4.pdf"
+     }
+    ],
+    "contexto": "En 2025 volvió a utilidades: el análisis razonado de diciembre de 2025 muestra una ganancia de unos $826 millones frente a la pérdida de unos $935 millones de 2024, con EBITDA de unos $8.915 millones (vs. $4.870 millones), pese a la caída de ventas. En 2025 comenzó a fabricar colchones Sealy bajo licencia. No se encontró reorganización judicial ni liquidación. Unidades monetarias inferidas del propio informe (miles de pesos).",
+    "confianza": "media",
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -5842,6 +5947,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -5925,10 +6031,11 @@
     "resumen": "Fue distinguida en Best Managed Companies 2024 (Deloitte, Santander y Escuela de Administración UC), por cuarta vez y segundo año consecutivo según su gerente general. No se encontraron ventas ni financiamiento."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6048,6 +6155,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6134,10 +6242,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6190,7 +6299,7 @@
    "giro": null,
    "macro_industria": "Transporte y logística",
    "macro_base": "industria",
-   "industria": "Other transport equipment",
+   "industria": "Otros equipos de transporte",
    "industria_blab": "Other transport equipment",
    "sector_blab": null,
    "secciones": [],
@@ -6242,6 +6351,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6330,10 +6440,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6420,10 +6531,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6509,10 +6621,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6598,10 +6711,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6687,10 +6801,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6776,10 +6891,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6865,10 +6981,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -6955,10 +7072,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7044,10 +7162,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7137,10 +7256,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7226,10 +7346,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7318,10 +7439,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7407,10 +7529,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7496,10 +7619,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7588,10 +7712,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7677,10 +7802,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7766,10 +7892,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7812,7 +7939,7 @@
    "giro": "Gestión de proyectos de mejoramiento de vivienda social (descripción de ficha B Lab)",
    "macro_industria": "Consultoría y servicios profesionales",
    "macro_base": "industria",
-   "industria": "Professional, scientific and technical services",
+   "industria": "Servicios profesionales, científicos y técnicos",
    "industria_blab": "Professional, scientific and technical services",
    "sector_blab": null,
    "secciones": [],
@@ -7855,10 +7982,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7951,6 +8079,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -7995,7 +8124,7 @@
    "giro": null,
    "macro_industria": "Alimentos, bebidas y agro",
    "macro_base": "industria",
-   "industria": "Restaurants and food service",
+   "industria": "Restaurantes y servicios de alimentación",
    "industria_blab": "Restaurants and food service",
    "sector_blab": "Service with Significant Environmental Footprint",
    "secciones": [],
@@ -8040,10 +8169,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -8133,10 +8263,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -8223,10 +8354,11 @@
     "resumen": "Figura en la lista Great Place to Work de mejores pequeñas y medianas empresas de Chile 2014 y un perfil de terceros la ubica en el rango de 5-25 empleados. No se hallaron ventas ni financiamiento."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -8320,10 +8452,11 @@
     "resumen": "Mercantil la clasifica como Gran Empresa (+500). La prensa reporta expansión: un lodge en tierras de la Fundación Tompkins y un hotel de lujo en Santa Cruz (Argentina) según titulares de Diario Financiero; en julio de 2024 The Clinic informó un proyecto de alojamiento para 130 trabajadores en Torres del Paine, adjudicado a Surex Chile, vinculada a Explora. No se hallaron ventas ni número de trabajadores."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -8430,10 +8563,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -8520,10 +8654,11 @@
     "resumen": "Corredora regulada por la CMF que opera en la Bolsa de Productos de Chile. La prensa (2020-2021) la señala como la corredora que más pymes financió en 2019 y 2020, gracias en parte a su alianza con Xepelin, y como la primera alianza permanente de Agrosuper en la Bolsa de Productos. No se hallaron ventas, número de trabajadores ni rondas de inversión."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -8631,10 +8766,11 @@
     "resumen": "Un perfil de terceros (Prospeo) la describe fundada en 2013, con 21-50 empleados y sin financiamiento registrado. No se hallaron ventas ni rondas de inversión."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -8685,7 +8821,7 @@
    "giro": null,
    "macro_industria": "Marketing, comunicaciones y medios",
    "macro_base": "industria",
-   "industria": "Printing and recorded media",
+   "industria": "Impresión y medios grabados",
    "industria_blab": "Printing and recorded media",
    "sector_blab": "Manufacturing",
    "secciones": [],
@@ -8728,10 +8864,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -8774,7 +8911,7 @@
    "giro": null,
    "macro_industria": "Manufactura y bienes de consumo",
    "macro_base": "industria",
-   "industria": "Cleaning products",
+   "industria": "Productos de limpieza",
    "industria_blab": "Cleaning products",
    "sector_blab": null,
    "secciones": [],
@@ -8817,10 +8954,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -8914,10 +9052,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9009,10 +9148,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9099,10 +9239,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9188,10 +9329,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9277,10 +9419,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9370,10 +9513,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9468,6 +9612,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9553,10 +9698,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9644,10 +9790,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9690,7 +9837,7 @@
    "giro": null,
    "macro_industria": "Medio ambiente y reciclaje",
    "macro_base": "industria",
-   "industria": "Remediation and other waste management",
+   "industria": "Gestión de residuos",
    "industria_blab": "Remediation and other waste management",
    "sector_blab": null,
    "secciones": [],
@@ -9733,10 +9880,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9824,10 +9972,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -9921,6 +10070,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -10006,10 +10156,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -10097,10 +10248,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -10189,11 +10341,18 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
-    "positivas": []
+    "revision": null,
+    "positivas": [
+     {
+      "descripcion": "Facturación consolidada superior a US$60 millones (2024) y expansión internacional: inició operación en Perú y apunta a Colombia. No se encontraron señales negativas.",
+      "fecha": "2024-05",
+      "fuente": "https://www.df.cl/empresas/industria/grupo-enovus-da-el-vamos-a-su-expansion-internacional-inicia-operacion"
+     }
+    ]
    },
    "propiedad": {
     "controlador": null,
@@ -10236,7 +10395,7 @@
    "giro": null,
    "macro_industria": "Marketing, comunicaciones y medios",
    "macro_base": "industria",
-   "industria": "Newspapers and magazines publishing",
+   "industria": "Edición de diarios y revistas",
    "industria_blab": "Newspapers and magazines publishing",
    "sector_blab": null,
    "secciones": [],
@@ -10286,6 +10445,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -10371,10 +10531,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -10464,10 +10625,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -10568,10 +10730,30 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
-    "senales": [],
-    "contexto": null,
-    "confianza": null,
+    "nivel": "negativo",
+    "senales": [
+     {
+      "tipo": "perdidas",
+      "descripcion": "A septiembre de 2025 (nueve meses) la pérdida atribuible era de unos US$59,2 millones, con deterioro de activos cercano a US$80,6 millones ligado al cierre de campos en México y recambio varietal en Perú y China (Diario Frutícola, vía Italian Berry).",
+      "fecha": "2025-12",
+      "fuente": "https://italianberry.it/en/news/hortifrut-exits-mexico-focus-peru-china-global-blueberry-strategy-losses"
+     },
+     {
+      "tipo": "cierre",
+      "descripcion": "Su análisis razonado a junio de 2025 atribuye la pérdida de la temporada 24/25 (US$132,96 millones) principalmente a un deterioro de US$134,22 millones asociado al cierre de operaciones agrícolas en México.",
+      "fecha": "2025-06",
+      "fuente": "https://investor.hortifrut.com/wp-content/uploads/2025/04/Analisis-Razonado-Junio-2025-05-09-25.pdf"
+     },
+     {
+      "tipo": "perdidas",
+      "descripcion": "El consolidado de Hortifrut S.A. registró una pérdida atribuible a la controladora de US$45,46 millones en 2024 y de US$77,73 millones en 2025, según su análisis razonado de diciembre de 2025.",
+      "fecha": "2025",
+      "fuente": "https://investor.hortifrut.com/wp-content/uploads/2025/04/Analisis-Razonado-Diciembre-2025-26-03-26.pdf"
+     }
+    ],
+    "contexto": "Las cifras son del consolidado Hortifrut S.A. (matriz); la ficha B corresponde a Hortifrut Chile, cuyas cuentas propias no se encontraron. Hay recuperación de ingresos: US$701 millones a junio de 2026, un 10,24% más que a junio de 2025 (análisis razonado de junio de 2026). Una segunda búsqueda no confirmó por separado la cifra anual de US$77,73 millones; conviene contrastarla con el documento original.",
+    "confianza": "media",
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -10657,10 +10839,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -10747,10 +10930,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -10840,10 +11024,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -10930,10 +11115,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -11020,10 +11206,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -11109,10 +11296,11 @@
     "resumen": "Sin cifras de ventas. Un directorio de inversión (descubre.vc, no verificado) indica que opera en Chile con más de 15 clientes y ha ejecutado más de 30 convocatorias de innovación abierta; una biografía del fundador (2020) indica unos 50 expertos a fines de 2019."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -11223,10 +11411,11 @@
     "resumen": "Instituto profesional con alrededor de 90 mil estudiantes según una presentación institucional de la Universidad Andrés Bello (2024). AIEP publica informes anuales 'Hechos y Cifras' (matrícula, retención, titulados); no se obtuvieron ingresos ni estados financieros."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -11331,10 +11520,11 @@
     "resumen": "Sin cifras de ventas ni trabajadores. IntraFish (abril 2026) reporta que 'Integra', procesador chileno de salmón, ve en el retail (sobre todo en EE. UU.) el motor de crecimiento, con el food service mostrando señales de debilitamiento, y que apuesta por mayor valor agregado. Mercantil la describe como comercializadora de productos del mar con más de 40 países cliente; Panjiva (envíos a EE. UU.) lista el salmón entre sus principales productos."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -11430,6 +11620,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -11521,10 +11712,11 @@
     "resumen": "AGF fintech regulada por la CMF desde agosto de 2019. Administra cerca de US$120 millones (Pauta, agosto de 2025); en agosto de 2021 tenía US$32 millones y 3.600 clientes, con crecimiento de 20% mensual (entrevista a R. Donoso). No se encontraron ingresos ni número de trabajadores."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -11677,10 +11869,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -11766,10 +11959,11 @@
     "resumen": "Sin datos económicos. Según el perfil de LinkedIn de su fundadora, produce polvo de maqui 100% orgánico (surgió tras años de ecoturismo naturalista en el sur de Chile)."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -11866,10 +12060,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -11964,10 +12159,11 @@
     "resumen": "Sin cifras de ventas ni financiamiento. Su idea inicial fue vender bolsas de compostaje a municipalidades y desde marzo de 2018 gestiona también residuos orgánicos de cocina de casas, escuelas y empresas (Radio Pauta). AmCham Chile informó una alianza con P&G Chile (marzo de 2021) para los residuos orgánicos domiciliarios de esa empresa."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12079,10 +12275,24 @@
     "resumen": "Sin cifras de ventas. Aparecen titulares de prensa sobre una ronda de capital (US$2,82 millones con Blue AB, Suecia) y una 'fuerte inversión' reportada en marzo de 2025 para superar un complejo panorama económico; no se revisó el detalle de las notas."
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
-    "senales": [],
-    "contexto": null,
-    "confianza": null,
+    "nivel": "negativo",
+    "senales": [
+     {
+      "tipo": "rescate",
+      "descripcion": "Los family offices Wild Sur y Petra Luksic concretaron un aumento de capital de US$5 millones y quedaron con más del 60% de la propiedad; el fundador dejó el cargo de CEO.",
+      "fecha": "2025-03",
+      "fuente": "https://www.meganoticias.cl/nacional/480385-karun-empresa-de-lentes-recibio-importante-ayuda-economica-para-superar-complejo-momento-economico-pdp-28-03-2025.html"
+     },
+     {
+      "tipo": "cierre",
+      "descripcion": "Su CEO informó a inversionistas el inicio de un proceso de cierre por falta de financiamiento y pidió un cierre ordenado en vez de una liquidación judicial; fuentes cercanas señalaron que no había decisión final y que la carta buscaba presionar a los inversionistas.",
+      "fecha": "2024-09",
+      "fuente": "https://www.emol.com/noticias/Economia/2024/09/03/1141631/karun-inicia-proceso-de-cierre.html"
+     }
+    ],
+    "contexto": "El cierre anunciado en septiembre de 2024 no se concretó: la empresa fue rescatada con capital fresco en marzo de 2025 (antes necesitaba con urgencia un aumento de capital de US$2 millones y dejó su casona-tienda de Puerto Varas). No se encontró información posterior a marzo de 2025.",
+    "confianza": "alta",
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12171,10 +12381,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12261,10 +12472,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12351,10 +12563,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12440,10 +12653,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12529,10 +12743,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12618,10 +12833,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12708,10 +12924,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12797,10 +13014,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12887,10 +13105,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -12979,10 +13198,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13078,6 +13298,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13165,10 +13386,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13255,10 +13477,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13350,6 +13573,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13438,10 +13662,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13527,10 +13752,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13617,10 +13843,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13717,6 +13944,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13804,10 +14032,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13895,10 +14124,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -13985,10 +14215,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14075,10 +14306,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14173,6 +14405,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14265,6 +14498,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14352,10 +14586,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14441,10 +14676,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14533,10 +14769,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14623,10 +14860,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14715,10 +14953,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14806,10 +15045,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14904,6 +15144,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -14990,10 +15231,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -15080,10 +15322,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -15169,10 +15412,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -15265,6 +15509,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -15351,10 +15596,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -15446,6 +15692,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -15532,10 +15779,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -15622,10 +15870,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -15711,10 +15960,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -15802,10 +16052,24 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
-    "senales": [],
-    "contexto": null,
-    "confianza": null,
+    "nivel": "observacion",
+    "senales": [
+     {
+      "tipo": "perdidas",
+      "descripcion": "La Tercera reportó que la cadena de panaderías registró pérdidas de $764 millones en 2019 y de $1.395 millones en 2020, según una carta de despido citada en un juicio laboral.",
+      "fecha": "2023",
+      "fuente": "https://www.latercera.com/pulso-pm/noticia/los-ajustes-que-aplicado-la-cadena-de-panaderias-san-camilo-tras-cuatro-anos-de-perdidas/YBFIZMREGJH2LPGHCAYCAS4HFU/"
+     },
+     {
+      "tipo": "despidos",
+      "descripcion": "Según el mismo artículo, la empresa despidió a 187 trabajadores entre octubre de 2019 y 2023, justificando los despidos ante tribunales como ajuste de gastos operacionales al nivel real de ingresos.",
+      "fecha": "2023",
+      "fuente": "https://www.latercera.com/pulso-pm/noticia/los-ajustes-que-aplicado-la-cadena-de-panaderias-san-camilo-tras-cuatro-anos-de-perdidas/YBFIZMREGJH2LPGHCAYCAS4HFU/"
+     }
+    ],
+    "contexto": "Situación recuperada según el mismo medio: sus estados financieros muestran utilidades en 2021 y 2022 (2022: $1.350 millones) y la empresa cuestionó los reportes de pérdidas de esos años, pese a que el titular habla de cuatro años de pérdidas. La fecha del artículo (2023) se infirió del contenido; no se encontró información posterior (2024-2026) sobre cierres, despidos o resultados.",
+    "confianza": "media",
+    "revision": "Las pérdidas reportadas corresponden a 2019 y 2020; según el mismo medio, sus estados financieros muestran utilidades en 2021 y 2022 ($1.350 millones en 2022). No se encontró información posterior.",
     "positivas": []
    },
    "propiedad": {
@@ -15894,10 +16158,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -15984,10 +16249,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16075,10 +16341,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16169,10 +16436,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16215,7 +16483,7 @@
    "giro": null,
    "macro_industria": "Otros servicios",
    "macro_base": "industria",
-   "industria": "Technology-based support services",
+   "industria": "Servicios de soporte tecnológico",
    "industria_blab": "Technology-based support services",
    "sector_blab": "Service with Minor Environmental Footprint",
    "secciones": [],
@@ -16267,6 +16535,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16350,10 +16619,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16447,6 +16717,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16532,10 +16803,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16631,6 +16903,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16674,7 +16947,7 @@
    "giro": null,
    "macro_industria": "Marketing, comunicaciones y medios",
    "macro_base": "industria",
-   "industria": "Software publishing and SaaS",
+   "industria": "Software y plataformas SaaS",
    "industria_blab": "Software publishing and SaaS",
    "sector_blab": null,
    "secciones": [],
@@ -16717,10 +16990,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16764,7 +17038,7 @@
    "giro": null,
    "macro_industria": "Medio ambiente y reciclaje",
    "macro_base": "industria",
-   "industria": "Waste treatment and disposal",
+   "industria": "Tratamiento de residuos",
    "industria_blab": "Waste treatment and disposal",
    "sector_blab": "Manufacturing",
    "secciones": [],
@@ -16807,10 +17081,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16903,10 +17178,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -16993,10 +17269,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17082,10 +17359,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17173,10 +17451,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17269,6 +17548,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17357,10 +17637,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17444,10 +17725,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17533,10 +17815,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17623,10 +17906,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17669,7 +17953,7 @@
    "giro": null,
    "macro_industria": "Tecnología y software",
    "macro_base": "industria",
-   "industria": "Computers and electronics",
+   "industria": "Computadores y electrónica",
    "industria_blab": "Computers and electronics",
    "sector_blab": "Wholesale/Retail",
    "secciones": [],
@@ -17712,10 +17996,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17808,6 +18093,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17900,6 +18186,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -17988,10 +18275,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -18081,10 +18369,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -18127,7 +18416,7 @@
    "giro": null,
    "macro_industria": "Consultoría y servicios profesionales",
    "macro_base": "industria",
-   "industria": "Other professional, scientific and technical activities",
+   "industria": "Otros servicios profesionales y científicos",
    "industria_blab": "Other professional, scientific and technical activities",
    "sector_blab": "Service with Minor Environmental Footprint",
    "secciones": [],
@@ -18170,10 +18459,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -18260,10 +18550,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -18349,11 +18640,18 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
-    "positivas": []
+    "revision": null,
+    "positivas": [
+     {
+      "descripcion": "AM Best reporta una utilidad de unos US$25,1 millones a fines de 2025 (creciente desde US$6,7 millones en 2020) y le asignó clasificación de fortaleza financiera A (Excelente) en febrero de 2026.",
+      "fecha": "2026-02",
+      "fuente": "https://www.businesswire.com/news/home/20260206185812/en"
+     }
+    ]
    },
    "propiedad": {
     "controlador": null,
@@ -18438,10 +18736,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -18530,10 +18829,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -18621,10 +18921,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -18713,10 +19014,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -18800,10 +19102,42 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
-    "senales": [],
-    "contexto": null,
-    "confianza": null,
+    "nivel": "negativo",
+    "senales": [
+     {
+      "tipo": "cierre",
+      "descripcion": "Reportes de prensa señalan que vendió sus operaciones de Argentina y Uruguay a Molinos Río de la Plata, vendió Brasil al grupo Ferrara y cerró su oficina de México (hacia marzo de 2026, sin comprador y sin comunicado oficial).",
+      "fecha": "2026-09",
+      "fuente": "https://www.meganoticias.cl/nacional/531259-notco-reduce-presencia-internacional-vende-brasil-cierra-mexico-chile-bajo-presion-09-09-2026.html"
+     },
+     {
+      "tipo": "despidos",
+      "descripcion": "Según Emol (citando a Diario Financiero), su plantilla pasó de un máximo de más de 300 personas a una cifra que hoy no superaría las 100.",
+      "fecha": "2026-09",
+      "fuente": "https://www.emol.com/noticias/Economia/2026/09/08/1210922/repliegue-de-notco.html"
+     },
+     {
+      "tipo": "perdidas",
+      "descripcion": "Meganoticias informa que su operación en Chile sigue con resultados negativos y que tiene hasta fines de 2026 para demostrar que puede alcanzar la rentabilidad.",
+      "fecha": "2026-09",
+      "fuente": "https://www.meganoticias.cl/nacional/531259-notco-reduce-presencia-internacional-vende-brasil-cierra-mexico-chile-bajo-presion-09-09-2026.html"
+     },
+     {
+      "tipo": "despidos",
+      "descripcion": "Desvinculó a 16 personas en Chile y EE.UU. (6 de I+D, 5 del equipo culinario, 4 de marketing y 1 de otras áreas de IA); la empresa confirmó las salidas sin detallar razones.",
+      "fecha": "2026-07",
+      "fuente": "https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2026/07/31/notco-aplica-despidos-en-chile-y-eeuu-incluyendo-altos-ejecutivos.shtml"
+     },
+     {
+      "tipo": "despidos",
+      "descripcion": "Cerró su oficina en Nueva York, encargó a Kraft Heinz la venta de sus productos en EE.UU. y Canadá y despidió a cerca del 11% de su plantilla para reducir costos (Bloomberg, citado por Emol).",
+      "fecha": "2025-02",
+      "fuente": "https://www.emol.com/noticias/Economia/2025/02/04/1156382/notco-cierra-oficinas-nuevas-york.html"
+     }
+    ],
+    "contexto": "No hay declaración de insolvencia ni procedimiento concursal: la empresa sigue operando y se repliega hacia su negocio de IA (NotCo AI) y la rentabilidad en Chile; las salidas de países se describen como ventas o cierres de oficinas, no como liquidación. Ingresos 2025 estimados en cerca de US$70 millones (PitchBook, citado por Diario Financiero). Es el caso de mayor deterioro entre las startups revisadas, sin llegar al nivel crítico.",
+    "confianza": "alta",
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -18895,10 +19229,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -18985,10 +19320,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -19072,10 +19408,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -19163,10 +19500,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -19254,10 +19592,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -19344,10 +19683,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -19439,10 +19779,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -19532,10 +19873,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -19628,6 +19970,7 @@
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -19714,10 +20057,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -19807,11 +20151,31 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
-    "senales": [],
-    "contexto": null,
-    "confianza": null,
-    "positivas": []
+    "nivel": "observacion",
+    "senales": [
+     {
+      "tipo": "caida_ventas",
+      "descripcion": "En el primer trimestre de 2026 las ventas cayeron 7,8% (a $192.613 millones) y la utilidad atribuible bajó 36,3% (a $8.779 millones).",
+      "fecha": "2026-05",
+      "fuente": "https://www.theclinic.cl/2026/05/07/ventas-y-utilidades-de-concha-y-toro-se-desploman-en-medio-de-crisis-global-del-vino/"
+     },
+     {
+      "tipo": "caida_ventas",
+      "descripcion": "En el primer semestre de 2026 las ventas retrocedieron 6,2% (a $425.895 millones) y las ganancias cayeron 14% (a $28.186 millones), por menores ventas en EE.UU. y en algunos mercados de exportación.",
+      "fecha": "2026",
+      "fuente": "https://www.df.cl/empresas/resultados-de-empresas/ganancias-de-concha-y-toro-bajan-en-el-primer-semestre-y-firma-acusa-golpe"
+     }
+    ],
+    "contexto": "Sigue siendo rentable y fue una de las dos viñas reportantes a la CMF con utilidades en 2025 (utilidad 2025 de $67.220 millones, -13,1%; ingresos 2025 +1,7%). En el segundo trimestre de 2026 la utilidad subió 2,1% y la compañía proyecta crecimiento de un dígito para 2026. Señal negativa moderada, sin indicios de insolvencia.",
+    "confianza": "media",
+    "revision": null,
+    "positivas": [
+     {
+      "descripcion": "Cerró 2025 con ingresos +1,7% y utilidad de $67.220 millones (-13,2% vs. 2024); es una de las dos viñas con utilidades entre las seis que reportan a la CMF. En el primer semestre de 2026 las ventas cayeron 6,2% y la utilidad 14%, sin llegar a pérdidas: no corresponde clasificarla como caso negativo.",
+      "fecha": "2025",
+      "fuente": "https://www.vinetur.com/2026032397984/chilean-wineries-report-widespread-losses-as-global-wine-consumption-hits-historic-lows.html"
+     }
+    ]
    },
    "propiedad": {
     "controlador": null,
@@ -19856,7 +20220,7 @@
    "giro": null,
    "macro_industria": "Alimentos, bebidas y agro",
    "macro_base": "industria",
-   "industria": "Agricultural support and post-harvest",
+   "industria": "Servicios agrícolas y poscosecha",
    "industria_blab": "Agricultural support and post-harvest",
    "sector_blab": null,
    "secciones": [],
@@ -19901,10 +20265,18 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
-    "senales": [],
-    "contexto": null,
-    "confianza": null,
+    "nivel": "negativo",
+    "senales": [
+     {
+      "tipo": "perdidas",
+      "descripcion": "Cerró 2025 con pérdidas (reportes citan unos US$0,47 millones, con ingresos -5,3%) tras una pérdida cercana a US$4,75 millones en 2024; es una de las cuatro viñas con pérdidas entre las seis que reportan a la CMF.",
+      "fecha": "2025",
+      "fuente": "https://www.vinetur.com/2026032397984/chilean-wineries-report-widespread-losses-as-global-wine-consumption-hits-historic-lows.html"
+     }
+    ],
+    "contexto": "La pérdida se redujo de 2024 a 2025. Contexto de caída del consumo mundial de vino; en el primer semestre de 2026 las seis viñas CMF mostraron caídas de ingresos (Emol, 2026-08). Las cifras exactas provienen de resúmenes de prensa y conviene contrastarlas con los estados financieros CMF.",
+    "confianza": "media",
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -19991,10 +20363,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -20082,10 +20455,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -20172,10 +20546,24 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
-    "senales": [],
-    "contexto": null,
-    "confianza": null,
+    "nivel": "negativo",
+    "senales": [
+     {
+      "tipo": "perdidas",
+      "descripcion": "En el primer semestre de 2026 facturó 12,86% menos y registró pérdidas de $318 millones, frente a una ganancia de $684 millones en igual período de 2025.",
+      "fecha": "2026-08",
+      "fuente": "https://www.emol.com/noticias/Economia/2026/08/26/1209567/vinas-chilenas-se-tienen-rojo.html"
+     },
+     {
+      "tipo": "perdidas",
+      "descripcion": "Cerró el ejercicio 2025 con una pérdida de $195,7 millones y con ingresos 3,19% menores ($28.716 millones), según Vinetur sobre estados financieros presentados a la CMF.",
+      "fecha": "2026-03",
+      "fuente": "https://www.vinetur.com/2026032397984/chilean-wineries-report-widespread-losses-as-global-wine-consumption-hits-historic-lows.html"
+     }
+    ],
+    "contexto": "Forma parte de las viñas con pérdidas en un contexto de caída del consumo mundial de vino (solo dos de las seis viñas que reportan a la CMF cerraron 2025 con utilidades). Según sus estados financieros, en 2024 el directorio aprobó el proceso de venta del Fundo Totihue. El resultado anual 2025 de Emiliana no se verificó de forma directa.",
+    "confianza": "media",
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -20266,10 +20654,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -20357,10 +20746,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -20448,10 +20838,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -20494,7 +20885,7 @@
    "giro": null,
    "macro_industria": "Manufactura y bienes de consumo",
    "macro_base": "industria",
-   "industria": "Cleaning products",
+   "industria": "Productos de limpieza",
    "industria_blab": "Cleaning products",
    "sector_blab": null,
    "secciones": [],
@@ -20537,10 +20928,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -20630,10 +21022,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -20721,10 +21114,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {
@@ -20813,10 +21207,11 @@
     "resumen": null
    },
    "rendimiento": {
-    "nivel": "sin_revisar",
+    "nivel": "sin_senales",
     "senales": [],
     "contexto": null,
     "confianza": null,
+    "revision": null,
     "positivas": []
    },
    "propiedad": {

@@ -1,0 +1,112 @@
+{
+  "lote": "2",
+  "busquedas_realizadas": 45,
+  "revisadas": [
+    "ematris",
+    "empresas-torre-sa",
+    "energa-libre",
+    "entidad-patrocinante-unin-sp-a",
+    "espantapajaros",
+    "estudio-lado-humano-consultores-ltda",
+    "estudios-y-consultorias-focus",
+    "explora-chile-s-a",
+    "favima",
+    "finmas",
+    "finterra",
+    "flexografia-y-digital-guerra-y-guerra-limitada",
+    "freemet-comercial-spa",
+    "frisbi-marketing",
+    "fruselva-amrica",
+    "fruticola-olmue-spa",
+    "future-foods-sp-a",
+    "garces-fruit",
+    "gesam-consultores-ambientales",
+    "green-glass",
+    "green-libros",
+    "green-spot-spa",
+    "greening-sp-a",
+    "holding-trazo-sa",
+    "grupo-educativo",
+    "grupo-enovus",
+    "grupo-verdical-spa",
+    "hilana",
+    "hortifrut-chile",
+    "imeko-spa",
+    "impacto-35",
+    "implementa-sur",
+    "inmobiliaria-norte-verde",
+    "inmobiliaria-regenera",
+    "innspiral",
+    "instituto-profesional-aiep",
+    "integra-chile-sa",
+    "inversiones-focus-sp-a",
+    "inversiones-y-servicios-atacama-spa",
+    "isla-natura-exportadora-ltda",
+    "karibu",
+    "karbag",
+    "karun",
+    "kintu-spaces",
+    "kodama-consultores",
+    "desarrollo-organizacional-kraakman-ltda",
+    "la-ventana-cine",
+    "lacteos-y-turismo-playa-venado",
+    "late",
+    "constructora-l-y-d",
+    "leytonmedia",
+    "lof-servicios-spa",
+    "lonchera-sp-a",
+    "lukkap-chile",
+    "lup",
+    "mali-spa",
+    "market-people-indumentarias-sp-a",
+    "marketgreen",
+    "mejores-prcticas",
+    "mercado-circular-sp-a",
+    "minka",
+    "montes-wines"
+  ],
+  "alertas": [
+    {
+      "id": "hortifrut-chile",
+      "nombre": "Hortifrut Chile",
+      "nivel": "negativo",
+      "senales": [
+        {
+          "tipo": "perdidas",
+          "descripcion": "Hortifrut S.A., matriz del grupo, reportó una pérdida atribuible a los propietarios de la controladora de US$ 77,7 millones en 2025 (pérdida de US$ 45,5 millones en 2024), según su análisis razonado a diciembre de 2025.",
+          "fecha": "2026-03",
+          "fuente": "https://investor.hortifrut.com/wp-content/uploads/2025/04/Analisis-Razonado-Diciembre-2025-26-03-26.pdf"
+        },
+        {
+          "tipo": "perdidas",
+          "descripcion": "A junio de 2025 el grupo registró una pérdida atribuible de US$ 75,4 millones, vinculada a deterioros de activos por el cierre de operaciones agrícolas en México y recambios varietales en Perú y China, según su análisis razonado.",
+          "fecha": "2025-09",
+          "fuente": "https://investor.hortifrut.com/wp-content/uploads/2025/04/Analisis-Razonado-Junio-2025-05-09-25.pdf"
+        }
+      ],
+      "contexto": "Cifras consolidadas del grupo Hortifrut S.A. (matriz de Hortifrut Chile); no es un cierre de la empresa sino de campos poco rentables en México, y el grupo sigue operando (EBITDA a septiembre de 2025 de US$ 135,1 millones, +5,6% interanual). En 2026 volvió a utilidades: el análisis razonado a marzo de 2026 informa una ganancia atribuible de US$ 27,7 millones (US$ 26,4 millones a marzo de 2025) y un resumen de terceros (Quartr, sin verificar en el PDF oficial) reporta un resultado neto de US$ 13,4 millones a junio de 2026 frente a una pérdida de US$ 65,9 millones un año antes. El mismo resumen de terceros cifra la pérdida neta 2025 en US$ 73,3 millones, levemente distinta de la cifra atribuible citada.",
+      "confianza": "alta"
+    },
+    {
+      "id": "karun",
+      "nombre": "Karün",
+      "nivel": "negativo",
+      "senales": [
+        {
+          "tipo": "cierre",
+          "descripcion": "En septiembre de 2024 informó a sus inversionistas el inicio de un proceso de cierre por falta de financiamiento (había captado cerca de US$ 35 millones en rondas previas); fuentes cercanas a la empresa indicaron que no había una decisión final de cierre.",
+          "fecha": "2024-09",
+          "fuente": "https://www.emol.com/noticias/Economia/2024/09/03/1141631/karun-inicia-proceso-de-cierre.html"
+        },
+        {
+          "tipo": "rescate",
+          "descripcion": "Los family offices Petra y WildSur concretaron una capitalización de US$ 5 millones para sostener la operación; quedaron con más de 60% del capital y el fundador dejó la gerencia general.",
+          "fecha": "2025-03",
+          "fuente": "https://www.meganoticias.cl/nacional/480385-karun-empresa-de-lentes-recibio-importante-ayuda-economica-para-superar-complejo-momento-economico-pdp-28-03-2025.html"
+        }
+      ],
+      "contexto": "La empresa no cerró: tras la capitalización continuó operando con nueva gerencia general (Ignacio Ureta, en reemplazo del fundador) y un plan de crecimiento orgánico y rentabilidad. No se encontró información financiera posterior a 2025, por lo que no se puede confirmar si la situación se normalizó.",
+      "confianza": "alta"
+    }
+  ]
+}

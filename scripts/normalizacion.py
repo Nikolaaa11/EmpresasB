@@ -190,6 +190,21 @@ INDUSTRIA_ES = {
     "building materials": "Materiales de construcción",
     "accounting auditing": "Contabilidad y auditoría",
     "other professional scientific tech": "Otros servicios profesionales y científicos",
+    # Taxonomía nueva de B Lab (con "and" en el nombre)
+    "professional scientific and technical services": "Servicios profesionales, científicos y técnicos",
+    "other professional scientific and technical activities": "Otros servicios profesionales y científicos",
+    "agricultural support and post harvest": "Servicios agrícolas y poscosecha",
+    "waste treatment and disposal": "Tratamiento de residuos",
+    "remediation and other waste management": "Gestión de residuos",
+    "cleaning products": "Productos de limpieza",
+    "postal and courier activities": "Servicios postales y de mensajería",
+    "other transport equipment": "Otros equipos de transporte",
+    "restaurants and food service": "Restaurantes y servicios de alimentación",
+    "printing and recorded media": "Impresión y medios grabados",
+    "newspapers and magazines publishing": "Edición de diarios y revistas",
+    "technology based support services": "Servicios de soporte tecnológico",
+    "software publishing and saas": "Software y plataformas SaaS",
+    "computers and electronics": "Computadores y electrónica",
 }
 
 # (palabras clave, macro-industria). El orden importa: la primera coincidencia gana.

@@ -29,10 +29,10 @@ El tipo societario se deduce de la razón social (ej. «… SpA»). «Sin dato»
 | [Cervecera Guayacán SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/cervecera-guayacan-spa/) | Cervecera Guayacán SpA | SpA | Bebidas | Coquimbo | 80.2 | 2017-03 | — | — |
 | [Comercial Las Mellizas SPA](https://www.bcorporation.net/en-us/find-a-b-corp/company/comercial-las-mellizas-spa/) | Comercial Las Mellizas SpA | SpA | — | Metropolitana | 84.3 | — | — | — |
 | [Ecomundo Reciclajes SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/ecomundo-reciclajes-sp-a/) | Ecomundo Reciclajes SpA | SpA | Consultoría ambiental | Los Lagos | 97.1 | 2021-12 | — | — |
-| [Freemet Comercial SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/freemet-comercial-spa/) | — | SpA | Cleaning products | Metropolitana | 83.5 | 2018-04 | [sitio](http://www.freemet.cl) | — |
+| [Freemet Comercial SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/freemet-comercial-spa/) | — | SpA | Productos de limpieza | Metropolitana | 83.5 | 2018-04 | [sitio](http://www.freemet.cl) | — |
 | [Frutícola Olmué SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/fruticola-olmue-spa/) | Frutícola Olmué SpA | SpA | — | Ñuble | 88.7 | — | [sitio](http://www.olmue.com) | — |
 | [Future Foods SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/future-foods-sp-a/) | Future Foods SpA | SpA | Comercio minorista | Metropolitana | 83.9 | 2026-07 | — | — |
-| [GREEN SPOT SPA](https://www.bcorporation.net/en-us/find-a-b-corp/company/green-spot-spa/) | GREEN SPOT SPA | SpA | Remediation and other waste management | Los Lagos | 80.6 | 2020-03 | — | — |
+| [GREEN SPOT SPA](https://www.bcorporation.net/en-us/find-a-b-corp/company/green-spot-spa/) | GREEN SPOT SPA | SpA | Gestión de residuos | Los Lagos | 80.6 | 2020-03 | — | — |
 | [Greening SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/greening-sp-a/) | Greening SpA | SpA | Consultoría ambiental | Biobío | 95.3 | 2020-07 | [sitio](http://www.greening-rca.cl) | — |
 | [Grupo Verdical SPA](https://www.bcorporation.net/en-us/find-a-b-corp/company/grupo-verdical-spa/) | Grupo Verdical SPA | SpA | Educación (otros) | Antofagasta | 93.7 | 2022-03 | [sitio](http://www.verdical.cl) | — |
 | [IMEKO SPA](https://www.bcorporation.net/en-us/find-a-b-corp/company/imeko-spa/) | IMEKO SPA | SpA | Recuperación y reciclaje de materiales | Valparaíso | — | 2023-05 | [sitio](http://www.imeko.cl) | — |
@@ -56,7 +56,7 @@ El tipo societario se deduce de la razón social (ej. «… SpA»). «Sin dato»
 | [Sphera Energy SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/sphera-energy-sp-a/) | — | SpA | Energías renovables | Metropolitana | 90.4 | 2024-12 | [sitio](http://www.spheraenergy.com) | — |
 | [Sustenta Consultores SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/sustenta-consultores-sp-a/) | — | SpA | Consultoría de gestión | Metropolitana | 118.5 | 2019-01 | — | — |
 | [Viña Polkura SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/vina-polkura-sa/) | — | SpA | Procesamiento agrícola | O'Higgins | 107.9 | 2015-12 | [sitio](http://www.polkura.cl) | — |
-| [Wild Labs SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/wild-labs/) | — | SpA | Cleaning products | Metropolitana | 86.7 | 2023-08 | — | — |
+| [Wild Labs SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/wild-labs/) | — | SpA | Productos de limpieza | Metropolitana | 86.7 | 2023-08 | — | — |
 
 ## S.A. (24)
 
@@ -95,10 +95,10 @@ El tipo societario se deduce de la razón social (ej. «… SpA»). «Sin dato»
 | [Agrícola e Inversiones Terraman Limitada](https://www.bcorporation.net/en-us/find-a-b-corp/company/agrcola-e-inversiones-terraman-limitada/) | Agrícola e Inversiones Terraman Limitada | Ltda. | — | Maule | 84.5 | 2026-07 | [sitio](http://www.terraman.cl) | — |
 | [Centro de Innovación y Emprendimiento Copayapu Consultores Ltda](https://www.bcorporation.net/en-us/find-a-b-corp/company/centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda/) | Centro de Innovación y Emprendimiento Copayapu Consultores Ltda | Ltda. | Consultoría de gestión | Atacama | 103.6 | 2020-01 | [sitio](http://www.copayapuconsultores.cl) | — |
 | [Constructora Oval](https://www.bcorporation.net/en-us/find-a-b-corp/company/constructora-oval/) | Constructora Inmobiliaria e Inversiones Oval Ltda. | Ltda. | Construcción | Metropolitana | 142.8 | 2021-11 | [sitio](http://www.constructoraoval.cl) | +56 2 2343 0660 |
-| [Entidad Patrocinante Unión Ltda](https://www.bcorporation.net/en-us/find-a-b-corp/company/entidad-patrocinante-unin-sp-a/) | — | Ltda. | Professional, scientific and technical services | Metropolitana | 89.6 | 2021-12 | [sitio](http://www.unionep.cl) | — |
+| [Entidad Patrocinante Unión Ltda](https://www.bcorporation.net/en-us/find-a-b-corp/company/entidad-patrocinante-unin-sp-a/) | — | Ltda. | Servicios profesionales, científicos y técnicos | Metropolitana | 89.6 | 2021-12 | [sitio](http://www.unionep.cl) | — |
 | [Estudio Lado Humano Consultores Ltda](https://www.bcorporation.net/en-us/find-a-b-corp/company/estudio-lado-humano-consultores-ltda/) | Estudio Lado Humano Consultores Ltda | Ltda. | Consultoría de gestión | Metropolitana | 99.9 | 2026-07 | [sitio](http://www.estudioladohumano.cl) | — |
 | [Estudios y Consultorias Focus](https://www.bcorporation.net/en-us/find-a-b-corp/company/estudios-y-consultorias-focus/) | Estudios y Consultorías Focus Ltda. | Ltda. | Servicios personales | Metropolitana | 90.7 | 2012-10 | — | — |
-| [Flexografia y Digital Guerra y Guerra Limitada](https://www.bcorporation.net/en-us/find-a-b-corp/company/flexografia-y-digital-guerra-y-guerra-limitada/) | — | Ltda. | Printing and recorded media | Valparaíso | 84.9 | 2022-03 | — | — |
+| [Flexografia y Digital Guerra y Guerra Limitada](https://www.bcorporation.net/en-us/find-a-b-corp/company/flexografia-y-digital-guerra-y-guerra-limitada/) | — | Ltda. | Impresión y medios grabados | Valparaíso | 84.9 | 2022-03 | — | — |
 | [Isla Natura Exportadora Ltda](https://www.bcorporation.net/en-us/find-a-b-corp/company/isla-natura-exportadora-ltda/) | Isla Natura Exportadora Ltda | Ltda. | Procesamiento agrícola | Los Lagos | 86.2 | 2022-09 | [sitio](http://www.islanatura.com) | — |
 | [Karibu](https://www.bcorporation.net/en-us/find-a-b-corp/company/karibu/) | Karibu Ltda | Ltda. | Desarrollo de software | Metropolitana | 99 | 2022-11 | [sitio](http://www.karibu.cl) | — |
 | [Kraakman Coaching](https://www.bcorporation.net/en-us/find-a-b-corp/company/desarrollo-organizacional-kraakman-ltda/) | Desarrollo Organizacional Kraakman Ltda | Ltda. | Consultoría de gestión | Biobío | 103.1 | 2020-08 | [sitio](http://www.kraakman.cl) | — |
@@ -120,14 +120,14 @@ El tipo societario se deduce de la razón social (ej. «… SpA»). «Sin dato»
 | [Bolsalea Embalaje Ético y Sostenible SL](https://www.bcorporation.net/en-us/find-a-b-corp/company/bolsalea-embalaje-etico-y-sostenible-sl/) | — | Extranjera | — | España | — | — | [sitio](http://www.bolsalea.com) | — |
 | [Bureo Inc](https://www.bcorporation.net/en-us/find-a-b-corp/company/bureo-inc/) | — | Extranjera | Recuperación y reciclaje de materiales | Estados Unidos | 90.2 | 2015-09 | [sitio](http://www.bureo.co) | — |
 | [Campus b](https://www.bcorporation.net/en-us/find-a-b-corp/company/campus-brasil/) | — | Extranjera | Educación (otros) | Brasil | 110.4 | — | [sitio](http://www.campusb.org) | — |
-| [Carryt](https://www.bcorporation.net/en-us/find-a-b-corp/company/carryt/) | — | Extranjera | Postal and courier activities | Colombia | 82.3 | 2024-12 | [sitio](http://www.carryt.co) | — |
-| [Celulosa Pro](https://www.bcorporation.net/en-us/find-a-b-corp/company/celulosa-pro/) | — | Extranjera | Waste treatment and disposal | Argentina | 82.9 | 2024-08 | — | — |
+| [Carryt](https://www.bcorporation.net/en-us/find-a-b-corp/company/carryt/) | — | Extranjera | Servicios postales y de mensajería | Colombia | 82.3 | 2024-12 | [sitio](http://www.carryt.co) | — |
+| [Celulosa Pro](https://www.bcorporation.net/en-us/find-a-b-corp/company/celulosa-pro/) | — | Extranjera | Tratamiento de residuos | Argentina | 82.9 | 2024-08 | — | — |
 | [Consultora Liquen](https://www.bcorporation.net/en-us/find-a-b-corp/company/consultora-liquen/) | — | Extranjera | — | Argentina | 90.3 | 2025-12 | — | — |
-| [Crosshipping](https://www.bcorporation.net/en-us/find-a-b-corp/company/crosshipping/) | — | Extranjera | Other transport equipment | Argentina | 88.9 | 2023-04 | [sitio](http://www.crosshipping.com) | — |
+| [Crosshipping](https://www.bcorporation.net/en-us/find-a-b-corp/company/crosshipping/) | — | Extranjera | Otros equipos de transporte | Argentina | 88.9 | 2023-04 | [sitio](http://www.crosshipping.com) | — |
 | [Esencia Patagonia](https://www.bcorporation.net/en-us/find-a-b-corp/company/esencia-patagonia/) | — | Extranjera | Recreación | Argentina | 85 | 2021-03 | [sitio](http://www.esenciapatagonia.com) | — |
 | [Glove Travel](https://www.bcorporation.net/en-us/find-a-b-corp/company/glove-travel/) | — | Extranjera | Agencias de viaje y turismo | Argentina | 87.4 | — | — | — |
 | [Grupo America Orgánica](https://www.bcorporation.net/en-us/find-a-b-corp/company/grupo-america-organica/) | — | Extranjera | — | Perú | — | — | — | — |
-| [Grupo Stakeholders](https://www.bcorporation.net/en-us/find-a-b-corp/company/grupo-stakeholders/) | — | Extranjera | Newspapers and magazines publishing | Perú | 90.8 | — | — | — |
+| [Grupo Stakeholders](https://www.bcorporation.net/en-us/find-a-b-corp/company/grupo-stakeholders/) | — | Extranjera | Edición de diarios y revistas | Perú | 90.8 | — | — | — |
 | [International Bon Ton Toys B.V.](https://www.bcorporation.net/en-us/find-a-b-corp/company/international-bon-ton-toys/) | — | Extranjera | — | Países Bajos | — | — | [sitio](http://www.bontontoys.com) | — |
 | [Lucha](https://www.bcorporation.net/en-us/find-a-b-corp/company/lucha/) | — | Extranjera | Inversión de capital (mercados emergentes) | Perú | 94.1 | — | [sitio](http://www.lalucha.com.pe) | — |
 | [MATER SUSTENTABLE](https://www.bcorporation.net/en-us/find-a-b-corp/company/mater-sustentable/) | — | Extranjera | Agencias de viaje y turismo | Argentina | 88.8 | 2021-08 | — | — |
@@ -135,7 +135,7 @@ El tipo societario se deduce de la razón social (ej. «… SpA»). «Sin dato»
 | [Neo Consulting](https://www.bcorporation.net/en-us/find-a-b-corp/company/neo-consulting/) | — | Extranjera | — | Perú | — | — | [sitio](http://www.neoconsulting.ai) | — |
 | [PCH Consultora](https://www.bcorporation.net/en-us/find-a-b-corp/company/pch-consultora/) | — | Extranjera | Consultoría de gestión | Argentina | 83.7 | 2025-07 | [sitio](http://www.pchconsultora.com) | — |
 | [Patagonia Road](https://www.bcorporation.net/en-us/find-a-b-corp/company/patagonia-road/) | — | Extranjera | Agencias de viaje y turismo | Argentina | 88.4 | 2023-11 | [sitio](http://www.patagonia-road.com) | — |
-| [Pulso Corporación Médica S.A.C.](https://www.bcorporation.net/en-us/find-a-b-corp/company/pulso-corporacin-mdica-sac/) | — | Extranjera | Technology-based support services | Perú | 91.6 | 2026-01 | — | — |
+| [Pulso Corporación Médica S.A.C.](https://www.bcorporation.net/en-us/find-a-b-corp/company/pulso-corporacin-mdica-sac/) | — | Extranjera | Servicios de soporte tecnológico | Perú | 91.6 | 2026-01 | — | — |
 | [QN Travel Peru](https://www.bcorporation.net/en-us/find-a-b-corp/company/qn-travel-peru/) | — | Extranjera | — | Perú | — | 2026-02 | — | — |
 | [Rebecca Adventure Travel](https://www.bcorporation.net/en-us/find-a-b-corp/company/rebatravel-sa/) | — | Extranjera | — | Ecuador | 80.9 | 2024-02 | [sitio](http://www.rebeccaadventuretravel.com) | — |
 | [SA Expeditions](https://www.bcorporation.net/en-us/find-a-b-corp/company/sa-expeditions/) | — | Extranjera | Servicios personales | Estados Unidos | 86.6 | — | [sitio](http://www.saexpeditions.com) | — |
@@ -155,7 +155,7 @@ El tipo societario se deduce de la razón social (ej. «… SpA»). «Sin dato»
 | [Armony Sustentable](https://www.bcorporation.net/en-us/find-a-b-corp/company/reciclajes-industriales/) | — | Sin dato | Reciclaje | Metropolitana | — | 2019-12 | — | — |
 | [Asgreen Ingeniería Sustentable](https://www.bcorporation.net/en-us/find-a-b-corp/company/asgreen-ingeniera-sustentable/) | — | Sin dato | — | Maule | 82.3 | 2020-08 | [sitio](http://www.asgreen.cl) | — |
 | [Aurys Consulting](https://www.bcorporation.net/en-us/find-a-b-corp/company/aurys-consulting/) | — | Sin dato | Consultoría de gestión | Metropolitana | 81.7 | 2025-07 | [sitio](http://www.aurysconsulting.com) | — |
-| [BIOCYS](https://www.bcorporation.net/en-us/find-a-b-corp/company/biocys/) | — | Sin dato | Professional, scientific and technical services | Metropolitana | 85.6 | 2025-04 | — | — |
+| [BIOCYS](https://www.bcorporation.net/en-us/find-a-b-corp/company/biocys/) | — | Sin dato | Servicios profesionales, científicos y técnicos | Metropolitana | 85.6 | 2025-04 | — | — |
 | [Balloon Latam](https://www.bcorporation.net/en-us/find-a-b-corp/company/balloon-latam/) | — | Sin dato | — | Metropolitana | 123.2 | 2018-12 | [sitio](http://www.balloonlatam.com) | — |
 | [BancoEstado Microempresas](https://www.bcorporation.net/en-us/find-a-b-corp/company/bancoestado-microempresas/) | — | Sin dato | Crédito (mercados emergentes) | Metropolitana | 130.5 | 2015-12 | [sitio](http://www.bancoestado.cl) | — |
 | [Better Brands](https://www.bcorporation.net/en-us/find-a-b-corp/company/better-brands/) | — | Sin dato | Servicios de apoyo empresarial | Metropolitana | 89.6 | 2023-12 | [sitio](http://www.betterbrands.cl) | — |
@@ -189,7 +189,7 @@ El tipo societario se deduce de la razón social (ej. «… SpA»). «Sin dato»
 | [Egaña Abogados](https://www.bcorporation.net/en-us/find-a-b-corp/company/egaa-abogados/) | — | Sin dato | Servicios legales | Metropolitana | 88.3 | 2025-06 | [sitio](http://www.eycia.cl) | — |
 | [Ematris](https://www.bcorporation.net/en-us/find-a-b-corp/company/ematris/) | — | Sin dato | Consultoría de gestión | Metropolitana | 91.1 | 2013-09 | [sitio](http://www.ematris.cl) | — |
 | [Energía Libre](https://www.bcorporation.net/en-us/find-a-b-corp/company/energa-libre/) | — | Sin dato | Energías renovables | Metropolitana | 86.1 | 2023-08 | — | — |
-| [Espantapajaros](https://www.bcorporation.net/en-us/find-a-b-corp/company/espantapajaros/) | — | Sin dato | Restaurants and food service | Los Lagos | 93.6 | 2018-07 | [sitio](http://www.espantapajaros.cl) | — |
+| [Espantapajaros](https://www.bcorporation.net/en-us/find-a-b-corp/company/espantapajaros/) | — | Sin dato | Restaurantes y servicios de alimentación | Los Lagos | 93.6 | 2018-07 | [sitio](http://www.espantapajaros.cl) | — |
 | [Favima](https://www.bcorporation.net/en-us/find-a-b-corp/company/favima/) | — | Sin dato | Packaging | Metropolitana | 96 | 2021-12 | [sitio](http://www.favima.com) | — |
 | [Finterra](https://www.bcorporation.net/en-us/find-a-b-corp/company/finterra/) | — | Sin dato | Servicios financieros | Metropolitana | 80.4 | 2022-07 | [sitio](http://www.finterra.cl) | +56 2 2244 9800 |
 | [Frisbi Marketing](https://www.bcorporation.net/en-us/find-a-b-corp/company/frisbi-marketing/) | — | Sin dato | Publicidad e investigación de mercado | Metropolitana | 82.1 | 2022-10 | — | — |
@@ -234,16 +234,16 @@ El tipo societario se deduce de la razón social (ej. «… SpA»). «Sin dato»
 | [Proyecta Impacto](https://www.bcorporation.net/en-us/find-a-b-corp/company/proyecta/) | — | Sin dato | Consultoría ambiental | Metropolitana | 113 | 2016-12 | [sitio](http://www.proyectaimpacto.com) | — |
 | [Próxima Servicios](https://www.bcorporation.net/en-us/find-a-b-corp/company/proxima/) | — | Sin dato | — | Chile | 120 | 2016-12 | [sitio](http://www.proximaservicios.cl) | — |
 | [Pura Aventura](https://www.bcorporation.net/en-us/find-a-b-corp/company/pura-aventura/) | — | Sin dato | — | Chile | — | — | — | — |
-| [RECYLINK](https://www.bcorporation.net/en-us/find-a-b-corp/company/recylink/) | — | Sin dato | Software publishing and SaaS | Metropolitana | 100.5 | 2019-08 | [sitio](http://www.recylink.com) | — |
-| [Regenera Orgánico](https://www.bcorporation.net/en-us/find-a-b-corp/company/regenera-orgnico/) | — | Sin dato | Waste treatment and disposal | Los Lagos | 88.9 | 2021-07 | [sitio](http://www.regeneraorganico.cl) | — |
+| [RECYLINK](https://www.bcorporation.net/en-us/find-a-b-corp/company/recylink/) | — | Sin dato | Software y plataformas SaaS | Metropolitana | 100.5 | 2019-08 | [sitio](http://www.recylink.com) | — |
+| [Regenera Orgánico](https://www.bcorporation.net/en-us/find-a-b-corp/company/regenera-orgnico/) | — | Sin dato | Tratamiento de residuos | Los Lagos | 88.9 | 2021-07 | [sitio](http://www.regeneraorganico.cl) | — |
 | [Rising Sun Chile](https://www.bcorporation.net/en-us/find-a-b-corp/company/rising-sun-chile/) | — | Sin dato | Instalación de paneles solares | Metropolitana | 110.2 | 2018-05 | [sitio](http://www.risingsun.cl) | — |
 | [Rivervalley Consulting](https://www.bcorporation.net/en-us/find-a-b-corp/company/rivervalley-consulting/) | — | Sin dato | — | Coquimbo | — | 2024-06 | — | — |
 | [Rubtec](https://www.bcorporation.net/en-us/find-a-b-corp/company/rubtec/) | — | Sin dato | — | Biobío | 82.1 | 2025-11 | [sitio](http://www.rubtec.cl) | — |
 | [SDK (Sudamerik)](https://www.bcorporation.net/en-us/find-a-b-corp/company/sudamerik/) | — | Sin dato | Inversión de capital (mercados emergentes) | Metropolitana | 134.2 | 2022-08 | — | — |
 | [Sembrador](https://www.bcorporation.net/en-us/find-a-b-corp/company/sembrador/) | — | Sin dato | Inversión de capital (mercados emergentes) | Metropolitana | 111 | 2023-03 | [sitio](http://www.sembradorcapital.com) | — |
-| [Servicios Intermediarios Reuse Chile SpA (Reuse)](https://www.bcorporation.net/en-us/find-a-b-corp/company/servicios-intermediarios-reuse-chile-spa/) | — | Sin dato | Computers and electronics | Metropolitana | 93 | 2023-03 | — | — |
+| [Servicios Intermediarios Reuse Chile SpA (Reuse)](https://www.bcorporation.net/en-us/find-a-b-corp/company/servicios-intermediarios-reuse-chile-spa/) | — | Sin dato | Computadores y electrónica | Metropolitana | 93 | 2023-03 | — | — |
 | [Skinautica](https://www.bcorporation.net/en-us/find-a-b-corp/company/skinautica/) | — | Sin dato | Artículos deportivos | Metropolitana | 83.6 | 2024-04 | [sitio](http://www.skinautica.cl) | — |
-| [Socialab](https://www.bcorporation.net/en-us/find-a-b-corp/company/socialab/) | — | Sin dato | Other professional, scientific and technical activities | Metropolitana | 89.9 | 2020-06 | [sitio](http://www.socialab.com) | — |
+| [Socialab](https://www.bcorporation.net/en-us/find-a-b-corp/company/socialab/) | — | Sin dato | Otros servicios profesionales y científicos | Metropolitana | 89.9 | 2020-06 | [sitio](http://www.socialab.com) | — |
 | [Symnetics Chile](https://www.bcorporation.net/en-us/find-a-b-corp/company/symnetics-chile/) | — | Sin dato | Consultoría de gestión | Metropolitana | 95.3 | 2023-12 | [sitio](http://www.symnetics.cl) | — |
 | [TIRONI](https://www.bcorporation.net/en-us/find-a-b-corp/company/tironi/) | — | Sin dato | Publicidad e investigación de mercado | Metropolitana | 80.2 | 2024-02 | [sitio](http://www.tironi.cl) | — |
 | [The Not Company](https://www.bcorporation.net/en-us/find-a-b-corp/company/the-not-company/) | — | Sin dato | Productos alimenticios | Metropolitana | 91.7 | 2022-11 | [sitio](http://www.notco.ai) | — |
@@ -255,7 +255,7 @@ El tipo societario se deduce de la razón social (ej. «… SpA»). «Sin dato»
 | [UNIBAG](https://www.bcorporation.net/en-us/find-a-b-corp/company/unibag/) | — | Sin dato | — | Metropolitana | — | — | [sitio](http://www.unibag.cl) | — |
 | [Virutex Ilko](https://www.bcorporation.net/en-us/find-a-b-corp/company/virutex-ilko/) | — | Sin dato | — | Metropolitana | 81.8 | 2022-04 | [sitio](http://www.virutexilko.com) | — |
 | [VitaFoods](https://www.bcorporation.net/en-us/find-a-b-corp/company/vita-foods/) | — | Sin dato | Procesamiento agrícola | Metropolitana | 86.2 | 2024-02 | [sitio](http://www.vitafoods.com) | — |
-| [Viña Los Vascos](https://www.bcorporation.net/en-us/find-a-b-corp/company/los-vascos/) | — | Sin dato | Agricultural support and post-harvest | O'Higgins | — | 2023-12 | [sitio](http://www.xn--vialosvascos-bhb.cl) | — |
+| [Viña Los Vascos](https://www.bcorporation.net/en-us/find-a-b-corp/company/los-vascos/) | — | Sin dato | Servicios agrícolas y poscosecha | O'Higgins | — | 2023-12 | [sitio](http://www.xn--vialosvascos-bhb.cl) | — |
 | [Viña MontGras](https://www.bcorporation.net/en-us/find-a-b-corp/company/via-mont-gras/) | — | Sin dato | — | Metropolitana | 92 | 2025-02 | [sitio](http://www.montgras.cl) | — |
 | [Wherex](https://www.bcorporation.net/en-us/find-a-b-corp/company/wherex/) | — | Sin dato | Software | Chile | — | — | [sitio](http://www.wherex.com) | — |
 | [Wild Lama](https://www.bcorporation.net/en-us/find-a-b-corp/company/wild-lama/) | — | Sin dato | Vestuario | Metropolitana | 96.2 | 2022-10 | [sitio](http://www.wildlama.com) | — |

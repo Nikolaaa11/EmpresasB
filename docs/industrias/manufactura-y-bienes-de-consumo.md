@@ -4,7 +4,7 @@
 
 **31** empresas · 13.8% del total · puntaje B promedio 91.5
 
-Subindustrias: Sin dato (10), Vestuario (6), Manufactura (otros) (3), Textiles (2), Cuidado personal (2), Cleaning products (2), Packaging (1), Artículos deportivos (1), Muebles (1), Química (1), Caucho y plásticos (1), Papel y derivados (1)
+Subindustrias: Sin dato (10), Vestuario (6), Manufactura (otros) (3), Textiles (2), Cuidado personal (2), Productos de limpieza (2), Packaging (1), Artículos deportivos (1), Muebles (1), Química (1), Caucho y plásticos (1), Papel y derivados (1)
 
 | Empresa | Razón social | Tipo | Industria | Región | Puntaje B | Certificada | Web | Contacto |
 |---|---|---|---|---|---:|---|---|---|
@@ -17,13 +17,13 @@ Subindustrias: Sin dato (10), Vestuario (6), Manufactura (otros) (3), Textiles (
 | [Favima](https://www.bcorporation.net/en-us/find-a-b-corp/company/favima/) | — | Sin dato | Packaging | Metropolitana | 96 | 2021-12 | [sitio](http://www.favima.com) | — |
 | [HILANA](https://www.bcorporation.net/en-us/find-a-b-corp/company/hilana/) | — | Sin dato | Textiles | Metropolitana | 90.7 | 2018-10 | — | — |
 | [NEWEN](https://www.bcorporation.net/en-us/find-a-b-corp/company/nijei-spa/) | — | Sin dato | Cuidado personal | O'Higgins | 89 | 2023-05 | [sitio](http://www.newencosmetica.com) | — |
-| [Wild Labs SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/wild-labs/) | — | SpA | Cleaning products | Metropolitana | 86.7 | 2023-08 | — | — |
+| [Wild Labs SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/wild-labs/) | — | SpA | Productos de limpieza | Metropolitana | 86.7 | 2023-08 | — | — |
 | [Adclean SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/adclean/) | Adclean SpA | SpA | — | Metropolitana | 86.4 | 2023-06 | [sitio](http://www.adclean.cl) | +56 2 2684 8058 |
 | [Pas Denom](https://www.bcorporation.net/en-us/find-a-b-corp/company/pas-denom/) | — | Sin dato | Vestuario | Metropolitana | 85.2 | 2026-03 | [sitio](http://www.pasdenom.cl) | — |
 | [Compañías CIC](https://www.bcorporation.net/en-us/find-a-b-corp/company/compaas-cic/) | Compañías CIC S.A. | S.A. | Manufactura (otros) | Metropolitana | 84.6 | 2023-07 | [sitio](https://www.cic.cl) | — |
 | [Skinautica](https://www.bcorporation.net/en-us/find-a-b-corp/company/skinautica/) | — | Sin dato | Artículos deportivos | Metropolitana | 83.6 | 2024-04 | [sitio](http://www.skinautica.cl) | — |
 | [Biogreen](https://www.bcorporation.net/en-us/find-a-b-corp/company/biogreen/) | — | Extranjera | — | Argentina | 83.5 | 2019-03 | [sitio](http://www.biogreen.com.ar) | — |
-| [Freemet Comercial SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/freemet-comercial-spa/) | — | SpA | Cleaning products | Metropolitana | 83.5 | 2018-04 | [sitio](http://www.freemet.cl) | — |
+| [Freemet Comercial SpA](https://www.bcorporation.net/en-us/find-a-b-corp/company/freemet-comercial-spa/) | — | SpA | Productos de limpieza | Metropolitana | 83.5 | 2018-04 | [sitio](http://www.freemet.cl) | — |
 | [Plus Industrial](https://www.bcorporation.net/en-us/find-a-b-corp/company/plus-industrial/) | — | Sin dato | Vestuario | Los Lagos | 83.5 | 2023-09 | — | — |
 | [Grupo Amoblé (Holding Trazo S.A.)](https://www.bcorporation.net/en-us/find-a-b-corp/company/holding-trazo-sa/) | — | S.A. | Muebles | Metropolitana | 83.4 | 2019-11 | — | — |
 | [Rubtec](https://www.bcorporation.net/en-us/find-a-b-corp/company/rubtec/) | — | Sin dato | — | Biobío | 82.1 | 2025-11 | [sitio](http://www.rubtec.cl) | — |

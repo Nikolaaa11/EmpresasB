@@ -1,0 +1,11 @@
+{
+  "lote": "revision_editorial",
+  "descripcion": "Decisiones de la revisión final sobre el nivel de una empresa cuando la regla automática no basta (señales ya superadas). Cada ajuste explica su motivo, que se publica en la ficha.",
+  "ajustes": [
+    {
+      "id": "productos-san-camilo",
+      "nivel": "observacion",
+      "motivo": "Las pérdidas reportadas corresponden a 2019 y 2020; según el mismo medio, sus estados financieros muestran utilidades en 2021 y 2022 ($1.350 millones en 2022). No se encontró información posterior."
+    }
+  ]
+}

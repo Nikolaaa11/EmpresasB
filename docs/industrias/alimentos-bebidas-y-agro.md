@@ -4,7 +4,7 @@
 
 **34** empresas · 15.2% del total · puntaje B promedio 87.2
 
-Subindustrias: Sin dato (11), Procesamiento agrícola (7), Productos alimenticios (6), Bebidas (3), Servicios agrícolas y poscosecha (2), Pesca y acuicultura (1), Restaurants and food service (1), Cultivos anuales (1), Cultivos permanentes (1), Agricultural support and post-harvest (1)
+Subindustrias: Sin dato (11), Procesamiento agrícola (7), Productos alimenticios (6), Bebidas (3), Servicios agrícolas y poscosecha (3), Pesca y acuicultura (1), Restaurantes y servicios de alimentación (1), Cultivos anuales (1), Cultivos permanentes (1)
 
 | Empresa | Razón social | Tipo | Industria | Región | Puntaje B | Certificada | Web | Contacto |
 |---|---|---|---|---|---:|---|---|---|
@@ -12,7 +12,7 @@ Subindustrias: Sin dato (11), Procesamiento agrícola (7), Productos alimenticio
 | [Integra Chile SPA](https://www.bcorporation.net/en-us/find-a-b-corp/company/integra-chile-sa/) | Integra Chile S.A. | S.A. | Pesca y acuicultura | Los Lagos | 99.4 | 2017-08 | [sitio](http://www.integrachile.com) | info@integrachile.com |
 | [Cervecería CODA](https://www.bcorporation.net/en-us/find-a-b-corp/company/coda/) | — | Sin dato | Bebidas | Valparaíso | 97.4 | 2021-07 | [sitio](http://www.coda.cl) | — |
 | [Viña Concha y Toro S.A.](https://www.bcorporation.net/en-us/find-a-b-corp/company/via-concha-y-toro-sa/) | — | S.A. | Servicios agrícolas y poscosecha | Metropolitana | 93.9 | 2021-01 | [sitio](https://vinacyt.com) | — |
-| [Espantapajaros](https://www.bcorporation.net/en-us/find-a-b-corp/company/espantapajaros/) | — | Sin dato | Restaurants and food service | Los Lagos | 93.6 | 2018-07 | [sitio](http://www.espantapajaros.cl) | — |
+| [Espantapajaros](https://www.bcorporation.net/en-us/find-a-b-corp/company/espantapajaros/) | — | Sin dato | Restaurantes y servicios de alimentación | Los Lagos | 93.6 | 2018-07 | [sitio](http://www.espantapajaros.cl) | — |
 | [Montes Wines](https://www.bcorporation.net/en-us/find-a-b-corp/company/montes-wines/) | — | Sin dato | — | Metropolitana | 92.4 | 2024-07 | [sitio](http://www.monteswines.com) | — |
 | [Viña MontGras](https://www.bcorporation.net/en-us/find-a-b-corp/company/via-mont-gras/) | — | Sin dato | — | Metropolitana | 92 | 2025-02 | [sitio](http://www.montgras.cl) | — |
 | [The Not Company](https://www.bcorporation.net/en-us/find-a-b-corp/company/the-not-company/) | — | Sin dato | Productos alimenticios | Metropolitana | 91.7 | 2022-11 | [sitio](http://www.notco.ai) | — |
@@ -41,4 +41,4 @@ Subindustrias: Sin dato (11), Procesamiento agrícola (7), Productos alimenticio
 | [The Wild Foods](https://www.bcorporation.net/en-us/find-a-b-corp/company/the-wild-foods/) | — | Sin dato | Productos alimenticios | Metropolitana | 80.2 | 2022-10 | [sitio](http://www.thewildfoods.com) | — |
 | [Grupo America Orgánica](https://www.bcorporation.net/en-us/find-a-b-corp/company/grupo-america-organica/) | — | Extranjera | — | Perú | — | — | — | — |
 | [Rivervalley Consulting](https://www.bcorporation.net/en-us/find-a-b-corp/company/rivervalley-consulting/) | — | Sin dato | — | Coquimbo | — | 2024-06 | — | — |
-| [Viña Los Vascos](https://www.bcorporation.net/en-us/find-a-b-corp/company/los-vascos/) | — | Sin dato | Agricultural support and post-harvest | O'Higgins | — | 2023-12 | [sitio](http://www.xn--vialosvascos-bhb.cl) | — |
+| [Viña Los Vascos](https://www.bcorporation.net/en-us/find-a-b-corp/company/los-vascos/) | — | Sin dato | Servicios agrícolas y poscosecha | O'Higgins | — | 2023-12 | [sitio](http://www.xn--vialosvascos-bhb.cl) | — |

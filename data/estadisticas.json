@@ -246,6 +246,11 @@
     "pct": 1.8
    },
    {
+    "categoria": "Otros servicios profesionales y científicos",
+    "empresas": 3,
+    "pct": 1.3
+   },
+   {
     "categoria": "Comercio minorista",
     "empresas": 3,
     "pct": 1.3
@@ -291,12 +296,12 @@
     "pct": 1.3
    },
    {
-    "categoria": "Cuidado personal",
-    "empresas": 2,
-    "pct": 0.9
+    "categoria": "Servicios agrícolas y poscosecha",
+    "empresas": 3,
+    "pct": 1.3
    },
    {
-    "categoria": "Otros servicios profesionales y científicos",
+    "categoria": "Cuidado personal",
     "empresas": 2,
     "pct": 0.9
    },
@@ -306,7 +311,7 @@
     "pct": 0.9
    },
    {
-    "categoria": "Professional, scientific and technical services",
+    "categoria": "Servicios profesionales, científicos y técnicos",
     "empresas": 2,
     "pct": 0.9
    },
@@ -316,7 +321,7 @@
     "pct": 0.9
    },
    {
-    "categoria": "Waste treatment and disposal",
+    "categoria": "Tratamiento de residuos",
     "empresas": 2,
     "pct": 0.9
    },
@@ -326,17 +331,12 @@
     "pct": 0.9
    },
    {
-    "categoria": "Cleaning products",
+    "categoria": "Productos de limpieza",
     "empresas": 2,
     "pct": 0.9
    },
    {
     "categoria": "Textiles",
-    "empresas": 2,
-    "pct": 0.9
-   },
-   {
-    "categoria": "Servicios agrícolas y poscosecha",
     "empresas": 2,
     "pct": 0.9
    },
@@ -381,7 +381,7 @@
     "pct": 0.4
    },
    {
-    "categoria": "Postal and courier activities",
+    "categoria": "Servicios postales y de mensajería",
     "empresas": 1,
     "pct": 0.4
    },
@@ -391,7 +391,7 @@
     "pct": 0.4
    },
    {
-    "categoria": "Other transport equipment",
+    "categoria": "Otros equipos de transporte",
     "empresas": 1,
     "pct": 0.4
    },
@@ -411,7 +411,7 @@
     "pct": 0.4
    },
    {
-    "categoria": "Restaurants and food service",
+    "categoria": "Restaurantes y servicios de alimentación",
     "empresas": 1,
     "pct": 0.4
    },
@@ -421,7 +421,7 @@
     "pct": 0.4
    },
    {
-    "categoria": "Printing and recorded media",
+    "categoria": "Impresión y medios grabados",
     "empresas": 1,
     "pct": 0.4
    },
@@ -431,7 +431,7 @@
     "pct": 0.4
    },
    {
-    "categoria": "Remediation and other waste management",
+    "categoria": "Gestión de residuos",
     "empresas": 1,
     "pct": 0.4
    },
@@ -441,7 +441,7 @@
     "pct": 0.4
    },
    {
-    "categoria": "Newspapers and magazines publishing",
+    "categoria": "Edición de diarios y revistas",
     "empresas": 1,
     "pct": 0.4
    },
@@ -501,12 +501,12 @@
     "pct": 0.4
    },
    {
-    "categoria": "Technology-based support services",
+    "categoria": "Servicios de soporte tecnológico",
     "empresas": 1,
     "pct": 0.4
    },
    {
-    "categoria": "Software publishing and SaaS",
+    "categoria": "Software y plataformas SaaS",
     "empresas": 1,
     "pct": 0.4
    },
@@ -516,17 +516,12 @@
     "pct": 0.4
    },
    {
-    "categoria": "Computers and electronics",
+    "categoria": "Computadores y electrónica",
     "empresas": 1,
     "pct": 0.4
    },
    {
     "categoria": "Artículos deportivos",
-    "empresas": 1,
-    "pct": 0.4
-   },
-   {
-    "categoria": "Other professional, scientific and technical activities",
     "empresas": 1,
     "pct": 0.4
    },
@@ -537,11 +532,6 @@
    },
    {
     "categoria": "Inmobiliario",
-    "empresas": 1,
-    "pct": 0.4
-   },
-   {
-    "categoria": "Agricultural support and post-harvest",
     "empresas": 1,
     "pct": 0.4
    },
@@ -736,9 +726,24 @@
   ],
   "por_rendimiento": [
    {
+    "categoria": "Negativo",
+    "empresas": 7,
+    "pct": 3.1
+   },
+   {
+    "categoria": "En observación",
+    "empresas": 2,
+    "pct": 0.9
+   },
+   {
+    "categoria": "Sin señales públicas",
+    "empresas": 177,
+    "pct": 79.0
+   },
+   {
     "categoria": "Sin revisar",
-    "empresas": 224,
-    "pct": 100.0
+    "empresas": 38,
+    "pct": 17.0
    }
   ],
   "puntaje_b": {
@@ -1068,6 +1073,11 @@
     "pct": 1.6
    },
    {
+    "categoria": "Servicios agrícolas y poscosecha",
+    "empresas": 3,
+    "pct": 1.6
+   },
+   {
     "categoria": "Cuidado personal",
     "empresas": 2,
     "pct": 1.1
@@ -1078,7 +1088,7 @@
     "pct": 1.1
    },
    {
-    "categoria": "Professional, scientific and technical services",
+    "categoria": "Servicios profesionales, científicos y técnicos",
     "empresas": 2,
     "pct": 1.1
    },
@@ -1103,7 +1113,7 @@
     "pct": 1.1
    },
    {
-    "categoria": "Cleaning products",
+    "categoria": "Productos de limpieza",
     "empresas": 2,
     "pct": 1.1
    },
@@ -1123,12 +1133,12 @@
     "pct": 1.1
    },
    {
-    "categoria": "Inversión de capital (mercados emergentes)",
+    "categoria": "Otros servicios profesionales y científicos",
     "empresas": 2,
     "pct": 1.1
    },
    {
-    "categoria": "Servicios agrícolas y poscosecha",
+    "categoria": "Inversión de capital (mercados emergentes)",
     "empresas": 2,
     "pct": 1.1
    },
@@ -1193,7 +1203,7 @@
     "pct": 0.5
    },
    {
-    "categoria": "Restaurants and food service",
+    "categoria": "Restaurantes y servicios de alimentación",
     "empresas": 1,
     "pct": 0.5
    },
@@ -1203,7 +1213,7 @@
     "pct": 0.5
    },
    {
-    "categoria": "Printing and recorded media",
+    "categoria": "Impresión y medios grabados",
     "empresas": 1,
     "pct": 0.5
    },
@@ -1213,7 +1223,7 @@
     "pct": 0.5
    },
    {
-    "categoria": "Remediation and other waste management",
+    "categoria": "Gestión de residuos",
     "empresas": 1,
     "pct": 0.5
    },
@@ -1253,11 +1263,6 @@
     "pct": 0.5
    },
    {
-    "categoria": "Otros servicios profesionales y científicos",
-    "empresas": 1,
-    "pct": 0.5
-   },
-   {
     "categoria": "Servicios de información",
     "empresas": 1,
     "pct": 0.5
@@ -1283,12 +1288,12 @@
     "pct": 0.5
    },
    {
-    "categoria": "Software publishing and SaaS",
+    "categoria": "Software y plataformas SaaS",
     "empresas": 1,
     "pct": 0.5
    },
    {
-    "categoria": "Waste treatment and disposal",
+    "categoria": "Tratamiento de residuos",
     "empresas": 1,
     "pct": 0.5
    },
@@ -1298,17 +1303,12 @@
     "pct": 0.5
    },
    {
-    "categoria": "Computers and electronics",
+    "categoria": "Computadores y electrónica",
     "empresas": 1,
     "pct": 0.5
    },
    {
     "categoria": "Artículos deportivos",
-    "empresas": 1,
-    "pct": 0.5
-   },
-   {
-    "categoria": "Other professional, scientific and technical activities",
     "empresas": 1,
     "pct": 0.5
    },
@@ -1319,11 +1319,6 @@
    },
    {
     "categoria": "Inmobiliario",
-    "empresas": 1,
-    "pct": 0.5
-   },
-   {
-    "categoria": "Agricultural support and post-harvest",
     "empresas": 1,
     "pct": 0.5
    },
@@ -1513,9 +1508,19 @@
   ],
   "por_rendimiento": [
    {
-    "categoria": "Sin revisar",
-    "empresas": 186,
-    "pct": 100.0
+    "categoria": "Negativo",
+    "empresas": 7,
+    "pct": 3.8
+   },
+   {
+    "categoria": "En observación",
+    "empresas": 2,
+    "pct": 1.1
+   },
+   {
+    "categoria": "Sin señales públicas",
+    "empresas": 177,
+    "pct": 95.2
    }
   ],
   "puntaje_b": {

@@ -21,7 +21,7 @@ Actualizado el **2026-10-20**.
 - Puntaje B promedio **91.9** (mediana 88.4; rango 80.0–142.8).
 - Tipo de sociedad: SpA 41 (18.3%), S.A. 24 (10.7%), Ltda. 13 (5.8%), Extranjera 33 (14.7%), Sin dato 113 (50.4%).
 - Sectores estratégicos: Data center 13 (0 B), Robótica 25 (0 B), Salmones 22 (1 B), Marítimo 25 (0 B).
-- [Peor rendimiento económico](docs/peor_rendimiento.md): Sin revisar 224.
+- [Peor rendimiento económico](docs/peor_rendimiento.md): Negativo 7, En observación 2, Sin señales públicas 177, Sin revisar 38.
 
 | Industria | Empresas | % |
 |---|---:|---:|
@@ -68,7 +68,7 @@ Actualizado el **2026-10-20**.
 | `data/por_industria/*.csv` | Una planilla por macro-industria |
 | `data/por_tipo_sociedad/*.csv` | Una planilla por tipo de sociedad (`spa.csv`, `s-a.csv`, `ltda.csv`, …) |
 | `data/sectores_estrategicos/*.csv` | Data center, Robótica, Salmones y Marítimo |
-| `data/peor_rendimiento.csv` | Empresas con señales económicas negativas (crítico / negativo), con fuentes |
+| `data/peor_rendimiento.csv` | Empresas con señales económicas negativas (crítico / negativo / en observación), con fuentes |
 | `data/estadisticas.json` | Porcentajes por industria, tipo, región, tamaño; promedios por área de impacto |
 | `docs/` | Las mismas tablas en Markdown, navegables en GitHub |
 | `data/raw/` | Investigación en bruto de cada agente (trazabilidad) |
@@ -94,6 +94,11 @@ El directorio responde la pregunta de tres maneras:
   siempre con año y fuente.
 - El SII no publica estados financieros de empresas privadas, así que esa nómina es la referencia
   oficial de tamaño.
+- **[Peor rendimiento económico](docs/peor_rendimiento.md)**: agentes revisaron prensa económica, CMF,
+  Boletín Concursal y Poder Judicial en busca de hechos negativos con fecha y fuente. **Crítico**:
+  insolvencia o cierre total confirmado. **Negativo**: pérdidas, cierres de operaciones, despidos,
+  deuda impaga o rescate en los últimos tres años. **En observación**: ventas o utilidades a la baja
+  sin pérdidas, o problemas ya superados. Que una empresa no aparezca no significa que le vaya bien.
 
 ## Actualizar los datos
 

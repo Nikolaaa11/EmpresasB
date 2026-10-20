@@ -4,7 +4,7 @@
 
 **45** empresas · 20.1% del total · puntaje B promedio 94.6
 
-Subindustrias: Consultoría de gestión (12), Consultoría ambiental (12), Sin dato (5), Reclutamiento y RR.HH. (4), Servicios legales (3), Otros servicios profesionales y científicos (2), Servicios de apoyo empresarial (2), Professional, scientific and technical services (2), Other professional, scientific and technical activities (1), Arquitectura y diseño (1), Ingeniería (1)
+Subindustrias: Consultoría de gestión (12), Consultoría ambiental (12), Sin dato (5), Reclutamiento y RR.HH. (4), Otros servicios profesionales y científicos (3), Servicios legales (3), Servicios de apoyo empresarial (2), Servicios profesionales, científicos y técnicos (2), Arquitectura y diseño (1), Ingeniería (1)
 
 | Empresa | Razón social | Tipo | Industria | Región | Puntaje B | Certificada | Web | Contacto |
 |---|---|---|---|---|---:|---|---|---|
@@ -31,15 +31,15 @@ Subindustrias: Consultoría de gestión (12), Consultoría ambiental (12), Sin d
 | [Peralta Abogados](https://www.bcorporation.net/en-us/find-a-b-corp/company/peralta-abogados/) | — | Sin dato | Servicios legales | Metropolitana | 90.9 | 2019-12 | [sitio](http://www.peraltabogados.cl) | — |
 | [Consultora Liquen](https://www.bcorporation.net/en-us/find-a-b-corp/company/consultora-liquen/) | — | Extranjera | — | Argentina | 90.3 | 2025-12 | — | — |
 | [Lukkap Chile](https://www.bcorporation.net/en-us/find-a-b-corp/company/lukkap-chile/) | — | Sin dato | Reclutamiento y RR.HH. | Metropolitana | 90.1 | 2022-08 | [sitio](http://www.lukkap.cl) | — |
-| [Socialab](https://www.bcorporation.net/en-us/find-a-b-corp/company/socialab/) | — | Sin dato | Other professional, scientific and technical activities | Metropolitana | 89.9 | 2020-06 | [sitio](http://www.socialab.com) | — |
+| [Socialab](https://www.bcorporation.net/en-us/find-a-b-corp/company/socialab/) | — | Sin dato | Otros servicios profesionales y científicos | Metropolitana | 89.9 | 2020-06 | [sitio](http://www.socialab.com) | — |
 | [Better Brands](https://www.bcorporation.net/en-us/find-a-b-corp/company/better-brands/) | — | Sin dato | Servicios de apoyo empresarial | Metropolitana | 89.6 | 2023-12 | [sitio](http://www.betterbrands.cl) | — |
-| [Entidad Patrocinante Unión Ltda](https://www.bcorporation.net/en-us/find-a-b-corp/company/entidad-patrocinante-unin-sp-a/) | — | Ltda. | Professional, scientific and technical services | Metropolitana | 89.6 | 2021-12 | [sitio](http://www.unionep.cl) | — |
+| [Entidad Patrocinante Unión Ltda](https://www.bcorporation.net/en-us/find-a-b-corp/company/entidad-patrocinante-unin-sp-a/) | — | Ltda. | Servicios profesionales, científicos y técnicos | Metropolitana | 89.6 | 2021-12 | [sitio](http://www.unionep.cl) | — |
 | [Egaña Abogados](https://www.bcorporation.net/en-us/find-a-b-corp/company/egaa-abogados/) | — | Sin dato | Servicios legales | Metropolitana | 88.3 | 2025-06 | [sitio](http://www.eycia.cl) | — |
 | [LOF Servicios SPA](https://www.bcorporation.net/en-us/find-a-b-corp/company/lof-servicios-spa/) | LOF Servicios SPA | SpA | Consultoría ambiental | Metropolitana | 88.3 | 2026-03 | [sitio](http://www.lofservicios.com) | — |
 | [Carboneutral](https://www.bcorporation.net/en-us/find-a-b-corp/company/carboneutral/) | — | Sin dato | Consultoría ambiental | Metropolitana | 88.2 | 2025-09 | [sitio](http://www.carboneutral.cl) | — |
 | [CasaCo](https://www.bcorporation.net/en-us/find-a-b-corp/company/casaco/) | — | Sin dato | Servicios de apoyo empresarial | Metropolitana | 88.2 | 2016-12 | [sitio](http://www.casaco.org) | — |
 | [Orion](https://www.bcorporation.net/en-us/find-a-b-corp/company/orion/) | — | Sin dato | — | Metropolitana | 87.2 | 2025-12 | [sitio](http://www.orion.global) | — |
-| [BIOCYS](https://www.bcorporation.net/en-us/find-a-b-corp/company/biocys/) | — | Sin dato | Professional, scientific and technical services | Metropolitana | 85.6 | 2025-04 | — | — |
+| [BIOCYS](https://www.bcorporation.net/en-us/find-a-b-corp/company/biocys/) | — | Sin dato | Servicios profesionales, científicos y técnicos | Metropolitana | 85.6 | 2025-04 | — | — |
 | [Unplastify](https://www.bcorporation.net/en-us/find-a-b-corp/company/unplastify/) | — | Extranjera | Consultoría ambiental | Argentina | 85.4 | — | [sitio](http://www.unplastify.com) | — |
 | [INNSPIRAL](https://www.bcorporation.net/en-us/find-a-b-corp/company/innspiral/) | — | Sin dato | Consultoría de gestión | Metropolitana | 84.6 | 2023-07 | [sitio](http://www.innspiral.com) | — |
 | [PCH Consultora](https://www.bcorporation.net/en-us/find-a-b-corp/company/pch-consultora/) | — | Extranjera | Consultoría de gestión | Argentina | 83.7 | 2025-07 | [sitio](http://www.pchconsultora.com) | — |

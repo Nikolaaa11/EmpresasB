@@ -375,7 +375,14 @@ def aplicar_apollo(empresas: list[dict]) -> int:
 # ---------------------------------------------------------------------------
 
 TIPOS_SENAL = ("insolvencia", "cierre", "perdidas", "caida_ventas", "despidos", "deuda", "rescate", "otra")
-TIPOS_CRITICOS = {"insolvencia", "cierre"}
+# Un procedimiento concursal siempre es crítico. Un "cierre" solo lo es si el investigador confirmó que ocurrió
+# (un cierre anunciado y luego evitado con una capitalización queda como negativo).
+TIPOS_CRITICOS = {"insolvencia"}
+# Negativo exige al menos una de estas señales en los últimos VIGENCIA_MESES. Una caída de ventas o utilidades sin
+# pérdidas, o problemas más antiguos, dejan a la empresa "en observación".
+TIPOS_GRAVES = {"insolvencia", "cierre", "perdidas", "despidos", "deuda", "rescate"}
+VIGENCIA_MESES = 36
+NIVELES_REND = ("critico", "negativo", "observacion", "sin_senales", "sin_revisar")
 
 
 def limpiar_senales(senales) -> list[dict]:
@@ -395,45 +402,86 @@ def limpiar_senales(senales) -> list[dict]:
     return sorted(salida, key=lambda s: str(s["fecha"] or ""), reverse=True)
 
 
-def cargar_rendimiento() -> tuple[dict[str, dict], set[str]]:
-    """Une los resultados de todos los agentes. Las alertas de confianza baja no se publican."""
-    alertas: dict[str, dict] = {}
+def unir_alertas(alertas: list[dict]) -> dict:
+    """Une las alertas de varias revisiones de una misma empresa, con la primera como base.
+
+    De las demás solo se suman señales de otra fuente y de otro mes, para no contar dos veces el mismo hecho
+    reportado por dos medios. Si las revisiones difieren en confianza, se publica la más baja.
+    """
+    senales = limpiar_senales(alertas[0].get("senales"))
+    for a in alertas[1:]:
+        fuentes, meses = {s["fuente"] for s in senales}, {s["fecha"] for s in senales}
+        senales += [s for s in limpiar_senales(a.get("senales")) if s["fuente"] not in fuentes and s["fecha"] not in meses]
+    return {
+        "senales": sorted(senales, key=lambda s: str(s["fecha"] or ""), reverse=True),
+        "contexto": next((limpiar(a.get("contexto")) for a in alertas if limpiar(a.get("contexto"))), None),
+        "confianza": min((a["confianza"] for a in alertas), key=RANGO_CONFIANZA.get),
+        "critico": any(a.get("nivel") == "critico" for a in alertas),
+    }
+
+
+def cargar_rendimiento() -> tuple[dict[str, dict], set[str], dict[str, dict]]:
+    """Une los resultados de todos los agentes. Las alertas de confianza baja no se publican.
+
+    El barrido temático (búsqueda dirigida a las empresas con prensa) es la base cuando también la cubrió un lote.
+    """
+    por_empresa: dict[str, list[dict]] = collections.defaultdict(list)
+    positivas: dict[str, list[dict]] = collections.defaultdict(list)
     revisadas: set[str] = set()
-    for ruta in sorted(glob.glob(str(RAW / "rendimiento" / "*.json"))):
+    ajustes: dict[str, dict] = {}
+    for ruta in sorted(glob.glob(str(RAW / "rendimiento" / "*.json")), key=lambda r: ("tematico" not in r, r)):
         datos = leer_json(ruta)
         revisadas.update(x for x in datos.get("revisadas") or [] if isinstance(x, str))
         for a in datos.get("alertas") or []:
-            if not a.get("id") or a.get("confianza") not in ("alta", "media"):
-                continue
-            r = alertas.setdefault(a["id"], {"senales": [], "contexto": None, "confianza": "media", "positivas": []})
-            r["senales"] = limpiar_senales(r["senales"] + (a.get("senales") or []))
-            r["contexto"] = limpiar(a.get("contexto")) or r["contexto"]
-            if a.get("confianza") == "alta":
-                r["confianza"] = "alta"
-            revisadas.add(a["id"])
+            if a.get("id") and a.get("confianza") in ("alta", "media"):
+                por_empresa[a["id"]].append(a)
+                revisadas.add(a["id"])
         for p in datos.get("positivas") or []:
             if p.get("id") and url(p.get("fuente")) and limpiar(p.get("descripcion")):
-                r = alertas.setdefault(p["id"], {"senales": [], "contexto": None, "confianza": "media", "positivas": []})
-                r["positivas"].append({"descripcion": limpiar(p["descripcion"]), "fecha": limpiar(p.get("fecha")),
-                                       "fuente": url(p["fuente"])})
+                positivas[p["id"]].append({"descripcion": limpiar(p["descripcion"]), "fecha": limpiar(p.get("fecha")),
+                                           "fuente": url(p["fuente"])})
                 revisadas.add(p["id"])
-    return alertas, revisadas
+        for aj in datos.get("ajustes") or []:
+            if aj.get("id") and aj.get("nivel") in NIVELES_REND and limpiar(aj.get("motivo")):
+                ajustes[aj["id"]] = {"nivel": aj["nivel"], "motivo": limpiar(aj["motivo"])}
+    alertas = {i: unir_alertas(lista) for i, lista in por_empresa.items()}
+    for i, lista in positivas.items():
+        alertas.setdefault(i, {"senales": []})["positivas"] = lista
+    return alertas, revisadas, ajustes
+
+
+def vigente(fecha) -> bool:
+    """¿La señal es de los últimos VIGENCIA_MESES? Una fecha con solo el año cuenta como diciembre de ese año."""
+    m = re.match(r"(\d{4})(?:-(\d{2}))?", str(fecha or ""))
+    if not m:
+        return True
+    hoy = dt.date.today()
+    return (hoy.year - int(m[1])) * 12 + hoy.month - int(m[2] or 12) <= VIGENCIA_MESES
+
+
+def nivel_rendimiento(a: dict, revisada: bool) -> str:
+    senales = a.get("senales") or []
+    if not senales:
+        return "sin_senales" if revisada else "sin_revisar"
+    if a.get("critico") or any(s["tipo"] in TIPOS_CRITICOS for s in senales):
+        return "critico"
+    if any(s["tipo"] in TIPOS_GRAVES and vigente(s["fecha"]) for s in senales):
+        return "negativo"
+    return "observacion"
 
 
 def aplicar_rendimiento(empresas: list[dict]) -> None:
-    alertas, revisadas = cargar_rendimiento()
+    alertas, revisadas, ajustes = cargar_rendimiento()
     for emp in empresas:
         a = alertas.get(emp["id"]) or {}
         senales = a.get("senales") or []
-        if senales:
-            nivel = "critico" if any(s["tipo"] in TIPOS_CRITICOS for s in senales) else "negativo"
-        else:
-            nivel = "sin_senales" if emp["id"] in revisadas else "sin_revisar"
+        ajuste = ajustes.get(emp["id"]) or {}
         emp["rendimiento"] = {
-            "nivel": nivel,
+            "nivel": ajuste.get("nivel") or nivel_rendimiento(a, emp["id"] in revisadas),
             "senales": senales,
             "contexto": a.get("contexto") if senales else None,
             "confianza": a.get("confianza") if senales else None,
+            "revision": ajuste.get("motivo"),
             "positivas": a.get("positivas") or [],
         }
 

@@ -1,0 +1,127 @@
+{
+  "lote": "1",
+  "busquedas_realizadas": 45,
+  "revisadas": [
+    "40c-consultores",
+    "abinsa-sp-a",
+    "abrantes",
+    "adclean",
+    "agencia-de-aduanas-felipe-serrano-solar-y-cia-ltada",
+    "grow-betteragency",
+    "agrcola-e-inversiones-terraman-limitada",
+    "agrcola-valles-del-sur-sp-a",
+    "aguas-santa-amalia-sa",
+    "alfa-sea",
+    "trendy",
+    "almaciguera-consultora",
+    "almacruz",
+    "reciclajes-industriales",
+    "asgreen-ingeniera-sustentable",
+    "aurys-consulting",
+    "balloon-latam",
+    "bancoestado-microempresas",
+    "bermarg-spa",
+    "better-brands",
+    "burn-to-give",
+    "biobrush",
+    "biocys",
+    "bioelements-group-spa",
+    "bioprocess-chile",
+    "biosfera-austral",
+    "birdschile",
+    "bligraf-sa",
+    "bridge-chile",
+    "b-tools",
+    "buydepa",
+    "cajavecina",
+    "carboneutral",
+    "carga-inteligente",
+    "casa-molle",
+    "casaco",
+    "cavas-del-valle",
+    "cebra",
+    "centro-de-innovacin-y-emprendimiento-copayapu-consultores-ltda",
+    "cervecera-guayacan-spa",
+    "cervecera-chile-sa",
+    "coda",
+    "ciclo-fauna",
+    "comaco",
+    "comercial-las-mellizas-spa",
+    "compaas-cic",
+    "constructora-oval",
+    "cristin-fernndez-arquitectos",
+    "cultiva-empresa",
+    "cumplo-chile-sa",
+    "c-z-abogados",
+    "cz-tokosova-hydrovalv",
+    "de-raz-chile",
+    "deisa",
+    "dictuc-sa",
+    "dijase",
+    "ebco",
+    "eclass-sa",
+    "ecomundo-reciclajes-sp-a",
+    "econsult-ambiental",
+    "ecoterra",
+    "egaa-abogados"
+  ],
+  "alertas": [
+    {
+      "id": "burn-to-give",
+      "nombre": "Betterfly (ficha B Lab: burn to give)",
+      "nivel": "negativo",
+      "senales": [
+        {
+          "tipo": "despidos",
+          "descripcion": "Betterfly cerró operaciones en cinco países (Colombia, Ecuador, Perú, Argentina y Brasil) y despidió a 30 personas dentro de un plan de reestructuración, manteniendo operaciones en Chile, México y España.",
+          "fecha": "2025-03",
+          "fuente": "https://forbes.cl/negocios/2025-03-17/betterfly-cierra-en-cinco-paises-y-despide-a-30-empleados-por-plan-de-reestructuracion"
+        },
+        {
+          "tipo": "despidos",
+          "descripcion": "La startup despidió al 30% de sus colaboradores, decisión que su CEO atribuyó al deterioro del entorno económico global.",
+          "fecha": "2023-01",
+          "fuente": "https://www.bloomberglinea.com/2023/01/18/chilena-betterfly-despide-a-un-30-de-sus-trabajadores/"
+        }
+      ],
+      "contexto": "La empresa calificó la medida de 2025 como una reorganización estratégica y declaró contar con más de cinco años de caja; también se reportaron recortes en agosto de 2022. Una entrevista reciente en DF (2026) indica unos 250 empleados, cerca de 4.500 clientes empresa y entre cuatro y cinco años de caja, con planes de lanzar operación en EE.UU. (https://www.df.cl/df-mas/punto-de-partida/en-que-esta-betterfly-la-apuesta-por-eeuu-las-criticas-y-las-rondas). No se encontraron cifras de resultados (ingresos/pérdidas) ni procesos concursales en las búsquedas realizadas.",
+      "confianza": "alta"
+    },
+    {
+      "id": "compaas-cic",
+      "nombre": "Compañías CIC",
+      "nivel": "negativo",
+      "senales": [
+        {
+          "tipo": "perdidas",
+          "descripcion": "CIC (Compañía Industrial de Catres) reportó pérdidas en el primer trimestre de 2025 frente a utilidad en igual periodo de 2024, con ventas a la baja (-3,15%) y un ajuste de gastos que incluyó $1.357 millones en indemnizaciones, en un contexto de menor demanda de bienes durables.",
+          "fecha": "2025-03",
+          "fuente": "https://www.latercera.com/pulso/noticia/jose-yuraszeck-y-leon-vial-no-la-pasan-bien-en-el-retail-cic-reporta-perdidas/"
+        },
+        {
+          "tipo": "perdidas",
+          "descripcion": "Según el análisis razonado a diciembre de 2025, el resultado antes de impuestos de 2024 fue una pérdida de M$1.651.400.",
+          "fecha": "2024",
+          "fuente": "https://anlpubxgxwsaypiyrmec.storage.supabase.co/storage/v1/object/public/analisis-razonado/93830000/analisis_razonado_93830000_2025Q4.pdf"
+        }
+      ],
+      "contexto": "Situación revertida en 2025: según el mismo análisis razonado, el resultado antes de impuestos de 2025 pasó a utilidad (M$1.032.699) pese a una caída de ventas anual de 5,09%, y una nota posterior de La Tercera (ver https://www.latercera.com/etiqueta/cic/) indicaría que CIC revirtió las pérdidas en 2025. Una entrevista de abril de 2026 con su gerente general la describe operando con planta en Chillán (https://chocale.cl/2026/04/gonzalo-marambio-gerente-general-de-cic-entrevista/). Salvedades: el análisis razonado está alojado en un servidor de terceros (no en el sitio de la CMF) y las cifras exactas de pérdida del primer trimestre de 2025 difieren entre los extractos obtenidos, por lo que conviene verificarlas en los estados financieros oficiales. No se encontraron señales de insolvencia ni cierre; un acuerdo de reestructuración de deuda bancaria reportado por Latin Lawyer corresponde a 2005 y no se considera.",
+      "confianza": "media"
+    },
+    {
+      "id": "abrantes",
+      "nombre": "Abrantes",
+      "nivel": "negativo",
+      "senales": [
+        {
+          "tipo": "cierre",
+          "descripcion": "Tras el terremoto de febrero de 2010 que destruyó sus instalaciones en Paine, Champiñones Abrantes cerró su operación y despidió a unas 200 personas invocando fuerza mayor.",
+          "fecha": "2010",
+          "fuente": "https://www.portalfruticola.com/?p=1375"
+        }
+      ],
+      "contexto": "Hecho histórico (2010) causado por un desastre natural, no por insolvencia. En 2010 se constituyó una nueva sociedad, Champiñones Abrantes S.A., con Empresas Sutil y otros socios para retomar la producción (prevista para 2011): https://www.portalfruticola.com/noticias/2010/06/03/chile-juan-sutil-crea-nueva-empresa-con-el-mayor-productor-de-champinones-del-pais/. Hoy figura como Empresa B certificada (desde mayo 2023; sede Región Metropolitana; producción de champiñones): https://www.bcorporation.net/en-us/find-a-b-corp/company/abrantes. Confianza baja porque la razón social actual podría ser la sociedad sucesora y no la misma entidad que cerró, y porque el evento tiene 16 años y la empresa se recuperó; no refleja su rendimiento económico actual y se recomienda no usarlo para separarla.",
+      "confianza": "baja"
+    }
+  ]
+}

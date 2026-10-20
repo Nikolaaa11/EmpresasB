@@ -50,6 +50,13 @@ Fase 2 — Enriquecimiento: lotes de ~20 empresas por agente. Por empresa:
 Fase 3 — Cruce SII por RUT (tramo de ventas y trabajadores) y enriquecimiento B2B de empresa.
 Fase 4 — Sectores estratégicos: un agente por sector (20-30 empresas c/u, priorizando las más
   grandes), con resumen del sector con cifras y fuentes.
+Fase 4b — Rendimiento económico: lotes de ~60 empresas por agente más un barrido temático (quiebra,
+  liquidación, reorganización, cierres, despidos, pérdidas). Solo hechos con fecha y fuente
+  (prensa económica, Boletín Concursal, CMF, Poder Judicial, la propia empresa). Niveles:
+  Crítico (insolvencia o cierre total confirmado) · Negativo (pérdidas, cierres de operaciones,
+  despidos, deuda impaga o rescate en los últimos 3 años) · En observación (ventas o utilidades a la
+  baja sin pérdidas, o problemas ya superados) · Sin señales públicas · Sin revisar. Confianza baja:
+  no se publica. «Sin señales» no significa que le vaya bien.
 Fase 5 — Consolidación y validación automática (scripts), exportación y publicación.
 
 # REGLAS DE CALIDAD
@@ -85,17 +92,18 @@ GitHub:
 - data/empresas_b_chile.json|.csv|.xlsx (maestro), data/por_industria/*.csv,
   data/por_tipo_sociedad/*.csv, data/sectores_estrategicos/*.csv, data/estadisticas.json
 - docs/industrias/*.md (tablas navegables por industria), docs/tipos_sociedad.md,
-  docs/sectores_estrategicos.md
+  docs/sectores_estrategicos.md, docs/peor_rendimiento.md y data/peor_rendimiento.csv
 - scripts/ reproducibles (consolidar, exportar, cruce SII) y data/raw/ con la investigación en bruto.
 Vercel (sitio estático):
 - Diseño estilo Apple, fondo blanco y móvil primero: tipografía del sistema (San Francisco), barra
   superior translúcida, controles iOS (segmentados, hoja de filtros con interruptores, fichas como
   hoja inferior), barra de pestañas abajo en el celular, objetivos táctiles de 44 px.
-- Pestañas: Directorio · Por industria · Estadísticas · Data center/Robótica/Salmones/Marítimo ·
-  Metodología.
+- Pestañas: Directorio · Por industria · Peor rendimiento · Estadísticas ·
+  Data center/Robótica/Salmones/Marítimo · Metodología.
 - Filtros (una fila, aplican a todo): búsqueda (nombre, razón social, RUT), industria, tipo de
   sociedad (SpA…), región, tamaño SII, puntaje B mínimo, año de certificación, sede (Chile/extranjero),
-  sección especial, «con web/email/teléfono/RUT». Exportar CSV de lo filtrado. URL compartible.
+  sección especial, rendimiento económico, «con web/email/teléfono/RUT». Exportar CSV de lo filtrado.
+  URL compartible.
 - Ficha por empresa: puntaje y desglose por área (% del total), economía, propiedad (%), contactos,
   líderes, fuentes, botón «reportar error».
 - Gráficos accesibles (con vista de tabla): % por industria, tipo de sociedad, región, tamaño,
@@ -119,7 +127,9 @@ Vercel (sitio estático):
 
 ## Cómo se aplicó en este repositorio
 
-- Fases 1, 2 y 4 se ejecutaron con agentes en paralelo (ver `data/raw/`).
+- Fases 1, 2, 4 y 4b se ejecutaron con agentes en paralelo (ver `data/raw/`). Cuando dos revisiones
+  económicas cubren la misma empresa, se unen sin repetir hechos y se publica la confianza más baja;
+  las decisiones manuales quedan en `data/raw/rendimiento/revision_editorial.json` con su motivo.
 - La Fase 3 (cruce SII) está implementada en `scripts/sii_nomina.py` y se ejecuta cuando el entorno
   tiene acceso a `sii.cl`.
 - La consolidación y validación están en `scripts/consolidar.py` y `scripts/exportar.py`.

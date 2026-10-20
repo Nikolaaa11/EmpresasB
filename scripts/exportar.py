@@ -27,9 +27,10 @@ DATA = ROOT / "data"
 DOCS = ROOT / "docs"
 WEB = ROOT / "web" / "data"
 AREAS = ("gobernanza", "trabajadores", "comunidad", "medio_ambiente", "clientes")
-NIVEL_REND = {"critico": "Crítico", "negativo": "Negativo", "sin_senales": "Sin señales públicas",
-              "sin_revisar": "Sin revisar"}
-ORDEN_NIVEL = {"critico": 0, "negativo": 1, "sin_senales": 2, "sin_revisar": 3}
+NIVEL_REND = {"critico": "Crítico", "negativo": "Negativo", "observacion": "En observación",
+              "sin_senales": "Sin señales públicas", "sin_revisar": "Sin revisar"}
+ORDEN_NIVEL = {"critico": 0, "negativo": 1, "observacion": 2, "sin_senales": 3, "sin_revisar": 4}
+NIVELES_PEOR = ("critico", "negativo", "observacion")
 TIPO_SENAL = {"insolvencia": "Insolvencia", "cierre": "Cierre", "perdidas": "Pérdidas", "caida_ventas": "Caída de ventas",
               "despidos": "Despidos", "deuda": "Deuda", "rescate": "Rescate financiero", "otra": "Otra señal"}
 
@@ -37,6 +38,13 @@ TIPO_SENAL = {"insolvencia": "Insolvencia", "cierre": "Cierre", "perdidas": "Pé
 def senales_txt(senales) -> str:
     return " | ".join(f"{TIPO_SENAL.get(s['tipo'], s['tipo'])} ({s.get('fecha') or 's/f'}): {s['descripcion']}"
                       for s in senales or [])
+
+
+def contexto_rend(r: dict) -> str | None:
+    """Contexto de los agentes más el motivo de la revisión editorial, si la hubo."""
+    return " ".join(x for x in (r.get("contexto"), r.get("revision") and f"Revisión: {r['revision']}") if x) or None
+
+
 NOMBRE_AREA = {"gobernanza": "Gobernanza", "trabajadores": "Trabajadores", "comunidad": "Comunidad",
                "medio_ambiente": "Medio ambiente", "clientes": "Clientes"}
 
@@ -91,7 +99,7 @@ def fila_csv(e: dict) -> dict:
         "resumen_economico": eco.get("resumen"),
         "rendimiento_economico": NIVEL_REND.get((e.get("rendimiento") or {}).get("nivel"), "Sin revisar"),
         "senales_negativas": senales_txt((e.get("rendimiento") or {}).get("senales")),
-        "contexto_rendimiento": (e.get("rendimiento") or {}).get("contexto"),
+        "contexto_rendimiento": contexto_rend(e.get("rendimiento") or {}),
         "controlador": prop.get("controlador"), "grupo_empresarial": prop.get("grupo_empresarial"),
         "socios": socios_txt(prop.get("socios")),
         "sitio_web": c.get("sitio_web"), "email": c.get("email"), "telefono": c.get("telefono"),
@@ -317,31 +325,34 @@ def escribir_docs(empresas: list[dict], stats: dict, sectores: dict) -> None:
     doc = ["# Empresas B con peor rendimiento económico", "", AVISO, "",
            "Empresas con **señales económicas negativas publicadas** por fuentes confiables (prensa económica, "
            "Boletín Concursal, CMF, Poder Judicial o la propia empresa):", "",
-           "- **Crítico**: liquidación o quiebra, reorganización judicial, cierre de operaciones.",
-           "- **Negativo**: pérdidas, caída de ventas, despidos o reestructuración, deuda impaga, rescate financiero.",
+           "- **Crítico**: liquidación o quiebra, reorganización judicial o cierre total confirmado.",
+           "- **Negativo**: pérdidas, cierre de operaciones, despidos o reestructuración, deuda impaga o rescate "
+           "financiero en los últimos tres años.",
+           "- **En observación**: ventas o utilidades a la baja sin pérdidas, o problemas anteriores ya superados.",
            "", f"Revisadas: **{rev}** de {len(empresas)} empresas. Que una empresa no aparezca aquí no significa que le "
            "vaya bien: la mayoría no publica estados financieros. El cruce con el tramo de ventas del SII completará "
            "este análisis.", ""]
-    for nivel in ("critico", "negativo"):
+    for nivel in NIVELES_PEOR:
         grupo = [e for e in peores if e["rendimiento"]["nivel"] == nivel]
         doc += [f"## {NIVEL_REND[nivel]} ({len(grupo)})", ""]
         if not grupo:
             doc += ["Ninguna empresa con señales de este nivel en las fuentes revisadas.", ""]
             continue
-        doc += ["| Empresa | Industria | Señales (fecha) | Contexto | Fuentes |", "|---|---|---|---|---|"]
+        doc += ["| Empresa | Industria | Señales (fecha) | Contexto | Confianza | Fuentes |", "|---|---|---|---|---|---|"]
         for e in grupo:
             r = e["rendimiento"]
             fuentes = " ".join(f"[{i + 1}]({s['fuente']})" for i, s in enumerate(r["senales"]))
             doc.append("| " + " | ".join([
                 md_link(e["nombre"], e.get("url_blab")), md_celda(e.get("industria") or e["macro_industria"]),
-                md_celda(senales_txt(r["senales"])), md_celda(r.get("contexto")), fuentes or "—"]) + " |")
+                md_celda(senales_txt(r["senales"])), md_celda(contexto_rend(r)), md_celda(r.get("confianza")),
+                fuentes or "—"]) + " |")
         doc.append("")
     (DOCS / "peor_rendimiento.md").write_text("\n".join(doc) + "\n", encoding="utf-8")
 
 
 def peor_rendimiento(empresas: list[dict]) -> list[dict]:
     """Empresas con señales negativas, de la más grave y reciente a la menos."""
-    con = [e for e in empresas if (e.get("rendimiento") or {}).get("nivel") in ("critico", "negativo")]
+    con = [e for e in empresas if (e.get("rendimiento") or {}).get("nivel") in NIVELES_PEOR]
     con.sort(key=lambda e: str((e["rendimiento"]["senales"] or [{}])[0].get("fecha") or ""), reverse=True)
     return sorted(con, key=lambda e: ORDEN_NIVEL[e["rendimiento"]["nivel"]])
 

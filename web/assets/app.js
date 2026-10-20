@@ -20,7 +20,8 @@ const FILTROS_VACIOS = {
   web: false, email: false, tel: false, rut: false,
 };
 const NIVELES = {
-  critico: "Crítico", negativo: "Negativo", sin_senales: "Sin señales públicas", sin_revisar: "Sin revisar",
+  critico: "Crítico", negativo: "Negativo", observacion: "En observación", sin_senales: "Sin señales públicas",
+  sin_revisar: "Sin revisar",
 };
 const TIPO_SENAL = {
   insolvencia: "Insolvencia", cierre: "Cierre", perdidas: "Pérdidas", caida_ventas: "Caída de ventas",
@@ -107,8 +108,8 @@ function lugar(e) {
 }
 
 function etiquetaNivel(nivel) {
-  if (nivel !== "critico" && nivel !== "negativo") return null;
-  return el("span", { class: `etq etq-${nivel}` }, icono("alert"), NIVELES[nivel]);
+  if (!["critico", "negativo", "observacion"].includes(nivel)) return null;
+  return el("span", { class: `etq etq-${nivel}` }, icono(nivel === "observacion" ? "info" : "alert"), NIVELES[nivel]);
 }
 
 // "Sin dato" no se muestra como etiqueta (queda en la sección Datos de la ficha).
@@ -185,7 +186,7 @@ function prepararFiltros() {
   opciones(form.seccion, Object.entries(SECCIONES), "Todas");
   const niveles = contarPor(E, nivelDe);
   const conSenales = (niveles.get("critico") || 0) + (niveles.get("negativo") || 0);
-  opciones(form.rend, [["alerta", `Con señales negativas (${conSenales})`],
+  opciones(form.rend, [["alerta", `Crítico o negativo (${conSenales})`],
     ...Object.entries(NIVELES).filter(([k]) => niveles.get(k)).map(([k, t]) => [k, `${t} (${niveles.get(k)})`])], "Todas");
 
   form.addEventListener("input", (ev) => {
@@ -260,7 +261,7 @@ const ETIQUETAS_FILTRO = {
   anio: (v) => `Desde ${v}`,
   sede: (v) => (v === "chile" ? "Sede en Chile" : "Sede en el extranjero"),
   seccion: (v) => SECCIONES[v] || v,
-  rend: (v) => (v === "alerta" ? "Con señales negativas" : `Rendimiento: ${NIVELES[v] || v}`),
+  rend: (v) => (v === "alerta" ? "Rendimiento crítico o negativo" : `Rendimiento: ${NIVELES[v] || v}`),
   web: () => "Con sitio web",
   email: () => "Con email",
   tel: () => "Con teléfono",
@@ -453,31 +454,35 @@ function tarjetaAlerta(e) {
   nombre.addEventListener("click", () => abrirFicha(e));
   return el("article", { class: "tarjeta" },
     el("div", { class: "t-cab" }, nombre, etiquetaNivel(r.nivel)),
-    el("p", { class: "t-sub" }, [e.industria || e.macro_industria, lugar(e)].filter(Boolean).join(" · ")),
+    el("p", { class: "t-sub" }, [e.industria || e.macro_industria, lugar(e), r.confianza && `Confianza ${r.confianza}`]
+      .filter(Boolean).join(" · ")),
     el("ul", { class: "senales" }, r.senales.slice(0, 3).map((s) => el("li", {},
       el("b", {}, TIPO_SENAL[s.tipo] || s.tipo), s.fecha ? el("span", { class: "fecha" }, ` · ${s.fecha}`) : null,
       ` — ${s.descripcion} `, enlace("fuente", s.fuente)))),
     r.senales.length > 3 ? el("p", { class: "contexto" }, `+${r.senales.length - 3} señales más en la ficha`) : null,
-    r.contexto ? el("p", { class: "contexto" }, `Contexto: ${r.contexto}`) : null);
+    r.contexto ? el("p", { class: "contexto" }, `Contexto: ${r.contexto}`) : null,
+    r.revision ? el("p", { class: "contexto" }, `Revisión: ${r.revision}`) : null);
 }
 
 function renderPeor() {
   const l = estado.lista;
   const cuenta = contarPor(l, nivelDe);
-  const grupos = ["critico", "negativo"].map((nivel) => [nivel,
+  const grupos = ["critico", "negativo", "observacion"].map((nivel) => [nivel,
     l.filter((e) => nivelDe(e) === nivel).sort((a, b) => fechaSenal(b).localeCompare(fechaSenal(a)) || a.nombre.localeCompare(b.nombre, "es"))]);
-  const titulos = { critico: "Críticas", negativo: "Con resultados negativos" };
+  const titulos = { critico: "Críticas", negativo: "Con resultados negativos", observacion: "En observación" };
   const descripciones = {
-    critico: "Liquidación o quiebra, reorganización judicial o cierre de operaciones.",
-    negativo: "Pérdidas, caída de ventas, despidos o reestructuración, deuda impaga o rescate financiero.",
+    critico: "Liquidación o quiebra, reorganización judicial o cierre total confirmado.",
+    negativo: "Pérdidas, cierre de operaciones, despidos o reestructuración, deuda impaga o rescate financiero en los últimos tres años.",
+    observacion: "Ventas o utilidades a la baja sin pérdidas, o problemas anteriores ya superados.",
   };
   $("#vista-peor").replaceChildren(
     el("div", { class: "resumen-peor" },
       kpi(nf0.format(cuenta.get("critico") || 0), "Críticas", "insolvencia o cierre"),
-      kpi(nf0.format(cuenta.get("negativo") || 0), "Negativas", "pérdidas, caídas, despidos"),
+      kpi(nf0.format(cuenta.get("negativo") || 0), "Negativas", "pérdidas, cierres, despidos"),
+      kpi(nf0.format(cuenta.get("observacion") || 0), "En observación", "a la baja, sin pérdidas"),
       kpi(nf0.format(cuenta.get("sin_senales") || 0), "Sin señales públicas", "revisadas"),
       kpi(nf0.format(cuenta.get("sin_revisar") || 0), "Sin revisar", "pendientes")),
-    grupos.flatMap(([nivel, lista]) => [
+    ...grupos.flatMap(([nivel, lista]) => [
       el("h2", { class: "peor-tit" }, titulos[nivel], el("span", { class: "n" }, nf0.format(lista.length))),
       el("p", { class: "nota", style: "margin:-6px 0 14px" }, descripciones[nivel]),
       lista.length ? el("div", { class: "lista" }, lista.map(tarjetaAlerta))
@@ -800,6 +805,8 @@ function grupoRendimiento(r) {
     negativas.length ? el("div", { class: "fila" }, el("span", {}, "Estado"), etiquetaNivel(r.nivel)) : null,
     negativas.map((s) => fila(`${TIPO_SENAL[s.tipo] || s.tipo}${s.fecha ? ` · ${s.fecha}` : ""}`, conFuente(s.descripcion, s.fuente))),
     filaTexto(r.contexto ? `Contexto: ${r.contexto}` : null),
+    filaTexto(r.revision ? `Revisión: ${r.revision}` : null),
+    fila("Confianza", r.confianza),
     positivas.map((p) => fila(`Señal positiva${p.fecha ? ` · ${p.fecha}` : ""}`, conFuente(p.descripcion, p.fuente))),
   ]);
 }
@@ -991,6 +998,7 @@ function exportarCSV() {
     ["resumen_economico", (e) => e.economia?.resumen],
     ["rendimiento_economico", (e) => NIVELES[nivelDe(e)]],
     ["senales_negativas", (e) => (e.rendimiento?.senales || []).map((s) => `${TIPO_SENAL[s.tipo] || s.tipo} (${s.fecha || "s/f"}): ${s.descripcion}`).join(" | ")],
+    ["contexto_rendimiento", (e) => [e.rendimiento?.contexto, e.rendimiento?.revision && `Revisión: ${e.rendimiento.revision}`].filter(Boolean).join(" ")],
     ["controlador", (e) => e.propiedad?.controlador],
     ["socios", (e) => (e.propiedad?.socios || []).map((s) => `${s.nombre}${s.porcentaje != null ? ` (${s.porcentaje}%)` : ""}`).join(" | ")],
     ["sitio_web", (e) => e.contactos?.sitio_web], ["email", (e) => e.contactos?.email], ["telefono", (e) => e.contactos?.telefono],
